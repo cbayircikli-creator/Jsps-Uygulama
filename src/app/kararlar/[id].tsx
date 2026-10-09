@@ -1,6 +1,7 @@
-import { useLocalSearchParams } from 'expo-router';
+import { Stack, useLocalSearchParams } from 'expo-router';
 import { Text, View } from 'react-native';
 
+import { FavoriteButton } from '../../components/FavoriteButton';
 import { Card, EmptyState, Screen, Tag, text } from '../../components/ui';
 import { content } from '../../services/content';
 import { spacing } from '../../theme';
@@ -13,6 +14,7 @@ export default function KararDetail() {
 
   return (
     <Screen>
+      <Stack.Screen options={{ headerRight: () => <FavoriteButton favKey={`karar:${item.id}`} /> }} />
       <Text style={text.muted}>{item.court}</Text>
       <Text style={text.title}>{item.topic}</Text>
       <Card>

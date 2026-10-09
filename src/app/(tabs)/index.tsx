@@ -4,6 +4,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { Card, Screen, SectionTitle, Tag, text, type IconName } from '../../components/ui';
 import { useProfile } from '../../context/ProfileContext';
+import { useProgressStats } from '../../context/ProgressContext';
 import { content } from '../../services/content';
 import { colors, font, radius, spacing } from '../../theme';
 
@@ -18,6 +19,7 @@ const modules: { title: string; icon: IconName; href: Href }[] = [
 
 export default function Home() {
   const { rank } = useProfile();
+  const stats = useProgressStats();
   const latest = content.announcements().slice(0, 3);
 
   return (
@@ -27,6 +29,11 @@ export default function Home() {
         <Text style={styles.heroSub}>
           {rank ? `${rank.name} için içerikler hazır.` : 'Çalışmaya başlamak için Çalış sekmesine geçin.'}
         </Text>
+        <View style={styles.stats}>
+          <Stat value={String(stats.examsTaken)} label="Deneme" />
+          <Stat value={stats.successRate === null ? '–' : `%${stats.successRate}`} label="Başarı" />
+          <Stat value={String(stats.cardsKnown)} label="Öğrenilen kart" />
+        </View>
       </View>
 
       <View style={styles.grid}>
@@ -64,7 +71,20 @@ export default function Home() {
   );
 }
 
+function Stat({ value, label }: { value: string; label: string }) {
+  return (
+    <View style={styles.stat}>
+      <Text style={styles.statValue}>{value}</Text>
+      <Text style={styles.statLabel}>{label}</Text>
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
+  stats: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.md },
+  stat: { flex: 1, backgroundColor: colors.primaryDark, borderRadius: radius.sm, padding: spacing.sm, alignItems: 'center' },
+  statValue: { color: colors.accent, fontSize: font.heading, fontWeight: '700' },
+  statLabel: { color: colors.primarySoft, fontSize: font.tiny },
   hero: { backgroundColor: colors.primary, borderRadius: radius.lg, padding: spacing.xl, gap: spacing.xs },
   heroTitle: { color: '#fff', fontSize: font.title, fontWeight: '700' },
   heroSub: { color: colors.primarySoft, fontSize: font.body },

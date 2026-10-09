@@ -1,6 +1,7 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { Text } from 'react-native';
 
+import { FavoriteButton } from '../../components/FavoriteButton';
 import { Card, EmptyState, Screen, Tag, text } from '../../components/ui';
 import { content } from '../../services/content';
 
@@ -12,7 +13,12 @@ export default function MevzuatDetail() {
 
   return (
     <Screen>
-      <Stack.Screen options={{ title: item.number ? `${item.number} Sayılı` : item.category }} />
+      <Stack.Screen
+        options={{
+          title: item.number ? `${item.number} Sayılı` : item.category,
+          headerRight: () => <FavoriteButton favKey={`mevzuat:${item.id}`} />,
+        }}
+      />
       <Tag label={item.category} />
       <Text style={text.title}>{item.title}</Text>
       <Text style={text.muted}>{item.summary}</Text>
