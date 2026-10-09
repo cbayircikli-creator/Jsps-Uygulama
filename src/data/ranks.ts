@@ -8,7 +8,6 @@ export const rankGroups: { id: RankGroupId; name: string }[] = [
 
 // Liste ihtiyaca göre güncellenebilir; içerik filtrelemesi `group` alanına göre yapılır.
 export const ranks: Rank[] = [
-  { id: 'uzman-cavus', name: 'Uzman Çavuş', group: 'uzman-erbas' },
   { id: 'uzman-erbas', name: 'Uzman Erbaş', group: 'uzman-erbas' },
 
   { id: 'astsubay-cavus', name: 'Astsubay Çavuş', group: 'astsubay' },
