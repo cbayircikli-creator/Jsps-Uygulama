@@ -1,5 +1,5 @@
 import { router, Stack, useLocalSearchParams } from 'expo-router';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { Button, Card, EmptyState, Screen, Tag, text } from '../../components/ui';
@@ -8,21 +8,39 @@ import { content } from '../../services/content';
 import { colors, font, radius, spacing } from '../../theme';
 
 export default function DenemeRunner() {
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const { id, mod } = useLocalSearchParams<{ id: string; mod?: string }>();
+  // "yanlis" modunda yalnızca daha önce yanlış/boş bırakılan sorular, süresiz çözülür.
+  const review = mod === 'yanlis';
   const exam = content.examById(id);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [finished, setFinished] = useState(false);
-  const durationSec = (exam?.durationMinutes ?? 0) * 60;
+  const durationSec = review ? 0 : (exam?.durationMinutes ?? 0) * 60;
   const [remaining, setRemaining] = useState(durationSec);
-  const { addExamResult, examResults } = useProgress();
+  const { addExamResult, updateWrongQuestions, examResults, wrongQuestions, loaded } = useProgress();
   const previous = examResults[id] ?? [];
+
+  // Tekrar modunda soru listesi başlangıçta sabitlenir; çözerken liste değişmesin.
+  const [reviewIds, setReviewIds] = useState<string[] | null>(null);
+  useEffect(() => {
+    if (review && loaded && reviewIds === null) setReviewIds(wrongQuestions[id] ?? []);
+  }, [review, loaded, reviewIds, wrongQuestions, id]);
+
+  const questions = useMemo(() => {
+    if (!exam) return [];
+    if (!review) return exam.questions;
+    return exam.questions.filter((q) => reviewIds?.includes(q.id));
+  }, [exam, review, reviewIds]);
 
   const finish = useCallback(() => {
     if (!exam) return;
     setFinished(true);
-    const correct = exam.questions.filter((q) => answers[q.id] === q.answerIndex).length;
-    addExamResult(exam.id, { correct, total: exam.questions.length, date: new Date().toISOString() });
-  }, [exam, answers, addExamResult]);
+    const right = questions.filter((q) => answers[q.id] === q.answerIndex).map((q) => q.id);
+    const wrong = questions.filter((q) => answers[q.id] !== q.answerIndex).map((q) => q.id);
+    updateWrongQuestions(exam.id, wrong, right);
+    if (!review) {
+      addExamResult(exam.id, { correct: right.length, total: questions.length, date: new Date().toISOString() });
+    }
+  }, [exam, questions, answers, review, addExamResult, updateWrongQuestions]);
 
   useEffect(() => {
     if (finished || !durationSec) return;
@@ -35,13 +53,16 @@ export default function DenemeRunner() {
   }, [remaining, finished, durationSec, finish]);
 
   if (!exam) return <EmptyState icon="alert-circle-outline" text="Deneme bulunamadı." />;
+  if (review && reviewIds?.length === 0) {
+    return <EmptyState icon="checkmark-circle-outline" text="Bu denemede tekrar edilecek yanlış soru yok." />;
+  }
 
   const answered = Object.keys(answers).length;
-  const correct = exam.questions.filter((q) => answers[q.id] === q.answerIndex).length;
+  const correct = questions.filter((q) => answers[q.id] === q.answerIndex).length;
 
   return (
     <Screen>
-      <Stack.Screen options={{ title: exam.title }} />
+      <Stack.Screen options={{ title: review ? 'Yanlışlarım' : exam.title }} />
 
       {!finished && durationSec > 0 && (
         <View style={styles.timerRow}>
@@ -57,13 +78,13 @@ export default function DenemeRunner() {
       {finished && (
         <Card style={{ backgroundColor: colors.primarySoft }}>
           <Text style={text.title}>
-            {correct} / {exam.questions.length} doğru
+            {correct} / {questions.length} doğru
           </Text>
-          <Text style={text.muted}>Boş: {exam.questions.length - answered}</Text>
+          <Text style={text.muted}>Boş: {questions.length - answered}</Text>
         </Card>
       )}
 
-      {exam.questions.map((q, qi) => (
+      {questions.map((q, qi) => (
         <Card key={q.id}>
           <Text style={text.heading}>
             {qi + 1}. {q.text}
@@ -104,13 +125,14 @@ export default function DenemeRunner() {
               onPress={() => {
                 setAnswers({});
                 setRemaining(durationSec);
+                setReviewIds(null);
                 setFinished(false);
               }}
             />
             <Button title="Geri Dön" variant="outline" onPress={() => router.back()} />
           </>
         ) : (
-          <Button title={`Denemeyi Bitir (${answered}/${exam.questions.length})`} onPress={finish} />
+          <Button title={`Denemeyi Bitir (${answered}/${questions.length})`} onPress={finish} />
         )}
       </View>
     </Screen>

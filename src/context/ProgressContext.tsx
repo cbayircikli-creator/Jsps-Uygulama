@@ -12,12 +12,17 @@ type ProgressData = {
   examResults: Record<string, ExamResult[]>;
   knownCards: Record<string, string[]>;
   favorites: FavoriteKey[];
+  /** Deneme başına, en son yanlış/boş bırakılan ve henüz doğru çözülmeyen soru id'leri */
+  wrongQuestions: Record<string, string[]>;
 };
 
-const empty: ProgressData = { examResults: {}, knownCards: {}, favorites: [] };
+const empty: ProgressData = { examResults: {}, knownCards: {}, favorites: [], wrongQuestions: {} };
 
 type ProgressState = ProgressData & {
+  /** Kayıtlı veri okundu mu */
+  loaded: boolean;
   addExamResult: (examId: string, result: ExamResult) => void;
+  updateWrongQuestions: (examId: string, wrongIds: string[], correctIds: string[]) => void;
   setCardKnown: (deckId: string, cardId: string, known: boolean) => void;
   resetDeck: (deckId: string) => void;
   toggleFavorite: (key: FavoriteKey) => void;
@@ -50,6 +55,15 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     }));
   }, []);
 
+  const updateWrongQuestions = useCallback((examId: string, wrongIds: string[], correctIds: string[]) => {
+    setData((d) => {
+      const set = new Set(d.wrongQuestions[examId] ?? []);
+      wrongIds.forEach((q) => set.add(q));
+      correctIds.forEach((q) => set.delete(q));
+      return { ...d, wrongQuestions: { ...d.wrongQuestions, [examId]: [...set] } };
+    });
+  }, []);
+
   const setCardKnown = useCallback((deckId: string, cardId: string, known: boolean) => {
     setData((d) => {
       const current = new Set(d.knownCards[deckId] ?? []);
@@ -75,14 +89,16 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const value = useMemo(
     () => ({
       ...data,
+      loaded,
       addExamResult,
+      updateWrongQuestions,
       setCardKnown,
       resetDeck,
       toggleFavorite,
       isFavorite: (key: FavoriteKey) => data.favorites.includes(key),
       clearProgress,
     }),
-    [data, addExamResult, setCardKnown, resetDeck, toggleFavorite, clearProgress],
+    [data, loaded, addExamResult, updateWrongQuestions, setCardKnown, resetDeck, toggleFavorite, clearProgress],
   );
 
   return <ProgressContext.Provider value={value}>{children}</ProgressContext.Provider>;

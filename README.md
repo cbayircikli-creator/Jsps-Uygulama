@@ -57,7 +57,7 @@ npm run typecheck
 1. ✅ Uygulama iskeleti (sekmeler, ekranlar, rütbe sorusu)
 2. ✅ İlerleme takibi: deneme sonuçları ve süre, bilgi kartlarında "biliyorum / tekrar",
    mevzuat ve kararları kaydetme, ana sayfada istatistik
-3. ⬜ Yanlışlarım: yanlış yapılan soruları ayrıca tekrar çözme, konu bazlı başarı
+3. ✅ Yanlışlarım: yanlış yapılan soruları ayrıca tekrar çözme, konu bazlı başarı
 4. ⬜ Gerçek içerik: resmî kaynaktan doğrulanmış mevzuat metinleri, soru bankası, emsal kararlar
 5. ⬜ Yapay zekâ sunucusu ve asistan bağlantısı
 6. ⬜ Rütbeye özel içerik ve davranışlar
