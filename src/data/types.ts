@@ -16,10 +16,10 @@ type RankScoped = { ranks?: RankGroupId[] };
 export type Legislation = RankScoped & {
   id: string;
   title: string;
-  number?: string;
+  number: string;
   category: 'Kanun' | 'Yönetmelik' | 'Yönerge' | 'Genelge' | 'Diğer';
-  summary: string;
-  articles: { no: string; title: string; text: string }[];
+  /** Soru kaynaklarında geçen kısaltmalar, ör. "CMK" */
+  aliases?: string[];
 };
 
 export type CourtDecision = RankScoped & {

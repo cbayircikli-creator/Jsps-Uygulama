@@ -5,7 +5,7 @@ import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from
 
 import { Button, Card, EmptyState, Screen, Tag, text } from '../../components/ui';
 import { useProgress, type ExamMode, type SubjectScore } from '../../context/ProgressContext';
-import type { Question } from '../../data/types';
+import type { PracticeExam, Question } from '../../data/types';
 import { content } from '../../services/content';
 import { colors, font, radius, spacing } from '../../theme';
 
@@ -22,17 +22,39 @@ export default function DenemeRunner() {
   // sinav: süreli, cevaplar sonda açılır · calisma: süresiz, her cevaptan sonra açıklama
   // yanlis: yalnızca daha önce yanlış/boş bırakılan sorular, çalışma modunda
   const mode: ExamMode = mod === 'calisma' || mod === 'yanlis' ? mod : 'sinav';
+  const exam = content.examById(id);
+  const { loaded } = useProgress();
+  // "Baştan çöz" sayacı: değişince deneme sıfırdan kurulur.
+  const [run, setRun] = useState(0);
+
+  if (!exam) return <EmptyState icon="alert-circle-outline" text="Deneme bulunamadı." />;
+  // Kayıtlı veri okunmadan başlarsak yarım kalan deneme kaybolur.
+  if (!loaded) {
+    return (
+      <View style={styles.center}>
+        <ActivityIndicator color={colors.primary} />
+      </View>
+    );
+  }
+  return <Runner key={`${exam.id}:${mode}:${run}`} exam={exam} mode={mode} onRestart={() => setRun((r) => r + 1)} />;
+}
+
+function Runner({ exam, mode, onRestart }: { exam: PracticeExam; mode: ExamMode; onRestart: () => void }) {
   const instant = mode !== 'sinav';
   const keepDraft = mode !== 'yanlis';
-  const exam = content.examById(id);
-  const { loaded, wrongQuestions, drafts, saveDraft, addExamResult, updateWrongQuestions } = useProgress();
-  const draftKey = `${id}:${mode}`;
+  const { wrongQuestions, drafts, saveDraft, addExamResult, updateWrongQuestions } = useProgress();
+  const draftKey = `${exam.id}:${mode}`;
 
-  const [ready, setReady] = useState(false);
-  const [questionIds, setQuestionIds] = useState<string[]>([]);
-  const [answers, setAnswers] = useState<Record<string, number>>({});
-  const [index, setIndex] = useState(0);
-  const [remaining, setRemaining] = useState(0);
+  // Soru listesi ve varsa yarım kalan deneme yalnızca açılışta okunur.
+  const [initial] = useState(() => {
+    const wrong = new Set(wrongQuestions[exam.id] ?? []);
+    const ids = exam.questions.map((q) => q.id).filter((qid) => mode !== 'yanlis' || wrong.has(qid));
+    return { ids, draft: keepDraft ? drafts[draftKey] : undefined };
+  });
+  const questionIds = initial.ids;
+  const [answers, setAnswers] = useState<Record<string, number>>(initial.draft?.answers ?? {});
+  const [index, setIndex] = useState(Math.min(initial.draft?.index ?? 0, Math.max(questionIds.length - 1, 0)));
+  const [remaining, setRemaining] = useState(initial.draft?.remaining ?? exam.durationMinutes * 60);
   const [finished, setFinished] = useState(false);
   const [reviewing, setReviewing] = useState(false);
   const [showGrid, setShowGrid] = useState(false);
@@ -40,39 +62,25 @@ export default function DenemeRunner() {
   const [confirming, setConfirming] = useState(false);
   const [lastResult, setLastResult] = useState<{ bySubject: Record<string, SubjectScore> } | null>(null);
   const finishedRef = useRef(false);
-  const remainingRef = useRef(0);
-  remainingRef.current = remaining;
-
-  // Kayıtlı veri okunduktan sonra soru listesi sabitlenir ve varsa yarım kalan deneme geri yüklenir.
+  const remainingRef = useRef(remaining);
   useEffect(() => {
-    if (!exam || !loaded || ready) return;
-    const wrong = new Set(wrongQuestions[exam.id] ?? []);
-    const ids = exam.questions.map((q) => q.id).filter((qid) => mode !== 'yanlis' || wrong.has(qid));
-    const draft = keepDraft ? drafts[draftKey] : undefined;
-    setQuestionIds(ids);
-    setAnswers(draft?.answers ?? {});
-    setIndex(Math.min(draft?.index ?? 0, Math.max(ids.length - 1, 0)));
-    setRemaining(draft?.remaining ?? exam.durationMinutes * 60);
-    finishedRef.current = false;
-    setFinished(false);
-    setReviewing(false);
-    setReady(true);
-  }, [exam, loaded, ready, wrongQuestions, drafts, draftKey, mode, keepDraft]);
+    remainingRef.current = remaining;
+  }, [remaining]);
 
   const questions = useMemo(() => {
-    const byId = new Map(exam?.questions.map((q) => [q.id, q]));
+    const byId = new Map(exam.questions.map((q) => [q.id, q]));
     return questionIds.map((qid) => byId.get(qid)).filter((q): q is Question => !!q);
   }, [exam, questionIds]);
 
   // Her cevapta kaldığı yer kaydedilir; uygulama kapansa da devam edilebilir.
   useEffect(() => {
-    if (!ready || finished || !keepDraft) return;
+    if (finished || !keepDraft) return;
     if (Object.keys(answers).length === 0 && index === 0) return;
     saveDraft(draftKey, { answers, index, remaining: mode === 'sinav' ? remainingRef.current : undefined });
-  }, [answers, index, ready, finished, keepDraft, draftKey, mode, saveDraft]);
+  }, [answers, index, finished, keepDraft, draftKey, mode, saveDraft]);
 
   const finish = useCallback(() => {
-    if (!exam || finishedRef.current) return;
+    if (finishedRef.current) return;
     finishedRef.current = true;
     // Sınavda boşlar yanlış sayılır; çalışma modunda yalnızca cevaplananlar değerlendirilir.
     const counted = mode === 'sinav' ? questions : questions.filter((q) => answers[q.id] !== undefined);
@@ -106,28 +114,20 @@ export default function DenemeRunner() {
   }, [exam, mode, questions, answers, keepDraft, draftKey, addExamResult, updateWrongQuestions, saveDraft]);
 
   useEffect(() => {
-    if (mode !== 'sinav' || !ready || finished) return;
+    if (mode !== 'sinav' || finished) return;
     const t = setInterval(() => setRemaining((r) => Math.max(0, r - 1)), 1000);
     return () => clearInterval(t);
-  }, [mode, ready, finished]);
+  }, [mode, finished]);
 
   useEffect(() => {
-    if (mode === 'sinav' && ready && !finished && remaining === 0) finish();
-  }, [mode, ready, finished, remaining, finish]);
+    if (mode === 'sinav' && !finished && remaining === 0) finish();
+  }, [mode, finished, remaining, finish]);
 
   const restart = () => {
     if (keepDraft) saveDraft(draftKey, null);
-    setReady(false);
+    onRestart();
   };
 
-  if (!exam) return <EmptyState icon="alert-circle-outline" text="Deneme bulunamadı." />;
-  if (!ready) {
-    return (
-      <View style={styles.center}>
-        <ActivityIndicator color={colors.primary} />
-      </View>
-    );
-  }
   if (questions.length === 0) {
     return (
       <Screen>

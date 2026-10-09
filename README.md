@@ -41,6 +41,7 @@ npm install
 npm start          # Expo Go ile telefonda açmak için QR kod
 npm run web        # tarayıcıda
 npm run typecheck
+npm run lint
 ```
 
 ## Notlar / sonraki adımlar
@@ -52,8 +53,11 @@ npm run typecheck
 - Denemeler üç modda çözülür: **Sınav** (süreli, sonunda puan), **Çalışma** (her soruda anında
   doğru cevap ve açıklama) ve **Yanlışlarım**. Yarım kalan deneme kaldığı yerden devam eder.
 - **Bilgi kartları** `src/data/flashcards.ts` içinde; "Sayılar ve Süreler" notundan 7 deste.
-- Mevzuat madde metinleri henüz boş, emsal kararlar yalnızca tasarım için örnektir ve gerçek değildir.
-  Bunlar resmî kaynaktan doğrulanarak eklenmeli.
+- **Mevzuat** sekmesinde denemelerde geçen 46 kanun var. Her kanunun sayfasında o kanundan çıkan
+  sorular (toplam ~1200) ve madde madde dağılımı gösterilir; bir maddeye dokununca yalnızca onun soruları
+  çözülür. Eşleştirme `src/services/lawIndex.ts` içinde, sorunun "Kaynak" alanından yapılır.
+  Madde metinleri uygulamaya kopyalanmadı; "mevzuat.gov.tr'de aç" düğmesi güncel resmî metni açar.
+- Emsal kararlar yalnızca tasarım için örnektir ve gerçek değildir; resmî kaynaktan doğrulanarak eklenmeli.
 - İçerik ileride bir sunucuya taşınacaksa yalnızca `src/services/content.ts` değişir.
 - Yapay zekâ: API anahtarı uygulamaya gömülmemeli. Kendi sunucumuzda bir uç nokta kurulup
   `EXPO_PUBLIC_AI_ENDPOINT` ortam değişkeniyle bağlanır; o zamana kadar asistan yer tutucu yanıt verir.
@@ -65,8 +69,8 @@ npm run typecheck
 2. ✅ İlerleme takibi: deneme sonuçları ve süre, bilgi kartlarında "biliyorum / tekrar",
    mevzuat ve kararları kaydetme, ana sayfada istatistik
 3. ✅ Yanlışlarım: yanlış yapılan soruları ayrıca tekrar çözme, konu bazlı başarı
-4. 🟡 Gerçek içerik: ✅ soru bankası (21 deneme, 2297 soru) ve bilgi kartları ·
-   ⬜ resmî kaynaktan doğrulanmış mevzuat metinleri ve emsal kararlar
+4. 🟡 Gerçek içerik: ✅ soru bankası (21 deneme, 2297 soru), bilgi kartları, kanun bazlı soru çalışma ·
+   ⬜ emsal kararlar
 5. ⬜ Yapay zekâ sunucusu ve asistan bağlantısı
 6. ⬜ Rütbeye özel içerik ve davranışlar
 7. ⬜ Duyuruların uzaktan güncellenmesi ve bildirimler

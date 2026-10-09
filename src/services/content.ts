@@ -6,6 +6,7 @@ import { importedExams as exams } from '../data/exams';
 import { decks } from '../data/flashcards';
 import { legislation } from '../data/legislation';
 import type { RankGroupId } from '../data/types';
+import { lawExam } from './lawIndex';
 
 function forRank<T extends { ranks?: RankGroupId[] }>(items: T[], group?: RankGroupId | null) {
   if (!group) return items;
@@ -20,7 +21,7 @@ function matches(query: string, ...fields: (string | undefined)[]) {
 
 export const content = {
   legislation: (query = '', group?: RankGroupId | null) =>
-    forRank(legislation, group).filter((l) => matches(query, l.title, l.number, l.summary)),
+    forRank(legislation, group).filter((l) => matches(query, l.title, l.number, ...(l.aliases ?? []))),
   legislationById: (id: string) => legislation.find((l) => l.id === id),
 
   decisions: (query = '', group?: RankGroupId | null) =>
@@ -31,7 +32,7 @@ export const content = {
   announcementById: (id: string) => announcements.find((a) => a.id === id),
 
   exams: (group?: RankGroupId | null) => forRank(exams, group),
-  examById: (id: string) => exams.find((e) => e.id === id),
+  examById: (id: string) => exams.find((e) => e.id === id) ?? lawExam(id),
 
   decks: (group?: RankGroupId | null) => forRank(decks, group),
   deckById: (id: string) => decks.find((d) => d.id === id),
