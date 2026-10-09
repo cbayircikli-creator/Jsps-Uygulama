@@ -2,9 +2,6 @@
  "id": "deneme-2",
  "title": "Deneme 2",
  "durationMinutes": 120,
- "ranks": [
-  "uzman-erbas"
- ],
  "questions": [
   {
    "id": "deneme-2-1",

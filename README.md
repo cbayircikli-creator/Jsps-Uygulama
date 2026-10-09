@@ -52,6 +52,10 @@ npm run lint
   yeterlidir. Yeni deneme eklemek için betikteki `CATALOG` listesine başlığını yazın.
 - Denemeler üç modda çözülür: **Sınav** (süreli, sonunda puan), **Çalışma** (her soruda anında
   doğru cevap ve açıklama) ve **Yanlışlarım**. Yarım kalan deneme kaldığı yerden devam eder.
+- **Sayılar ve Süreler Testi** (`src/data/factQuestions.ts`): 91 soru; her doğru cevap "Sayılar ve Süreler"
+  notundaki bilgidir. Toplam havuz tekrarlar ayıklanmış 2357 sorudur.
+- **Konu testleri** (`src/services/topicTests.ts`): her dersin soruları 20'şerlik testlere bölünür.
+- **Karışık 20 soru**, **işaretlediğim sorular**, **günlük hedef / seri** ve **sınav geri sayımı** vardır.
 - **Bilgi kartları** `src/data/flashcards.ts` içinde; "Sayılar ve Süreler" notundan 7 deste.
 - **Mevzuat** sekmesinde denemelerde geçen 46 kanun ve 17 yönetmelik var. Her birinin sayfasında
   ondan çıkan sorular (toplam ~1550) ve madde madde dağılımı gösterilir; bir maddeye dokununca yalnızca
@@ -63,7 +67,7 @@ npm run lint
 - İçerik ileride bir sunucuya taşınacaksa yalnızca `src/services/content.ts` değişir.
 - Yapay zekâ: API anahtarı uygulamaya gömülmemeli. Kendi sunucumuzda bir uç nokta kurulup
   `EXPO_PUBLIC_AI_ENDPOINT` ortam değişkeniyle bağlanır; o zamana kadar asistan yer tutucu yanıt verir.
-- Rütbe listesi `src/data/ranks.ts` içinde, ihtiyaca göre düzenlenebilir.
+- Rütbeler `src/data/ranks.ts` içinde: Uzman Çavuş, Astsubay, Subay. Eski kayıtlı ayrıntılı rütbeler bu üç gruba taşınır.
 
 ## Yol haritası
 

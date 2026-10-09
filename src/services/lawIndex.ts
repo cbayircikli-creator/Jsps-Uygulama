@@ -1,7 +1,7 @@
 // Denemelerdeki soruları ilgili kanuna ve maddeye bağlar.
 // Önce sorunun "Kaynak" alanına (ör. "CMK m.91", "4678 m.13"), yoksa metindeki
 // "NNNN sayılı" ifadesine bakılır. Anayasa konulu sorular kaynaksız da olsa Anayasa'ya bağlanır.
-import { importedExams } from '../data/exams';
+import { allExams } from '../data/allExams';
 import { legislation } from '../data/legislation';
 import type { Legislation, PracticeExam, Question } from '../data/types';
 
@@ -60,7 +60,7 @@ let index: Map<string, LawQuestions> | undefined;
 function build() {
   const map = new Map<string, { questions: Question[]; articles: Map<string, Question[]> }>();
   const seen = new Set<string>();
-  for (const exam of importedExams) {
+  for (const exam of allExams) {
     for (const q of exam.questions) {
       // Aynı soru birden fazla denemede geçebilir.
       const key = q.text + '|' + q.options.join('|');

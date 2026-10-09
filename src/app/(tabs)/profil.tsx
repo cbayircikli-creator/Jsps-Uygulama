@@ -1,7 +1,7 @@
 import Constants from 'expo-constants';
 import { router } from 'expo-router';
 import { useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
 import { RankPicker } from '../../components/RankPicker';
 import { Button, Card, EmptyState, Screen, SectionTitle, Tag, text } from '../../components/ui';
@@ -24,7 +24,28 @@ function resolveFavorite(key: FavoriteKey) {
 
 export default function Profil() {
   const { rank, setRank } = useProfile();
-  const { favorites, clearProgress, dailyGoal, setDailyGoal } = useProgress();
+  const { favorites, clearProgress, dailyGoal, setDailyGoal, examDate, setExamDate } = useProgress();
+  const [dateText, setDateText] = useState(examDate ? examDate.split('-').reverse().join('.') : '');
+  const [dateError, setDateError] = useState<string | null>(null);
+
+  // "GG.AA.YYYY" biçimindeki tarihi kaydeder; boş bırakılırsa tarih silinir.
+  const saveDate = () => {
+    const t = dateText.trim();
+    if (!t) {
+      setExamDate(null);
+      setDateError(null);
+      return;
+    }
+    const m = t.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+    const d = m && new Date(Number(m[3]), Number(m[2]) - 1, Number(m[1]));
+    if (!m || !d || d.getDate() !== Number(m[1]) || d.getMonth() !== Number(m[2]) - 1) {
+      setDateError('Tarihi GG.AA.YYYY biçiminde yaz, örneğin 15.03.2027.');
+      return;
+    }
+    setDateError(null);
+    setExamDate(`${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}`);
+    setDateText(`${m[1].padStart(2, '0')}.${m[2].padStart(2, '0')}.${m[3]}`);
+  };
   // Tüm ilerlemeyi silmek iki dokunuş ister.
   const [confirmReset, setConfirmReset] = useState(false);
   const saved = favorites.map(resolveFavorite).filter((f) => !!f);
@@ -56,6 +77,28 @@ export default function Profil() {
             );
           })}
         </View>
+      </Card>
+
+      <SectionTitle>Sınav tarihim</SectionTitle>
+      <Card>
+        <Text style={text.muted}>Tarihi girersen ana sayfada sınava kalan gün sayısı görünür.</Text>
+        <View style={styles.dateRow}>
+          <TextInput
+            value={dateText}
+            onChangeText={setDateText}
+            onSubmitEditing={saveDate}
+            placeholder="GG.AA.YYYY"
+            placeholderTextColor={colors.textMuted}
+            keyboardType="numbers-and-punctuation"
+            style={styles.dateInput}
+            maxLength={10}
+            accessibilityLabel="Sınav tarihi"
+          />
+          <Pressable onPress={saveDate} style={styles.dateSave} accessibilityRole="button">
+            <Text style={styles.dateSaveText}>Kaydet</Text>
+          </Pressable>
+        </View>
+        {dateError && <Text style={[text.muted, { color: colors.danger }]}>{dateError}</Text>}
       </Card>
 
       <SectionTitle>Kaydedilenler</SectionTitle>
@@ -105,4 +148,24 @@ const styles = StyleSheet.create({
   },
   goalActive: { backgroundColor: colors.primary, borderColor: colors.primary },
   goalText: { fontFamily: fonts.display, fontSize: font.heading + 3, color: colors.text },
+  dateRow: { flexDirection: 'row', gap: spacing.sm },
+  dateInput: {
+    flex: 1,
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: radius.md,
+    paddingHorizontal: spacing.md,
+    paddingVertical: spacing.sm,
+    fontFamily: fonts.semibold,
+    fontSize: font.body,
+    color: colors.text,
+    backgroundColor: colors.surfaceAlt,
+  },
+  dateSave: {
+    backgroundColor: colors.primary,
+    borderRadius: radius.md,
+    paddingHorizontal: spacing.lg,
+    justifyContent: 'center',
+  },
+  dateSaveText: { color: '#fff', fontFamily: fonts.bold },
 });

@@ -36,6 +36,10 @@ type ProgressData = {
   /** Gün başına çözülen soru sayısı */
   activity: Record<string, number>;
   dailyGoal: number;
+  /** "Sonra tekrar bakacağım" diye işaretlenen soru kimlikleri */
+  savedQuestions: string[];
+  /** Kullanıcının girdiği sınav tarihi, "YYYY-AA-GG" */
+  examDate: string | null;
 };
 
 const empty: ProgressData = {
@@ -46,6 +50,8 @@ const empty: ProgressData = {
   drafts: {},
   activity: {},
   dailyGoal: 30,
+  savedQuestions: [],
+  examDate: null,
 };
 
 type ProgressState = ProgressData & {
@@ -57,6 +63,8 @@ type ProgressState = ProgressData & {
   /** Bir soru ilk kez cevaplandığında çağrılır (günlük hedef ve seri için). */
   recordAnswer: () => void;
   setDailyGoal: (goal: number) => void;
+  toggleSavedQuestion: (questionId: string) => void;
+  setExamDate: (date: string | null) => void;
   setCardKnown: (deckId: string, cardId: string, known: boolean) => void;
   resetDeck: (deckId: string) => void;
   toggleFavorite: (key: FavoriteKey) => void;
@@ -116,6 +124,17 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
 
   const setDailyGoal = useCallback((dailyGoal: number) => setData((d) => ({ ...d, dailyGoal })), []);
 
+  const toggleSavedQuestion = useCallback((questionId: string) => {
+    setData((d) => ({
+      ...d,
+      savedQuestions: d.savedQuestions.includes(questionId)
+        ? d.savedQuestions.filter((q) => q !== questionId)
+        : [...d.savedQuestions, questionId],
+    }));
+  }, []);
+
+  const setExamDate = useCallback((examDate: string | null) => setData((d) => ({ ...d, examDate })), []);
+
   const setCardKnown = useCallback((deckId: string, cardId: string, known: boolean) => {
     setData((d) => {
       const current = new Set(d.knownCards[deckId] ?? []);
@@ -147,13 +166,15 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       saveDraft,
       recordAnswer,
       setDailyGoal,
+      toggleSavedQuestion,
+      setExamDate,
       setCardKnown,
       resetDeck,
       toggleFavorite,
       isFavorite: (key: FavoriteKey) => data.favorites.includes(key),
       clearProgress,
     }),
-    [data, loaded, addExamResult, updateWrongQuestions, saveDraft, recordAnswer, setDailyGoal, setCardKnown, resetDeck, toggleFavorite, clearProgress],
+    [data, loaded, addExamResult, updateWrongQuestions, saveDraft, recordAnswer, setDailyGoal, toggleSavedQuestion, setExamDate, setCardKnown, resetDeck, toggleFavorite, clearProgress],
   );
 
   return <ProgressContext.Provider value={value}>{children}</ProgressContext.Provider>;

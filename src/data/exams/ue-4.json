@@ -1,10 +1,7 @@
 {
  "id": "ue-4",
- "title": "Uzman Erbaş Denemesi 4",
+ "title": "Uzman Çavuş Denemesi 4",
  "durationMinutes": 120,
- "ranks": [
-  "uzman-erbas"
- ],
  "questions": [
   {
    "id": "ue-4-1",

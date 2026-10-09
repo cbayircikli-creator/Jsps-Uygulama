@@ -9,7 +9,7 @@ import { useProfile } from '../../context/ProfileContext';
 import { useProgress, useProgressStats, type ExamMode } from '../../context/ProgressContext';
 import { content } from '../../services/content';
 import { newQuickQuizId } from '../../services/quickQuiz';
-import { colors, font, fonts, radius, shadow, spacing } from '../../theme';
+import { colors, font, fonts, gradients, radius, shadow, spacing } from '../../theme';
 
 type Tint = keyof typeof colors.tint;
 
@@ -37,7 +37,10 @@ function greeting() {
 export default function Home() {
   const insets = useSafeAreaInsets();
   const { rank } = useProfile();
-  const { drafts } = useProgress();
+  const { drafts, examDate } = useProgress();
+  const daysLeft = examDate
+    ? Math.ceil((new Date(`${examDate}T00:00:00`).getTime() - new Date(new Date().toDateString()).getTime()) / 86400000)
+    : null;
   const stats = useProgressStats();
   const latest = content.announcements().slice(0, 2);
   const goalPct = Math.min(1, stats.today / stats.dailyGoal);
@@ -56,7 +59,7 @@ export default function Home() {
   return (
     <ScrollView style={styles.page} contentContainerStyle={{ paddingBottom: spacing.xxl }}>
       <LinearGradient
-        colors={[colors.primaryDark, colors.primary, colors.primaryMid]}
+        colors={gradients.hero}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
         style={[styles.hero, { paddingTop: insets.top + spacing.xl }]}
@@ -68,7 +71,15 @@ export default function Home() {
           ))}
         </View>
 
-        <Text style={styles.eyebrow}>JSPS · SINAV HAZIRLIK</Text>
+        <View style={styles.topRow}>
+          <Text style={styles.eyebrow}>JSPS · SINAV HAZIRLIK</Text>
+          {daysLeft !== null && daysLeft >= 0 && (
+            <View style={styles.countdown}>
+              <Ionicons name="calendar" size={12} color={colors.primaryDark} />
+              <Text style={styles.countdownText}>{daysLeft === 0 ? 'Sınav bugün!' : `Sınava ${daysLeft} gün`}</Text>
+            </View>
+          )}
+        </View>
         <Text style={styles.greeting}>{greeting()}</Text>
         <Text style={styles.heroSub}>
           {rank ? `${rank.name} · bugün de bir adım öne geç.` : 'Bugün de bir adım öne geç.'}
@@ -244,6 +255,17 @@ const styles = StyleSheet.create({
     borderColor: colors.accentBright,
     transform: [{ rotate: '45deg' }],
   },
+  topRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: spacing.sm },
+  countdown: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    backgroundColor: colors.accentBright,
+    borderRadius: radius.pill,
+    paddingHorizontal: spacing.sm,
+    paddingVertical: 3,
+  },
+  countdownText: { color: colors.primaryDark, fontFamily: fonts.heavy, fontSize: font.tiny },
   eyebrow: { color: colors.accentBright, fontFamily: fonts.bold, fontSize: font.tiny, letterSpacing: 2 },
   greeting: { color: '#fff', fontFamily: fonts.display, fontSize: 38, lineHeight: 42, letterSpacing: 0.3 },
   heroSub: { color: colors.textOnDarkMuted, fontFamily: fonts.medium, fontSize: font.body },

@@ -3,37 +3,47 @@ import type { ReactNode } from 'react';
 import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { useProfile } from '../context/ProfileContext';
-import { rankGroups, ranks } from '../data/ranks';
-import { colors, font, radius, spacing } from '../theme';
-import { Screen, text } from './ui';
+import { ranks } from '../data/ranks';
+import { colors, font, fonts, radius, spacing } from '../theme';
+import { Screen, text, type IconName } from './ui';
+
+const RANK_INFO: Record<string, { icon: IconName; note: string }> = {
+  'uzman-cavus': { icon: 'shield-half', note: 'Uzman çavuşluktan astsubaylığa geçiş' },
+  astsubay: { icon: 'ribbon', note: 'Sözleşmeliden muvazzafa geçiş' },
+  subay: { icon: 'star', note: 'Sözleşmeliden muvazzafa geçiş' },
+};
 
 export function RankPicker() {
   const { rank, setRank } = useProfile();
 
   return (
-    <View style={{ gap: spacing.lg }}>
-      {rankGroups.map((group) => (
-        <View key={group.id} style={{ gap: spacing.sm }}>
-          <Text style={text.muted}>{group.name.toLocaleUpperCase('tr')}</Text>
-          <View style={styles.grid}>
-            {ranks
-              .filter((r) => r.group === group.id)
-              .map((r) => {
-                const selected = rank?.id === r.id;
-                return (
-                  <Pressable
-                    key={r.id}
-                    onPress={() => setRank(r.id)}
-                    style={[styles.chip, selected && styles.chipSelected]}
-                  >
-                    {selected && <Ionicons name="checkmark" size={16} color="#fff" />}
-                    <Text style={[styles.chipText, selected && { color: '#fff' }]}>{r.name}</Text>
-                  </Pressable>
-                );
-              })}
-          </View>
-        </View>
-      ))}
+    <View style={{ gap: spacing.sm }}>
+      {ranks.map((r) => {
+        const selected = rank?.id === r.id;
+        const info = RANK_INFO[r.id];
+        return (
+          <Pressable
+            key={r.id}
+            onPress={() => setRank(r.id)}
+            accessibilityRole="button"
+            accessibilityState={{ selected }}
+            style={({ pressed }) => [styles.option, selected && styles.optionSelected, pressed && { opacity: 0.8 }]}
+          >
+            <View style={[styles.optionIcon, selected && { backgroundColor: 'rgba(255,255,255,0.16)' }]}>
+              <Ionicons name={info.icon} size={22} color={selected ? colors.accentBright : colors.primary} />
+            </View>
+            <View style={{ flex: 1 }}>
+              <Text style={[styles.optionTitle, selected && { color: '#fff' }]}>{r.name}</Text>
+              <Text style={[styles.optionNote, selected && { color: colors.textOnDarkMuted }]}>{info.note}</Text>
+            </View>
+            <Ionicons
+              name={selected ? 'checkmark-circle' : 'ellipse-outline'}
+              size={22}
+              color={selected ? colors.accentBright : colors.border}
+            />
+          </Pressable>
+        );
+      })}
     </View>
   );
 }
@@ -59,10 +69,9 @@ export function RankGate({ children }: { children: ReactNode }) {
     <Screen>
       <View style={styles.intro}>
         <Ionicons name="ribbon-outline" size={40} color={colors.primary} />
-        <Text style={text.title}>Rütbeniz nedir?</Text>
+        <Text style={text.title}>Hangi sınava hazırlanıyorsun?</Text>
         <Text style={[text.body, { textAlign: 'center', color: colors.textMuted }]}>
-          Denemeleri ve bilgi kartlarını rütbenize göre hazırlayabilmemiz için seçim yapın.
-          Daha sonra Profil sekmesinden değiştirebilirsiniz.
+          İçerikleri sana göre düzenleyebilmemiz için seç. Profil sekmesinden istediğin zaman değiştirebilirsin.
         </Text>
       </View>
       <RankPicker />
@@ -73,18 +82,25 @@ export function RankGate({ children }: { children: ReactNode }) {
 const styles = StyleSheet.create({
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.background },
   intro: { alignItems: 'center', gap: spacing.sm, paddingVertical: spacing.lg },
-  grid: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
-  chip: {
+  option: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: spacing.xs,
-    paddingHorizontal: spacing.md,
-    paddingVertical: spacing.sm,
-    borderRadius: radius.pill,
+    gap: spacing.md,
+    padding: spacing.lg,
+    borderRadius: radius.lg,
     borderWidth: 1,
     borderColor: colors.border,
     backgroundColor: colors.surface,
   },
-  chipSelected: { backgroundColor: colors.primary, borderColor: colors.primary },
-  chipText: { fontSize: font.body, color: colors.text },
+  optionSelected: { backgroundColor: colors.primary, borderColor: colors.primary },
+  optionIcon: {
+    width: 44,
+    height: 44,
+    borderRadius: 14,
+    backgroundColor: colors.primarySoft,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  optionTitle: { fontFamily: fonts.display, fontSize: 22, color: colors.text },
+  optionNote: { fontFamily: fonts.medium, fontSize: font.small, color: colors.textMuted },
 });

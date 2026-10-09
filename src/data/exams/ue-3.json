@@ -1,10 +1,7 @@
 {
  "id": "ue-3",
- "title": "Uzman Erbaş Denemesi 3",
+ "title": "Uzman Çavuş Denemesi 3",
  "durationMinutes": 120,
- "ranks": [
-  "uzman-erbas"
- ],
  "questions": [
   {
    "id": "ue-3-1",

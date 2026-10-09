@@ -1,30 +1,11 @@
 // "Karışık 20 soru": tüm denemelerden rastgele seçilen kısa test.
 // Kimlikteki tohum sayesinde aynı test yeniden açıldığında aynı sorular gelir
 // (yarım kalan test sürdürülebilir).
-import { importedExams } from '../data/exams';
-import type { PracticeExam, Question } from '../data/types';
+import type { PracticeExam } from '../data/types';
+import { questionPool } from './questionPool';
 
 const PREFIX = 'karisik-';
 const SIZE = 20;
-
-let pool: Question[] | undefined;
-
-function getPool() {
-  if (pool) return pool;
-  const seen = new Set<string>();
-  pool = [];
-  for (const exam of importedExams) {
-    for (const q of exam.questions) {
-      // Parçası önceki soruda kalan devam soruları tek başına anlaşılmaz.
-      if (!q.passage && /parça/i.test(q.text)) continue;
-      const key = q.text + '|' + q.options.join('|');
-      if (seen.has(key)) continue;
-      seen.add(key);
-      pool.push(q);
-    }
-  }
-  return pool;
-}
 
 // Küçük, tohumlu rastgele sayı üreteci (mulberry32)
 function random(seed: number) {
@@ -44,7 +25,7 @@ export function quickQuiz(id: string): PracticeExam | undefined {
   if (!id.startsWith(PREFIX)) return undefined;
   const seed = Number(id.slice(PREFIX.length));
   if (!Number.isFinite(seed)) return undefined;
-  const all = getPool();
+  const all = questionPool();
   const rnd = random(seed);
   const picked = new Set<number>();
   while (picked.size < Math.min(SIZE, all.length)) picked.add(Math.floor(rnd() * all.length));

@@ -1,31 +1,31 @@
-import type { Rank, RankGroupId } from './types';
+import type { Rank } from './types';
 
-export const rankGroups: { id: RankGroupId; name: string }[] = [
-  { id: 'uzman-erbas', name: 'Uzman Erbaş' },
-  { id: 'astsubay', name: 'Astsubay' },
-  { id: 'subay', name: 'Subay' },
-];
-
-// Liste ihtiyaca göre güncellenebilir; içerik filtrelemesi `group` alanına göre yapılır.
+// Sınava girenler üç gruptur; rütbe ayrıntısı gerekmez.
 export const ranks: Rank[] = [
-  { id: 'uzman-erbas', name: 'Uzman Erbaş', group: 'uzman-erbas' },
-
-  { id: 'astsubay-cavus', name: 'Astsubay Çavuş', group: 'astsubay' },
-  { id: 'kd-cavus', name: 'Kıdemli Çavuş', group: 'astsubay' },
-  { id: 'ustcavus', name: 'Üstçavuş', group: 'astsubay' },
-  { id: 'kd-ustcavus', name: 'Kıdemli Üstçavuş', group: 'astsubay' },
-  { id: 'bascavus', name: 'Başçavuş', group: 'astsubay' },
-  { id: 'kd-bascavus', name: 'Kıdemli Başçavuş', group: 'astsubay' },
-
-  { id: 'astegmen', name: 'Asteğmen', group: 'subay' },
-  { id: 'tegmen', name: 'Teğmen', group: 'subay' },
-  { id: 'ustegmen', name: 'Üsteğmen', group: 'subay' },
-  { id: 'yuzbasi', name: 'Yüzbaşı', group: 'subay' },
-  { id: 'binbasi', name: 'Binbaşı', group: 'subay' },
-  { id: 'yarbay', name: 'Yarbay', group: 'subay' },
-  { id: 'albay', name: 'Albay', group: 'subay' },
+  { id: 'uzman-cavus', name: 'Uzman Çavuş', group: 'uzman-cavus' },
+  { id: 'astsubay', name: 'Astsubay', group: 'astsubay' },
+  { id: 'subay', name: 'Subay', group: 'subay' },
 ];
+
+// Eski sürümlerde kaydedilen ayrıntılı rütbeler yeni gruplara taşınır.
+const LEGACY: Record<string, string> = {
+  'uzman-erbas': 'uzman-cavus',
+  'astsubay-cavus': 'astsubay',
+  'kd-cavus': 'astsubay',
+  ustcavus: 'astsubay',
+  'kd-ustcavus': 'astsubay',
+  bascavus: 'astsubay',
+  'kd-bascavus': 'astsubay',
+  astegmen: 'subay',
+  tegmen: 'subay',
+  ustegmen: 'subay',
+  yuzbasi: 'subay',
+  binbasi: 'subay',
+  yarbay: 'subay',
+  albay: 'subay',
+};
 
 export function findRank(id: string | null | undefined) {
-  return ranks.find((r) => r.id === id);
+  const key = id ? (LEGACY[id] ?? id) : id;
+  return ranks.find((r) => r.id === key);
 }

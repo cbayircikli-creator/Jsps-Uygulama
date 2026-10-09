@@ -9,6 +9,7 @@ import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 
+import { HeaderBackground } from '../components/ui';
 import { ProfileProvider } from '../context/ProfileContext';
 import { ProgressProvider } from '../context/ProgressContext';
 import { colors, fonts } from '../theme';
@@ -33,6 +34,7 @@ export default function RootLayout() {
         <Stack
           screenOptions={{
             headerStyle: { backgroundColor: colors.primary },
+            headerBackground: () => <HeaderBackground />,
             headerTintColor: '#fff',
             headerTitleStyle: { fontFamily: fonts.display, fontSize: 22 },
             headerShadowVisible: false,
@@ -48,6 +50,7 @@ export default function RootLayout() {
           <Stack.Screen name="duyurular/[id]" options={{ title: 'Duyuru' }} />
           <Stack.Screen name="deneme/[id]" options={{ title: 'Deneme' }} />
           <Stack.Screen name="kartlar/[id]" options={{ title: 'Bilgi Kartları' }} />
+          <Stack.Screen name="konu/[ders]" options={{ title: 'Konu Testleri' }} />
         </Stack>
       </ProgressProvider>
     </ProfileProvider>

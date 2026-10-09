@@ -1,8 +1,9 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { LinearGradient } from 'expo-linear-gradient';
 import type { ComponentProps, ReactNode } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View, type ViewStyle } from 'react-native';
 
-import { colors, font, fonts, radius, shadow, spacing } from '../theme';
+import { colors, font, fonts, gradients, radius, shadow, spacing, subjectColor } from '../theme';
 
 export type IconName = ComponentProps<typeof Ionicons>['name'];
 
@@ -49,6 +50,24 @@ export function Tag({ label, tone = 'default' }: { label: string; tone?: 'defaul
       <Text style={[styles.tagText, { color: fg }]}>{label}</Text>
     </View>
   );
+}
+
+/** Ders adına göre renkli etiket, ör. "Anayasa" mavi, "Tarih" kehribar */
+export function SubjectTag({ subject, detail }: { subject: string; detail?: string }) {
+  const c = subjectColor(subject);
+  return (
+    <View style={[styles.tag, styles.subjectTag, { backgroundColor: c.soft }]}>
+      <View style={[styles.dot, { backgroundColor: c.main }]} />
+      <Text style={[styles.tagText, { color: c.main }]} numberOfLines={1}>
+        {detail ? `${subject} · ${detail}` : subject}
+      </Text>
+    </View>
+  );
+}
+
+/** Üst başlıkların renk geçişli zemini (Stack/Tabs `headerBackground`) */
+export function HeaderBackground() {
+  return <LinearGradient colors={gradients.header} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={{ flex: 1 }} />;
 }
 
 export function SearchBar({
@@ -140,6 +159,8 @@ const styles = StyleSheet.create({
   sectionTitle: { fontSize: 22, fontFamily: fonts.display, color: colors.text, letterSpacing: 0.3 },
   tag: { alignSelf: 'flex-start', paddingHorizontal: spacing.sm, paddingVertical: 3, borderRadius: radius.pill },
   tagText: { fontSize: font.tiny, fontFamily: fonts.bold, letterSpacing: 0.2 },
+  subjectTag: { flexDirection: 'row', alignItems: 'center', gap: 5, flexShrink: 1 },
+  dot: { width: 6, height: 6, borderRadius: 3 },
   search: {
     flexDirection: 'row',
     alignItems: 'center',

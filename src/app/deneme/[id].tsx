@@ -3,11 +3,13 @@ import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-import { Button, Card, EmptyState, Screen, Tag, text } from '../../components/ui';
+import { ScoreRing } from '../../components/ScoreRing';
+import { Button, Card, EmptyState, Screen, SubjectTag, Tag, text } from '../../components/ui';
 import { useProgress, type ExamMode, type SubjectScore } from '../../context/ProgressContext';
 import type { PracticeExam, Question } from '../../data/types';
 import { content } from '../../services/content';
-import { colors, font, radius, spacing, fonts } from '../../theme';
+import { SAVED_EXAM_ID, savedExam } from '../../services/savedQuestions';
+import { colors, font, fonts, radius, spacing, subjectColor } from '../../theme';
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E'];
 
@@ -22,8 +24,8 @@ export default function DenemeRunner() {
   // sinav: süreli, cevaplar sonda açılır · calisma: süresiz, her cevaptan sonra açıklama
   // yanlis: yalnızca daha önce yanlış/boş bırakılan sorular, çalışma modunda
   const mode: ExamMode = mod === 'calisma' || mod === 'yanlis' ? mod : 'sinav';
-  const exam = content.examById(id);
-  const { loaded } = useProgress();
+  const { loaded, savedQuestions } = useProgress();
+  const exam = id === SAVED_EXAM_ID ? savedExam(savedQuestions) : content.examById(id);
   // "Baştan çöz" sayacı: değişince deneme sıfırdan kurulur.
   const [run, setRun] = useState(0);
 
@@ -39,10 +41,13 @@ export default function DenemeRunner() {
   return <Runner key={`${exam.id}:${mode}:${run}`} exam={exam} mode={mode} onRestart={() => setRun((r) => r + 1)} />;
 }
 
-function Runner({ exam, mode, onRestart }: { exam: PracticeExam; mode: ExamMode; onRestart: () => void }) {
+function Runner({ exam: examProp, mode, onRestart }: { exam: PracticeExam; mode: ExamMode; onRestart: () => void }) {
+  // Deneme açılıştaki hâliyle sabitlenir; ör. işaretli sorulardan biri çıkarılsa da liste kaymaz.
+  const [exam] = useState(examProp);
   const instant = mode !== 'sinav';
   const keepDraft = mode !== 'yanlis';
-  const { wrongQuestions, drafts, saveDraft, addExamResult, updateWrongQuestions, recordAnswer } = useProgress();
+  const { wrongQuestions, drafts, saveDraft, addExamResult, updateWrongQuestions, recordAnswer, savedQuestions, toggleSavedQuestion } =
+    useProgress();
   const draftKey = `${exam.id}:${mode}`;
 
   // Soru listesi ve varsa yarım kalan deneme yalnızca açılışta okunur.
@@ -149,24 +154,38 @@ function Runner({ exam, mode, onRestart }: { exam: PracticeExam; mode: ExamMode;
     return (
       <Screen>
         <Stack.Screen options={{ title: exam.title, headerRight: undefined }} />
-        <Card style={{ alignItems: 'center' }}>
-          <Text style={text.muted}>{MODE_TITLE[mode]}</Text>
-          <Text style={styles.score}>%{pct}</Text>
-          <Text style={text.body}>
-            {correctCount} doğru · {wrongCount} yanlış · {blank} boş
+        <Card style={{ alignItems: 'center', gap: spacing.md, paddingVertical: spacing.xl }}>
+          <Text style={styles.eyebrow}>{MODE_TITLE[mode].toLocaleUpperCase('tr')}</Text>
+          <ScoreRing pct={pct} label="başarı" />
+          <Text style={styles.verdict}>
+            {pct >= 70 ? 'Harika gidiyorsun!' : pct >= 45 ? 'İyi, biraz daha gayret!' : 'Tekrar zamanı, pes yok!'}
           </Text>
+          <View style={styles.pills}>
+            <ResultPill value={correctCount} label="Doğru" color={colors.success} soft={colors.successSoft} />
+            <ResultPill value={wrongCount} label="Yanlış" color={colors.danger} soft={colors.dangerSoft} />
+            <ResultPill value={blank} label="Boş" color={colors.textMuted} soft={colors.surfaceAlt} />
+          </View>
         </Card>
         {lastResult && Object.keys(lastResult.bySubject).length > 0 && (
-          <Card>
-            <Text style={text.heading}>Konulara göre</Text>
-            {Object.entries(lastResult.bySubject).map(([subject, s]) => (
-              <View key={subject} style={styles.subjectRow}>
-                <Text style={text.body}>{subject}</Text>
-                <Text style={text.muted}>
-                  {s.correct}/{s.total}
-                </Text>
-              </View>
-            ))}
+          <Card style={{ gap: spacing.md }}>
+            <Text style={text.heading}>Derslere göre</Text>
+            {Object.entries(lastResult.bySubject).map(([subject, s]) => {
+              const c = subjectColor(subject);
+              const sp = s.total ? s.correct / s.total : 0;
+              return (
+                <View key={subject} style={{ gap: 6 }}>
+                  <View style={styles.subjectRow}>
+                    <Text style={[styles.subjectName, { color: c.main }]}>{subject}</Text>
+                    <Text style={text.muted}>
+                      {s.correct}/{s.total} · %{Math.round(sp * 100)}
+                    </Text>
+                  </View>
+                  <View style={[styles.barTrack, { backgroundColor: c.soft }]}>
+                    <View style={[styles.barFill, { width: `${sp * 100}%`, backgroundColor: c.main }]} />
+                  </View>
+                </View>
+              );
+            })}
           </Card>
         )}
         <View style={{ gap: spacing.sm }}>
@@ -235,8 +254,20 @@ function Runner({ exam, mode, onRestart }: { exam: PracticeExam; mode: ExamMode;
         <Text style={styles.counter}>
           {index + 1}/{questions.length}
         </Text>
-        <Tag label={q.topic ? `${q.subject} · ${q.topic}` : q.subject} />
+        <SubjectTag subject={q.subject} detail={q.topic} />
         <View style={{ flex: 1 }} />
+        <Pressable
+          onPress={() => toggleSavedQuestion(q.id)}
+          hitSlop={10}
+          accessibilityRole="button"
+          accessibilityLabel={savedQuestions.includes(q.id) ? 'İşareti kaldır' : 'Soruyu işaretle'}
+        >
+          <Ionicons
+            name={savedQuestions.includes(q.id) ? 'bookmark' : 'bookmark-outline'}
+            size={22}
+            color={savedQuestions.includes(q.id) ? colors.accent : colors.textMuted}
+          />
+        </Pressable>
         {mode === 'sinav' && !finished ? (
           <Tag label={formatTime(remaining)} tone={remaining < 300 ? 'danger' : 'accent'} />
         ) : (
@@ -345,6 +376,15 @@ function Runner({ exam, mode, onRestart }: { exam: PracticeExam; mode: ExamMode;
   );
 }
 
+function ResultPill({ value, label, color, soft }: { value: number; label: string; color: string; soft: string }) {
+  return (
+    <View style={[styles.pill, { backgroundColor: soft }]}>
+      <Text style={[styles.pillValue, { color }]}>{value}</Text>
+      <Text style={styles.pillLabel}>{label}</Text>
+    </View>
+  );
+}
+
 function formatTime(sec: number) {
   const m = Math.floor(sec / 60);
   const s = sec % 60;
@@ -353,6 +393,15 @@ function formatTime(sec: number) {
 
 const styles = StyleSheet.create({
   page: { flex: 1, backgroundColor: colors.background },
+  eyebrow: { fontFamily: fonts.bold, fontSize: font.tiny, letterSpacing: 1.5, color: colors.accent },
+  verdict: { fontFamily: fonts.display, fontSize: 24, color: colors.text },
+  pills: { flexDirection: 'row', gap: spacing.sm, alignSelf: 'stretch' },
+  pill: { flex: 1, alignItems: 'center', borderRadius: radius.md, paddingVertical: spacing.sm },
+  pillValue: { fontFamily: fonts.display, fontSize: 28, lineHeight: 32 },
+  pillLabel: { fontFamily: fonts.semibold, fontSize: font.tiny, color: colors.textMuted },
+  subjectName: { fontFamily: fonts.bold, fontSize: font.body },
+  barTrack: { height: 8, borderRadius: radius.pill, overflow: 'hidden' },
+  barFill: { height: '100%', borderRadius: radius.pill },
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.background },
   headerAction: { color: '#fff', fontFamily: fonts.bold, fontSize: font.body, paddingHorizontal: spacing.md },
   topBar: {
@@ -366,7 +415,7 @@ const styles = StyleSheet.create({
   },
   counter: { fontSize: font.body, fontFamily: fonts.bold, color: colors.text },
   progressTrack: { height: 4, backgroundColor: colors.border },
-  progressFill: { height: '100%', backgroundColor: colors.accent },
+  progressFill: { height: '100%', backgroundColor: colors.primaryBright, borderRadius: radius.pill },
   body: { padding: spacing.lg, gap: spacing.sm, paddingBottom: spacing.xxl },
   passage: {
     backgroundColor: colors.primarySoft,
@@ -388,7 +437,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.surface,
   },
   picked: { borderColor: colors.primary, backgroundColor: colors.primarySoft },
-  right: { borderColor: colors.success, backgroundColor: '#E3F3E9' },
+  right: { borderColor: colors.success, backgroundColor: colors.successSoft },
   wrong: { borderColor: colors.danger, backgroundColor: colors.dangerSoft },
   bubble: {
     width: 28,
@@ -402,7 +451,7 @@ const styles = StyleSheet.create({
   bubbleFilled: { backgroundColor: colors.primary, borderColor: 'transparent' },
   bubbleText: { fontFamily: fonts.bold, color: colors.primary, fontSize: font.small },
   feedback: { borderRadius: radius.md, padding: spacing.md, gap: spacing.sm, borderLeftWidth: 4, marginTop: spacing.sm },
-  feedbackOk: { backgroundColor: '#E3F3E9', borderLeftColor: colors.success },
+  feedbackOk: { backgroundColor: colors.successSoft, borderLeftColor: colors.success },
   feedbackBad: { backgroundColor: colors.dangerSoft, borderLeftColor: colors.danger },
   feedbackTitle: { fontSize: font.body, fontFamily: fonts.bold },
   bottomBar: {

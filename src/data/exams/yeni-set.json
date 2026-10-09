@@ -1,10 +1,7 @@
 {
  "id": "yeni-set",
- "title": "Uzman Erbaş Yeni Set",
+ "title": "Uzman Çavuş Yeni Set",
  "durationMinutes": 120,
- "ranks": [
-  "uzman-erbas"
- ],
  "questions": [
   {
    "id": "yeni-set-1",

@@ -2,7 +2,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { Tabs } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import type { IconName } from '../../components/ui';
+import { HeaderBackground, type IconName } from '../../components/ui';
 import { colors, fonts } from '../../theme';
 
 const tabs: { name: string; title: string; icon: IconName; iconActive: IconName }[] = [
@@ -19,6 +19,7 @@ export default function TabsLayout() {
     <Tabs
       screenOptions={{
         headerStyle: { backgroundColor: colors.primary },
+        headerBackground: () => <HeaderBackground />,
         headerTintColor: '#fff',
         headerTitleStyle: { fontFamily: fonts.display, fontSize: 24, letterSpacing: 0.3 },
         headerShadowVisible: false,

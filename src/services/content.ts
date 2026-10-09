@@ -2,12 +2,13 @@
 // yalnızca buradaki fonksiyonların içi değişir, ekranlar aynı kalır.
 import { announcements } from '../data/announcements';
 import { decisions } from '../data/decisions';
-import { importedExams as exams } from '../data/exams';
+import { allExams as exams } from '../data/allExams';
 import { decks } from '../data/flashcards';
 import { legislation } from '../data/legislation';
 import type { RankGroupId } from '../data/types';
 import { lawExam } from './lawIndex';
 import { quickQuiz } from './quickQuiz';
+import { topicExam } from './topicTests';
 
 function forRank<T extends { ranks?: RankGroupId[] }>(items: T[], group?: RankGroupId | null) {
   if (!group) return items;
@@ -33,7 +34,7 @@ export const content = {
   announcementById: (id: string) => announcements.find((a) => a.id === id),
 
   exams: (group?: RankGroupId | null) => forRank(exams, group),
-  examById: (id: string) => exams.find((e) => e.id === id) ?? lawExam(id) ?? quickQuiz(id),
+  examById: (id: string) => exams.find((e) => e.id === id) ?? lawExam(id) ?? quickQuiz(id) ?? topicExam(id),
 
   decks: (group?: RankGroupId | null) => forRank(decks, group),
   deckById: (id: string) => decks.find((d) => d.id === id),

@@ -16,13 +16,13 @@ const OUT = path.join(path.dirname(new URL(import.meta.url).pathname), '..', 'sr
 
 // Başlığa göre deneme kimliği, adı ve sırası (yeniden eskiye).
 const CATALOG = [
-  ['JSPS Uzman Erbaş Denemesi 6', 'ue-6', 'Uzman Erbaş Denemesi 6'],
+  ['JSPS Uzman Erbaş Denemesi 6', 'ue-6', 'Uzman Çavuş Denemesi 6'],
   ['JSPS Genel Tekrar Denemesi', 'genel-tekrar', 'Genel Tekrar Denemesi'],
-  ['JSPS Uzman Erbaş Denemesi 5', 'ue-5', 'Uzman Erbaş Denemesi 5'],
-  ['JSPS Uzman Erbaş Denemesi 4', 'ue-4', 'Uzman Erbaş Denemesi 4'],
-  ['JSPS Uzman Erbaş Denemesi 3', 'ue-3', 'Uzman Erbaş Denemesi 3'],
-  ['JSPS Uzman Erbaş Denemesi 2', 'ue-2', 'Uzman Erbaş Denemesi 2'],
-  ['JSPS Uzman Erbaş Denemesi ·', 'ue-1', 'Uzman Erbaş Denemesi 1'],
+  ['JSPS Uzman Erbaş Denemesi 5', 'ue-5', 'Uzman Çavuş Denemesi 5'],
+  ['JSPS Uzman Erbaş Denemesi 4', 'ue-4', 'Uzman Çavuş Denemesi 4'],
+  ['JSPS Uzman Erbaş Denemesi 3', 'ue-3', 'Uzman Çavuş Denemesi 3'],
+  ['JSPS Uzman Erbaş Denemesi 2', 'ue-2', 'Uzman Çavuş Denemesi 2'],
+  ['JSPS Uzman Erbaş Denemesi ·', 'ue-1', 'Uzman Çavuş Denemesi 1'],
   ['JSPS Deneme 15', 'deneme-15', 'Deneme 15'],
   ['JSPS Deneme 14', 'deneme-14', 'Deneme 14'],
   ['JSPS Deneme 13', 'deneme-13', 'Deneme 13'],
@@ -34,7 +34,7 @@ const CATALOG = [
   ['JSPS Deneme 3 — Anında Açıklamalı', 'deneme-3a', 'Deneme 3 (Açıklamalı)'],
   ['JSPS Deneme 3 — Anında Çözümlü', 'deneme-3b', 'Deneme 3 (Çözümlü)'],
   ['JSPS Deneme 2 — Anında Çözümlü', 'deneme-2', 'Deneme 2'],
-  ['JSPS Deneme — Uzman Erbaş (Yeni Set)', 'yeni-set', 'Uzman Erbaş Yeni Set'],
+  ['JSPS Deneme — Uzman Erbaş (Yeni Set)', 'yeni-set', 'Uzman Çavuş Yeni Set'],
   ['JSPS Mega Deneme 2', 'mega-2', 'Mega Deneme 2 · Kongreler ve Güncel'],
   ['JSPS Mega Kapsama Denemesi', 'mega-1', 'Mega Kapsama Denemesi'],
 ];
@@ -162,7 +162,8 @@ const exams = CATALOG.map(([, id]) => found.get(id)).filter(Boolean);
 for (const e of exams) {
   // 100 soruya 120 dakika oranı korunur.
   const durationMinutes = Math.round((e.questions.length * 1.2) / 5) * 5;
-  const exam = { id: e.id, title: e.title, durationMinutes, ranks: ['uzman-erbas'], questions: e.questions };
+  // Denemeler tüm rütbelere açıktır; rütbeye özel içerik `ranks` ile sonradan işaretlenir.
+  const exam = { id: e.id, title: e.title, durationMinutes, questions: e.questions };
   fs.writeFileSync(path.join(OUT, `${e.id}.json`), JSON.stringify(exam, null, 1) + '\n');
 }
 

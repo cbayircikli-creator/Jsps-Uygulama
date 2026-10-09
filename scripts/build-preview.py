@@ -9,6 +9,9 @@ def inline(m):
     data = base64.b64encode(open(path, 'rb').read()).decode()
     return '"data:%s;base64,%s"' % (mime[os.path.splitext(path)[1]], data)
 js = re.sub(r'"(/assets/[^"]+)"', inline, js)
+# HTML ayrıştırıcısı betik içindeki "<!--" dizisini özel yorumlar; JS'te anlamı aynı olan "<\!--" yazılır
+# (dizgelerde ve düzenli ifadelerde "\!" yalnızca "!" demektir).
+js = js.replace('<!--', '<\\!--')
 assert '</script' not in js.lower() and '<!--' not in js
 page = f'''<title>JSPS Hazırlık</title>
 <style>

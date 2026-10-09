@@ -1,5 +1,5 @@
 /** Rütbe grubu: içerikler bu gruplara göre filtrelenir. */
-export type RankGroupId = 'uzman-erbas' | 'astsubay' | 'subay';
+export type RankGroupId = 'uzman-cavus' | 'astsubay' | 'subay';
 
 export type Rank = {
   id: string;

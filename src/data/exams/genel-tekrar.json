@@ -2,9 +2,6 @@
  "id": "genel-tekrar",
  "title": "Genel Tekrar Denemesi",
  "durationMinutes": 120,
- "ranks": [
-  "uzman-erbas"
- ],
  "questions": [
   {
    "id": "genel-tekrar-1",
