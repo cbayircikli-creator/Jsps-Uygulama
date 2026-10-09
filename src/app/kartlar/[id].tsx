@@ -6,7 +6,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Button, EmptyState, Screen, text } from '../../components/ui';
 import { useProgress } from '../../context/ProgressContext';
 import { content } from '../../services/content';
-import { colors, font, radius, spacing } from '../../theme';
+import { colors, font, radius, spacing, fonts } from '../../theme';
 
 export default function Kartlar() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -96,6 +96,6 @@ const styles = StyleSheet.create({
     padding: spacing.xl,
   },
   cardBack: { backgroundColor: colors.primary, borderColor: colors.primary },
-  cardText: { fontSize: font.title, fontWeight: '600', textAlign: 'center', color: colors.text },
+  cardText: { fontSize: font.title, fontFamily: fonts.semibold, textAlign: 'center', color: colors.text },
   row: { flexDirection: 'row', gap: spacing.md },
 });

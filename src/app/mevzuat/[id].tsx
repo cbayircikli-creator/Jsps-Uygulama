@@ -7,7 +7,7 @@ import { useProgress, type ExamMode } from '../../context/ProgressContext';
 import { officialUrl } from '../../data/legislation';
 import { content } from '../../services/content';
 import { lawExamId, questionsForLaw } from '../../services/lawIndex';
-import { colors, font, radius, spacing } from '../../theme';
+import { colors, font, radius, spacing, fonts } from '../../theme';
 
 export default function MevzuatDetail() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.xs,
   },
-  reviewText: { color: colors.danger, fontSize: font.small, fontWeight: '600' },
+  reviewText: { color: colors.danger, fontSize: font.small, fontFamily: fonts.semibold },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
   chip: {
     minWidth: 76,
@@ -115,6 +115,6 @@ const styles = StyleSheet.create({
     paddingVertical: spacing.sm,
     alignItems: 'center',
   },
-  chipTitle: { color: colors.primary, fontWeight: '700', fontSize: font.body },
+  chipTitle: { color: colors.primary, fontFamily: fonts.bold, fontSize: font.body },
   chipCount: { color: colors.textMuted, fontSize: font.tiny },
 });

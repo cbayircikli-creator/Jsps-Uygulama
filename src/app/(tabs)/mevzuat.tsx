@@ -7,7 +7,7 @@ import { useProfile } from '../../context/ProfileContext';
 import { content } from '../../services/content';
 import { questionsForLaw } from '../../services/lawIndex';
 import type { Legislation } from '../../data/types';
-import { colors, font, radius, spacing } from '../../theme';
+import { colors, font, radius, spacing, fonts } from '../../theme';
 
 const FILTERS: { label: string; value: Legislation['category'] | null }[] = [
   { label: 'Tümü', value: null },
@@ -74,5 +74,5 @@ const styles = StyleSheet.create({
     paddingVertical: spacing.xs + 2,
   },
   filterActive: { backgroundColor: colors.primary, borderColor: colors.primary },
-  filterText: { color: colors.text, fontSize: font.small, fontWeight: '600' },
+  filterText: { color: colors.text, fontSize: font.small, fontFamily: fonts.semibold },
 });

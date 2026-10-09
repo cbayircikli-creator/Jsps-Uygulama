@@ -6,7 +6,7 @@ import { Button, Card, EmptyState, Screen, SectionTitle, Tag, text } from '../..
 import { useProfile } from '../../context/ProfileContext';
 import { useProgress, useProgressStats, type ExamMode } from '../../context/ProgressContext';
 import { content } from '../../services/content';
-import { colors, font, radius, spacing } from '../../theme';
+import { colors, font, radius, spacing, fonts } from '../../theme';
 
 export default function Calis() {
   return (
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.xs,
   },
-  reviewText: { color: colors.danger, fontSize: font.small, fontWeight: '600' },
+  reviewText: { color: colors.danger, fontSize: font.small, fontFamily: fonts.semibold },
   subjectRow: { flexDirection: 'row', justifyContent: 'space-between' },
   barTrack: { height: 8, borderRadius: radius.pill, backgroundColor: colors.primarySoft, overflow: 'hidden' },
   barFill: { height: '100%', backgroundColor: colors.primary },

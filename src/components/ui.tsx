@@ -2,7 +2,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import type { ComponentProps, ReactNode } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View, type ViewStyle } from 'react-native';
 
-import { colors, font, radius, spacing } from '../theme';
+import { colors, font, fonts, radius, shadow, spacing } from '../theme';
 
 export type IconName = ComponentProps<typeof Ionicons>['name'];
 
@@ -112,10 +112,10 @@ export function EmptyState({ icon, text }: { icon: IconName; text: string }) {
 }
 
 export const text = StyleSheet.create({
-  title: { fontSize: font.title, fontWeight: '700', color: colors.text },
-  heading: { fontSize: font.heading, fontWeight: '600', color: colors.text },
-  body: { fontSize: font.body, color: colors.text, lineHeight: 22 },
-  muted: { fontSize: font.small, color: colors.textMuted },
+  title: { fontSize: font.title, fontFamily: fonts.display, color: colors.text, letterSpacing: 0.2, lineHeight: 30 },
+  heading: { fontSize: font.heading, fontFamily: fonts.bold, color: colors.text, lineHeight: 23 },
+  body: { fontSize: font.body, fontFamily: fonts.regular, color: colors.text, lineHeight: 23 },
+  muted: { fontSize: font.small, fontFamily: fonts.medium, color: colors.textMuted, lineHeight: 19 },
 });
 
 const styles = StyleSheet.create({
@@ -123,22 +123,23 @@ const styles = StyleSheet.create({
   screenContent: { padding: spacing.lg, gap: spacing.md, paddingBottom: spacing.xxl },
   card: {
     backgroundColor: colors.surface,
-    borderRadius: radius.md,
+    borderRadius: radius.lg,
     padding: spacing.lg,
     borderWidth: 1,
     borderColor: colors.border,
     gap: spacing.sm,
+    ...shadow.card,
   },
-  pressed: { opacity: 0.6 },
+  pressed: { opacity: 0.7, transform: [{ scale: 0.99 }] },
   sectionRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginTop: spacing.sm,
+    marginTop: spacing.md,
   },
-  sectionTitle: { fontSize: font.heading, fontWeight: '600', color: colors.text },
-  tag: { alignSelf: 'flex-start', paddingHorizontal: spacing.sm, paddingVertical: 2, borderRadius: radius.pill },
-  tagText: { fontSize: font.tiny, fontWeight: '600' },
+  sectionTitle: { fontSize: 22, fontFamily: fonts.display, color: colors.text, letterSpacing: 0.3 },
+  tag: { alignSelf: 'flex-start', paddingHorizontal: spacing.sm, paddingVertical: 3, borderRadius: radius.pill },
+  tagText: { fontSize: font.tiny, fontFamily: fonts.bold, letterSpacing: 0.2 },
   search: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -148,17 +149,18 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.border,
     paddingHorizontal: spacing.md,
+    ...shadow.card,
   },
-  searchInput: { flex: 1, paddingVertical: spacing.md, fontSize: font.body, color: colors.text },
+  searchInput: { flex: 1, paddingVertical: spacing.md, fontSize: font.body, fontFamily: fonts.medium, color: colors.text },
   button: {
     backgroundColor: colors.primary,
     borderRadius: radius.md,
-    paddingVertical: spacing.md,
+    paddingVertical: spacing.md + 1,
     paddingHorizontal: spacing.lg,
     alignItems: 'center',
   },
-  buttonOutline: { backgroundColor: 'transparent', borderWidth: 1, borderColor: colors.primary },
-  buttonText: { color: '#fff', fontSize: font.body, fontWeight: '600' },
+  buttonOutline: { backgroundColor: colors.surface, borderWidth: 1.5, borderColor: colors.primary },
+  buttonText: { color: '#fff', fontSize: font.body, fontFamily: fonts.bold },
   empty: { alignItems: 'center', gap: spacing.sm, padding: spacing.xxl },
-  muted: { fontSize: font.small, color: colors.textMuted, textAlign: 'center' },
+  muted: { fontSize: font.small, fontFamily: fonts.medium, color: colors.textMuted, textAlign: 'center' },
 });

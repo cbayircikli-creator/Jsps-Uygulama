@@ -7,7 +7,7 @@ import { Button, Card, EmptyState, Screen, Tag, text } from '../../components/ui
 import { useProgress, type ExamMode, type SubjectScore } from '../../context/ProgressContext';
 import type { PracticeExam, Question } from '../../data/types';
 import { content } from '../../services/content';
-import { colors, font, radius, spacing } from '../../theme';
+import { colors, font, radius, spacing, fonts } from '../../theme';
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E'];
 
@@ -42,7 +42,7 @@ export default function DenemeRunner() {
 function Runner({ exam, mode, onRestart }: { exam: PracticeExam; mode: ExamMode; onRestart: () => void }) {
   const instant = mode !== 'sinav';
   const keepDraft = mode !== 'yanlis';
-  const { wrongQuestions, drafts, saveDraft, addExamResult, updateWrongQuestions } = useProgress();
+  const { wrongQuestions, drafts, saveDraft, addExamResult, updateWrongQuestions, recordAnswer } = useProgress();
   const draftKey = `${exam.id}:${mode}`;
 
   // Soru listesi ve varsa yarım kalan deneme yalnızca açılışta okunur.
@@ -197,6 +197,7 @@ function Runner({ exam, mode, onRestart }: { exam: PracticeExam; mode: ExamMode;
 
   const choose = (oi: number) => {
     if (finished || (instant && picked !== undefined)) return;
+    if (picked === undefined) recordAnswer();
     setAnswers((a) => ({ ...a, [q.id]: oi }));
   };
 
@@ -353,7 +354,7 @@ function formatTime(sec: number) {
 const styles = StyleSheet.create({
   page: { flex: 1, backgroundColor: colors.background },
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.background },
-  headerAction: { color: '#fff', fontWeight: '700', fontSize: font.body, paddingHorizontal: spacing.md },
+  headerAction: { color: '#fff', fontFamily: fonts.bold, fontSize: font.body, paddingHorizontal: spacing.md },
   topBar: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -363,7 +364,7 @@ const styles = StyleSheet.create({
     paddingBottom: spacing.sm,
     flexWrap: 'wrap',
   },
-  counter: { fontSize: font.body, fontWeight: '700', color: colors.text },
+  counter: { fontSize: font.body, fontFamily: fonts.bold, color: colors.text },
   progressTrack: { height: 4, backgroundColor: colors.border },
   progressFill: { height: '100%', backgroundColor: colors.accent },
   body: { padding: spacing.lg, gap: spacing.sm, paddingBottom: spacing.xxl },
@@ -375,7 +376,7 @@ const styles = StyleSheet.create({
     padding: spacing.md,
   },
   passageText: { fontSize: font.body, lineHeight: 23, color: colors.text },
-  question: { fontSize: 17, lineHeight: 25, fontWeight: '600', color: colors.text, marginVertical: spacing.sm },
+  question: { fontSize: 17, lineHeight: 25, fontFamily: fonts.semibold, color: colors.text, marginVertical: spacing.sm },
   option: {
     flexDirection: 'row',
     alignItems: 'flex-start',
@@ -399,11 +400,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   bubbleFilled: { backgroundColor: colors.primary, borderColor: 'transparent' },
-  bubbleText: { fontWeight: '700', color: colors.primary, fontSize: font.small },
+  bubbleText: { fontFamily: fonts.bold, color: colors.primary, fontSize: font.small },
   feedback: { borderRadius: radius.md, padding: spacing.md, gap: spacing.sm, borderLeftWidth: 4, marginTop: spacing.sm },
   feedbackOk: { backgroundColor: '#E3F3E9', borderLeftColor: colors.success },
   feedbackBad: { backgroundColor: colors.dangerSoft, borderLeftColor: colors.danger },
-  feedbackTitle: { fontSize: font.body, fontWeight: '700' },
+  feedbackTitle: { fontSize: font.body, fontFamily: fonts.bold },
   bottomBar: {
     flexDirection: 'row',
     gap: spacing.sm,
@@ -424,7 +425,7 @@ const styles = StyleSheet.create({
     borderColor: colors.primary,
   },
   navPrimary: { flex: 1, backgroundColor: colors.primary },
-  navText: { fontWeight: '600', color: colors.primary, fontSize: font.body },
+  navText: { fontFamily: fonts.semibold, color: colors.primary, fontSize: font.body },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 6, marginBottom: spacing.md },
   cell: {
     width: 40,
@@ -439,7 +440,7 @@ const styles = StyleSheet.create({
   cellRight: { backgroundColor: colors.success, borderColor: colors.success },
   cellWrong: { backgroundColor: colors.danger, borderColor: colors.danger },
   cellCurrent: { borderWidth: 2, borderColor: colors.accent },
-  cellText: { fontSize: font.small, color: colors.text, fontWeight: '600' },
-  score: { fontSize: 48, fontWeight: '800', color: colors.primary },
+  cellText: { fontSize: font.small, color: colors.text, fontFamily: fonts.semibold },
+  score: { fontSize: 48, fontFamily: fonts.heavy, color: colors.primary },
   subjectRow: { flexDirection: 'row', justifyContent: 'space-between' },
 });
