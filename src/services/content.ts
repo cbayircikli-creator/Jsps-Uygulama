@@ -2,7 +2,7 @@
 // yalnızca buradaki fonksiyonların içi değişir, ekranlar aynı kalır.
 import { announcements } from '../data/announcements';
 import { decisions } from '../data/decisions';
-import { exams } from '../data/exams';
+import { importedExams as exams } from '../data/exams';
 import { decks } from '../data/flashcards';
 import { legislation } from '../data/legislation';
 import type { RankGroupId } from '../data/types';

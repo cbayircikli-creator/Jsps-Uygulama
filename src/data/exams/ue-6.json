@@ -1,0 +1,2210 @@
+{
+ "id": "ue-6",
+ "title": "Uzman Erbaş Denemesi 6",
+ "durationMinutes": 120,
+ "ranks": [
+  "uzman-erbas"
+ ],
+ "questions": [
+  {
+   "id": "ue-6-1",
+   "subject": "Türkçe",
+   "text": "Birçok insan başarıyı yeteneğe bağlar ve kendisinde o yeteneğin olmadığını düşünerek daha başlamadan vazgeçer. Oysa uzun vadede fark yaratan, yetenekten çok her gün biraz daha ileri gitmeye razı olmaktır. Yetenek kapıyı aralayabilir; ama içeri girip kalmayı sağlayan, sabırla sürdürülen emektir.\n\nBu parçada asıl vurgulanmak istenen aşağıdakilerden hangisidir?",
+   "options": [
+    "Başarı tamamen doğuştan gelen yeteneğe bağlıdır.",
+    "Yeteneği olmayan kişi asla başarılı olamaz.",
+    "Yetenek her zaman çalışmaktan daha değerlidir.",
+    "Kalıcı başarıyı sabırlı ve düzenli emek sağlar.",
+    "İnsanlar başarısızlığı kabullenmelidir."
+   ],
+   "answerIndex": 3,
+   "explanation": "Parçanın “Oysa…” ile başlayan cümlesi ve son cümlesi ana düşünceyi verir: Yetenek başlangıçta yardımcı olabilir, ama kalıcı başarıyı sabırla sürdürülen emek getirir.",
+   "optionNotes": [
+    "Parça yeteneğin tek başına yetmediğini söyler.",
+    "Parça bunun tersini savunur.",
+    "Parça emeğin daha belirleyici olduğunu vurgular.",
+    "",
+    "Parçada böyle bir öneri yoktur."
+   ],
+   "source": "Paragrafta ana düşünce"
+  },
+  {
+   "id": "ue-6-2",
+   "subject": "Türkçe",
+   "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
+   "options": [
+    "Arkadaşına sürpriz bir ziyaret yaptı.",
+    "Eşofmanını giyip koşuya çıktı.",
+    "Şoför aracı yavaşça park etti.",
+    "Yanlış anlaşılmaya meydan vermedi.",
+    "Herkez içtimaya zamanında katıldı."
+   ],
+   "answerIndex": 4,
+   "explanation": "Doğru yazım “herkes”tir. “Herkez” sık yapılan bir yazım yanlışıdır. Benzer şekilde “yanlız” değil “yalnız”, “şöför” değil “şoför” yazılır.",
+   "optionNotes": [
+    "“Sürpriz” doğru yazılmıştır.",
+    "“Eşofman” doğru yazılmıştır.",
+    "“Şoför” doğru yazılmıştır.",
+    "“Yanlış” doğru yazılmıştır.",
+    ""
+   ],
+   "source": "Yazım kuralları (TDK)"
+  },
+  {
+   "id": "ue-6-3",
+   "subject": "Türkçe",
+   "text": "Aşağıdaki cümlelerin hangisinde ünlü düşmesine uğramış bir sözcük vardır?",
+   "options": [
+    "Ağzını açmadan dinledi.",
+    "Kitabı bir günde okuyup bitirdi.",
+    "Kardeşi akşam eve geldi.",
+    "Köyün yolu çok uzundu.",
+    "Gözünü bir an bile kapamadı."
+   ],
+   "answerIndex": 0,
+   "explanation": "Ünlü düşmesi: İkinci hecesinde dar ünlü bulunan bazı sözcükler ünlüyle başlayan ek aldığında bu ünlü düşer. “ağız → ağzı, burun → burnu, oğul → oğlu”.",
+   "optionNotes": [
+    "",
+    "“kitap → kitabı” ünsüz yumuşamasıdır.",
+    "Ünlü düşmesi yoktur.",
+    "Ünlü düşmesi yoktur.",
+    "Ünlü düşmesi yoktur."
+   ],
+   "source": "Ses bilgisi"
+  },
+  {
+   "id": "ue-6-4",
+   "subject": "Türkçe",
+   "text": "Aşağıdaki cümlelerin hangisinde koşul (şart) anlamı vardır?",
+   "options": [
+    "Sınavı kazanmak için gece gündüz çalıştı.",
+    "Kardeşi ondan daha çalışkandır.",
+    "Yağmur yağdığı için tatbikat ertelendi.",
+    "Erken çıkarsan otobüse yetişirsin.",
+    "Eve gelince hemen uyudu."
+   ],
+   "answerIndex": 3,
+   "explanation": "Koşul cümlelerinde bir yargının gerçekleşmesi başka bir yargıya bağlıdır; genellikle “-sa/-se” eki kullanılır. Otobüse yetişmek, erken çıkma koşuluna bağlıdır.",
+   "optionNotes": [
+    "Amaç-sonuç anlamı vardır.",
+    "Karşılaştırma anlamı vardır.",
+    "Neden-sonuç anlamı vardır.",
+    "",
+    "Zaman anlamı vardır."
+   ],
+   "source": "Cümlede anlam"
+  },
+  {
+   "id": "ue-6-5",
+   "subject": "Tarih",
+   "text": "Kurtuluş Savaşı'nda düzenli ordunun kazandığı ilk zafer aşağıdakilerden hangisidir?",
+   "options": [
+    "I. İnönü Muharebesi",
+    "Kütahya-Eskişehir Muharebeleri",
+    "Büyük Taarruz",
+    "Sakarya Meydan Muharebesi",
+    "II. İnönü Muharebesi"
+   ],
+   "answerIndex": 0,
+   "explanation": "I. İnönü Muharebesi (Ocak 1921), düzenli ordunun ilk zaferidir. Sonrasında Teşkilât-ı Esasiye Kanunu kabul edildi, İstiklal Marşı kabul edildi (Mart 1921) ve Londra Konferansı toplandı.",
+   "optionNotes": [
+    "",
+    "Bu muharebeler yenilgiyle sonuçlanmıştır.",
+    "1922'de kazanılan son büyük zaferdir.",
+    "I. ve II. İnönü'den sonra, 1921 yazında kazanılmıştır.",
+    "I. İnönü'den sonra, Mart-Nisan 1921'de kazanılmıştır."
+   ],
+   "source": "Kurtuluş Savaşı"
+  },
+  {
+   "id": "ue-6-6",
+   "subject": "Tarih",
+   "text": "TBMM döneminde kabul edilen ilk anayasa aşağıdakilerden hangisidir?",
+   "options": [
+    "Misak-ı Millî",
+    "1921 Teşkilât-ı Esasiye Kanunu",
+    "1961 Anayasası",
+    "1924 Teşkilât-ı Esasiye Kanunu",
+    "1876 Kanun-i Esasi"
+   ],
+   "answerIndex": 1,
+   "explanation": "1921 Teşkilât-ı Esasiye Kanunu, TBMM döneminin ilk anayasasıdır; millî egemenlik ilkesini ilk kez anayasal düzeyde ortaya koymuştur. 1924 Anayasası ise Cumhuriyet'in ilanından sonraki ilk anayasadır.",
+   "optionNotes": [
+    "Bir anayasa değil, millî sınırları belirleyen bir belgedir.",
+    "",
+    "Çok sonraki bir dönemin anayasasıdır.",
+    "Cumhuriyet döneminin ilk anayasasıdır; 1921'den sonradır.",
+    "Osmanlı Devleti'nin ilk anayasasıdır."
+   ],
+   "source": "İnkılap tarihi"
+  },
+  {
+   "id": "ue-6-7",
+   "subject": "Tarih",
+   "text": "Soyadı Kanunu hangi yıl kabul edilmiştir?",
+   "options": [
+    "1926",
+    "1928",
+    "1930",
+    "1934",
+    "1937"
+   ],
+   "answerIndex": 3,
+   "explanation": "Soyadı Kanunu 21 Haziran 1934'te kabul edildi. Aynı yıl TBMM, Mustafa Kemal'e “Atatürk” soyadını verdi. Lakap ve unvanların kaldırılması da 1934'tedir.",
+   "optionNotes": [
+    "Soyadı Kanunu 1934'te kabul edilmiştir.",
+    "Soyadı Kanunu 1934'te kabul edilmiştir.",
+    "Soyadı Kanunu 1934'te kabul edilmiştir.",
+    "Soyadı Kanunu 1934'te kabul edilmiştir.",
+    "Soyadı Kanunu 1934'te kabul edilmiştir."
+   ],
+   "source": "Atatürk ilke ve inkılapları"
+  },
+  {
+   "id": "ue-6-8",
+   "subject": "Tarih",
+   "text": "1926'da kabul edilen Türk Medeni Kanunu hangi ülkenin medeni kanunu örnek alınarak hazırlanmıştır?",
+   "options": [
+    "İsviçre",
+    "İtalya",
+    "Almanya",
+    "İngiltere",
+    "Fransa"
+   ],
+   "answerIndex": 0,
+   "explanation": "Türk Medeni Kanunu 17 Şubat 1926'da İsviçre Medeni Kanunu örnek alınarak kabul edildi. Bu kanunla tek eşlilik, resmî nikâh ve kadın-erkek eşitliği gibi düzenlemeler getirildi.",
+   "optionNotes": [
+    "",
+    "1926 Ceza Kanunu İtalya'dan alınmıştır; Medeni Kanun değil.",
+    "Türk Medeni Kanunu'nun kaynağı değildir.",
+    "Türk Medeni Kanunu'nun kaynağı değildir.",
+    "Türk Medeni Kanunu'nun kaynağı değildir."
+   ],
+   "source": "Atatürk ilke ve inkılapları"
+  },
+  {
+   "id": "ue-6-9",
+   "subject": "Tarih",
+   "text": "Maraş, Antep ve Urfa'da Kuva-yı Millîye'nin mücadele ettiği işgalci devlet hangisidir?",
+   "options": [
+    "İngiltere",
+    "Yunanistan",
+    "Fransa",
+    "Ermenistan",
+    "İtalya"
+   ],
+   "answerIndex": 2,
+   "explanation": "Güney cephesinde Maraş, Antep ve Urfa'da halk Kuva-yı Millîye ile Fransız işgaline karşı direndi. Bu nedenle Maraş'a “Kahramanlık”, Antep'e “Gazilik”, Urfa'ya “Şanlılık” unvanları verildi. Cephe, 1921 Ankara Antlaşması ile kapandı.",
+   "optionNotes": [
+    "Güney illerini önce işgal etmiş, sonra bölgeyi Fransa'ya bırakmıştır.",
+    "Batı Anadolu'yu işgal etmiştir.",
+    "",
+    "Doğu cephesinde mücadele edilmiştir.",
+    "Antalya ve çevresinde bulunmuştur."
+   ],
+   "source": "Kurtuluş Savaşı"
+  },
+  {
+   "id": "ue-6-10",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'nın kanun önünde eşitlik ilkesine göre aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Pozitif ayrımcılık tedbirleri eşitliğe aykırıdır.",
+    "Hiçbir kişi, aile veya sınıfa imtiyaz tanınamaz.",
+    "Kamu görevlilerine kanun önünde ayrıcalık tanınır.",
+    "Devlet organları eşitlik ilkesine bağlı değildir.",
+    "Kadınlar ve erkekler farklı haklara sahiptir."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 10: Herkes ayrım gözetilmeksizin kanun önünde eşittir. Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamaz. Kadınlar ve erkekler eşit haklara sahiptir; çocuklar, yaşlılar, engelliler için alınan tedbirler eşitliğe aykırı sayılmaz.",
+   "optionNotes": [
+    "Çocuklar, yaşlılar, engelliler için alınan tedbirler eşitliğe aykırı sayılmaz.",
+    "",
+    "Anayasa bu tür ayrıcalıkları yasaklar.",
+    "Devlet organları bu ilkeye uygun hareket etmek zorundadır.",
+    "Anayasa kadın ve erkeğin eşit haklara sahip olduğunu belirtir."
+   ],
+   "source": "1982 Anayasası md. 10"
+  },
+  {
+   "id": "ue-6-11",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre aşağıdakilerden hangisi TBMM'nin görev ve yetkilerinden biri değildir?",
+   "options": [
+    "Bakanları atamak",
+    "Savaş ilanına karar vermek",
+    "Kanun koymak, değiştirmek ve kaldırmak",
+    "Para basılmasına karar vermek",
+    "Bütçe ve kesin hesap kanunlarını kabul etmek"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 87: TBMM kanun koyar, bütçe ve kesin hesabı kabul eder, para basılmasına ve savaş ilanına karar verir, milletlerarası antlaşmaların onaylanmasını uygun bulur, genel ve özel af ilan eder. Bakanları ise Cumhurbaşkanı atar (md. 106).",
+   "optionNotes": [
+    "",
+    "TBMM'nin görevidir.",
+    "TBMM'nin temel görevidir.",
+    "TBMM'nin görevidir.",
+    "TBMM'nin görevidir."
+   ],
+   "source": "1982 Anayasası md. 87, 106"
+  },
+  {
+   "id": "ue-6-12",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre TBMM üyeleri kimi temsil eder?",
+   "options": [
+    "Cumhurbaşkanını",
+    "Bütün milleti",
+    "Yalnızca kendi partilerinin üyelerini",
+    "Yalnızca seçildikleri ili",
+    "Yalnızca kendilerine oy veren seçmenleri"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 80: TBMM üyeleri seçildikleri bölgeyi veya kendilerini seçenleri değil, bütün milleti temsil ederler ve milletin bütünlüğünü korumak için ant içerler.",
+   "optionNotes": [
+    "Milletvekilleri Cumhurbaşkanını temsil etmez.",
+    "",
+    "Anayasa bu sınırlamayı yapmaz.",
+    "Anayasa milletvekillerinin bütün milleti temsil ettiğini belirtir.",
+    "Anayasa bu sınırlamayı yapmaz."
+   ],
+   "source": "1982 Anayasası md. 80"
+  },
+  {
+   "id": "ue-6-13",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre Anayasa'da güvence altına alınmış temel hak ve özgürlüklerinden birinin kamu gücü tarafından ihlal edildiğini iddia eden kişi hangi kuruma bireysel başvuruda bulunabilir?",
+   "options": [
+    "Danıştay",
+    "Anayasa Mahkemesi",
+    "Hâkimler ve Savcılar Kurulu",
+    "Yargıtay",
+    "Kamu Denetçiliği Kurumu"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 148: Herkes, Anayasa'da güvence altına alınmış ve Avrupa İnsan Hakları Sözleşmesi kapsamındaki temel hak ve özgürlüklerinden birinin kamu gücü tarafından ihlal edildiği iddiasıyla Anayasa Mahkemesine başvurabilir. Başvuru için olağan kanun yollarının tüketilmiş olması gerekir.",
+   "optionNotes": [
+    "Bireysel başvuru mercii değildir.",
+    "",
+    "Bireysel başvuru mercii değildir.",
+    "Bireysel başvuru mercii değildir.",
+    "İdarenin işleyişiyle ilgili şikâyetleri inceler; bireysel başvuru mercii değildir."
+   ],
+   "source": "1982 Anayasası md. 148"
+  },
+  {
+   "id": "ue-6-14",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre Millî Güvenlik Kuruluna kim başkanlık eder?",
+   "options": [
+    "Millî Savunma Bakanı",
+    "TBMM Başkanı",
+    "Cumhurbaşkanı",
+    "Genelkurmay Başkanı",
+    "İçişleri Bakanı"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 118: Millî Güvenlik Kurulu, Cumhurbaşkanının başkanlığında Cumhurbaşkanı yardımcıları, Adalet, Millî Savunma, İçişleri, Dışişleri bakanları, Genelkurmay Başkanı ve kuvvet komutanlarından oluşur. Kurul, millî güvenlik politikasına ilişkin görüşlerini Cumhurbaşkanına bildirir.",
+   "optionNotes": [
+    "Kurulun üyesidir; başkanı değildir.",
+    "Kurulun üyesi değildir.",
+    "",
+    "Kurulun üyesidir; başkanı değildir.",
+    "Kurulun üyesidir; başkanı değildir."
+   ],
+   "source": "1982 Anayasası md. 118"
+  },
+  {
+   "id": "ue-6-15",
+   "subject": "Güncel",
+   "text": "Kasım 2025'te düzenlenen BM İklim Değişikliği Konferansı (COP30) hangi ülkede yapılmıştır?",
+   "options": [
+    "Birleşik Arap Emirlikleri",
+    "Brezilya",
+    "Türkiye",
+    "Azerbaycan",
+    "Mısır"
+   ],
+   "answerIndex": 1,
+   "explanation": "COP30, Kasım 2025'te Brezilya'nın Belém şehrinde yapıldı. Bir sonraki konferans COP31'e 2026'da Türkiye (Antalya) ev sahipliği yapmaktadır.",
+   "optionNotes": [
+    "2023'teki COP28'e ev sahipliği yaptı.",
+    "",
+    "Türkiye, 2026'daki COP31'e ev sahipliği yapmaktadır.",
+    "2024'teki COP29'a ev sahipliği yaptı.",
+    "2022'deki COP27'ye ev sahipliği yaptı."
+   ],
+   "source": "Güncel uluslararası ilişkiler"
+  },
+  {
+   "id": "ue-6-16",
+   "subject": "Güncel",
+   "text": "Mart 2025'te Kanada Başbakanı olarak göreve başlayan kişi kimdir?",
+   "options": [
+    "Stephen Harper",
+    "Pierre Poilievre",
+    "Justin Trudeau",
+    "Mark Carney",
+    "Chrystia Freeland"
+   ],
+   "answerIndex": 3,
+   "explanation": "Justin Trudeau'nun istifasının ardından Liberal Parti lideri seçilen Mark Carney, Mart 2025'te Kanada Başbakanı oldu ve Nisan 2025 seçimlerini kazandı.",
+   "optionNotes": [
+    "2006–2015 döneminde başbakandı.",
+    "Muhafazakâr Parti lideridir.",
+    "2015–2025 döneminde başbakandı.",
+    "",
+    "Eski başbakan yardımcısıdır."
+   ],
+   "source": "Güncel uluslararası ilişkiler"
+  },
+  {
+   "id": "ue-6-17",
+   "subject": "Güncel",
+   "text": "2025 Dünya Fuarı (Expo 2025) hangi şehirde düzenlenmiştir?",
+   "options": [
+    "Osaka",
+    "Riyad",
+    "Paris",
+    "İstanbul",
+    "Dubai"
+   ],
+   "answerIndex": 0,
+   "explanation": "Expo 2025, Nisan–Ekim 2025 tarihleri arasında Japonya'nın Osaka şehrinde düzenlendi.",
+   "optionNotes": [
+    "",
+    "Expo 2030'a ev sahipliği yapacak.",
+    "Expo 2025'in ev sahibi değildir.",
+    "Expo 2025'in ev sahibi değildir.",
+    "Expo 2020'ye ev sahipliği yaptı."
+   ],
+   "source": "Güncel kültür"
+  },
+  {
+   "id": "ue-6-18",
+   "subject": "Muhakeme",
+   "text": "81, 27, 9, 3, ?\n\nYukarıdaki sayı dizisinde soru işareti yerine aşağıdakilerden hangisi gelmelidir?",
+   "options": [
+    "1/9",
+    "1/3",
+    "1",
+    "2",
+    "3"
+   ],
+   "answerIndex": 2,
+   "explanation": "Her terim bir öncekinin üçte biridir: 81 ÷ 3 = 27, 27 ÷ 3 = 9, 9 ÷ 3 = 3, 3 ÷ 3 = 1.",
+   "optionNotes": [
+    "Kural ÷3'tür; 3 ÷ 3 = 1.",
+    "Kural ÷3'tür; 3 ÷ 3 = 1.",
+    "Kural ÷3'tür; 3 ÷ 3 = 1.",
+    "Kural ÷3'tür; 3 ÷ 3 = 1.",
+    "Kural ÷3'tür; 3 ÷ 3 = 1."
+   ],
+   "source": "Sayısal muhakeme"
+  },
+  {
+   "id": "ue-6-19",
+   "subject": "Muhakeme",
+   "text": "Bir baba 30, oğlu 6 yaşındadır. Kaç yıl sonra babanın yaşı oğlunun yaşının 3 katı olur?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8",
+    "10"
+   ],
+   "answerIndex": 2,
+   "explanation": "x yıl sonra: 30 + x = 3 × (6 + x) → 30 + x = 18 + 3x → 12 = 2x → x = 6. Kontrol: 6 yıl sonra baba 36, oğul 12 olur; 36 = 3 × 12.",
+   "optionNotes": [
+    "6 yıl sonra baba 36, oğul 12 olur.",
+    "6 yıl sonra baba 36, oğul 12 olur.",
+    "6 yıl sonra baba 36, oğul 12 olur.",
+    "6 yıl sonra baba 36, oğul 12 olur.",
+    "6 yıl sonra baba 36, oğul 12 olur."
+   ],
+   "source": "Yaş problemi"
+  },
+  {
+   "id": "ue-6-20",
+   "subject": "Muhakeme",
+   "text": "Ayşe, Banu ve Cem; Sivas, Tokat ve Yozgat'ta yaşamaktadır ve her biri farklı ildedir.\n• Ayşe Sivas'ta yaşamamaktadır.\n• Banu Tokat'ta yaşamaktadır.\n\nBuna göre Ayşe hangi ilde yaşamaktadır?",
+   "options": [
+    "Tokat",
+    "Kesin olarak belirlenemez",
+    "Cem ile aynı ilde",
+    "Sivas",
+    "Yozgat"
+   ],
+   "answerIndex": 4,
+   "explanation": "Banu Tokat'ta olduğuna göre Ayşe Sivas veya Yozgat'tadır. Ayşe Sivas'ta olmadığından Yozgat'tadır; Cem ise Sivas'tadır.",
+   "optionNotes": [
+    "Tokat'ta Banu yaşamaktadır.",
+    "Bilgiler kesin sonucu verir.",
+    "Her biri farklı ilde yaşamaktadır.",
+    "Ayşe'nin Sivas'ta yaşamadığı verilmiştir.",
+    ""
+   ],
+   "source": "Sözel mantık"
+  },
+  {
+   "id": "ue-6-21",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre olay yerinde işlemlerin yapılmasına engel olan kişiye karşı adli kolluk görevlisi nasıl bir sıra izler?",
+   "options": [
+    "Hiçbir şey yapmadan savcıyı bekler.",
+    "Doğrudan zor kullanır.",
+    "İkaz, uzaklaştırma, yakalama",
+    "Önce yakalar, sonra ikaz eder.",
+    "Doğrudan ve ikazsız yakalama yapar."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 6: Olay yerinde işlemlerin yapılmasına engel olan veya alınan tedbirlere aykırı davranan kişi işlemler sonuçlanıncaya kadar önce sözlü olarak ikaz edilir; uyulmazsa zor kullanılarak olay yerinden uzaklaştırılır; ısrarı hâlinde yakalanır.",
+   "optionNotes": [
+    "Yönetmelik kademeli müdahale öngörür.",
+    "Önce sözlü ikaz yapılır.",
+    "",
+    "Sıra ikaz, uzaklaştırma, yakalama şeklindedir.",
+    "Önce sözlü ikaz yapılır."
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 6"
+  },
+  {
+   "id": "ue-6-22",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre önleme araması için hâkimin verdiği karara karşı kim kanun yoluna başvurabilir?",
+   "options": [
+    "Arama yapılacak yerin muhtarı",
+    "Mülki amir",
+    "Kolluk amiri",
+    "Belediye başkanı",
+    "Cumhuriyet savcısı"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 20: Kolluk tehlikeyi gösteren belirlemeleri gerekçeleriyle mülki amire yazılı iletir. Mülki amir uygun bulursa hâkimden karar ister, gecikmesinde sakınca varsa yazılı emir verir. Hâkim kararlarına karşı mülki amir kanun yollarına başvurabilir.",
+   "optionNotes": [
+    "Muhtarın böyle bir yetkisi yoktur.",
+    "",
+    "Yönetmelik bu yetkiyi mülki amire verir.",
+    "Belediye başkanının böyle bir yetkisi yoktur.",
+    "Önleme araması idari nitelikte olduğundan yetki mülki amirdedir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 20"
+  },
+  {
+   "id": "ue-6-23",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre adli kolluğun öncelikli görevi nedir?",
+   "options": [
+    "Yalnızca işlenmiş suçların faillerini yakalamak",
+    "Karşılaştığı suçun işlenmesini önlemek",
+    "Ceza infaz kurumlarının iç güvenliğini sağlamak",
+    "Mülki amirin idari kararlarını uygulamak",
+    "Mahkeme kararlarını infaz etmek"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 5: Adli kolluk bağlı bulunduğu kolluk teşkilatının bir parçasıdır ve öncelikli görevi karşılaştığı suçun işlenmesini önlemektir. Adli görevler dışındaki hizmetlerde üstlerinin emrindedir.",
+   "optionNotes": [
+    "Öncelikli görev suçun işlenmesini önlemektir.",
+    "",
+    "Bu adli kolluğun görevi değildir.",
+    "Bu, adli değil mülki bir görevdir.",
+    "Yönetmelikte öncelikli görev olarak sayılmaz."
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 5"
+  },
+  {
+   "id": "ue-6-24",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre tutuklu ve hükümlülerin sevk ve naklinde hareket zamanı nasıl belirlenir?",
+   "options": [
+    "Her zaman sabah saat 06.00'da",
+    "Hükümlünün tercih ettiği saatte",
+    "Gündüz varılacak şekilde",
+    "Gidilecek yere gece varılacak şekilde",
+    "Trafiğin en az olduğu gece yarısında"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 33: Sevk ve nakillerde gidilecek yere gündüz varılacak şekilde hareket edilir. Zorunlu konaklamalarda tutuklu ve hükümlüler öncelikle il veya ilçe merkezlerindeki ceza infaz kurumlarında, zorunluluk varsa jandarma birimlerinin emniyet odalarında kalır.",
+   "optionNotes": [
+    "Yönetmelikte sabit saat yoktur.",
+    "Hükümlünün tercihi belirleyici değildir.",
+    "",
+    "Yönetmelik gündüz varışı öngörür.",
+    "Yönetmelik gündüz varışı öngörür."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 33"
+  },
+  {
+   "id": "ue-6-25",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre Jandarma Genel Komutanlığınca soruşturma yapmak üzere adli kolluk personeli hangi yerlerde görevlendirilir?",
+   "options": [
+    "Hiçbir yerde; adli kolluk yalnızca polistir",
+    "Yalnızca jandarma bölge komutanlıklarında",
+    "Tam teşekküllü karakol bulunan yerlerde",
+    "Yalnızca adliye binalarında",
+    "Yalnızca il merkezlerinde"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 4: Emniyet asgarî tam teşekküllü polis karakolu, Jandarma asgarî tam teşekküllü jandarma karakolu, Sahil Güvenlik asgarî bot komutanlığı bulunan yerlerde imkânlar ölçüsünde yeterli adli kolluk personeli görevlendirir.",
+   "optionNotes": [
+    "Jandarma da adli kolluk görevlendirir.",
+    "Yönetmelik karakol düzeyini esas alır.",
+    "",
+    "Yönetmelik karakol düzeyini esas alır.",
+    "Yönetmelik karakol düzeyini esas alır."
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 4"
+  },
+  {
+   "id": "ue-6-26",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre akıl hastalığı nedeniyle işlediği fiilin hukuki anlam ve sonuçlarını algılayamayan kişi hakkında ne yapılır?",
+   "options": [
+    "Cezası, algılama düzeyine göre yarı oranında indirilir.",
+    "Normal şekilde cezalandırılır.",
+    "Hiçbir tedbir uygulanmaz.",
+    "Ceza verilmez; güvenlik tedbirine hükmolunur.",
+    "Yalnızca adli para cezası verilir."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 32/1: Akıl hastalığı nedeniyle fiilin hukuki anlam ve sonuçlarını algılayamayan veya davranışlarını yönlendirme yeteneği önemli derecede azalmış kişiye ceza verilmez; ancak güvenlik tedbirine hükmolunur. Yeteneği daha az azalmışsa ceza indirilir.",
+   "optionNotes": [
+    "Algılama yeteneği tamamen yoksa ceza verilmez.",
+    "Kusur yeteneği olmadığından ceza verilmez.",
+    "Güvenlik tedbirine hükmolunur.",
+    "",
+    "Ceza verilmez; güvenlik tedbiri uygulanır."
+   ],
+   "source": "5237 sayılı Kanun md. 32"
+  },
+  {
+   "id": "ue-6-27",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre aşağıdaki hâllerin hangisinde jandarma sorumluluk alanı dışında görev yaptığı yer jandarmanın görev alanı sayılır?",
+   "options": [
+    "Olayın gece saatlerinde meydana gelmesi",
+    "Mağdurun jandarmaya başvurmayı tercih etmesi",
+    "Polis teşkilatının kurulmamış olması",
+    "Valinin sözlü talebi olmadan polisin yoğun olması",
+    "Jandarma personelinin o bölgede ikamet etmesi"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 9: Polis teşkilatı kurulmamışsa, özel kolluğun alanında jandarmayı ilgilendiren suç işlenmişse veya özel kolluğun yokluğundan doğan ihlaller varsa jandarma görevlendirilir veya kendiliğinden el koyar; bu yer jandarmanın görev alanı sayılır.",
+   "optionNotes": [
+    "Saat görev alanı belirlemez.",
+    "Mağdurun tercihi görev alanı belirlemez.",
+    "",
+    "Yönetmelikte böyle bir hâl sayılmamıştır.",
+    "İkamet görev alanı belirlemez."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 9"
+  },
+  {
+   "id": "ue-6-28",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre konferans salonu, yemekhane ve kütüphane gibi yerlere girişte nasıl davranılır?",
+   "options": [
+    "Şapkayla girilir ve selam verilmez.",
+    "Bu yerlerde selamlama yasaktır.",
+    "Yalnızca rütbece büyük olan varsa selam verilir.",
+    "Başı açık girilir ve selam verilir.",
+    "Girerken selam verilir, çıkarken verilmez."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 18/14: Konferans salonu, gazino, kütüphane, dershane, yemekhane gibi yerlere başı açık girilir ve karşılık beklenmeden içeridekiler selamlanır; çıkarken de aynı selamlama yapılır. Servis araçlarında da aynı kurallar geçerlidir.",
+   "optionNotes": [
+    "Başı açık girilir ve selam verilir.",
+    "Bu yerlerde de selamlama yapılır.",
+    "İçeridekiler karşılık beklenmeden selamlanır.",
+    "",
+    "Çıkarken de aynı selamlama yapılır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 18"
+  },
+  {
+   "id": "ue-6-29",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre aşağıdaki aramaların hangisinde tanık bulundurulması gerekmez?",
+   "options": [
+    "Şüphelinin eklentilerinde yapılan aramada",
+    "Şüphelinin konutunda gündüz yapılan aramada",
+    "Başkasına ait konutta yapılan aramada",
+    "Şüphelinin iş yerinde yapılan aramada",
+    "Gece bar ve kıraathane aramalarında"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 30: Aranan yerin sahibi veya zilyedi hazır bulunabilir; yoksa temsilcisi, hısmı, birlikte oturan biri veya komşusu bulundurulur. Geceleyin herkesin girip çıkabileceği lokanta, bar, pavyon, gazino, meyhane, kıraathane gibi yerlerin aranmasında tanık bulundurulması gerekmez.",
+   "optionNotes": [
+    "Sahibi veya yerine çağrılan kişi hazır bulundurulur.",
+    "Sahibi yoksa temsilcisi, hısmı veya komşusu bulundurulur.",
+    "Zilyede bilgi verilir ve hazır bulunması sağlanır.",
+    "Sahibi veya yerine çağrılan kişi hazır bulundurulur.",
+    ""
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 30"
+  },
+  {
+   "id": "ue-6-30",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre adli kolluk görevlilerinin özlük hakları kim tarafından yürütülür?",
+   "options": [
+    "Adalet Bakanlığı tarafından",
+    "Cumhuriyet başsavcılığı tarafından",
+    "Bağlı oldukları teşkilat tarafından",
+    "Mahallin mülki amiri tarafından",
+    "Hâkimler ve Savcılar Kurulu tarafından"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 5/b: Adli kolluk görevlilerinin özlük hakları bağlı oldukları teşkilat (jandarma için Jandarma Genel Komutanlığı) tarafından yürütülür.",
+   "optionNotes": [
+    "Özlük hakları bağlı olunan teşkilatça yürütülür.",
+    "Başsavcılık değerlendirme raporu düzenler; özlük işlerini yürütmez.",
+    "",
+    "Özlük hakları bağlı olunan teşkilatça yürütülür.",
+    "Kurulun böyle bir görevi yoktur."
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 5"
+  },
+  {
+   "id": "ue-6-31",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre aşağıdakilerden hangisi “kolluk” tanımına girmez?",
+   "options": [
+    "Gümrük muhafaza görevlileri",
+    "Sahil güvenlik",
+    "Polis",
+    "Belediye zabıtası",
+    "Jandarma"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 4: Kolluk; jandarma, polis, sahil güvenlik ve gümrük muhafaza görevlilerini ifade eder. Belediye zabıtası bu tanımda yer almaz.",
+   "optionNotes": [
+    "Tanımda sayılır.",
+    "Tanımda sayılır.",
+    "Tanımda sayılır.",
+    "",
+    "Tanımda sayılır."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 4"
+  },
+  {
+   "id": "ue-6-32",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre personel servis araçlarından personelin aileleri hangi şartla yararlanabilir?",
+   "options": [
+    "Boş yer varsa, güzergâh değişmeden",
+    "Her zaman öncelikli olarak",
+    "Hiçbir şekilde yararlanamaz",
+    "Ücret ödemek şartıyla istikamet değiştirilerek",
+    "Yalnızca bayram günlerinde"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 30/2: Servis araçlarından ancak boş yer bulunduğu takdirde ve seyir istikameti değiştirilmemek şartıyla personelin aileleri de yararlanabilir.",
+   "optionNotes": [
+    "",
+    "Ancak boş yer varsa yararlanabilir.",
+    "Belirli şartlarla yararlanabilir.",
+    "İstikamet değiştirilmez.",
+    "Yönetmelikte böyle bir sınırlama yoktur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 30"
+  },
+  {
+   "id": "ue-6-33",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre şüphelinin kullandığı bilgisayarda arama yapılması ve kayıtlarından kopya alınması hangi şartla mümkündür?",
+   "options": [
+    "Mülki amirin onayıyla",
+    "Kolluk amirinin yazılı emriyle her zaman",
+    "Başka delil yoksa hâkim kararıyla",
+    "Yalnızca terör suçlarında",
+    "Şüphelinin rızası olmadan hiçbir şekilde"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 17: Başka surette delil elde etme imkânı bulunmuyorsa savcının istemi üzerine hâkim kararıyla bilgisayar araması yapılır. El koymada tüm veriler yedeklenir ve yedeğin bir kopyası şüpheliye veya vekiline verilir.",
+   "optionNotes": [
+    "Yönetmelik hâkim kararını şart koşar.",
+    "Bilgisayar araması için hâkim kararı gerekir.",
+    "",
+    "Yönetmelik suç türü sınırlaması yapmaz.",
+    "Hâkim kararıyla rıza aranmaksızın yapılabilir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 17"
+  },
+  {
+   "id": "ue-6-34",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre kamu ve özel hukuk tüzel kişilerine ait kurum ve kuruluşların kendi tesislerinin iç güvenliği kim tarafından sağlanır?",
+   "options": [
+    "Belediye zabıtası tarafından",
+    "Kurumların kendisince",
+    "Her durumda polis tarafından",
+    "Mahalle bekçileri tarafından",
+    "Her durumda jandarma tarafından"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 9/2: Kamu ve özel hukuk tüzel kişilerine ait kurumların kendi tesis ve yapılarının iç güvenliği bu kurumlarca kendi mevzuatlarına göre yürütülür. Özel hâllerde geçici koruma ve kollama görevi verilmesi konusunda mülki amirin yetkisi saklıdır.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir görev öngörülmemiştir.",
+    "",
+    "Kural olarak kurumların kendisince sağlanır.",
+    "Yönetmelikte böyle bir görev öngörülmemiştir.",
+    "Kural olarak kurumların kendisince sağlanır."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 9"
+  },
+  {
+   "id": "ue-6-35",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre herkesin girip çıkabileceği kamuya açık alanlarda olay yeri inceleme işlemi için ne gerekir?",
+   "options": [
+    "Mülki amirin onayı gerekir.",
+    "Herhangi bir emir veya karar gerekmez.",
+    "Cumhuriyet savcısının yazılı emri gerekir.",
+    "Hâkim kararı gerekir.",
+    "Mahalle muhtarının hazır bulunması gerekir."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 9: Kamuya açık alanlarda olay yeri inceleme için emir veya karar gerekmez. Diğer yerlerde ise hâkim kararı, gecikmesinde sakınca varsa savcının, ona ulaşılamazsa konut, iş yeri ve kapalı alanlar dışında kolluk amirinin yazılı emri gerekir.",
+   "optionNotes": [
+    "Kamuya açık alanlarda emir veya karar gerekmez.",
+    "",
+    "Kamuya açık alanlarda emir veya karar gerekmez.",
+    "Kamuya açık alanlarda emir veya karar gerekmez.",
+    "Yönetmelikte böyle bir şart yoktur."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 9"
+  },
+  {
+   "id": "ue-6-36",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre muhafaza altına alınan ve ıslah veya tedavi kurumuna götürülmesi gereken kişi ilgili kurumca teslim alınmazsa ne yapılır?",
+   "options": [
+    "Kişi kolluk nezarethanesinde süresiz tutulur.",
+    "Kişi doğrudan tutuklanır.",
+    "Kişi başka bir ile gönderilir.",
+    "Tutanak düzenlenir ve bir sureti mülki amire gönderilir.",
+    "Kurum yöneticisi hakkında derhâl gözaltı işlemi yapılır."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 6: Muhafaza altına alınan kişilerden ıslah veya tedavi kurumuna götürülmesi gerekenlerin ilgili kurumlarca teslim alınması sağlanır. Teslim alınmazsa durum tutanakla tespit edilir ve tutanağın bir sureti mülki amire gönderilir.",
+   "optionNotes": [
+    "Yönetmelik tutanak ve bildirim öngörür.",
+    "Muhafaza altına alınan kişi suç şüphelisi değildir.",
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "",
+    "Yönetmelik tutanak düzenlenmesini öngörür."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 6"
+  },
+  {
+   "id": "ue-6-37",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre karargâh, birlik ve kurumlarda rütbeli personel ve erlerin yoklaması kural olarak ne zaman yapılır?",
+   "options": [
+    "Yalnızca mesai bitiminde",
+    "Ayda bir kez",
+    "Haftada bir kez",
+    "Yalnızca tatil dönüşlerinde",
+    "Mesai başlangıcında"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 25: Mesai başlangıcında rütbeli personel ve erlerin yoklaması yapılır. Kışlada kalanların yoklaması nöbetçi heyetince alınır; gerektiğinde birlik komutanı veya nöbetçi âmirinin emriyle de yoklama alınabilir.",
+   "optionNotes": [
+    "Yönetmelik mesai başlangıcını öngörür.",
+    "Yönetmelik mesai başlangıcını öngörür.",
+    "Yönetmelik mesai başlangıcını öngörür.",
+    "Yönetmelik mesai başlangıcını öngörür.",
+    ""
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 25"
+  },
+  {
+   "id": "ue-6-38",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre görevini yaptığı sırada jandarmaya direnen veya zor kullanarak karşı koyan kişi hakkında ne yapılır?",
+   "options": [
+    "Durum yalnızca mülki amire bildirilir.",
+    "Doğrudan tutuklanır.",
+    "Yalnızca sözlü uyarıyla yetinilir.",
+    "Kişiye yalnızca idari para cezası kesilir.",
+    "Yakalanır; savcıya derhâl bilgi verilir."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 44/2: Görevini yaptığı sırada jandarmaya direnen veya zor kullanarak karşı koyanlar jandarma tarafından yakalanır. Yakalanan kişi ve olay hakkında Cumhuriyet savcısına derhâl bilgi verilerek emri doğrultusunda işlem yapılır.",
+   "optionNotes": [
+    "Bildirim Cumhuriyet savcısına yapılır.",
+    "Tutuklama hâkim kararıyla olur.",
+    "Yönetmelik yakalamayı öngörür.",
+    "Yönetmelik yakalamayı öngörür.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 44"
+  },
+  {
+   "id": "ue-6-39",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre durdurulan kişinin kolluk görevlisinin sorularına cevap verme yükümlülüğü hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Cevap vermezse doğrudan gözaltına alınır.",
+    "Tüm sorulara cevap vermek zorundadır.",
+    "Yalnız kimlik sorularına cevap vermelidir.",
+    "Hiçbir soruya cevap vermek zorunda değildir.",
+    "Ancak müdafii gelirse cevap verir."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 27: Kolluk, kimliğini gösterdikten sonra durdurma sebebini bildirir, sorular sorabilir ve kimlik isteyebilir. Kişi, kimliğine ilişkin olanlar hariç sorulan sorulara cevap vermekle yükümlü değildir. Durdurma için “umma” derecesinde makul şüphe gerekir.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "Kişi kimlik dışındaki sorulara cevap vermekle yükümlü değildir.",
+    "",
+    "Kimliğe ilişkin sorulara cevap vermek zorundadır.",
+    "Durdurmada müdafi şartı yoktur."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 27"
+  },
+  {
+   "id": "ue-6-40",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre gözaltına alınan kişilerin adli makamlar önüne çıkarılıncaya kadarki yeme, içme ve nakil masrafları nereden karşılanır?",
+   "options": [
+    "Gözaltına alınan kişinin kendisinden",
+    "Mağdurun ödediği harçlardan",
+    "Belediye bütçesinden",
+    "JGK bütçesinden",
+    "Cumhuriyet başsavcılığı bütçesinden"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 40: Gözaltına alınan kişilerin adli makamlar önüne çıkarılıncaya kadarki yeme, içme ve nakil masrafları ile JGK taşıtlarıyla yapılan sevklerin yakıt masrafları Jandarma Genel Komutanlığı bütçesinden ödenir.",
+   "optionNotes": [
+    "Bu masraflar kişiye yükletilmez.",
+    "Yönetmelikte böyle bir kaynak yoktur.",
+    "Yönetmelik JGK bütçesini gösterir.",
+    "",
+    "Yönetmelik JGK bütçesini gösterir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 40"
+  },
+  {
+   "id": "ue-6-41",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre özel işletmelerin girişlerindeki güvenlik kontrolleri hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Bu kontroller yalnızca polis tarafından yapılabilir.",
+    "Kontrolü kabul etmeyen kişi zorla aranır.",
+    "Kontrol için mülki amirin yazılı emri gerekir.",
+    "Kontrol için hâkim kararı gerekir.",
+    "Rızaya bağlıdır; kabul etmeyen giremez."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 25: Özel işletme, kurum veya teşebbüslerin girişlerindeki kontroller buraya girmek isteyenlerin rızasına bağlıdır. Kontrolü kabul etmeyenler bu yerlere giremez. Kontrol esasen özel güvenlik görevlilerince yapılır.",
+   "optionNotes": [
+    "Esasen özel güvenlik görevlilerince yapılır.",
+    "Kabul etmeyen yalnızca içeri giremez.",
+    "Rızaya bağlı bir kontroldür.",
+    "Rızaya bağlı bir kontroldür.",
+    ""
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 25"
+  },
+  {
+   "id": "ue-6-42",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre “sır saklama” vasfına göre personel nasıl davranmalıdır?",
+   "options": [
+    "Göreve ait bilgileri sosyal medyada genel ifadelerle paylaşabilir.",
+    "Göreve ait bilgileri yalnızca ailesiyle paylaşabilir.",
+    "Göreve ait bilgileri yakın arkadaşlarına anlatabilir.",
+    "Göreve ait hususlarda hiç kimseye sır vermemelidir.",
+    "Göreve ait bilgileri abartarak anlatabilir."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 19/4-ğ: Personel her yerde kötü niyetlilerin bulunabileceğini kabul ederek görev ve göreve ait hususlarda hiç kimseye sır vermemeli, mesleğine ilişkin söz sarf etmemeli ve bilgileri abartarak yaymaktan sakınmalıdır.",
+   "optionNotes": [
+    "Mesleğe ilişkin söz sarf edilmez.",
+    "Hiç kimseye sır verilmez.",
+    "Hiç kimseye sır verilmez.",
+    "",
+    "Abartarak yaymaktan sakınılır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 19"
+  },
+  {
+   "id": "ue-6-43",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre aşağıdakilerden hangisi adli arama talep, karar veya emrinde gösterilmesi gereken hususlardan biridir?",
+   "options": [
+    "Bulunacak eşyaya el konulup konulmayacağı",
+    "Aramanın kaç kişiyle yapılacağı",
+    "Aranacak kişinin eğitim durumu",
+    "Aramayı yapacak görevlilerin sicil numaraları",
+    "Aranacak kişinin mesleği"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 7: Arama talep, karar veya emrinde aramanın nedenini oluşturan fiil, aranacak kişi, yer veya eşya, karar ya da emrin geçerli olacağı süre ve aranacak eşya bulunursa el konulup konulmayacağı açıkça gösterilir.",
+   "optionNotes": [
+    "",
+    "Gösterilmesi gerekmez.",
+    "Gösterilmesi gerekmez.",
+    "Bunlar karar veya emirde değil, tutanakta yer alır.",
+    "Gösterilmesi gerekmez."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 7"
+  },
+  {
+   "id": "ue-6-44",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre Devlet tarafından bedelsiz ve emanet olarak verilen malzeme hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Bu tür satışları gören personelin bildirme yükümlülüğü yoktur.",
+    "Personel ihtiyaç duyarsa satabilir.",
+    "Personel malzemenin şeklini isteğine göre değiştirebilir.",
+    "Kullanılmayan malzeme kiraya verilebilir.",
+    "Satılamaz, kiralanamaz, başkasına verilemez."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 21/3: Personel kendisine bedelsiz ve emanet olarak verilen Devlet malını satamaz, kiralayamaz veya başkasının istifadesine sunamaz; şeklinde değişiklik yapamaz. Böyle bir işe kalkışanları duyarsa âmirine derhâl haber verir.",
+   "optionNotes": [
+    "Âmirine derhâl haber vermek zorundadır.",
+    "Yönetmelik bunu açıkça yasaklar.",
+    "Kendiliğinden ilave ve değişiklik yapılamaz.",
+    "Yönetmelik bunu açıkça yasaklar.",
+    ""
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 21"
+  },
+  {
+   "id": "ue-6-45",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre aşağıdakilerden hangisinde ayrıca bir arama emri veya kararı aranmaz?",
+   "options": [
+    "Bir şüphelinin iş yerinin aranması",
+    "Bir şüphelinin bilgisayarının incelenmesi",
+    "Bir şüphelinin özel kâğıtlarının incelenmesi",
+    "Nezarethaneye konmadan önceki üst araması",
+    "Bir şüphelinin konutunun aranması"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 8: Yakalanan kişinin zarar vermesini önlemek için yapılan kaba üst araması, gözaltına alınan kişinin nezarethaneye konmadan önceki üst araması ve kaçmakta olan kişinin takibi sırasında girdiği yerde yakalanması amacıyla yapılan arama gibi hâllerde ayrıca arama emri veya kararı aranmaz.",
+   "optionNotes": [
+    "Kural olarak hâkim kararı veya savcının yazılı emri gerekir.",
+    "Hâkim kararı gerekir.",
+    "İnceleme yetkisi savcı ve hâkime aittir.",
+    "",
+    "Kural olarak hâkim kararı veya savcının yazılı emri gerekir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 8"
+  },
+  {
+   "id": "ue-6-46",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre önleme aramasının sonucu nasıl bildirilir?",
+   "options": [
+    "Hiçbir bildirim yapılmaz",
+    "Emri veren makama tutanakla",
+    "Yalnızca aranan kişiye",
+    "Basın açıklamasıyla kamuoyuna",
+    "Yalnızca sözlü olarak bölük komutanına"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 47/8: Önleme aramasının sonucu, arama kararı veya emri veren merci ya da makama bir tutanakla bildirilir.",
+   "optionNotes": [
+    "Sonuç bildirilmek zorundadır.",
+    "",
+    "Bildirim karar veya emri veren makama yapılır.",
+    "Yönetmelikte böyle bir usul yoktur.",
+    "Yönetmelik tutanakla bildirimi öngörür."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 47"
+  },
+  {
+   "id": "ue-6-47",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre bir âmir veya üst, astın bulunduğu yere geldiğinde ne yapılır?",
+   "options": [
+    "Ayağa kalkılıp esas duruşa geçilir.",
+    "Âmir konuşmaya başlayınca ayağa kalkılır.",
+    "Yalnızca subaylar için ayağa kalkılır.",
+    "Oturulduğu yerden selam verilir.",
+    "Esas duruş, âmir bakmadığında bozulabilir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 17/2: Âmir veya üst, astın bulunduğu yere gelirse derhâl ayağa kalkılır ve esas duruşa geçilir. Âmir “otur” veya “rahat” komutunu vermeden esas duruş bozulmaz. Devlet memurları esas duruşa geçmez ama saygılı duruş sergiler.",
+   "optionNotes": [
+    "",
+    "Âmir gelir gelmez ayağa kalkılır.",
+    "Kural tüm âmir ve üstler için geçerlidir.",
+    "Derhâl ayağa kalkılır ve esas duruşa geçilir.",
+    "Komut verilmeden esas duruş bozulmaz."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 17"
+  },
+  {
+   "id": "ue-6-48",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre “suçun veya tehlikelerin önlenmesi amacıyla ya da delil olabileceği veya müsadereye tâbi olduğu için, bir eşya üzerinde rızası olmamasına rağmen zilyedin tasarruf yetkisinin kaldırılması” işlemi aşağıdakilerden hangisidir?",
+   "options": [
+    "Müsadere",
+    "El koyma",
+    "Arama",
+    "Koruma altına alma",
+    "Durdurma"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 4: El koyma, rıza olmamasına rağmen zilyedin tasarruf yetkisinin kaldırılmasıdır. Koruma altına alma ise eşyanın zilyedince kendiliğinden verilmesi veya el konulana kadar geçici olarak alıkonulmasıdır.",
+   "optionNotes": [
+    "Mahkeme kararıyla mülkiyetin Devlete geçmesidir.",
+    "",
+    "Kişi, eşya veya yerin araştırılması işlemidir.",
+    "Eşyanın zilyedince kendiliğinden verilmesi veya el konulana kadar geçici alıkonulmasıdır.",
+    "Kişi veya aracın kısa süreli durdurulmasıdır."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 4"
+  },
+  {
+   "id": "ue-6-49",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre polis teşkilatı bulunmayan yerlerde, başkalarına saldırma ihtimali olan akıl hastasının sevkinde jandarmanın görevi nedir?",
+   "options": [
+    "Hastanın tedavisini yaptırmak",
+    "Hastayı nezarethanede tutmak",
+    "Yalnızca saldırıyı önlemek",
+    "Hiçbir görevi yoktur",
+    "Hastanın tüm sevk masraflarını karşılamak"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 15/3: Polis teşkilatı olmayan yerlerde sevki gerekli görülen akıl hastalarının başkalarına saldırma ihtimali varsa, sevkten sorumlu olmamak ve yalnızca saldırıya engel olmak amacıyla sevk görevi jandarmaca yerine getirilir.",
+   "optionNotes": [
+    "Tedavi sağlık kuruluşlarının görevidir.",
+    "Hasta suç şüphelisi değildir.",
+    "",
+    "Saldırıyı önleme amacıyla sevk görevi vardır.",
+    "Yönetmelikte böyle bir görev yoktur."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 15"
+  },
+  {
+   "id": "ue-6-50",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre giysiler çıkartılarak yapılan üst aramasıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Arama farklı cinsiyetten görevlice yapılabilir.",
+    "Aramanın nedeni kişiye açıklanmaz.",
+    "Tüm giysiler aynı anda çıkartılır.",
+    "Arama kamuya açık bir yerde yapılır.",
+    "Önce üst, sonra alt giysiler çıkartılır."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 28: Giysi çıkartarak arama ancak makul şüphe varsa ve amaca başka yolla ulaşılamıyorsa yapılır. Nedeni birimin en üst kolluk amirince bildirilir; aynı cinsiyetten görevlilerce, kimse görmeden yapılır; önce üst giysiler, bunlar giyildikten sonra alt giysiler çıkartılır ve bedene dokunulmamaya özen gösterilir.",
+   "optionNotes": [
+    "Aynı cinsiyetten görevlilerce yapılır.",
+    "En üst kolluk amiri nedenini ve yapılış şeklini kişiye bildirir.",
+    "Önce üst kısım çıkarılır; o giyildikten sonra alt kısım çıkarılır.",
+    "Kimsenin görmemesini sağlayacak tedbirler alınır.",
+    ""
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 28"
+  },
+  {
+   "id": "ue-6-51",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK ve Yakalama Yönetmeliği'ne göre şüpheli, ifadesinin alınması sırasında hangi sorulara doğru cevap vermekle yükümlüdür?",
+   "options": [
+    "Hiçbir soruya cevap vermekle yükümlü değildir",
+    "Olayın oluş şekline ilişkin sorulara",
+    "Kimliğine ilişkin sorulara",
+    "Suç ortaklarına ilişkin sorulara",
+    "Yüklenen suçla ilgili tüm sorulara"
+   ],
+   "answerIndex": 2,
+   "explanation": "CMK md. 147 ve Yakalama Yönetmeliği md. 23: Şüphelinin kimliği saptanır ve şüpheli kimliğine ilişkin soruları doğru olarak cevaplandırmakla yükümlüdür. Yüklenen suç hakkında ise açıklama yapmama (susma) hakkı vardır.",
+   "optionNotes": [
+    "Kimlik sorularına doğru cevap vermek zorundadır.",
+    "Susma hakkı vardır.",
+    "",
+    "Susma hakkı vardır.",
+    "Susma hakkı vardır."
+   ],
+   "source": "5271 sayılı Kanun md. 147; Yakalama Yönetmeliği md. 23"
+  },
+  {
+   "id": "ue-6-52",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre bina, müştemilat ve araç dışında şapka kullanımıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Şapka giymek tamamen isteğe bağlıdır.",
+    "Şapka, kep veya bere giyilmesi zorunludur.",
+    "Şapka yalnızca törenlerde giyilir.",
+    "Araç içinde de şapka çıkarılamaz.",
+    "Kışla içinde her yerde şapkasız dolaşılabilir."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 15/9-e ve f: Bina, müştemilat ve araç dışında görevin özelliğine göre şapka, kep, bere veya örgü başlık giyilmesi zorunludur. Kışlada en büyük âmirin izin verdiği alanlarda şapkasız dolaşılabilir; araç içinde şapka çıkarılabilir.",
+   "optionNotes": [
+    "Bina ve araç dışında zorunludur.",
+    "",
+    "Bina ve araç dışında zorunludur.",
+    "Araçta resmî kıyafetle yolculukta şapka çıkarılabilir.",
+    "Yalnızca en büyük âmirin izin verdiği alanlarda şapkasız dolaşılabilir."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 15"
+  },
+  {
+   "id": "ue-6-53",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre her kolluk biriminde aramalarla ilgili olarak ne tutulur?",
+   "options": [
+    "Herhangi bir kayıt tutulmaz",
+    "Arama yapılan evlerin fotoğraf arşivi",
+    "Yalnızca başarılı aramaların listesi",
+    "Arama kayıt defteri",
+    "Aranan kişilerin parmak izi albümü"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 33: Her kolluk biriminde aramalara ilişkin karar, yazılı emir ve diğer bilgilerin kaydedileceği bir defter tutulur. Bu bilgiler adli ve idari soruşturmalar, ilgilinin talepleri ve istatistik dışında kullanılamaz; defter bilgisayar ortamında da tutulabilir.",
+   "optionNotes": [
+    "Yönetmelik kayıt defteri öngörür.",
+    "Yönetmelikte böyle bir kayıt öngörülmemiştir.",
+    "Tüm aramalar kaydedilir.",
+    "",
+    "Yönetmelikte böyle bir kayıt öngörülmemiştir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 33"
+  },
+  {
+   "id": "ue-6-54",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre rütbeli personel ve erlerin görev sırasında kıyafeti hakkında esas olan nedir?",
+   "options": [
+    "Kış aylarında sivil, yaz aylarında resmî kıyafet giymek",
+    "Resmî kıyafetli olmak",
+    "Sivil kıyafetli olmak",
+    "Kendi tercih ettiği kıyafeti giymek",
+    "Yalnızca törenlerde resmî kıyafet giymek"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 15/2: Rütbeli personel ve erlerin görev sırasında resmî kıyafetli olması esastır. Hangi görevlerde sivil kıyafet giyileceği görevin mahiyetine göre yetkili makamlarca belirlenir.",
+   "optionNotes": [
+    "Mevsime göre ayrım yoktur.",
+    "",
+    "Görevde resmî kıyafet esastır.",
+    "Kıyafet mevzuatla belirlenir.",
+    "Görevde resmî kıyafet esastır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 15"
+  },
+  {
+   "id": "ue-6-55",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre “mülkî âmir” kimdir?",
+   "options": [
+    "Vali veya yardımcısı; ilçede kaymakam",
+    "İçişleri Bakanı",
+    "Belediye başkanı",
+    "Yalnızca il ve ilçe jandarma komutanları",
+    "Cumhuriyet başsavcısı"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 4: Mülki amir; illerde vali veya bu konuda yetkilendirdiği yardımcısı, ilçelerde kaymakamdır. Önleme araması emrini gecikmesinde sakınca hâlinde mülki amir verir.",
+   "optionNotes": [
+    "",
+    "Yönetmeliğe göre mülki amir il ve ilçe düzeyindedir.",
+    "Seçilmiş yerel yönetici; mülki amir değildir.",
+    "Kolluk amiridir; mülki amir değildir.",
+    "Yargı mensubudur; mülki amir değildir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 4"
+  },
+  {
+   "id": "ue-6-56",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre gözaltına alınan kişi nezarethanede saldırgan bir tutum sergilerse ilk olarak ne yapılır?",
+   "options": [
+    "Önce sözle kontrol edilmeye çalışılır.",
+    "Kişi derhâl serbest bırakılır.",
+    "Derhâl kelepçe takılıp tek kişilik odaya alınır.",
+    "Doğrudan kuvvet kullanılır.",
+    "Kişi başka bir ile nakledilir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 11: Saldırgan tutum sergileyen veya kendisine zarar vermeye kalkışan kişi önce sözle kontrol altına alınmaya çalışılır; bu mümkün olmazsa hareketini giderecek derecede kuvvet kullanılabilir. Kontrol altına alınamayanlar tıbbi müdahale için sağlık kuruluşuna gönderilir.",
+   "optionNotes": [
+    "",
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "Önce sözlü kontrol denenir.",
+    "Kuvvet ancak sözlü kontrol işe yaramazsa kullanılır.",
+    "Yönetmelikte böyle bir hüküm yoktur."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 11"
+  },
+  {
+   "id": "ue-6-57",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre bir ölümün doğal nedenlerden meydana gelmediği kuşkusu varsa veya ölünün kimliği belirlenemiyorsa kolluk görevlisi ne yapar?",
+   "options": [
+    "Yalnızca mülki amire bilgi verir.",
+    "Kendi başına otopsi yaptırır.",
+    "Cenazeyi doğrudan ailesine teslim eder.",
+    "Belediyeye haber vererek defin işlemini başlatır.",
+    "Derhâl başsavcılığa bildirir."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 6: Bir ölümün doğal nedenlerden meydana gelmediği kuşkusu veya ölünün kimliğinin belirlenememesi hâlinde kolluk görevlisi durumu derhâl Cumhuriyet başsavcılığına bildirir ve savcının emri doğrultusunda soruşturma işlemlerine başlar.",
+   "optionNotes": [
+    "Bildirim başsavcılığa yapılır.",
+    "Otopsi kararı savcı ve hâkimin yetkisindedir.",
+    "Durum derhâl başsavcılığa bildirilir.",
+    "Defin işlemi savcının izni olmadan yapılamaz.",
+    ""
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 6"
+  },
+  {
+   "id": "ue-6-58",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre üniversite binaları içinde önleme araması yapılabilmesi için kimin kolluktan yardım istemesi gerekir?",
+   "options": [
+    "Öğrenci temsilcisinin",
+    "Rektörün, acele hâllerde dekanın",
+    "Millî Eğitim il müdürünün",
+    "Mülki amirin, üniversiteye haber vermeden",
+    "Herhangi bir öğretim üyesinin"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 19/d: Kurumun imkânlarıyla önlenemeyecek olay olasılığında rektörün, acele hâllerde dekan veya bağlı kuruluş yetkililerinin kolluktan yardım istemesi hâlinde üniversite içinde ve yakın çevresinde önleme araması yapılabilir.",
+   "optionNotes": [
+    "Yönetmelik üniversite yöneticilerini gösterir.",
+    "",
+    "Üniversiteler bu müdürlüğe bağlı değildir.",
+    "Üniversite içi için yöneticilerin talebi gerekir.",
+    "Yönetmelik rektör ve acele hâllerde dekanı gösterir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 19"
+  },
+  {
+   "id": "ue-6-59",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre hazır kıta hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "En az üç kişi; komutanı uzman erbaş olabilir.",
+    "Kuvveti en az otuz kişidir.",
+    "Yalnızca subay ve astsubaylardan oluşan bir birliktir.",
+    "Komutanı yalnızca subay olabilir.",
+    "Gece silahsız ve sivil kıyafetle bekler."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 27: Birlik emniyeti için bulundurulan hazır kıta, gösterilen yerde gece dahi tam teçhizatlı, silahlı ve giyimli olarak hazır bulunur. Kuvveti en az üç kişiden birliğin tamamına kadar olabilir; komutanı birliğin büyüklüğüne göre subay, astsubay, uzman jandarma veya uzman erbaş olabilir.",
+   "optionNotes": [
+    "",
+    "Kuvveti en az üç kişiden birliğin tamamına kadar olabilir.",
+    "Rütbeli personel ve erlerden oluşur.",
+    "Astsubay, uzman jandarma veya uzman erbaş da olabilir.",
+    "Gece dahi tam teçhizatlı ve silahlı bulunur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 27"
+  },
+  {
+   "id": "ue-6-60",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre önleme araması sırasında suç unsuruna rastlanmazsa aranan kişiye talebi hâlinde ne verilir?",
+   "options": [
+    "Arama yapan birlikten resmî özür yazısı",
+    "Yalnızca sözlü bilgi verilir.",
+    "Aramayı yapanların ev adresleri",
+    "Hiçbir belge verilmez.",
+    "Arama bilgilerini içeren bir belge"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 26: Suç unsuruna rastlanırsa arama tutanağa bağlanır ve sureti ilgiliye verilir. Rastlanmazsa talep hâlinde arama kararı veya emrinin tarih ve sayısı, aramanın tarih, saat ve yeri ile aranan kişi ve arayan görevlinin kimlik bilgilerini içeren bir belge verilir.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir belge öngörülmemiştir.",
+    "Yönetmelik yazılı belge öngörür.",
+    "Yönetmelikte böyle bir bilgi yer almaz.",
+    "Talep hâlinde belge verilir.",
+    ""
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 26"
+  },
+  {
+   "id": "ue-6-61",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre adli görevlerde öncelikli olarak hangi kolluk personeli görevlendirilir?",
+   "options": [
+    "Gönüllü olan herhangi bir personel",
+    "En kıdemli personel",
+    "Yalnızca subay rütbesindeki personel",
+    "Sertifika sahibi personel",
+    "En genç personel"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 10: Adli kolluk eğitimini başarıyla bitiren personele sertifika verilir ve adli görevlerde öncelikle sertifikası olan kolluk personeli görevlendirilir.",
+   "optionNotes": [
+    "Yönetmelik sertifikayı esas alır.",
+    "Yönetmelik sertifikayı esas alır.",
+    "Yönetmelik sertifikayı esas alır.",
+    "",
+    "Yönetmelik sertifikayı esas alır."
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 10"
+  },
+  {
+   "id": "ue-6-62",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre üst veya araç araması sırasında rastlanan özel kâğıt ve zarflar hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Derhâl el konulup savcılığa gönderilir.",
+    "Kolluk tarafından fotoğraflanıp okunur.",
+    "Her durumda açılıp okunur.",
+    "Eşya ihtimali yoksa açılmaz.",
+    "Açıksa içeriği tutanağa geçirilir."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 28 ve 29: Arama sırasında rastlanan özel kâğıt ve zarflar, içinde müsadereye tâbi bir eşya bulunması ihtimali dışında açılmaz; açıksa dahi yazılı bilgiler okunamaz.",
+   "optionNotes": [
+    "Kural olarak açılmaz ve el konulmaz.",
+    "Yazılı bilgiler okunamaz.",
+    "Kural olarak açılmaz; açıksa da okunmaz.",
+    "",
+    "Açık olsa bile yazılı bilgiler okunamaz."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 28, 29"
+  },
+  {
+   "id": "ue-6-63",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre suçüstü veya gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısına erişilemiyorsa bütün soruşturma işlemlerini kim yapabilir?",
+   "options": [
+    "Kolluk amiri",
+    "Asliye ceza mahkemesi",
+    "Mülki amir",
+    "Adli kolluk sorumlusu",
+    "Sulh ceza hâkimi"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 6: Suçüstü ve gecikmesinde sakınca bulunan hâllerde savcıya erişilemiyorsa veya olay savcının iş gücünü aşıyorsa sulh ceza hâkimi de bütün soruşturma işlemlerini yapabilir; adli kolluk hâkimin emrettiği tedbirleri alır.",
+   "optionNotes": [
+    "Yönetmelik bu yetkiyi sulh ceza hâkimine verir.",
+    "Soruşturma evresinde bu yetki sulh ceza hâkimindedir.",
+    "Mülki amir soruşturma işlemi yapamaz.",
+    "Yönetmelik bu yetkiyi sulh ceza hâkimine verir.",
+    ""
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 6"
+  },
+  {
+   "id": "ue-6-64",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre arama kararının kullanılmasıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Kararda süre belirtilmez.",
+    "Adli arama kural olarak gece yapılır.",
+    "Karar süresi boyunca sınırsız sayıda arama yapılabilir.",
+    "Önleme aramaları yalnızca gündüz yapılabilir.",
+    "Aksine hüküm yoksa bir kez arama yetkisi verir."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 31: Arama kararda veya yazılı emirde belirtilen süre içinde yapılır; her karar aksine hüküm yoksa yalnızca bir kez arama yetkisi verir. Acil durum yoksa adli arama gündüz yapılır. Önleme aramaları, denetimler ve kontroller her zaman yapılabilir.",
+   "optionNotes": [
+    "Arama, kararda belirtilen süre içinde yapılır.",
+    "Adli arama kural olarak gündüz yapılır.",
+    "Aksine hüküm yoksa bir kez arama yapılır.",
+    "Önleme aramaları her zaman yapılabilir.",
+    ""
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 31"
+  },
+  {
+   "id": "ue-6-65",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre oturduğu yeri bildirme gücü olmayan kimsesiz bir çocukla karşılaşan jandarma ne yapar?",
+   "options": [
+    "Kanuni temsilcisini bulup teslim eder.",
+    "Çocuğu nezarethaneye alır.",
+    "Çocuğu doğrudan herhangi bir aileye teslim eder.",
+    "Çocuğun ifadesini alıp serbest bırakır.",
+    "Çocuğu kendi hâline bırakır."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 22: Jandarma, oturduğu yeri bildirme gücü bulunmayan düşkün kimselerin veya çocukların kanuni temsilcilerini bulup onlara teslim eder; kanuni temsilcisi olmayanları ilgili sosyal yardım kuruluşlarına veya belediyelere teslim eder.",
+   "optionNotes": [
+    "",
+    "Çocuk suç şüphelisi değildir.",
+    "Çocuk kanuni temsilcisine veya ilgili kuruluşa teslim edilir.",
+    "Yönetmelik teslimi öngörür.",
+    "Jandarmanın yardım görevi vardır."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 22"
+  },
+  {
+   "id": "ue-6-66",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre adli kolluk görevlileri topladıkları delilleri Cumhuriyet savcısına hangi belgeyle sunar?",
+   "options": [
+    "Mütalaa",
+    "Fezleke",
+    "Gerekçeli karar",
+    "İddianame",
+    "Tensip zaptı"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 6: Adli kolluk görevlileri şüphelinin lehine ve aleyhine olan tüm delilleri toplayıp muhafaza altına alır ve bir fezleke ile savcıya sunar. Hukuka aykırı delil elde edildiği tespit edilirse bu husus da fezlekede belirtilir.",
+   "optionNotes": [
+    "Savcının duruşmadaki esas hakkındaki görüşüdür.",
+    "",
+    "Mahkeme tarafından yazılır.",
+    "Savcı tarafından hazırlanır.",
+    "Mahkemenin dosyayı inceleyerek düzenlediği belgedir."
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 6"
+  },
+  {
+   "id": "ue-6-67",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre resmî kıyafetle aşağıdakilerden hangisi yapılabilir?",
+   "options": [
+    "Ağızda sigarayla yürümek",
+    "Eller cepte dolaşmak",
+    "Elde poşet taşımak",
+    "Görev sırasında sakız çiğnemek",
+    "Sade çantayı sol elde taşımak"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 15/9: Resmî kıyafetle sakız çiğnenmez, poşet taşınmaz, kol kola girilmez, el ele tutuşulmaz, ağızda sigara veya eller cepte dolaşılmaz. Yalnızca koyu renk ve sade desenli çantalar sol elde taşınabilir.",
+   "optionNotes": [
+    "Resmî kıyafetle yasaktır.",
+    "Resmî kıyafetle yasaktır.",
+    "Resmî kıyafetle yasaktır.",
+    "Resmî kıyafetle yasaktır.",
+    ""
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 15"
+  },
+  {
+   "id": "ue-6-68",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre konutta gece vakti adli arama aşağıdaki hâllerin hangisinde yapılabilir?",
+   "options": [
+    "Kolluk amirinin yazılı emri bulunması hâlinde",
+    "Ev sahibinin yurt dışında olması hâlinde",
+    "Suçüstü hâlinde",
+    "Komşuların şikâyet etmesi hâlinde",
+    "Aranan eşyanın değerli olması hâlinde"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 31: Konut, iş yeri ve diğer kapalı yerlerde adli arama gece yapılamaz. Ancak suçüstü hâlinde, gecikmesinde sakınca bulunan hâlde, firar eden kişi ya da tutuklu veya hükümlünün yeniden yakalanmasında ve geceleyin herkesin girip çıkabileceği umuma açık yerlerde gece de yapılabilir. Gece vakti; güneş batışından bir saat sonra başlayıp doğuşundan bir saat öncesine kadar süren zamandır.",
+   "optionNotes": [
+    "Konutta kolluk amirinin emriyle arama yapılamaz.",
+    "Yönetmelikte böyle bir istisna yoktur.",
+    "",
+    "Yönetmelikte böyle bir istisna yoktur.",
+    "Yönetmelikte böyle bir istisna yoktur."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 4, 31"
+  },
+  {
+   "id": "ue-6-69",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma, işletme ve depolarda çalışanların kimlik ve nitelikleri hakkında hangi şartla bilgi isteyebilir?",
+   "options": [
+    "İşverenin yazılı rızasıyla",
+    "Yalnızca hâkim kararıyla",
+    "Yalnızca terör olaylarından sonra",
+    "Herhangi bir onay olmadan",
+    "Mülki amirin onayıyla"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 23/4: Jandarma, sorumluluk alanında mülki amirin emri veya onayıyla işletme, depo ve benzeri yerleri gözetim ve denetim altında bulundurur ve çalışanların kimlik ve nitelikleri hakkında mülki amirin onayıyla bilgi isteyebilir. İstenen bilgiler hemen verilir.",
+   "optionNotes": [
+    "Yönetmelik mülki amir onayını arar.",
+    "Yönetmelik mülki amir onayını yeterli görür.",
+    "Yönetmelikte böyle bir sınırlama yoktur.",
+    "Yönetmelik mülki amir onayını arar.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 23"
+  },
+  {
+   "id": "ue-6-70",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre avukat bürolarında arama nasıl yapılır?",
+   "options": [
+    "Mahkeme kararı, savcı ve baro temsilcisiyle",
+    "Savcı bulunmadan, yalnızca kolluk tarafından",
+    "Kolluk amirinin yazılı emriyle",
+    "Yalnızca avukatın yazılı rızasıyla",
+    "Baronun izni olmadan herhangi bir zamanda"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 13: Cumhuriyet savcısı hazır olmadan avukat bürolarında arama yapılamaz. Bürolar ancak mahkeme kararıyla ve kararda belirtilen olayla ilgili olarak savcının denetiminde aranabilir; baro başkanı veya onu temsil eden bir avukat hazır bulundurulur.",
+   "optionNotes": [
+    "",
+    "Savcı hazır olmadan avukat bürosunda arama yapılamaz.",
+    "Avukat bürolarında kolluk amiri emriyle arama yapılamaz.",
+    "Arama mahkeme kararıyla yapılır.",
+    "Baro başkanı veya temsilcisi hazır bulundurulur."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 13"
+  },
+  {
+   "id": "ue-6-71",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre aşağıdakilerden hangisi “yardım etme” şeklinde suça iştiraktir?",
+   "options": [
+    "Suçun kanuni tanımındaki fiili birlikte gerçekleştirmek",
+    "Suçu tek başına işlemek",
+    "Suçun nasıl işleneceği hakkında yol göstermek",
+    "Başkasında suç işleme kararı uyandırmak",
+    "Kusur yeteneği olmayanı araç olarak kullanmak"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 39: Suç işlemeye teşvik etmek veya suç işleme kararını kuvvetlendirmek, fiilin işlenmesinden sonra yardımda bulunacağını vaat etmek, suçun nasıl işleneceği hakkında yol göstermek veya araç sağlamak yardım etmedir. Yardım edenin cezası indirilir.",
+   "optionNotes": [
+    "Bu müşterek failliktir.",
+    "Bu failliktir.",
+    "",
+    "Bu azmettirmedir.",
+    "Bu dolaylı failliktir."
+   ],
+   "source": "5237 sayılı Kanun md. 39"
+  },
+  {
+   "id": "ue-6-72",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre arama sırasında ele geçen belge ve kâğıtları inceleme yetkisi kime aittir?",
+   "options": [
+    "Kolluk amirine",
+    "Cumhuriyet savcısı ve hâkime",
+    "Aramayı yapan kolluk görevlisine",
+    "Mülki amire",
+    "Mahalle muhtarına"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 16: Belge ve kâğıtları inceleme yetkisi savcı ve hâkime aittir. Kolluk, suçla ilgisi olup olmadığını anlamak için incelemeksizin bakabilir; şüphelenirse ambalajlayıp mühürler. Zilyet kendi mührünü de koyabilir.",
+   "optionNotes": [
+    "Kolluk amiri belgeleri inceleyemez.",
+    "",
+    "Kolluk incelemeksizin yalnızca bakabilir.",
+    "Mülki amirin böyle bir yetkisi yoktur.",
+    "Muhtarın böyle bir yetkisi yoktur."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 16"
+  },
+  {
+   "id": "ue-6-73",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre adli görevi bulunmayan üstler, adli kolluk görevlilerine yürütülen soruşturmayla ilgili hangi yetkiye sahiptir?",
+   "options": [
+    "Soruşturmayla ilgili emir ve talimat veremezler.",
+    "Delillerin toplanma şeklini belirleyebilirler.",
+    "Soruşturmanın yönünü değiştirebilirler.",
+    "Soruşturmayı durdurma emri verebilirler.",
+    "Şüphelinin serbest bırakılmasına karar verebilirler."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 5: Adli kolluk görevlilerine, adli görevi bulunmayan üstleri tarafından yürütülen soruşturma ile ilgili emir ve talimat verilemez. Soruşturmada emir yetkisi Cumhuriyet savcısına aittir.",
+   "optionNotes": [
+    "",
+    "Bu konuda emir yetkileri yoktur.",
+    "Soruşturmayla ilgili emir veremezler.",
+    "Soruşturmayla ilgili emir veremezler.",
+    "Bu yetki savcıya aittir."
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 5"
+  },
+  {
+   "id": "ue-6-74",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre kolluk, adli arama kararı alınmasını talep ettiğinde ne yapar?",
+   "options": [
+    "Gerekçeli raporla savcıya başvurur.",
+    "Mülki amirden arama kararı ister.",
+    "Doğrudan sulh ceza hâkimine sözlü başvurur.",
+    "İlgili kişinin rızasını alır ve aramaya başlar.",
+    "Kendi amirinin onayıyla aramaya başlar."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 7: Adli aramaya karar verme yetkisi hâkimindir. Kolluk, makul şüphe sebeplerini belirten ayrıntılı ve gerekçeli bir rapor hazırlayarak Cumhuriyet savcısına başvurur.",
+   "optionNotes": [
+    "",
+    "Adli arama kararı hâkimindir; başvuru savcı aracılığıyla yapılır.",
+    "Kolluk raporla savcıya başvurur.",
+    "Adli aramada usul hâkim kararıdır.",
+    "Kural olarak hâkim kararı gerekir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 7"
+  },
+  {
+   "id": "ue-6-75",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre personelde bulunması gereken vasıflar arasında “en büyük ve affedilmeyecek kusur” olarak nitelenen davranış hangisidir?",
+   "options": [
+    "Yorgunluk",
+    "Fazla konuşmak",
+    "Geç kalmak",
+    "Unutkanlık",
+    "Korkaklık"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 19/4-ç: Cesaret ve şecaat vasfı açıklanırken korkaklığın personel için en büyük ve affedilmeyecek kusur olduğu belirtilir. Kendini korumak için görevi bırakmak veya ihmal etmek namus ve onura leke getirir.",
+   "optionNotes": [
+    "Yönetmelik yorgunluğa dayanmayı göreve hazırlık olarak sayar; kusur olarak nitelemez.",
+    "Yönetmelikte bu şekilde nitelenmemiştir.",
+    "Yönetmelikte bu şekilde nitelenmemiştir.",
+    "Yönetmelikte bu şekilde nitelenmemiştir.",
+    ""
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 19"
+  },
+  {
+   "id": "ue-6-76",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre arama ile ilgili kararları vermek üzere Cumhuriyet başsavcılıklarınca nasıl bir düzenleme yapılır?",
+   "options": [
+    "Kolluk amiri savcı adına karar verir.",
+    "Yalnızca mesai saatlerinde bir savcı görevlendirilir.",
+    "Yirmi dört saat süreyle nöbetçi savcı görevlendirilir.",
+    "Arama kararları için bir hâkim nöbet tutar; savcı görevlendirilmez.",
+    "Hafta sonları arama kararı verilmez."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 7: Cumhuriyet başsavcılıklarınca, arama ile ilgili kararları vermek üzere yirmi dört saat süreyle nöbetçi Cumhuriyet savcısı görevlendirilir.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "Yönetmelik 24 saatlik nöbet öngörür.",
+    "",
+    "Yönetmelik nöbetçi savcıyı öngörür.",
+    "Nöbet 24 saattir ve kesintisizdir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 7"
+  },
+  {
+   "id": "ue-6-77",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre millî marş çalınır veya söylenirken rütbeli personel nasıl davranır?",
+   "options": [
+    "Açık yerde şapkasız, kapalı yerde şapkalı saygı duruşunda bulunur.",
+    "Oturduğu yerden kalkmadan dinler.",
+    "Açık yerde şapkalı, kapalı yerde şapkasız saygı duruşunda bulunur.",
+    "Yalnızca törenlerde saygı duruşunda bulunur.",
+    "Marşın çalındığı yöne arkasını döner."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 18/11: Rütbeli personel ve erler, millî marş çalınır veya söylenirken açık yerde şapkalı, kapalı yerde şapkasız olarak cephesini marşın çalındığı yöne dönerek saygı duruşunda bulunur.",
+   "optionNotes": [
+    "Kural tersidir.",
+    "Saygı duruşunda bulunulur.",
+    "",
+    "Kural her durumda geçerlidir.",
+    "Cephe marşın çalındığı yöne çevrilir."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 18"
+  },
+  {
+   "id": "ue-6-78",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre usulüne uygun yapılan bir aramada, aramanın konusu dışında başka bir suçun işlendiği şüphesini uyandıran bir delil bulunursa ne yapılır?",
+   "options": [
+    "Delil görmezden gelinir.",
+    "Korunur; savcıdan yeni emir istenir.",
+    "Delil ilgiliye geri verilir.",
+    "Delile kolluk doğrudan ve süresiz el koyar.",
+    "Delil derhâl imha edilir."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 10: Bu tür delil koruma altına alınır, durum başsavcılığa derhâl bildirilir ve el koyma için savcıdan yeni yazılı emir istenir. Savcıya ulaşılamazsa kolluk amirinin yazılı emriyle el konulabilir; hâkim kararı olmadan yapılan el koyma 24 saat içinde hâkim onayına sunulur.",
+   "optionNotes": [
+    "Yönetmelik delilin korunmasını öngörür.",
+    "",
+    "Delil koruma altına alınır.",
+    "El koyma için savcının yeni yazılı emri istenir.",
+    "Delil koruma altına alınır."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 10"
+  },
+  {
+   "id": "ue-6-79",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre gözaltına alınan kişinin işlemleri gözaltı süresi dolmadan bitirilirse ne yapılır?",
+   "options": [
+    "Kişi bir gün daha gözlem altında tutulur.",
+    "Gözaltı süresinin dolması beklenir.",
+    "Beklenmeden derhâl başsavcılığa sevk edilir.",
+    "Kişi kolluk amirinin takdirine göre bekletilir.",
+    "Süre uzatımı için savcıya başvurulur."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 17: Gözaltı süreleri azami sürelerdir ve işlemlerin en kısa sürede bitirilmesi esastır. İşlemleri bitirilen kişiler gözaltı süresinin dolması beklenmeksizin derhâl ilgili Cumhuriyet başsavcılığına sevk edilir.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "Gözaltı süreleri azami sürelerdir; beklenmez.",
+    "",
+    "Derhâl sevk zorunludur.",
+    "İşlemler bittiyse uzatma talep edilmez."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 17"
+  },
+  {
+   "id": "ue-6-80",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre âmirin maiyetiyle ilişkileri hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Maiyetinden hususi menfaat sağlayacak talepte bulunmaz.",
+    "Maiyetinin görevine her zaman müdahale eder.",
+    "Kolaylıklardan önce kendisi yararlanır.",
+    "Ödül ve cezada gerekçesiz takdir kullanabilir.",
+    "Görev sırasında maiyetiyle samimi, görev dışında resmî olur."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 9: Âmir maiyetinden hususi menfaat sağlayacak hiçbir talepte bulunmaz; görevde ciddi, görev dışında samimi olur; mecbur kalmadıkça maiyetinin görevine müdahale etmez; zahmete birlikte katlanır, kolaylıkta nefsini sona bırakır.",
+   "optionNotes": [
+    "",
+    "Mecbur kalmadıkça müdahale etmez.",
+    "Kolaylıklarda nefsini sona bırakır.",
+    "Gerekçesiz takdir hakkı kullanmaz.",
+    "Tersi doğrudur: görevde ciddi, görev dışında samimi olur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 9"
+  },
+  {
+   "id": "ue-6-81",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre içinde kimse bulunmayan boş bir aracın aranması hâlinde ne yapılır?",
+   "options": [
+    "Arama notu bırakılır.",
+    "Araç sahibine hiçbir bilgi verilmez.",
+    "Araç sahibi bulunana kadar arama yapılamaz.",
+    "Araç derhâl çekiciyle götürülür.",
+    "Aracın camı kırılarak mühürlenir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 29: Boş araçların aranmasında arama yapıldığını belirten bir not bırakılır; notta arama tutanağının bir kopyasının alınabileceği yer belirtilir. Araç araması kişiye en az sıkıntı verecek şekilde ve makul en kısa sürede yapılır.",
+   "optionNotes": [
+    "",
+    "Not ile arama yapıldığı bildirilir.",
+    "Boş araçta da arama yapılabilir.",
+    "Yönetmelik not bırakılmasını öngörür.",
+    "Yönetmelikte böyle bir işlem yoktur."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 29"
+  },
+  {
+   "id": "ue-6-82",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre adli kolluk görevlilerince yapılan adli işlemleri kim ve ne zaman denetler?",
+   "options": [
+    "Kolluk amirleri, yalnızca şikâyet olursa",
+    "İçişleri Bakanlığı müfettişleri, üç ayda bir",
+    "Sulh ceza hâkimleri, ayda bir",
+    "Savcılar, her zaman",
+    "Mülki amirler, yılda bir kez"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 13: Cumhuriyet başsavcıları ve savcılar adli kolluk görevlilerince yapılan adli işlemleri her zaman denetler, eksiklerin tamamlanmasını emredebilir ve nezarethaneleri, ifade odalarını ve gözaltı kayıtlarını denetleyip sonucu nezarethane defterine kaydeder.",
+   "optionNotes": [
+    "Adli işlemlerin denetimi savcılara aittir.",
+    "Adli işlemlerin denetimi savcılara aittir.",
+    "Yönetmelik denetimi savcılara verir.",
+    "",
+    "Adli işlemlerin denetimi savcılara aittir."
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 13"
+  },
+  {
+   "id": "ue-6-83",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre kolluk, dernek ve eklentilerine hangi şartla girip arama yapabilir?",
+   "options": [
+    "Hâkim kararı veya mülki amir emriyle",
+    "Kolluk amirinin sözlü emriyle",
+    "Herhangi bir izne gerek olmadan",
+    "Cumhuriyet savcısının talimatıyla her zaman",
+    "Dernek başkanının izni olmadan hiçbir şekilde"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 22: Kamu düzeni veya suç önleme nedeniyle verilmiş hâkim kararı ya da gecikmesinde sakınca hâlinde mülki amirin yazılı emri olmadıkça kolluk derneklere giremez, arama yapamaz. El koyma varsa mülki amirin kararı 24 saat içinde hâkim onayına sunulur; hâkim 48 saat içinde karar verir.",
+   "optionNotes": [
+    "",
+    "Yönetmelik hâkim kararı veya mülki amirin yazılı emrini arar.",
+    "Derneklere izinsiz girilemez.",
+    "Önleme amaçlı girişte yetki hâkim ve mülki amirdedir.",
+    "Hâkim kararı veya mülki amir emriyle rıza aranmaz."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 22"
+  },
+  {
+   "id": "ue-6-84",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre rütbeli personel, emeklilik veya çekilme gibi nedenlerle teşkilattan ilişiği kesildiğinde resmî kıyafet hakkında ne yapar?",
+   "options": [
+    "Bir yıl daha giyebilir.",
+    "Yalnızca bayramlarda giyebilir.",
+    "Ömür boyu giymeye devam edebilir.",
+    "İşaretlerini söküp sivil kıyafet olarak kullanabilir.",
+    "İlişik kesilince çıkarmak zorundadır."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 15/9-o: Rütbeli personel ve erler; emeklilik, çekilme veya herhangi bir nedenle teşkilattan ilişiği kesildiği tarihten itibaren resmî kıyafetini çıkarmaya mecburdur. Resmî kıyafetler eskimiş olsa bile başkalarına verilemez.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir süre yoktur.",
+    "İlişik kesilince resmî kıyafet giyilemez.",
+    "İlişik kesilince resmî kıyafet çıkarılır.",
+    "Resmî kıyafet sivil kıyafete dönüştürülemez.",
+    ""
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 15"
+  },
+  {
+   "id": "ue-6-85",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre aşağıdaki yerlerin hangisinde önleme araması yapılabilir?",
+   "options": [
+    "Yerleşim yerinde (ikametgâhta)",
+    "Kamuya açık olmayan özel iş yerinde",
+    "Konutun eklentilerinde",
+    "Yerleşim yeri giriş-çıkışlarında",
+    "Konutta"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 19: Önleme araması; toplantı ve gösteri yerleri, halkın toplu bulunduğu yerler, umuma açık yerler, yerleşim yeri giriş-çıkışları, toplu taşıma araçları gibi yerlerde yapılabilir. Konut, yerleşim yeri ve kamuya açık olmayan özel iş yerleri ile eklentilerinde yapılamaz.",
+   "optionNotes": [
+    "Önleme araması yapılamaz.",
+    "Önleme araması yapılamaz.",
+    "Önleme araması yapılamaz.",
+    "",
+    "Önleme araması konutta yapılamaz."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 19"
+  },
+  {
+   "id": "ue-6-86",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre personel, hastalandığında ne yapmakla yükümlüdür?",
+   "options": [
+    "Doğrudan istifa etmekle",
+    "Durumunu âmirine bildirmekle",
+    "Yalnızca mesai dışında hastalanırsa bildirmekle",
+    "Hiçbir bildirimde bulunmamakla",
+    "Yalnızca aile hekimine bildirmekle"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 20: Personel sağlığını korumak ve hastalandığında durumunu âmirine bildirmekle; her kademedeki âmirler de maiyetinin sağlığını takip edip gerekli tedbirleri almakla yükümlüdür.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "",
+    "Bildirim her durumda yapılır.",
+    "Bildirim yükümlülüğü vardır.",
+    "Bildirim âmire yapılır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 20"
+  },
+  {
+   "id": "ue-6-87",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre konut aramasında, bilgilendirme yapıldıktan sonra kapı açılmazsa ne yapılır?",
+   "options": [
+    "Arama yapılmadan geri dönülür.",
+    "İhtar edilir; açılmazsa zorla girilir.",
+    "İhtar yapılmadan kapı derhâl kırılır.",
+    "Ev sahibi gelinceye kadar günlerce beklenir.",
+    "Yeni bir hâkim kararı alınması zorunludur."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 30: Kolluk güvenlik önlemlerini alarak kapıyı çalar. Bilgilendirmeden sonra kapı açılmazsa güç kullanılacağı ihtar edilir; buna rağmen açılmazsa zorla girilir ve güç kademeli olarak artırılarak kullanılabilir. Kişinin avukatının aramada hazır bulunmasına engel olunamaz.",
+   "optionNotes": [
+    "Yönetmelik ihtar ve zorla giriş öngörür.",
+    "",
+    "Önce güç kullanılacağı ihtar edilir.",
+    "Yönetmelik ihtar ve zorla girişi öngörür.",
+    "Mevcut karar yeterlidir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 30"
+  },
+  {
+   "id": "ue-6-88",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre gözaltına alınan kişilerin bulundurulduğu nezarethaneleri kim denetler?",
+   "options": [
+    "Mahalle muhtarı",
+    "İl sağlık müdürlüğü",
+    "Belediye zabıtası",
+    "Yalnızca kolluk biriminin amiri ve yardımcıları",
+    "Başsavcılar veya görevlendirdikleri savcılar"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 26: Cumhuriyet başsavcıları veya görevlendirecekleri savcılar nezarethaneleri, ifade alma odalarını, gözaltındakilerin durumunu, gözaltı neden ve sürelerini ve tüm kayıtları denetler; sonucu nezarethane defterine kaydeder.",
+   "optionNotes": [
+    "Muhtarın böyle bir yetkisi yoktur.",
+    "Bu kurumun böyle bir yetkisi yoktur.",
+    "Zabıtanın böyle bir yetkisi yoktur.",
+    "Kolluk denetimi yanında savcılık denetimi de vardır.",
+    ""
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 26"
+  },
+  {
+   "id": "ue-6-89",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre aşağıdakilerden hangisi kolluk tarafından şartları oluştuğunda kendiliğinden yapılabilecek denetimlerdendir?",
+   "options": [
+    "Bir şüphelinin bilgisayar kayıtlarının incelenmesi",
+    "Sürücü belgesi ve araç tescil belgesinin denetimi",
+    "Avukat bürosunun aranması",
+    "Bir derneğin binasının aranması",
+    "Bir şüphelinin konutunun aranması"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 18: Umuma açık yerlerin genel güvenlik denetimi, suç önleme amacıyla kimlik sorma, 1774 sayılı Kanun'daki yerlerin denetimi, sürücü belgesi ve araç belgelerinin denetimi, dedektör köpekleriyle tarama gibi denetimler kolluk tarafından kendiliğinden yapılabilir.",
+   "optionNotes": [
+    "Hâkim kararı gerekir.",
+    "",
+    "Mahkeme kararı ve savcı denetimi gerekir.",
+    "Hâkim kararı veya mülki amirin yazılı emri gerekir.",
+    "Konut araması hâkim kararı gerektirir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 18"
+  },
+  {
+   "id": "ue-6-90",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma, kumar oynanan veya uyuşturucu satılan bir yer hakkında kesin delil elde ederse ne yapar?",
+   "options": [
+    "İşletmeciye sözlü uyarıda bulunmakla yetinir.",
+    "Yalnızca belediyeye yazı yazar.",
+    "İş yerini kendi kararıyla süresiz kapatır.",
+    "Gereği yapılmak üzere mülki amire bildirir.",
+    "Hiçbir işlem yapmaz."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 19/4: Jandarma kesin delil elde ettiğinde kumar oynanan yerler, uyuşturucu imal edilen veya satılan yerler, mevzuata aykırı faaliyet gösteren genelevler gibi yerleri gereği yapılmak üzere mülki amire bildirir.",
+   "optionNotes": [
+    "Kesin delil varsa mülki amire bildirilir.",
+    "Bildirim mülki amire yapılır.",
+    "Gereğini yapmak mülki amirin yetkisindedir.",
+    "",
+    "Mülki amire bildirim zorunludur."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 19"
+  },
+  {
+   "id": "ue-6-91",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre özel güvenlik görevlileri aşağıdaki hangi durumda kimlik sorma ve dedektörle kontrol yetkisini kullanabilir?",
+   "options": [
+    "Cenaze ve düğün törenlerinde",
+    "Polis sorumluluk alanındaki tüm caddelerde",
+    "Görev alanı dışındaki sokaklarda devriye sırasında",
+    "Herhangi bir konutta, imdat istenmeden",
+    "Mülki amirin izni olmadan önleme araması yaparken"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 21: Özel güvenlik görevlileri koruma alanına girenleri duyarlı kapıdan geçirme ve dedektörle kontrol, toplantı, konser, maç, cenaze ve düğün törenlerinde kimlik sorma ve kontrol, toplu ulaşım tesislerinde kontrol ile afet ve imdat hâlinde görev alanındaki iş yeri ve konutlara girme yetkilerine sahiptir.",
+   "optionNotes": [
+    "",
+    "Yetkileri görev alanıyla sınırlıdır.",
+    "Yetkileri görev alanıyla sınırlıdır.",
+    "Konutlara yalnızca afet ve imdat hâlinde girebilirler.",
+    "Özel güvenlik önleme araması yapamaz."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 21"
+  },
+  {
+   "id": "ue-6-92",
+   "subject": "Mevzuat",
+   "text": "Adli Kolluk Yönetmeliği'ne göre adli kolluk birimleri dışındaki diğer kolluk birimleri adli kolluk görevini ne zaman yerine getirir?",
+   "options": [
+    "Hiçbir zaman; bu görev yalnızca adli kolluğa aittir",
+    "Yalnızca mülki amirin emriyle",
+    "Yalnızca kendi istekleriyle",
+    "Yalnızca olağanüstü hâlde",
+    "Gerektiğinde veya savcının talebiyle"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 7: Gerektiğinde veya Cumhuriyet savcısının talebi hâlinde diğer kolluk birimleri de adli kolluk görevini yerine getirmekle yükümlüdür; bu durumda haklarında adli görevleri dolayısıyla CMK hükümleri uygulanır.",
+   "optionNotes": [
+    "Diğer birimler de belirli hâllerde yükümlüdür.",
+    "Yönetmelik savcının talebini ve gereklilik hâlini gösterir.",
+    "Yükümlülük gereklilik veya savcının talebine bağlıdır.",
+    "Yönetmelikte böyle bir sınırlama yoktur.",
+    ""
+   ],
+   "source": "Adli Kolluk Yönetmeliği md. 7"
+  },
+  {
+   "id": "ue-6-93",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre aranacak eşyayı yanında bulunduran kişi, talep edildiği hâlde teslimden kaçınırsa ne yapılır?",
+   "options": [
+    "Kolluk kişiyi doğrudan tutuklar.",
+    "Şüpheli ise de disiplin hapsi uygulanır.",
+    "Disiplin hapsi için bildirim yapılır.",
+    "Kişiye idari para cezası kesilir.",
+    "Arama sona erdirilir."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 15: Eşyayı bulunduran kişi talep üzerine göstermek ve teslim etmekle yükümlüdür. Eşya bulunamaz ve zilyet teslimden kaçınırsa (şüpheli, sanık ve tanıklıktan çekinebilecekler hariç) CMK md. 60'taki disiplin hapsi için durum başsavcılığa bildirilir.",
+   "optionNotes": [
+    "Tutuklama hâkim kararıyla olur.",
+    "Şüpheli, sanık ve tanıklıktan çekinebilecekler kapsam dışındadır.",
+    "",
+    "Yönetmelik bu yaptırımı öngörmez.",
+    "Yönetmelik bildirim yolunu öngörür."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 15"
+  },
+  {
+   "id": "ue-6-94",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre gözaltındaki kişinin hekim tarafından muayenesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Muayenenin hekim ile kişi baş başayken yapılması esastır.",
+    "Müdafiin muayenede bulunması yasaktır.",
+    "Muayeneyi kolluk birimindeki sağlık astsubayı yapar.",
+    "Kadın şüphelinin muayenesi erkek hekimce yapılmak zorundadır.",
+    "Muayene her zaman kolluk görevlisinin yanında yapılır."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 9: Hekim ile muayene edilen kişinin yalnız kalması esastır. Hekim kişisel güvenlik endişesi ileri sürerek kolluk görevlisinin gözetimini isteyebilir; bu durumda kişinin talebiyle müdafi de hazır bulunabilir. Kadının muayenesi talebi hâlinde ve imkân varsa kadın hekimce yapılır.",
+   "optionNotes": [
+    "",
+    "Hekimin isteğiyle görevli bulunursa, talep hâlinde müdafi de bulunabilir.",
+    "Muayene adli tıp veya resmî sağlık kuruluşlarınca yapılır.",
+    "Talebi hâlinde ve imkân varsa kadın hekimce yapılır.",
+    "Görevli ancak hekimin güvenlik endişesiyle isteği üzerine bulunur."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 9"
+  },
+  {
+   "id": "ue-6-95",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre şüpheli ile tanıklıktan çekinebilecek kişiler arasındaki mektup ve belgeler hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Mülki amirin kararıyla el konulur.",
+    "Her durumda el konulur.",
+    "Yalnızca savcının sözlü emriyle el konulur.",
+    "Onların nezdindeyken el konulamaz.",
+    "Kolluk tarafından okunup tutanağa geçirilir."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 16: Şüpheli veya sanık ile CMK md. 45 ve 46'ya göre tanıklıktan çekinebilecek kimseler arasındaki mektup ve belgelere, bu kimselerin nezdinde bulundukça el konulamaz.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir yetki yoktur.",
+    "Bu kişilerin nezdindeyken el konulamaz.",
+    "Bu kişilerin nezdindeyken el konulamaz.",
+    "",
+    "Yönetmelik bu belgeleri korur."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 16"
+  },
+  {
+   "id": "ue-6-96",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre aşağıdaki hâllerin hangisinde hâkimden önleme araması kararı alınması gerekmez?",
+   "options": [
+    "Toplantı ve gösteri yürüyüşü yakınında",
+    "Yerleşim yeri girişinde",
+    "Halkın toplu bulunduğu bir meydanda",
+    "Toplu taşıma araçlarında",
+    "Kamu binası girişlerindeki kontrolde"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 25: Kamu hizmetine özgülenmiş binalara girişlerde, havalimanı, liman ve sınır kapılarında X-ray kontrollerinde ve kanunların muhafaza altına alınmasına izin verdiği kişilerin aranmasında ayrıca karar veya emir gerekmez.",
+   "optionNotes": [
+    "Gecikmesinde sakınca yoksa hâkim kararı gerekir.",
+    "Gecikmesinde sakınca yoksa hâkim kararı gerekir.",
+    "Gecikmesinde sakınca yoksa hâkim kararı gerekir.",
+    "Gecikmesinde sakınca yoksa hâkim kararı gerekir.",
+    ""
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 25"
+  },
+  {
+   "id": "ue-6-97",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre Cumhuriyet savcısına ulaşılamadığı için kolluk âmirinin yazılı emriyle yapılan arama ve el koymada ayrıca ne yapılır?",
+   "options": [
+    "Arama sonucu bildirilmez.",
+    "Mülki amirden sonradan onay alınır.",
+    "Arama geçersiz sayılır ve tekrarlanır.",
+    "Ulaşılamama nedeni tutanağa bağlanır.",
+    "Kolluk amiri hakkında soruşturma açılır."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 7: Bu durumda kolluk görevlileri savcıya neden ulaşılamadığını ve savcının hangi vasıtalarla arandığını belirten ayrıntılı tutanak düzenleyip soruşturma evrakına ekler. Arama ve sonuçları başsavcılığa derhâl bildirilir. Konut, iş yeri ve kamuya açık olmayan kapalı alanlarda kolluk amiri arama emri veremez.",
+   "optionNotes": [
+    "Sonuç Cumhuriyet başsavcılığına derhâl bildirilir.",
+    "Yönetmelik bu şartı aramaz.",
+    "Arama geçerlidir; ayrıca tutanak düzenlenir.",
+    "",
+    "Yönetmelikte böyle bir sonuç öngörülmemiştir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 7"
+  },
+  {
+   "id": "ue-6-98",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre “makul şüphe” ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yalnızca imzalı bir ihbar yeterlidir.",
+    "Kesin delil bulunmadıkça makul şüphe oluşmaz.",
+    "Destekleyici emare bulunmalıdır.",
+    "Somut olgulara dayanması gerekmez.",
+    "Kolluğun kişisel sezgisi tek başına yeterlidir."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 6: Makul şüphe, hayatın akışına göre somut olaylar karşısında genellikle duyulan şüphedir. İhbar veya şikâyeti destekleyen emarelerin bulunması ve şüphenin somut olgulara dayanması şarttır.",
+   "optionNotes": [
+    "İhbarı destekleyen emareler de bulunmalıdır.",
+    "Makul şüphe için kesin delil gerekmez.",
+    "",
+    "Yönetmelik somut olgu şartı arar.",
+    "Şüphenin somut olgulara dayanması şarttır."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 6"
+  },
+  {
+   "id": "ue-6-99",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre askerî mahallerde yapılacak arama kim tarafından yerine getirilir?",
+   "options": [
+    "Mülki amirin emriyle polis tarafından",
+    "Yalnızca özel güvenlik görevlileri tarafından",
+    "Askerî mahallerde hiçbir şekilde arama yapılamaz",
+    "Savcının talep ve katılımıyla askerî makamlarca",
+    "Yalnızca jandarma tarafından"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 14: Askerî mahallerde yapılacak arama Cumhuriyet savcısının talep ve katılımıyla askerî makamlar tarafından yerine getirilir.",
+   "optionNotes": [
+    "Yönetmelik askerî makamları gösterir.",
+    "Özel güvenliğin böyle bir yetkisi yoktur.",
+    "Belirtilen usulle arama yapılabilir.",
+    "",
+    "Yönetmelik askerî makamları gösterir."
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 14"
+  },
+  {
+   "id": "ue-6-100",
+   "subject": "Mevzuat",
+   "text": "Adli ve Önleme Aramaları Yönetmeliği'ne göre durdurma sonrası yapılan yoklama biçimindeki kontrolle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Kişinin giysileri çıkartılarak yapılır.",
+    "Herhangi bir görevlice, cinsiyete bakılmaksızın yapılır.",
+    "Kalabalık önünde, herkesin görebileceği şekilde yapılır.",
+    "Kişi karakola götürülerek yapılır.",
+    "Aynı cinsiyetteki görevlice, olduğu yerde yapılır."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 27: Yoklama biçimindeki kontrol giysiler çıkarılmadan, kişinin cinsiyetindeki görevlice, kişiye en az sıkıntı verecek şekilde ve ilk durdurulduğu yerde veya yakınında, mümkün olduğunca başkalarının göremeyeceği tarzda yapılır.",
+   "optionNotes": [
+    "Yoklama giysiler çıkarılmadan yapılır.",
+    "Kişinin cinsiyetinde bulunan görevlice yapılır.",
+    "Mümkün olduğunca başkalarının göremeyeceği şekilde yapılır.",
+    "Başka yere götürülerek kontrol yapılamaz.",
+    ""
+   ],
+   "source": "Adli ve Önleme Aramaları Yönetmeliği md. 27"
+  }
+ ]
+}

@@ -45,8 +45,15 @@ npm run typecheck
 
 ## Notlar / sonraki adımlar
 
-- `src/data` altındaki içerik **iskelet veridir**. Mevzuat madde metinleri boş, emsal kararlar
-  yalnızca tasarım için örnektir ve gerçek değildir. Gerçek içerik resmî kaynaktan doğrulanarak eklenmeli.
+- **Denemeler** `src/data/exams/` altındadır: daha önce hazırlanan 21 deneme, toplam 2297 soru,
+  hepsi 5 şıklı (A–E) ve açıklamalı. Bu dosyalar `scripts/import-artifacts.mjs` ile üretilir;
+  denemelerin HTML hâllerini bir klasöre koyup `node scripts/import-artifacts.mjs <klasör>` çalıştırmak
+  yeterlidir. Yeni deneme eklemek için betikteki `CATALOG` listesine başlığını yazın.
+- Denemeler üç modda çözülür: **Sınav** (süreli, sonunda puan), **Çalışma** (her soruda anında
+  doğru cevap ve açıklama) ve **Yanlışlarım**. Yarım kalan deneme kaldığı yerden devam eder.
+- **Bilgi kartları** `src/data/flashcards.ts` içinde; "Sayılar ve Süreler" notundan 7 deste.
+- Mevzuat madde metinleri henüz boş, emsal kararlar yalnızca tasarım için örnektir ve gerçek değildir.
+  Bunlar resmî kaynaktan doğrulanarak eklenmeli.
 - İçerik ileride bir sunucuya taşınacaksa yalnızca `src/services/content.ts` değişir.
 - Yapay zekâ: API anahtarı uygulamaya gömülmemeli. Kendi sunucumuzda bir uç nokta kurulup
   `EXPO_PUBLIC_AI_ENDPOINT` ortam değişkeniyle bağlanır; o zamana kadar asistan yer tutucu yanıt verir.
@@ -58,7 +65,8 @@ npm run typecheck
 2. ✅ İlerleme takibi: deneme sonuçları ve süre, bilgi kartlarında "biliyorum / tekrar",
    mevzuat ve kararları kaydetme, ana sayfada istatistik
 3. ✅ Yanlışlarım: yanlış yapılan soruları ayrıca tekrar çözme, konu bazlı başarı
-4. ⬜ Gerçek içerik: resmî kaynaktan doğrulanmış mevzuat metinleri, soru bankası, emsal kararlar
+4. 🟡 Gerçek içerik: ✅ soru bankası (21 deneme, 2297 soru) ve bilgi kartları ·
+   ⬜ resmî kaynaktan doğrulanmış mevzuat metinleri ve emsal kararlar
 5. ⬜ Yapay zekâ sunucusu ve asistan bağlantısı
 6. ⬜ Rütbeye özel içerik ve davranışlar
 7. ⬜ Duyuruların uzaktan güncellenmesi ve bildirimler

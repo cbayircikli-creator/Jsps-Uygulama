@@ -2,9 +2,9 @@ import { router } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { RankGate } from '../../components/RankPicker';
-import { Card, EmptyState, Screen, SectionTitle, Tag, text } from '../../components/ui';
+import { Button, Card, EmptyState, Screen, SectionTitle, Tag, text } from '../../components/ui';
 import { useProfile } from '../../context/ProfileContext';
-import { useProgress } from '../../context/ProgressContext';
+import { useProgress, useProgressStats, type ExamMode } from '../../context/ProgressContext';
 import { content } from '../../services/content';
 import { colors, font, radius, spacing } from '../../theme';
 
@@ -18,18 +18,13 @@ export default function Calis() {
 
 function StudyHome() {
   const { rank } = useProfile();
-  const { examResults, knownCards, wrongQuestions } = useProgress();
+  const { examResults, knownCards, wrongQuestions, drafts } = useProgress();
+  const { bySubject } = useProgressStats();
   const exams = content.exams(rank?.group);
   const decks = content.decks(rank?.group);
+  const subjects = Object.entries(bySubject);
 
-  // Konu bazlı başarı: her denemenin tüm sonuçları konusuna göre toplanır.
-  const bySubject = new Map<string, { correct: number; total: number }>();
-  for (const e of exams) {
-    for (const r of examResults[e.id] ?? []) {
-      const s = bySubject.get(e.subject) ?? { correct: 0, total: 0 };
-      bySubject.set(e.subject, { correct: s.correct + r.correct, total: s.total + r.total });
-    }
-  }
+  const open = (id: string, mod: ExamMode) => router.push({ pathname: '/deneme/[id]', params: { id, mod } });
 
   return (
     <Screen>
@@ -41,18 +36,27 @@ function StudyHome() {
         const last = examResults[e.id]?.at(-1);
         const wrongCount = wrongQuestions[e.id]?.length ?? 0;
         return (
-          <Card key={e.id} onPress={() => router.push(`/deneme/${e.id}`)}>
-            <View style={{ flexDirection: 'row', gap: spacing.sm }}>
-              <Tag label={e.subject} />
+          <Card key={e.id}>
+            <View style={styles.tags}>
+              <Tag label={`${e.questions.length} soru · ${e.durationMinutes} dk`} />
               {last && <Tag label={`Son: ${last.correct}/${last.total}`} tone="accent" />}
             </View>
             <Text style={text.heading}>{e.title}</Text>
-            <Text style={text.muted}>
-              {e.questions.length} soru · {e.durationMinutes} dk
-            </Text>
+            <View style={styles.actions}>
+              <View style={{ flex: 1 }}>
+                <Button title={drafts[`${e.id}:sinav`] ? 'Sınava devam et' : 'Sınav'} onPress={() => open(e.id, 'sinav')} />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Button
+                  title={drafts[`${e.id}:calisma`] ? 'Çalışmaya devam et' : 'Çalışma modu'}
+                  variant="outline"
+                  onPress={() => open(e.id, 'calisma')}
+                />
+              </View>
+            </View>
             {wrongCount > 0 && (
               <Pressable
-                onPress={() => router.push({ pathname: '/deneme/[id]', params: { id: e.id, mod: 'yanlis' } })}
+                onPress={() => open(e.id, 'yanlis')}
                 style={({ pressed }) => [styles.reviewLink, pressed && { opacity: 0.6 }]}
               >
                 <Text style={styles.reviewText}>Yanlışlarımı tekrar çöz ({wrongCount})</Text>
@@ -62,11 +66,11 @@ function StudyHome() {
         );
       })}
 
-      {bySubject.size > 0 && (
+      {subjects.length > 0 && (
         <>
           <SectionTitle>Konu Bazlı Başarı</SectionTitle>
           <Card>
-            {[...bySubject].map(([subject, s]) => {
+            {subjects.map(([subject, s]) => {
               const pct = Math.round((s.correct / s.total) * 100);
               return (
                 <View key={subject} style={{ gap: spacing.xs }}>
@@ -104,6 +108,8 @@ function StudyHome() {
 }
 
 const styles = StyleSheet.create({
+  tags: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
+  actions: { flexDirection: 'row', gap: spacing.sm },
   reviewLink: {
     alignSelf: 'flex-start',
     backgroundColor: colors.dangerSoft,

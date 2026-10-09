@@ -1,0 +1,2770 @@
+{
+ "id": "mega-1",
+ "title": "Mega Kapsama Denemesi",
+ "durationMinutes": 220,
+ "ranks": [
+  "uzman-erbas"
+ ],
+ "questions": [
+  {
+   "id": "mega-1-1",
+   "subject": "Türkçe",
+   "topic": "Yazım",
+   "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
+   "options": [
+    "Hiçbir şey artık eskisi gibi olmayacaktı.",
+    "Birkaç gün sonra yola çıktılar.",
+    "Yalnız sen değil, o da gelecek.",
+    "Bu yanlışı hemen düzeltmeliyiz.",
+    "Herkez bu konuda aynı düşünüyordu."
+   ],
+   "answerIndex": 4,
+   "explanation": "Doğrusu “herkes”tir."
+  },
+  {
+   "id": "mega-1-2",
+   "subject": "Türkçe",
+   "topic": "Yazım",
+   "text": "Aşağıdakilerin hangisinde birleşik yazılması gereken/ayrı yazılması gereken bir sözcük yanlış yazılmıştır?",
+   "options": [
+    "Hergün aynı saatte nöbete gidiyor.",
+    "Pek çok kişi sınava başvurdu.",
+    "Birçok konuyu yeniden ele aldık.",
+    "Bir şey söylemeden odadan çıktı.",
+    "Hiç kimse bu karara itiraz etmedi."
+   ],
+   "answerIndex": 0,
+   "explanation": "“Her gün” ayrı yazılır."
+  },
+  {
+   "id": "mega-1-3",
+   "subject": "Türkçe",
+   "topic": "Yazım",
+   "text": "Aşağıdaki cümlelerin hangisinde kesme işareti yanlış kullanılmıştır?",
+   "options": [
+    "Raporu dün öğleden sonra TBMM'ye sundular.",
+    "Dilekçesini Sivas Valiliği'ne verdi.",
+    "ABD'den gelen heyet dün ayrıldı.",
+    "Ankara'dan dün akşam geri döndü.",
+    "Atatürk'ün sözleri törende okundu."
+   ],
+   "answerIndex": 1,
+   "explanation": "Kurum, kuruluş adlarına gelen ekler kesmeyle ayrılmaz: “Sivas Valiliğine”."
+  },
+  {
+   "id": "mega-1-4",
+   "subject": "Türkçe",
+   "topic": "Yazım",
+   "text": "Aşağıdakilerin hangisinde sayıların yazımıyla ilgili bir yanlışlık vardır?",
+   "options": [
+    "Toplantı 14.30'da başlayacak.",
+    "Sınıfın 3'üncü sırasında oturdu.",
+    "IV. Murat dönemi incelendi.",
+    "Atış yarışmasında 2.'nci oldu.",
+    "Sınav 19 Eylül 2026'da yapılacak."
+   ],
+   "answerIndex": 3,
+   "explanation": "Sıra sayısında nokta konduysa ek getirilmez: “2.” ya da “2'nci”."
+  },
+  {
+   "id": "mega-1-5",
+   "subject": "Türkçe",
+   "topic": "Yazım",
+   "text": "“de” bağlacının yazımı hangisinde yanlıştır?",
+   "options": [
+    "Sen de bu işi iyi bilirsin.",
+    "Evde o saatte kimse yoktu.",
+    "Sende bu akşam bizimle gel.",
+    "Kitabı okulda unutmuş.",
+    "O da sınava girecekmiş."
+   ],
+   "answerIndex": 2,
+   "explanation": "Bağlaç olan “de” ayrı yazılır: “Sen de”."
+  },
+  {
+   "id": "mega-1-6",
+   "subject": "Türkçe",
+   "topic": "Yazım",
+   "text": "“ki”nin yazımı hangisinde yanlıştır?",
+   "options": [
+    "Sanki hiçbir şey olmamıştı.",
+    "Mademki geldin, biraz otur.",
+    "Belki yarın erkenden gelir.",
+    "Oysaki her şey hazırdı.",
+    "Öyleki herkes buna şaşırdı."
+   ],
+   "answerIndex": 4,
+   "explanation": "“Öyle ki” ayrı yazılır; sanki, mademki, oysaki kalıplaşmıştır."
+  },
+  {
+   "id": "mega-1-7",
+   "subject": "Türkçe",
+   "topic": "Anlam",
+   "text": "“Göz boyamak” deyiminin anlamı aşağıdakilerden hangisidir?",
+   "options": [
+    "Gerçeği gizleyip yanıltıcı görüntü vermek",
+    "Bir işe çok dikkatli ve uzun uzun bakıp incelemek",
+    "Birini sürekli olarak kıskanmak",
+    "Bir şeyi görmezden gelip geçmek",
+    "Uzun süre uyumadan beklemek"
+   ],
+   "answerIndex": 0,
+   "explanation": "Göz boyamak: aldatıcı görünüş vermek."
+  },
+  {
+   "id": "mega-1-8",
+   "subject": "Türkçe",
+   "topic": "Anlam",
+   "text": "“Soğuk” sözcüğü hangi cümlede mecaz anlamda kullanılmıştır?",
+   "options": [
+    "Soğuk suyla yüzünü ve ellerini iyice yıkadı.",
+    "Kışın burada hava çok soğuk olur.",
+    "Misafirlere karşı çok soğuk davrandı.",
+    "Dolaptaki soğuk içecekleri çıkar.",
+    "Soğuk rüzgâr pencereden içeri doldu."
+   ],
+   "answerIndex": 2,
+   "explanation": "Soğuk davranmak: ilgisiz, sevimsiz davranmak (mecaz)."
+  },
+  {
+   "id": "mega-1-9",
+   "subject": "Türkçe",
+   "topic": "Anlam",
+   "text": "“Hususi” sözcüğünün eş anlamlısı hangisidir?",
+   "options": [
+    "Genel",
+    "Özel",
+    "Resmî",
+    "Gizli",
+    "Ortak"
+   ],
+   "answerIndex": 1,
+   "explanation": "Hususi = özel."
+  },
+  {
+   "id": "mega-1-10",
+   "subject": "Türkçe",
+   "topic": "Dil bilgisi",
+   "text": "“Hızlı” sözcüğü hangi cümlede zarf görevindedir?",
+   "options": [
+    "Hızlı bir araç satın aldı.",
+    "Hızlı adımlarla yürüdü.",
+    "Araç virajı hızlı döndü.",
+    "Hızlı trenle Sivas'a gitti.",
+    "Hızlı koşucuları izledik."
+   ],
+   "answerIndex": 2,
+   "explanation": "Fiili nitelediği için zarftır; diğerlerinde ismi niteler (sıfat)."
+  },
+  {
+   "id": "mega-1-11",
+   "subject": "Türkçe",
+   "topic": "Dil bilgisi",
+   "text": "Hangi cümlede isim-fiil vardır?",
+   "options": [
+    "Gelen misafirleri kapıda karşıladık.",
+    "Koşarak nöbet yerine ulaştı.",
+    "Onu görünce hemen tanıdı.",
+    "Okumak onun en büyük tutkusuydu.",
+    "Okunmuş kitapları rafa dizdi."
+   ],
+   "answerIndex": 3,
+   "explanation": "-mak eki isim-fiildir; gelen/okunmuş sıfat-fiil, koşarak/görünce zarf-fiil."
+  },
+  {
+   "id": "mega-1-12",
+   "subject": "Türkçe",
+   "topic": "Dil bilgisi",
+   "text": "“Dün akşam komutan bütün personeli toplantıya çağırdı.” cümlesinin öznesi hangisidir?",
+   "options": [
+    "dün akşam",
+    "bütün personeli",
+    "komutan",
+    "toplantıya",
+    "çağırdı"
+   ],
+   "answerIndex": 2,
+   "explanation": "Çağıran kim? → komutan."
+  },
+  {
+   "id": "mega-1-13",
+   "subject": "Türkçe",
+   "topic": "Ses bilgisi",
+   "text": "Hangi cümlede ünsüz yumuşaması vardır?",
+   "options": [
+    "Ağzı kupkuru olmuştu.",
+    "Kitapçıya uğrayıp çıktı.",
+    "Şimdi buraya geliyor.",
+    "Burnu soğuktan kızardı.",
+    "Kitabı masaya bıraktı."
+   ],
+   "answerIndex": 4,
+   "explanation": "kitap → kitabı (p→b)."
+  },
+  {
+   "id": "mega-1-14",
+   "subject": "Türkçe",
+   "topic": "Anlatım bozukluğu",
+   "text": "Hangi cümlede gereksiz sözcük kullanımından kaynaklanan anlatım bozukluğu vardır?",
+   "options": [
+    "Toplantı tam saat onda başladı.",
+    "Nöbet çizelgesini yeniden hazırladı.",
+    "Raporu dikkatle baştan inceledi.",
+    "Sınava sadece üç gün kaldı.",
+    "Yaklaşık on gün kadar izin kullandı."
+   ],
+   "answerIndex": 4,
+   "explanation": "“Yaklaşık” ile “kadar” aynı anlamı taşır."
+  },
+  {
+   "id": "mega-1-15",
+   "subject": "Türkçe",
+   "topic": "Cümle türü",
+   "text": "Hangisi devrik cümledir?",
+   "options": [
+    "Onu dün akşam karakolda gördüm.",
+    "Yarın sabah erkenden yola çıkacağız.",
+    "Gördüm onu dün akşam karakolda.",
+    "Bu kitabı herkese tavsiye ederim.",
+    "Nöbetçi kapıda sessizce bekliyordu."
+   ],
+   "answerIndex": 2,
+   "explanation": "Yüklem sonda değilse devrik cümledir."
+  },
+  {
+   "id": "mega-1-16",
+   "subject": "Türkçe",
+   "topic": "Paragraf",
+   "text": "“Disiplin, yalnızca kurallara uymak değildir. Asıl disiplin, kimse görmezken de doğru olanı yapabilmektir. Denetim ortadan kalktığında davranışı değişen kişi kurala değil, cezaya boyun eğiyor demektir.” Bu parçada asıl anlatılmak istenen nedir?",
+   "options": [
+    "Kurallar ancak ağır ve caydırıcı cezalarla birlikte etkili olabilir.",
+    "Gerçek disiplin denetimden bağımsız olarak doğruyu yapmaktır.",
+    "Denetimin artırılması disiplini kalıcı biçimde güçlendirir.",
+    "İnsanlar çoğunlukla kuralları öğrenmekte zorlanır.",
+    "Disiplinli olmak için önce kuralları ezberlemek gerekir."
+   ],
+   "answerIndex": 1,
+   "explanation": "Ana düşünce ikinci cümlededir."
+  },
+  {
+   "id": "mega-1-17",
+   "subject": "Tarih",
+   "topic": "Kurtuluş Savaşı",
+   "text": "“Milletin istiklalini yine milletin azim ve kararı kurtaracaktır.” ifadesi hangi belgede yer alır?",
+   "options": [
+    "Erzurum Kongresi",
+    "Sivas Kongresi",
+    "Havza Genelgesi",
+    "Amasya Genelgesi",
+    "Misak-ı Millî"
+   ],
+   "answerIndex": 3,
+   "explanation": "Amasya Genelgesi (22 Haziran 1919) Kurtuluş Savaşı'nın amacını, gerekçesini ve yöntemini belirtir."
+  },
+  {
+   "id": "mega-1-18",
+   "subject": "Tarih",
+   "topic": "Kurtuluş Savaşı",
+   "text": "“Manda ve himaye kabul olunamaz.” kararı ilk kez hangi toplantıda alınmıştır?",
+   "options": [
+    "Sivas Kongresi",
+    "Amasya Görüşmeleri",
+    "Balıkesir Kongresi",
+    "Alaşehir Kongresi",
+    "Erzurum Kongresi"
+   ],
+   "answerIndex": 4,
+   "explanation": "İlk kez Erzurum'da alındı; Sivas'ta kesinleşti."
+  },
+  {
+   "id": "mega-1-19",
+   "subject": "Tarih",
+   "topic": "Kurtuluş Savaşı",
+   "text": "Sivas Kongresi'nde bütün yerel cemiyetler hangi ad altında birleştirilmiştir?",
+   "options": [
+    "Şark-ı Vilayat-ı Müdafaa-i Hukuk Cemiyeti",
+    "Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti",
+    "Redd-i İlhak Cemiyeti ve Milli Kongre",
+    "Trakya Paşaeli Müdafaa-i Hukuk Cemiyeti",
+    "Kilikyalılar Cemiyeti ve Heyet-i Temsiliye"
+   ],
+   "answerIndex": 1,
+   "explanation": "Sivas'ta tüm cemiyetler ADMHC çatısında birleşti."
+  },
+  {
+   "id": "mega-1-20",
+   "subject": "Tarih",
+   "topic": "Kurtuluş Savaşı",
+   "text": "Misak-ı Millî kararları nerede kabul edilmiştir?",
+   "options": [
+    "Türkiye Büyük Millet Meclisi",
+    "Sivas Kongresi Genel Kurulu",
+    "Son Osmanlı Mebusan Meclisi",
+    "Heyet-i Temsiliye toplantısı",
+    "Osmanlı Hükûmeti Bakanlar Kurulu"
+   ],
+   "answerIndex": 2,
+   "explanation": "28 Ocak 1920'de İstanbul'da, son Osmanlı Mebusan Meclisinde."
+  },
+  {
+   "id": "mega-1-21",
+   "subject": "Tarih",
+   "topic": "Kurtuluş Savaşı",
+   "text": "Mustafa Kemal'e “Gazi” unvanı ve mareşallik rütbesi hangi zaferden sonra verilmiştir?",
+   "options": [
+    "I. İnönü Muharebesi",
+    "Büyük Taarruz",
+    "Sakarya Meydan Muharebesi",
+    "II. İnönü Muharebesi",
+    "Kütahya-Eskişehir Savaşları"
+   ],
+   "answerIndex": 2,
+   "explanation": "Sakarya zaferinden sonra 19 Eylül 1921'de TBMM tarafından verildi."
+  },
+  {
+   "id": "mega-1-22",
+   "subject": "Tarih",
+   "topic": "Kurtuluş Savaşı",
+   "text": "Tekâlif-i Millîye emirleri hangi gelişmenin ardından yayımlanmıştır?",
+   "options": [
+    "Kütahya-Eskişehir Savaşları",
+    "II. İnönü Muharebesi'nin kazanılması",
+    "Mudanya Ateşkes Antlaşması",
+    "Büyük Taarruz",
+    "Londra Konferansı"
+   ],
+   "answerIndex": 0,
+   "explanation": "Kütahya-Eskişehir yenilgisi → Başkomutanlık Kanunu → Tekâlif-i Millîye."
+  },
+  {
+   "id": "mega-1-23",
+   "subject": "Tarih",
+   "topic": "Kurtuluş Savaşı",
+   "text": "Doğu Trakya savaş yapılmadan hangi antlaşmayla kurtarılmıştır?",
+   "options": [
+    "Ankara Antlaşması (Fransa ile, 1921)",
+    "Kars Antlaşması",
+    "Moskova Antlaşması",
+    "Gümrü Antlaşması",
+    "Mudanya Ateşkes Antlaşması"
+   ],
+   "answerIndex": 4,
+   "explanation": "Mudanya (11 Ekim 1922) ile Doğu Trakya savaşmadan alındı."
+  },
+  {
+   "id": "mega-1-24",
+   "subject": "Tarih",
+   "topic": "İnkılaplar",
+   "text": "Saltanatın kaldırılmasını hızlandıran gelişme hangisidir?",
+   "options": [
+    "Mudanya Ateşkesi'nin imzalanıp yürürlüğe girmesi",
+    "Lozan'a iki ayrı hükümetin davet edilmesi",
+    "Halifeliğin kaldırılması",
+    "Takrir-i Sükûn Kanunu'nun çıkarılması",
+    "Mudanya'da Batı Trakya'nın istenmesi"
+   ],
+   "answerIndex": 1,
+   "explanation": "İtilaf Devletleri Lozan'a hem İstanbul hem Ankara hükümetini çağırınca 1 Kasım 1922'de saltanat kaldırıldı."
+  },
+  {
+   "id": "mega-1-25",
+   "subject": "Tarih",
+   "topic": "İnkılaplar",
+   "text": "3 Mart 1924'te alınan kararlar arasında hangisi yoktur?",
+   "options": [
+    "Halifeliğin kaldırılması",
+    "Tevhid-i Tedrisat Kanunu",
+    "Şer'iye ve Evkaf Vekâletinin kaldırılması",
+    "Şapka Kanunu'nun kabulü",
+    "Erkân-ı Harbiye Vekâletinin kaldırılması"
+   ],
+   "answerIndex": 3,
+   "explanation": "Şapka Kanunu 1925'tir."
+  },
+  {
+   "id": "mega-1-26",
+   "subject": "Tarih",
+   "topic": "Dış politika",
+   "text": "Musul sorunu hangi antlaşmayla sonuçlanmıştır?",
+   "options": [
+    "Lozan Barış Antlaşması",
+    "Montrö Sözleşmesi",
+    "Sadabat Paktı",
+    "1926 Ankara Antlaşması",
+    "Balkan Antantı"
+   ],
+   "answerIndex": 3,
+   "explanation": "Lozan'da çözülemedi; 1926 Ankara Antlaşması ile Irak'a bırakıldı."
+  },
+  {
+   "id": "mega-1-27",
+   "subject": "Tarih",
+   "topic": "Dış politika",
+   "text": "Boğazların yönetiminin tamamen Türkiye'ye geçtiği sözleşme hangisidir?",
+   "options": [
+    "Montrö Boğazlar Sözleşmesi",
+    "Lozan Boğazlar Sözleşmesi",
+    "Mudanya Ateşkes Antlaşması",
+    "Sevr Antlaşması",
+    "Paris Barış Konferansı"
+   ],
+   "answerIndex": 0,
+   "explanation": "1936 Montrö ile."
+  },
+  {
+   "id": "mega-1-28",
+   "subject": "Tarih",
+   "topic": "Atatürk İlkeleri",
+   "text": "1929 Dünya Ekonomik Bunalımı'nın ardından ekonomide öne çıkan ilke hangisidir?",
+   "options": [
+    "Laiklik",
+    "Cumhuriyetçilik",
+    "Milliyetçilik",
+    "Devletçilik",
+    "İnkılapçılık"
+   ],
+   "answerIndex": 3,
+   "explanation": "Özel sermaye yetersiz kalınca devlet ekonomide öncü oldu."
+  },
+  {
+   "id": "mega-1-29",
+   "subject": "Tarih",
+   "topic": "Atatürk İlkeleri",
+   "text": "Laiklik ilkesi anayasaya hangi yıl girmiştir?",
+   "options": [
+    "1924",
+    "1928",
+    "1934",
+    "1931",
+    "1937"
+   ],
+   "answerIndex": 4,
+   "explanation": "5 Şubat 1937'de altı ilke anayasaya girdi (1928'de din maddesi çıkarılmıştı)."
+  },
+  {
+   "id": "mega-1-30",
+   "subject": "Tarih",
+   "topic": "İnkılaplar",
+   "text": "Türk kadınına milletvekili seçme ve seçilme hakkı hangi yıl verilmiştir?",
+   "options": [
+    "1930",
+    "1933",
+    "1926",
+    "1938",
+    "1934"
+   ],
+   "answerIndex": 4,
+   "explanation": "1930 belediye, 1933 muhtarlık, 1934 milletvekilliği."
+  },
+  {
+   "id": "mega-1-31",
+   "subject": "Tarih",
+   "topic": "İnkılaplar",
+   "text": "“Egemenlik kayıtsız şartsız milletindir.” ilkesi ilk kez hangi anayasada yer almıştır?",
+   "options": [
+    "1876 Kanun-i Esasi",
+    "1924 Teşkilât-ı Esasiye Kanunu",
+    "1921 Teşkilât-ı Esasiye Kanunu",
+    "1961 Anayasası",
+    "1909 Kanun-i Esasi değişikliği"
+   ],
+   "answerIndex": 2,
+   "explanation": "1921 Anayasası millî egemenliği esas aldı."
+  },
+  {
+   "id": "mega-1-32",
+   "subject": "Tarih",
+   "topic": "Ekonomi",
+   "text": "“Misak-ı İktisadi” hangi toplantıda kabul edilmiştir?",
+   "options": [
+    "Sivas Kongresi",
+    "Lozan Konferansı",
+    "Erzurum Kongresi",
+    "Ankara Ticaret Kongresi",
+    "İzmir İktisat Kongresi"
+   ],
+   "answerIndex": 4,
+   "explanation": "17 Şubat 1923 İzmir İktisat Kongresi."
+  },
+  {
+   "id": "mega-1-33",
+   "subject": "Tarih",
+   "topic": "İnkılaplar",
+   "text": "Millet Mektepleri hangi inkılabın yaygınlaşması amacıyla açılmıştır?",
+   "options": [
+    "Harf İnkılabı",
+    "Soyadı Kanunu",
+    "Kıyafet İnkılabı",
+    "Takvim ve saat değişikliği",
+    "Medeni Kanun'un kabulü"
+   ],
+   "answerIndex": 0,
+   "explanation": "1 Kasım 1928 harf inkılabından sonra halka yeni harfleri öğretmek için."
+  },
+  {
+   "id": "mega-1-34",
+   "subject": "Tarih",
+   "topic": "İnkılaplar",
+   "text": "Türk Medeni Kanunu hangi ülkenin medeni kanunu örnek alınarak hazırlanmıştır?",
+   "options": [
+    "Fransa",
+    "İsviçre",
+    "Almanya",
+    "İtalya",
+    "Belçika"
+   ],
+   "answerIndex": 1,
+   "explanation": "17 Şubat 1926; İsviçre Medeni Kanunu esas alındı."
+  },
+  {
+   "id": "mega-1-35",
+   "subject": "Anayasa",
+   "topic": "m.4",
+   "text": "Anayasaya göre değiştirilmesi teklif dahi edilemeyecek hüküm hangisidir?",
+   "options": [
+    "Milletvekili sayısının 600 olması",
+    "Seçimlerin beş yılda bir yapılması",
+    "Cumhurbaşkanının 40 yaşını doldurması",
+    "Seçmen yaşının 18 olarak belirlenmesi",
+    "Devletin şeklinin Cumhuriyet olması"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.4: ilk üç madde değiştirilemez ve teklif edilemez."
+  },
+  {
+   "id": "mega-1-36",
+   "subject": "Anayasa",
+   "topic": "m.19",
+   "text": "Anayasaya göre toplu olarak işlenen suçlarda yakalanan kişi en geç kaç gün içinde hâkim önüne çıkarılır?",
+   "options": [
+    "İki gün",
+    "Yedi gün",
+    "Üç gün",
+    "Dört gün",
+    "On beş gün"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.19: 48 saat; toplu suçlarda en çok dört gün."
+  },
+  {
+   "id": "mega-1-37",
+   "subject": "Anayasa",
+   "topic": "m.15",
+   "text": "Savaş, seferberlik veya olağanüstü hâlde dahi dokunulamayacak hak hangisidir?",
+   "options": [
+    "Toplantı ve gösteri yürüyüşü hakkı",
+    "Suç ve cezaların geriye yürümemesi",
+    "Haberleşme hürriyeti",
+    "Yerleşme ve seyahat hürriyeti",
+    "Basın hürriyeti"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.15/2 çekirdek alan: yaşama hakkı (savaş hukukuna uygun ölümler hariç), maddi-manevi bütünlük, din-vicdan, suç ve cezaların geriye yürümezliği, masumiyet karinesi."
+  },
+  {
+   "id": "mega-1-38",
+   "subject": "Anayasa",
+   "topic": "m.38",
+   "text": "Anayasaya göre hangi ceza hiçbir surette verilemez?",
+   "options": [
+    "Adli para cezası",
+    "Genel müsadere",
+    "Hapis cezası",
+    "Özel müsadere",
+    "Hak yoksunluğu"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.38: genel müsadere cezası verilemez."
+  },
+  {
+   "id": "mega-1-39",
+   "subject": "Anayasa",
+   "topic": "m.34",
+   "text": "Anayasaya göre toplantı ve gösteri yürüyüşü hakkı nasıl kullanılır?",
+   "options": [
+    "Valilikten en az bir gün önce yazılı izin alınarak",
+    "Kolluğun gözetimi altında ve ruhsatla",
+    "Önceden izin almadan, silahsız ve saldırısız",
+    "Yalnızca dernek üyelerince, izinle",
+    "Mahkeme kararı alındıktan sonra"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.34."
+  },
+  {
+   "id": "mega-1-40",
+   "subject": "Anayasa",
+   "topic": "m.175",
+   "text": "Anayasa değişikliği teklifi TBMM üye tamsayısının en az ne kadarı tarafından yazıyla yapılır?",
+   "options": [
+    "Beşte biri",
+    "Yarısından bir fazlası",
+    "Beşte üçü",
+    "Üçte biri",
+    "Üçte ikisi"
+   ],
+   "answerIndex": 3,
+   "explanation": "1/3 = 200 milletvekili; kabul için en az 3/5 (360)."
+  },
+  {
+   "id": "mega-1-41",
+   "subject": "Anayasa",
+   "topic": "m.101",
+   "text": "Cumhurbaşkanı seçilebilmek için aranan şartlar hangisidir?",
+   "options": [
+    "35 yaşını doldurmuş ve milletvekili olmak",
+    "45 yaşını doldurmuş, lise mezunu olmak",
+    "30 yaşını doldurmuş, TBMM üyesi olmak",
+    "40 yaşını doldurmuş, yükseköğrenim yapmış olmak",
+    "40 yaşını doldurmuş, en az 5 yıl bakanlık yapmış olmak"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.101."
+  },
+  {
+   "id": "mega-1-42",
+   "subject": "Anayasa",
+   "topic": "m.119",
+   "text": "Olağanüstü hâl ilanı ile ilgili hangisi doğrudur?",
+   "options": [
+    "Cumhurbaşkanınca altı ayı geçmemek üzere ilan edilir",
+    "TBMM tarafından bir yılı geçmemek üzere ilan edilir ve uzatılamaz",
+    "İçişleri Bakanınca üç aylığına ilan edilir",
+    "Valilerce il bazında süresiz ilan edilir",
+    "Anayasa Mahkemesi onayı ile ilan edilir"
+   ],
+   "answerIndex": 0,
+   "explanation": "Uzatma her defasında dört ayı geçemez (savaş hâli hariç)."
+  },
+  {
+   "id": "mega-1-43",
+   "subject": "Anayasa",
+   "topic": "m.146",
+   "text": "Anayasa Mahkemesi kaç üyeden oluşur?",
+   "options": [
+    "11",
+    "13",
+    "17",
+    "15",
+    "22"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.146."
+  },
+  {
+   "id": "mega-1-44",
+   "subject": "Anayasa",
+   "topic": "m.72",
+   "text": "“Vatan hizmeti her Türkün hakkı ve ödevidir.” hükmü Anayasanın hangi bölümündedir?",
+   "options": [
+    "Siyasi Haklar ve Ödevler",
+    "Sosyal ve Ekonomik Haklar ve Ödevler",
+    "Kişinin Hakları ve Ödevleri",
+    "Genel Esaslar",
+    "Devletin Temel Amaç ve Görevleri"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.66–74 siyasi haklar ve ödevler."
+  },
+  {
+   "id": "mega-1-45",
+   "subject": "Güncel",
+   "topic": "Güncel",
+   "text": "2025 yılı Türkiye'de hangi adla ilan edilmiştir?",
+   "options": [
+    "Gençlik Yılı",
+    "Sıfır Atık Yılı",
+    "Dijital Dönüşüm Yılı",
+    "Kültür Mirası Yılı",
+    "Aile Yılı"
+   ],
+   "answerIndex": 4,
+   "explanation": "Cumhurbaşkanlığınca 2025 “Aile Yılı” ilan edildi; 2026–2035 “Aile ve Nüfus On Yılı” olarak belirlendi."
+  },
+  {
+   "id": "mega-1-46",
+   "subject": "Güncel",
+   "topic": "Güncel",
+   "text": "Kasım 2026'da yapılacak BM İklim Değişikliği Konferansı (COP31) Türkiye'nin hangi şehrinde düzenlenecektir?",
+   "options": [
+    "İstanbul",
+    "İzmir",
+    "Antalya",
+    "Ankara",
+    "Muğla"
+   ],
+   "answerIndex": 2,
+   "explanation": "COP30'da (Belém) COP31'in Antalya'da yapılması kararlaştırıldı."
+  },
+  {
+   "id": "mega-1-47",
+   "subject": "Güncel",
+   "topic": "Güncel",
+   "text": "2026 NATO Zirvesi hangi şehirde düzenlenmiştir?",
+   "options": [
+    "İstanbul",
+    "Lahey",
+    "Ankara",
+    "Vilnius",
+    "Brüksel"
+   ],
+   "answerIndex": 2,
+   "explanation": "2025 Lahey zirvesinin ardından 2026 zirvesi Ankara'da (7–8 Temmuz)."
+  },
+  {
+   "id": "mega-1-48",
+   "subject": "Güncel",
+   "topic": "Güncel",
+   "text": "Papa XIV. Leo Kasım 2025'teki Türkiye ziyaretinde hangi olayın 1700. yılı dolayısıyla İznik'e gitmiştir?",
+   "options": [
+    "İznik Konsili",
+    "Malazgirt Savaşı",
+    "Miryokefalon Savaşı",
+    "İstanbul'un Fethi",
+    "Kadeş Antlaşması"
+   ],
+   "answerIndex": 0,
+   "explanation": "325'te toplanan I. İznik Konsili."
+  },
+  {
+   "id": "mega-1-49",
+   "subject": "Muhakeme",
+   "topic": "Sayı dizisi",
+   "text": "2, 6, 12, 20, 30, ? dizisinde soru işareti yerine ne gelmelidir?",
+   "options": [
+    "40",
+    "36",
+    "44",
+    "38",
+    "42"
+   ],
+   "answerIndex": 4,
+   "explanation": "Farklar 4, 6, 8, 10, 12 → 30+12=42."
+  },
+  {
+   "id": "mega-1-50",
+   "subject": "Muhakeme",
+   "topic": "Sayı dizisi",
+   "text": "3, 5, 9, 17, 33, ? dizisinde soru işareti yerine ne gelmelidir?",
+   "options": [
+    "63",
+    "49",
+    "65",
+    "66",
+    "57"
+   ],
+   "answerIndex": 2,
+   "explanation": "Her terim ×2−1."
+  },
+  {
+   "id": "mega-1-51",
+   "subject": "Muhakeme",
+   "topic": "Mantık",
+   "text": "“Bütün nöbetçiler yelek giyer. Ali yelek giymemiştir.” Buna göre kesin olarak ne söylenebilir?",
+   "options": [
+    "Ali nöbetçi değildir.",
+    "Ali yarın nöbetçidir.",
+    "Yelek giyen herkes nöbetçidir.",
+    "Ali yeleğini kaybetmiştir.",
+    "Nöbetçilerin bir kısmı yelek giymez."
+   ],
+   "answerIndex": 0,
+   "explanation": "Nöbetçi olsaydı yelek giyerdi."
+  },
+  {
+   "id": "mega-1-52",
+   "subject": "Muhakeme",
+   "topic": "Sıralama",
+   "text": "A, B, C, D, E soldan sağa yan yana oturuyor. C en sağda, D en solda; A, B'nin hemen solunda; E, D'nin yanında değil. Ortadaki kimdir?",
+   "options": [
+    "A",
+    "B",
+    "E",
+    "D",
+    "C"
+   ],
+   "answerIndex": 1,
+   "explanation": "Tek dizilim: D A B E C."
+  },
+  {
+   "id": "mega-1-53",
+   "subject": "Muhakeme",
+   "topic": "Oran",
+   "text": "12 personel bir işi 8 günde bitiriyor. Aynı hızda çalışan 16 personel bu işi kaç günde bitirir?",
+   "options": [
+    "5",
+    "7",
+    "4",
+    "10",
+    "6"
+   ],
+   "answerIndex": 4,
+   "explanation": "12×8=96 → 96/16=6."
+  },
+  {
+   "id": "mega-1-54",
+   "subject": "Muhakeme",
+   "topic": "Yaş",
+   "text": "Babanın yaşı 40, oğlunun yaşı 10'dur. Kaç yıl sonra babanın yaşı oğlunun yaşının 3 katı olur?",
+   "options": [
+    "4",
+    "6",
+    "8",
+    "5",
+    "10"
+   ],
+   "answerIndex": 3,
+   "explanation": "40+x = 3(10+x) → x=5."
+  },
+  {
+   "id": "mega-1-55",
+   "subject": "Muhakeme",
+   "topic": "Nöbet",
+   "text": "A, B, C, D sırayla birer gün nöbet tutuyor. 1. gün A nöbetçi ise 10. gün kim nöbetçidir?",
+   "options": [
+    "A",
+    "C",
+    "B",
+    "D",
+    "Belirlenemez"
+   ],
+   "answerIndex": 2,
+   "explanation": "4'lü döngü: 9. gün A, 10. gün B."
+  },
+  {
+   "id": "mega-1-56",
+   "subject": "Muhakeme",
+   "topic": "Yüzde",
+   "text": "250'nin %40'ı kaçtır?",
+   "options": [
+    "90",
+    "100",
+    "110",
+    "120",
+    "80"
+   ],
+   "answerIndex": 1,
+   "explanation": "250×0,40=100."
+  },
+  {
+   "id": "mega-1-57",
+   "subject": "Muhakeme",
+   "topic": "Açı",
+   "text": "Saat tam 10.00'da akrep ile yelkovan arasındaki dar açı kaç derecedir?",
+   "options": [
+    "30",
+    "90",
+    "45",
+    "60",
+    "75"
+   ],
+   "answerIndex": 3,
+   "explanation": "Aralarında 2 saat dilimi: 2×30=60."
+  },
+  {
+   "id": "mega-1-58",
+   "subject": "Muhakeme",
+   "topic": "Mantık",
+   "text": "“Hiçbir kaçak eşya gümrükten geçmemiştir. Bazı eşyalar gümrükten geçmiştir.” Buna göre hangisi kesinlikle doğrudur?",
+   "options": [
+    "Bütün eşyalar kaçaktır.",
+    "Bazı kaçak eşyalar gümrükten geçmiştir.",
+    "Gümrükten geçmeyen her eşya kaçaktır.",
+    "Gümrükten geçen eşyalar kaçak değildir.",
+    "Hiçbir eşya kaçak değildir."
+   ],
+   "answerIndex": 3,
+   "explanation": "Kaçak olan geçmemişse, geçen kaçak olamaz. Geçmeyen her eşyanın kaçak olduğu çıkmaz."
+  },
+  {
+   "id": "mega-1-59",
+   "subject": "Mevzuat",
+   "topic": "2803",
+   "text": "2803 sayılı Kanun'a göre Jandarma hangi bakanlığa bağlıdır?",
+   "options": [
+    "İçişleri Bakanlığı",
+    "Millî Savunma Bakanlığı",
+    "Adalet Bakanlığı",
+    "Dışişleri Bakanlığı",
+    "Hazine ve Maliye Bakanlığı"
+   ],
+   "answerIndex": 0,
+   "explanation": "Jandarma, İçişleri Bakanlığına bağlı silahlı genel kolluk kuvvetidir."
+  },
+  {
+   "id": "mega-1-60",
+   "subject": "Mevzuat",
+   "topic": "2803",
+   "text": "2803 sayılı Kanun'da Jandarmanın görevleri gruplandırılırken hangisi yer almaz?",
+   "options": [
+    "Mülkî görevler",
+    "Ticari görevler",
+    "Adlî görevler",
+    "Askerî görevler",
+    "Diğer görevler"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.7: mülkî, adlî, askerî ve diğer görevler."
+  },
+  {
+   "id": "mega-1-61",
+   "subject": "Mevzuat",
+   "topic": "2803",
+   "text": "Hangisi Jandarmanın mülkî görevlerindendir?",
+   "options": [
+    "Ceza infaz kurumlarının dış korumasını yapmak",
+    "Suç işlendiğinde hüküm kurmak ve cezayı belirlemek",
+    "Gümrük vergilerini tahakkuk ettirip tahsil etmek",
+    "Adli yargı kararlarını temyiz yoluyla denetlemek",
+    "Seçim kurullarının başkanlığını yürütmek"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.7/a: emniyet-asayiş, kaçakçılığı önleme, ceza infaz kurumlarının dış koruması vb."
+  },
+  {
+   "id": "mega-1-62",
+   "subject": "Mevzuat",
+   "topic": "2803",
+   "text": "Jandarmanın sorumluluk alanı kural olarak aşağıdakilerden hangisidir?",
+   "options": [
+    "Yalnızca il ve ilçe merkezlerindeki belediye sınırları içi",
+    "Sadece sınır kapıları ve limanlar",
+    "Belediye sınırları içindeki tüm yerler",
+    "Sadece büyükşehirlerin mücavir alanları",
+    "Polis sorumluluk alanı dışında kalan yerler"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.10: il ve ilçe belediye sınırları dışında kalan veya polis teşkilatı bulunmayan yerler."
+  },
+  {
+   "id": "mega-1-63",
+   "subject": "Mevzuat",
+   "topic": "2803",
+   "text": "Jandarmanın niteliği 2803'te nasıl tanımlanır?",
+   "options": [
+    "Silahsız özel kolluk kuvveti",
+    "Yalnızca askerî inzibat birliği",
+    "Sivil idari denetim kurumu",
+    "Silahlı genel kolluk kuvveti",
+    "Özel güvenlik koordinasyon birimi"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.3."
+  },
+  {
+   "id": "mega-1-64",
+   "subject": "Mevzuat",
+   "topic": "6698",
+   "text": "6698'e göre “açık rıza”nın tanımı hangisidir?",
+   "options": [
+    "Veri sahibinin sözlü olarak ya da susarak verdiği her türlü genel ve süresiz nitelikteki onay",
+    "Veri sorumlusunun kurum içi yazılı talimatıyla verilen izin",
+    "Belirli konuya ilişkin, bilgilendirmeye dayanan, özgür iradeyle açıklanan rıza",
+    "Kanunda sayılan hallerde idarenin verdiği zorunlu onay",
+    "İlgili kişinin yakınlarının onun adına verdiği izin"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.3/a."
+  },
+  {
+   "id": "mega-1-65",
+   "subject": "Mevzuat",
+   "topic": "6698",
+   "text": "Hangisi özel nitelikli kişisel veri değildir?",
+   "options": [
+    "Adres bilgisi",
+    "Sağlık verisi",
+    "Biyometrik veri",
+    "Dernek üyeliği",
+    "Ceza mahkûmiyeti"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.6 sayar; adres kişisel veridir ama özel nitelikli değildir."
+  },
+  {
+   "id": "mega-1-66",
+   "subject": "Mevzuat",
+   "topic": "6698",
+   "text": "Kişisel verilerin işlenmesindeki genel ilkeler arasında hangisi yoktur?",
+   "options": [
+    "Hukuka ve dürüstlük kurallarına uygunluk",
+    "Doğru ve gerektiğinde güncel olma",
+    "Verilerin süresiz olarak muhafaza edilmesi",
+    "Belirli, açık ve meşru amaçlar için işlenme",
+    "İşlendikleri amaçla bağlantılı, sınırlı, ölçülü olma"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.4: gerektiği kadar süreyle muhafaza."
+  },
+  {
+   "id": "mega-1-67",
+   "subject": "Mevzuat",
+   "topic": "6698",
+   "text": "6698'in 28. maddesine göre hangisinde Kanun hükümleri uygulanmaz?",
+   "options": [
+    "Bir şirketin müşteri verilerini reklam ve pazarlama faaliyetleri için işlemesi",
+    "Ev içi faaliyetler kapsamında, üçüncü kişiye verilmeden işleme",
+    "Bir hastanenin hasta kayıtlarını tutması",
+    "Bankanın kredi başvurusu verilerini işlemesi",
+    "Bir işverenin personel özlük dosyası tutması"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.28/1-a."
+  },
+  {
+   "id": "mega-1-68",
+   "subject": "Mevzuat",
+   "topic": "KVK Silme Yön.",
+   "text": "Kişisel verilerin “hiç kimse tarafından hiçbir şekilde erişilemez, geri getirilemez ve tekrar kullanılamaz” hale getirilmesi hangisidir?",
+   "options": [
+    "Yok etme",
+    "Silme",
+    "Anonim hale getirme",
+    "Maskeleme",
+    "Arşivleme"
+   ],
+   "answerIndex": 0,
+   "explanation": "Silme: ilgili kullanıcılar için erişilemez; yok etme: hiç kimse için ve geri getirilemez."
+  },
+  {
+   "id": "mega-1-69",
+   "subject": "Mevzuat",
+   "topic": "KVK Silme Yön.",
+   "text": "Periyodik imha işlemi en fazla hangi aralıklarla yapılır?",
+   "options": [
+    "Her takvim yılının sonunda",
+    "6 ayı aşmamak üzere",
+    "3 yılda bir",
+    "Her ay",
+    "2 yılda bir"
+   ],
+   "answerIndex": 1,
+   "explanation": "Yönetmelik m.11: tekrar eden aralıklar 6 ayı geçemez."
+  },
+  {
+   "id": "mega-1-70",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "Kanunilik ilkesiyle bağdaşmayan durum hangisidir?",
+   "options": [
+    "Suç ve cezanın kanunla belirlenmesi",
+    "Ceza hükümlerinde kıyasın yasak olması",
+    "Kanunda yazılı olmayan fiile ceza verilmemesi",
+    "Belirsiz ceza hükümlerinin yorumla genişletilmemesi",
+    "Bir yönetmelikle yeni bir suç ve ceza konulması"
+   ],
+   "answerIndex": 4,
+   "explanation": "TCK m.2: idarenin düzenleyici işlemleriyle suç ve ceza konulamaz."
+  },
+  {
+   "id": "mega-1-71",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "TCK'ya göre “gece vakti” nedir?",
+   "options": [
+    "Hava karardıktan sonra başlayıp güneşin doğuşuna kadar geçen tüm zaman dilimi",
+    "Güneşin batışı ile doğuşu arasındaki süre",
+    "Saat 20.00 ile 05.00 arasında geçen süre",
+    "Güneş batışından 1 saat sonra başlayıp doğuşundan 1 saat önceye kadar",
+    "Hava karardıktan sonra başlayıp sabah ezanına kadar"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.6/1-e."
+  },
+  {
+   "id": "mega-1-72",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "Suçun işlendiği zaman yürürlükte olan kanun ile sonradan yürürlüğe giren kanunun hükümleri farklıysa hangisi uygulanır?",
+   "options": [
+    "Her durumda eski kanun",
+    "Her durumda yeni kanun",
+    "Failin lehine olan kanun",
+    "Mahkemenin seçtiği kanun",
+    "Cezası daha ağır olan kanun"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.7/2."
+  },
+  {
+   "id": "mega-1-73",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "TCK'ya göre tüzel kişiler hakkında hangisi doğrudur?",
+   "options": [
+    "Hapis cezası verilemez ancak adli para cezasına her durumda hükmolunur",
+    "Ceza yaptırımı uygulanamaz, güvenlik tedbiri uygulanabilir",
+    "Her türlü ceza ve tedbir aynen uygulanır",
+    "Hiçbir yaptırım ve tedbir uygulanamaz",
+    "Yalnızca adli para cezası verilebilir"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.20/2."
+  },
+  {
+   "id": "mega-1-74",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "Konusu suç teşkil eden bir emirle ilgili hangisi doğrudur?",
+   "options": [
+    "Amir yazılı olarak emrettiğinde yerine getiren kişi hiçbir şekilde sorumlu olmaz",
+    "Yazılı verilmişse yerine getirilmesi zorunludur",
+    "Yalnızca emri veren amir sorumlu tutulur",
+    "Hiçbir surette yerine getirilemez; getiren ve veren sorumludur",
+    "Emri yerine getiren sadece disiplin cezası alır"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.24/3; denetimi kanunen mümkün olmayan emirde yalnız emri veren sorumlu."
+  },
+  {
+   "id": "mega-1-75",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "Fiili işlediği sırada 12 yaşını doldurmamış çocuk hakkında hangisi doğrudur?",
+   "options": [
+    "Ceza sorumluluğu vardır ancak cezası yarı oranında indirilerek verilir",
+    "Algılama yeteneği varsa tam ceza verilir",
+    "Ceza sorumluluğu yoktur, güvenlik tedbiri uygulanabilir",
+    "Yalnızca adli para cezası verilebilir",
+    "Ailesine hapis cezası verilir"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.31/1; kovuşturma yapılamaz."
+  },
+  {
+   "id": "mega-1-76",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "İradi olarak alınan alkolün etkisiyle suç işleyen kişi hakkında hangisi doğrudur?",
+   "options": [
+    "Ceza sorumluluğu tamamen ve her koşulda ortadan kalkar",
+    "Ceza her durumda yarıya indirilir",
+    "Kusur yeteneğinin kalktığı kabul edilmez",
+    "Yalnızca güvenlik tedbiri uygulanır",
+    "Kovuşturma şikâyete bağlı hale gelir"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.34/2."
+  },
+  {
+   "id": "mega-1-77",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "Suçun icra hareketlerinden gönüllü olarak vazgeçen fail hakkında hangisi doğrudur?",
+   "options": [
+    "Tamamlanmış suçun cezası verilir",
+    "Cezası üçte bir oranında artırılır",
+    "Teşebbüs cezası aynen verilir",
+    "Her durumda beraat eder, hiçbir sorumluluğu kalmaz",
+    "Teşebbüsten dolayı cezalandırılmaz"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.36: tamamlanmış kısım ayrı suç oluşturuyorsa o suçun cezası verilir."
+  },
+  {
+   "id": "mega-1-78",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "Zincirleme suç hükümleri hangi suçta uygulanabilir?",
+   "options": [
+    "Hırsızlık",
+    "Yağma",
+    "İşkence",
+    "Kasten öldürme",
+    "Kasten yaralama"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.43/3: kasten öldürme, kasten yaralama, işkence ve yağmada uygulanmaz."
+  },
+  {
+   "id": "mega-1-79",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "İşlediği bir fiil ile birden fazla farklı suçun oluşmasına sebebiyet veren kişi (fikri içtima) nasıl cezalandırılır?",
+   "options": [
+    "En ağır cezayı gerektiren suçtan",
+    "Her suçtan ayrı ayrı",
+    "En hafif cezayı gerektiren suçtan",
+    "Cezaların toplamının yarısıyla",
+    "Mahkemenin seçeceği suçtan"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.44."
+  },
+  {
+   "id": "mega-1-80",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "Kusur yeteneği olmayan bir kişiyi araç olarak kullanarak suç işleten kişinin durumu hangisidir?",
+   "options": [
+    "Suça yardım eden sayılır",
+    "Azmettiren sayılır, ceza indirilir",
+    "Ceza sorumluluğu doğmaz",
+    "Yalnızca tazminat sorumluluğu doğar",
+    "Dolaylı faildir; cezası artırılır"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.37/2: 1/3'ten yarısına kadar artırılır."
+  },
+  {
+   "id": "mega-1-81",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "Şikâyete bağlı suçlarda şikâyet süresi hangisidir?",
+   "options": [
+    "Suçun işlendiği tarihten itibaren her durumda 1 ay",
+    "Fiili öğrenmeden itibaren 15 gün",
+    "Suç tarihinden itibaren 2 yıl",
+    "Faili öğrenmeden itibaren 3 ay",
+    "Fiil ve faili öğrenmeden itibaren 6 ay"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.73/1."
+  },
+  {
+   "id": "mega-1-82",
+   "subject": "Mevzuat",
+   "topic": "TCK Genel",
+   "text": "Şikâyetten vazgeçme ile ilgili hangisi doğrudur?",
+   "options": [
+    "Hüküm kesinleştikten sonra da mümkündür",
+    "Yalnızca soruşturma evresinde yapılabilir",
+    "Vazgeçmeyi kabul etmeyen sanığı etkilemez",
+    "İştirakçilerden yalnızca birini kapsar",
+    "Kamu davasını hiçbir şekilde etkilemez"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.73/4; birini kapsayan vazgeçme diğerlerini de kapsar."
+  },
+  {
+   "id": "mega-1-83",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Hangisi kasten öldürmenin nitelikli hallerinden biri değildir?",
+   "options": [
+    "Tasarlayarak ve önceden plan yapılarak işlenmesi",
+    "Canavarca hisle işlenmesi",
+    "Kan gütme saikiyle işlenmesi",
+    "Töre saikiyle işlenmesi",
+    "Haksız tahrik altında işlenmesi"
+   ],
+   "answerIndex": 4,
+   "explanation": "Haksız tahrik (m.29) indirim nedenidir."
+  },
+  {
+   "id": "mega-1-84",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Kasten yaralamada soruşturma ve kovuşturmanın şikâyete bağlı olduğu hal hangisidir?",
+   "options": [
+    "Silahla yapılan ve kemik kırığına yol açmayan yaralama",
+    "Kamu görevlisine görevinden dolayı yaralama",
+    "Basit tıbbi müdahaleyle giderilebilecek yaralama",
+    "Kemik kırılmasına neden olan yaralama",
+    "Üstsoya karşı işlenen yaralama"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.86/2 (nitelikli haller hariç)."
+  },
+  {
+   "id": "mega-1-85",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Hırsızlık suçunun tanımında hangisi yer almaz?",
+   "options": [
+    "Taşınır bir malın alınması",
+    "Zilyedin rızasının bulunmaması",
+    "Yarar sağlama maksadı",
+    "Cebir veya tehdit kullanılması",
+    "Malın bulunduğu yerden alınması"
+   ],
+   "answerIndex": 3,
+   "explanation": "Cebir/tehdit yağmayı (m.148) oluşturur."
+  },
+  {
+   "id": "mega-1-86",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Hangisi nitelikli hırsızlık halidir?",
+   "options": [
+    "Paydaşın, paylı veya elbirliği mülkiyetindeki malı alması",
+    "Değeri az olan malın çalınması",
+    "Kısa süre kullanıp geri verme",
+    "Kamu hukukundan doğan alacak için alma",
+    "Kamu kurumunda bulunan eşyanın çalınması"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.142/1-a; diğerleri m.144, 145, 146."
+  },
+  {
+   "id": "mega-1-87",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Konut dokunulmazlığının ihlali suçunun basit hali için hangisi doğrudur?",
+   "options": [
+    "Resen kovuşturulur",
+    "Uzlaşma kapsamı dışındadır",
+    "Yalnızca gece işlenebilir",
+    "Şikâyete bağlıdır",
+    "Teşebbüsü mümkün değildir"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.116/1."
+  },
+  {
+   "id": "mega-1-88",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Zilyetliği kendisine devredilmiş mal üzerinde, devir amacı dışında tasarrufta bulunmak hangi suçtur?",
+   "options": [
+    "Nitelikli dolandırıcılık",
+    "Dolandırıcılık",
+    "Güveni kötüye kullanma",
+    "Yağma",
+    "Mala zarar verme"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.155; şikâyete bağlıdır."
+  },
+  {
+   "id": "mega-1-89",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Alkol etkisiyle güvenli sürüş yapamayacak halde araç kullanan kişi hangi suçu işler?",
+   "options": [
+    "Genel güvenliğin kasten tehlikeye sokulması",
+    "Taksirle yaralama",
+    "Görevi yaptırmamak için direnme",
+    "Trafik güvenliğini tehlikeye sokma",
+    "Kişilerin huzurunu bozma"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.179/3."
+  },
+  {
+   "id": "mega-1-90",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Kullanmak için uyuşturucu madde bulunduran kişi hakkında soruşturma evresinde kural olarak ne yapılır?",
+   "options": [
+    "Doğrudan tutuklama talebiyle sulh ceza hâkimliğine sevk edilir",
+    "Kamu davasının açılmasının ertelenmesine karar verilir",
+    "İdari para cezası verilip dosya kapatılır",
+    "Hükmün açıklanması hemen ertelenir",
+    "Dosya ticaret suçu olarak işlem görür"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.191/2: erteleme süresi 5 yıl, denetimli serbestlik."
+  },
+  {
+   "id": "mega-1-91",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Suç işlemek amacıyla örgütten söz edebilmek için örgütün en az kaç kişiden oluşması gerekir?",
+   "options": [
+    "2",
+    "5",
+    "3",
+    "7",
+    "10"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.220/1."
+  },
+  {
+   "id": "mega-1-92",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Görevini yapmasını önlemek amacıyla kamu görevlisine karşı cebir veya tehdit kullanılması hangi suçtur?",
+   "options": [
+    "Görevi kötüye kullanma",
+    "Kamu görevinin usulsüz üstlenilmesi",
+    "Suçluyu kayırma",
+    "Kişiyi hürriyetinden yoksun kılma",
+    "Görevi yaptırmamak için direnme"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.265."
+  },
+  {
+   "id": "mega-1-93",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Suçluyu kayırma suçunda hangi kişilere ceza verilmez?",
+   "options": [
+    "Failin aynı işyerinde çalışan iş arkadaşlarına",
+    "Failin komşularına",
+    "Failin üstsoy, altsoy, eş veya kardeşine",
+    "Suçu ihbar eden kişilere",
+    "Failin arkadaşı olan kamu görevlilerine"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.283/3."
+  },
+  {
+   "id": "mega-1-94",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Rüşvet alan kamu görevlisi hangi durumda cezalandırılmaz (etkin pişmanlık)?",
+   "options": [
+    "Kovuşturma aşamasında mahkeme huzurunda suçu tamamen ikrar ederse",
+    "Soruşturma başlamadan önce yetkili makamlara haber verirse",
+    "Rüşvetin yarısını iade ederse",
+    "Hüküm verildikten sonra pişman olursa",
+    "Görevden istifa ederse"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.254/1."
+  },
+  {
+   "id": "mega-1-95",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Görevi sırasında öğrendiği bir suçu yetkili makama bildirmeyen kamu görevlisinin işlediği suç hangisidir?",
+   "options": [
+    "Göreve ilişkin sırrın başkalarına açıklanması",
+    "Kamu görevlisinin suçu bildirmemesi",
+    "Suç delillerini gizleme",
+    "Suç uydurma",
+    "İftira"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.279."
+  },
+  {
+   "id": "mega-1-96",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Türk Bayrağını yırtmak, yakmak suretiyle alenen aşağılamak hangi suçu oluşturur?",
+   "options": [
+    "Devletin egemenlik alametlerini aşağılama",
+    "Halkın bir kesimini kin ve düşmanlığa alenen tahrik",
+    "Suçu ve suçluyu övme",
+    "Türk Milletini aşağılama",
+    "Kanunlara uymamaya tahrik"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.300."
+  },
+  {
+   "id": "mega-1-97",
+   "subject": "Mevzuat",
+   "topic": "TCK Özel",
+   "text": "Halkı askerlik hizmetinden soğutacak telkin veya propagandada bulunmak hangi suç grubundadır?",
+   "options": [
+    "Kişilere karşı suçlar",
+    "Topluma karşı suçlar",
+    "Adliyeye karşı suçlar",
+    "Millî savunmaya karşı suçlar",
+    "Kamu idaresinin güvenilirliğine karşı suçlar"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.318."
+  },
+  {
+   "id": "mega-1-98",
+   "subject": "Mevzuat",
+   "topic": "7201",
+   "text": "Muhatap adreste yoksa tebligat hangi kişiye yapılabilir?",
+   "options": [
+    "Aynı binada oturan ve muhatabı tanıdığını söyleyen herhangi bir komşu çocuğa",
+    "Sokaktaki tanıdık bir esnafa",
+    "Muhatabın işyerindeki müşteriye",
+    "Adreste bulunan 15 yaşındaki kardeşine",
+    "Birlikte oturan, görünüşe göre 18 yaşından büyük ehliyetli kişiye"
+   ],
+   "answerIndex": 4,
+   "explanation": "Yerine tebligatta 18 yaş ve bariz ehliyetsizlik bulunmaması şartı aranır."
+  },
+  {
+   "id": "mega-1-99",
+   "subject": "Mevzuat",
+   "topic": "7201",
+   "text": "Muhatap ve yerine tebliğ yapılacak kimse bulunamazsa tebligat nasıl yapılır?",
+   "options": [
+    "Muhtara/kolluk amirine bırakılır, kapıya ihbarname yapıştırılır",
+    "Tebligat çıkaran mercie iade edilir ve yeniden tebligat çıkarılması beklenir",
+    "Evrak kapıya bırakılır, tebliğ edilmiş sayılmaz",
+    "Doğrudan gazete ilanıyla tebliğ edilir",
+    "Muhatap kolluk marifetiyle zorla getirilir"
+   ],
+   "answerIndex": 0,
+   "explanation": "7201 m.21: ihbarnamenin yapıştırıldığı tarihten itibaren 15. gün tebliğ tarihi sayılır."
+  },
+  {
+   "id": "mega-1-100",
+   "subject": "Mevzuat",
+   "topic": "5442",
+   "text": "5442'ye göre vali hangi sıfatlara sahiptir?",
+   "options": [
+    "Yalnızca İçişleri Bakanlığının il müdürü",
+    "Devletin, Cumhurbaşkanının ve bakanların temsilcisi",
+    "İl genel meclisinin seçilmiş başkanı",
+    "Belediye başkanlarının disiplin amiri olan seçilmiş yetkili",
+    "Yargı mercilerinin il koordinatörü"
+   ],
+   "answerIndex": 1,
+   "explanation": "Vali ilde devletin ve her bir bakanın temsilcisi, idari ve siyasi yürütme vasıtasıdır."
+  },
+  {
+   "id": "mega-1-101",
+   "subject": "Mevzuat",
+   "topic": "5442",
+   "text": "İl ve ilçelerin kurulması, kaldırılması ve merkezlerinin değiştirilmesi nasıl olur?",
+   "options": [
+    "Valilik kararıyla",
+    "İçişleri Bakanlığı genelgesiyle",
+    "Kanunla",
+    "İl genel meclisi kararıyla",
+    "Yönetmelikle"
+   ],
+   "answerIndex": 2,
+   "explanation": "5442 m.2; Anayasa m.126."
+  },
+  {
+   "id": "mega-1-102",
+   "subject": "Mevzuat",
+   "topic": "5442",
+   "text": "İlçede genel kolluk kuvvetlerinin amiri kimdir?",
+   "options": [
+    "Kaymakam",
+    "İlçe jandarma komutanı",
+    "Belediye başkanı",
+    "Cumhuriyet başsavcısı",
+    "İlçe emniyet müdürü"
+   ],
+   "answerIndex": 0,
+   "explanation": "Kaymakam ilçede genel yönetimin ve kolluğun başıdır."
+  },
+  {
+   "id": "mega-1-103",
+   "subject": "Mevzuat",
+   "topic": "5326",
+   "text": "5326'ya göre kabahat nedir?",
+   "options": [
+    "Karşılığında kanunda hapis cezası öngörülen ve şikâyete bağlı haksızlık",
+    "Yalnızca trafikte işlenen kurallara aykırılık",
+    "Şikâyete bağlı hafif suçların genel adı",
+    "Disiplin cezası gerektiren memur eylemi",
+    "Karşılığında kanunda idari yaptırım öngörülen haksızlık"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.2."
+  },
+  {
+   "id": "mega-1-104",
+   "subject": "Mevzuat",
+   "topic": "5326",
+   "text": "Fiili işlediği sırada kaç yaşını doldurmamış kişiye idari para cezası verilemez?",
+   "options": [
+    "12",
+    "18",
+    "16",
+    "15",
+    "14"
+   ],
+   "answerIndex": 3,
+   "explanation": "Kabahatler Kanunu'nda kusur yeteneği sınırı 15 yaştır."
+  },
+  {
+   "id": "mega-1-105",
+   "subject": "Mevzuat",
+   "topic": "5326",
+   "text": "İdari yaptırım kararına karşı başvuru yolu hangisidir?",
+   "options": [
+    "Tebliğden itibaren 30 gün içinde idare mahkemesi",
+    "Tebliğden itibaren 7 gün içinde asliye ceza mahkemesi",
+    "Tebliğden itibaren 15 gün içinde sulh ceza hâkimliği",
+    "Kararı veren idareye 60 gün içinde itiraz",
+    "Valiliğe 1 ay içinde şikâyet"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.27."
+  },
+  {
+   "id": "mega-1-106",
+   "subject": "Mevzuat",
+   "topic": "5326",
+   "text": "İdari para cezası tebliğden itibaren 15 gün içinde peşin ödenirse ne olur?",
+   "options": [
+    "Dörtte biri indirilir",
+    "Tamamı silinir, dosya kapanır",
+    "Tamamı affedilir",
+    "Üçte biri indirilir",
+    "İndirim yapılmaz"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.17/6: 3/4'ü ödenirse tahsil edilmiş sayılır."
+  },
+  {
+   "id": "mega-1-107",
+   "subject": "Mevzuat",
+   "topic": "3713",
+   "text": "3713'e göre terör suçlusu sayılmak için hangisi doğrudur?",
+   "options": [
+    "Yalnızca silahlı eylem yapan ve eylemi tamamlanan kişi terörist suçlu olarak kabul edilir",
+    "Örgüt mensubu olan, amaç doğrultusunda suç işlemese de terörist sayılır",
+    "Örgüte bağış yapan her kişi doğrudan terörist sayılır",
+    "Tek başına hareket eden her suçlu terörist sayılır",
+    "Sadece örgüt yöneticisi terörist sayılır"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.2/1."
+  },
+  {
+   "id": "mega-1-108",
+   "subject": "Mevzuat",
+   "topic": "3713",
+   "text": "Terörün tanımında yer alan yöntemlerden biri değildir?",
+   "options": [
+    "Cebir ve şiddet kullanma",
+    "Baskı ve korkutma",
+    "Hile ile menfaat temini",
+    "Yıldırma ve sindirme",
+    "Tehdit"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.1; eylemin örgüt mensubunca yapılması gerekir."
+  },
+  {
+   "id": "mega-1-109",
+   "subject": "Mevzuat",
+   "topic": "2935",
+   "text": "2935'e göre olağanüstü hal hangi makam tarafından ilan edilir?",
+   "options": [
+    "TBMM Başkanı",
+    "İçişleri Bakanı",
+    "Cumhurbaşkanı",
+    "Millî Güvenlik Kurulu",
+    "Vali"
+   ],
+   "answerIndex": 2,
+   "explanation": "Resmî Gazete'de yayımlanır, aynı gün TBMM onayına sunulur."
+  },
+  {
+   "id": "mega-1-110",
+   "subject": "Mevzuat",
+   "topic": "2935",
+   "text": "Hangisi olağanüstü hal ilan sebeplerinden biri olabilir?",
+   "options": [
+    "Yerel seçim yapılması",
+    "Ağır ekonomik bunalım",
+    "Bütçenin geç kabul edilmesi",
+    "Nüfus sayımı yapılması",
+    "Sınav döneminin başlaması"
+   ],
+   "answerIndex": 1,
+   "explanation": "Tabii afet, tehlikeli salgın, ağır ekonomik bunalım; yaygın cebir ve şiddet."
+  },
+  {
+   "id": "mega-1-111",
+   "subject": "Mevzuat",
+   "topic": "5816",
+   "text": "Atatürk'ün hatırasına alenen tahkir suçunda kovuşturma nasıl yapılır?",
+   "options": [
+    "Cumhuriyet savcılığınca resen",
+    "Yalnızca şikâyet üzerine",
+    "Adalet Bakanının izniyle",
+    "İçişleri Bakanlığının talebiyle",
+    "TBMM kararıyla"
+   ],
+   "answerIndex": 0,
+   "explanation": "5816 m.3."
+  },
+  {
+   "id": "mega-1-112",
+   "subject": "Mevzuat",
+   "topic": "5816",
+   "text": "5816'ya göre hangi durumda ceza yarı oranında artırılır?",
+   "options": [
+    "Suçun gece vakti ve tek başına ıssız bir yerde işlenmesi",
+    "Suçun umuma açık yerde veya basın yoluyla işlenmesi",
+    "Failin 18 yaşından küçük olması",
+    "Suçun şikâyet üzerine soruşturulması",
+    "Suçun tek bir kişi tarafından işlenmesi"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.2: toplu, umumi/umuma açık yerde, kalabalık önünde, basın-yayın yoluyla."
+  },
+  {
+   "id": "mega-1-113",
+   "subject": "Mevzuat",
+   "topic": "6284",
+   "text": "6284'e göre kişinin gelirinden yoksun bırakılması hangi şiddet türüdür?",
+   "options": [
+    "Psikolojik şiddet",
+    "Fiziksel şiddet",
+    "Ekonomik şiddet",
+    "Cinsel şiddet",
+    "Israrlı takip"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.2."
+  },
+  {
+   "id": "mega-1-114",
+   "subject": "Mevzuat",
+   "topic": "6284",
+   "text": "Hangisi hâkim tarafından verilen önleyici tedbirdir?",
+   "options": [
+    "Müşterek konuttan uzaklaştırma",
+    "Uygun barınma yeri ve geçici maddi yardım sağlanması",
+    "Geçici maddi yardım yapılması",
+    "Rehberlik ve danışmanlık",
+    "Kreş imkânı sağlanması"
+   ],
+   "answerIndex": 0,
+   "explanation": "Barınma, maddi yardım, rehberlik, kreş mülki amirin koruyucu tedbirleridir."
+  },
+  {
+   "id": "mega-1-115",
+   "subject": "Mevzuat",
+   "topic": "6284",
+   "text": "Gecikmesinde sakınca olan hallerde kolluk amirince verilen önleyici tedbir kararı ne olur?",
+   "options": [
+    "Doğrudan kesinleşir; hâkim veya savcı onayına sunulmasına gerek yoktur",
+    "Ertesi gün hâkime sunulur, 24 saatte onaylanmazsa kalkar",
+    "Valinin onayına bir hafta içinde sunulur",
+    "Savcı onayına 3 gün içinde sunulur",
+    "Aile mahkemesi 15 gün içinde karar verir"
+   ],
+   "answerIndex": 1,
+   "explanation": "6284 m.8/3."
+  },
+  {
+   "id": "mega-1-116",
+   "subject": "Mevzuat",
+   "topic": "6284",
+   "text": "Tedbir kararı ilk defasında en fazla ne kadar süreyle verilebilir?",
+   "options": [
+    "3 ay",
+    "6 ay",
+    "1 yıl",
+    "2 yıl",
+    "45 gün"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.8/1; tedbir için delil veya belge aranmaz."
+  },
+  {
+   "id": "mega-1-117",
+   "subject": "Mevzuat",
+   "topic": "6284",
+   "text": "Tedbir kararına aykırı davranana verilecek zorlama hapsi ilk seferde ne kadardır?",
+   "options": [
+    "1 aydan 3 aya kadar",
+    "15 günden 30 güne kadar",
+    "1 günden 3 güne kadar",
+    "3 günden 10 güne kadar",
+    "6 aydan 1 yıla kadar"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.13; tekrarında 15–30 gün, toplamı 6 ayı geçemez."
+  },
+  {
+   "id": "mega-1-118",
+   "subject": "Mevzuat",
+   "topic": "2893",
+   "text": "Türk Bayrağının eni ile boyu arasındaki oran hangisidir?",
+   "options": [
+    "En, boyun 1/2'si",
+    "En ile boy eşit",
+    "En, boyun 3/4'ü",
+    "En, boyun 3/5'i",
+    "En, boyun 2/3'ü"
+   ],
+   "answerIndex": 4,
+   "explanation": "G genişlik, L=1,5G."
+  },
+  {
+   "id": "mega-1-119",
+   "subject": "Mevzuat",
+   "topic": "2893",
+   "text": "Türk Bayrağıyla ilgili hangisi doğrudur?",
+   "options": [
+    "Bayrak üzerine kurumun adı ve logosu okunaklı biçimde yazılabilir",
+    "Yırtık, sökük veya rengi solmuş bayrak çekilemez",
+    "Bayrak yere değecek şekilde asılabilir",
+    "Bayrak rengi kurumlarca değiştirilebilir",
+    "Bayrak her zaman gece de çekili kalmalıdır"
+   ],
+   "answerIndex": 1,
+   "explanation": "Kullanılamaz hâle gelmiş bayrak çekilemez, üzerine yazı yazılamaz."
+  },
+  {
+   "id": "mega-1-120",
+   "subject": "Mevzuat",
+   "topic": "7068",
+   "text": "7068 sayılı Kanun'daki disiplin cezaları arasında hangisi yoktur?",
+   "options": [
+    "Kınama",
+    "Aylıktan kesme",
+    "Kısa süreli durdurma",
+    "Meslekten çıkarma",
+    "Oda hapsi"
+   ],
+   "answerIndex": 4,
+   "explanation": "Uyarma, kınama, aylıktan kesme, kısa ve uzun süreli durdurma, meslekten çıkarma, devlet memurluğundan çıkarma."
+  },
+  {
+   "id": "mega-1-121",
+   "subject": "Mevzuat",
+   "topic": "7068",
+   "text": "Disiplin cezası verilmeden önce hangisi zorunludur?",
+   "options": [
+    "Olayın basına açıklanması",
+    "Personelin savunmasının alınması",
+    "Mahkûmiyet kararının kesinleşmesi",
+    "Personelin görevden uzaklaştırılması",
+    "Valinin yazılı onayının alınması"
+   ],
+   "answerIndex": 1,
+   "explanation": "Savunma hakkı verilmeden disiplin cezası verilemez."
+  },
+  {
+   "id": "mega-1-122",
+   "subject": "Mevzuat",
+   "topic": "5070",
+   "text": "Güvenli elektronik imzanın hukuki sonucu hangisidir?",
+   "options": [
+    "Elle atılan imzayla aynı hukuki sonucu doğurur",
+    "Yalnızca delil başlangıcı sayılır, tek başına ispat için yeterli değildir",
+    "Hiçbir hukuki sonuç doğurmaz",
+    "Noter onayı olmadan geçersizdir",
+    "Sadece kamu kurumları arasında geçerlidir"
+   ],
+   "answerIndex": 0,
+   "explanation": "5070 m.5/1."
+  },
+  {
+   "id": "mega-1-123",
+   "subject": "Mevzuat",
+   "topic": "5070",
+   "text": "Hangi işlem güvenli elektronik imzayla gerçekleştirilemez?",
+   "options": [
+    "Kurum içi resmî yazışmalar",
+    "Teminat sözleşmeleri",
+    "Vergi beyannamesi gönderimi",
+    "E-Devlet başvuruları",
+    "Elektronik tebligat işlemleri"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.5/2: resmî şekle/özel merasime tabi işlemler ve teminat sözleşmeleri."
+  },
+  {
+   "id": "mega-1-124",
+   "subject": "Mevzuat",
+   "topic": "Resmî Yazışma Yön.",
+   "text": "Resmî yazışmalarda elektronik ortamda hazırlanan belgeler nasıl imzalanır?",
+   "options": [
+    "Güvenli elektronik imza ile",
+    "Taranmış ıslak imza görüntüsü ile",
+    "Yalnızca kurum mührü ile",
+    "Paraf ile",
+    "Kullanıcı adı ve şifre ile"
+   ],
+   "answerIndex": 0,
+   "explanation": "Elektronik belgeler güvenli e-imza ile imzalanır."
+  },
+  {
+   "id": "mega-1-125",
+   "subject": "Mevzuat",
+   "topic": "BEHK Yön.",
+   "text": "Bilgi edinme başvurusuna kural olarak kaç iş günü içinde cevap verilir?",
+   "options": [
+    "7",
+    "30",
+    "15",
+    "10",
+    "60"
+   ],
+   "answerIndex": 2,
+   "explanation": "Başka kurumdan görüş gerekirse 30 iş günü."
+  },
+  {
+   "id": "mega-1-126",
+   "subject": "Mevzuat",
+   "topic": "6136",
+   "text": "6136 kapsamında ateşli silah ruhsatlarının türleri hangileridir?",
+   "options": [
+    "Satın alma ve yurt dışına çıkarma ruhsatı",
+    "Av ve spor ruhsatı",
+    "Kalıcı ve geçici ruhsat",
+    "Bireysel ve kurumsal ruhsat",
+    "Bulundurma ve taşıma ruhsatı"
+   ],
+   "answerIndex": 4,
+   "explanation": "Konut/işyerinde bulundurma veya üzerinde taşıma."
+  },
+  {
+   "id": "mega-1-127",
+   "subject": "Mevzuat",
+   "topic": "6136",
+   "text": "Ruhsatsız ateşli silah taşımak 6136'ya göre nasıl değerlendirilir?",
+   "options": [
+    "Hapis ve adli para cezası gerektiren suçtur",
+    "Yalnızca idari para cezasını gerektiren kabahattir",
+    "Sadece disiplin cezası gerektirir",
+    "Uyarı ile geçiştirilen bir aykırılıktır",
+    "Hiçbir yaptırımı olmayan eylemdir"
+   ],
+   "answerIndex": 0,
+   "explanation": "6136 m.13; silaha ayrıca el konulur."
+  },
+  {
+   "id": "mega-1-128",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "CMK'ya göre kovuşturma evresinde suç şüphesi altındaki kişiye ne denir?",
+   "options": [
+    "Şüpheli",
+    "Hükümlü",
+    "Müşteki",
+    "Sanık",
+    "Tutuklu"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.2: soruşturmada şüpheli, kovuşturmada sanık."
+  },
+  {
+   "id": "mega-1-129",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Kovuşturma evresi ne zaman başlar?",
+   "options": [
+    "Suçun savcılıkça öğrenilmesiyle",
+    "İfade alınmasıyla",
+    "Gözaltı kararıyla",
+    "Hükmün açıklanmasıyla",
+    "İddianamenin kabulüyle"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.2/f: iddianamenin kabulünden hükmün kesinleşmesine kadar."
+  },
+  {
+   "id": "mega-1-130",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Hangisi CMK'daki suçüstü tanımına girmez?",
+   "options": [
+    "Suçtan bir hafta sonra ihbarla bulunması",
+    "İşlenmekte olan suç",
+    "Henüz işlenmiş olan suç",
+    "Suçtan hemen sonra kovalanarak yakalanma",
+    "Suçtan hemen sonra delillerle yakalanma"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.2/j."
+  },
+  {
+   "id": "mega-1-131",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Gözaltı süresi kural olarak ne kadardır?",
+   "options": [
+    "Yakalamadan itibaren 48 saat",
+    "Yakalamadan itibaren 24 saat",
+    "Yakalamadan itibaren 4 gün",
+    "Yakalamadan itibaren 12 saat",
+    "Yakalamadan itibaren 3 gün"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.91: yol süresi hariç 24 saat; toplu suçlarda savcı birer günlük uzatmayla en çok 3 gün daha (toplam 4)."
+  },
+  {
+   "id": "mega-1-132",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Kolluk amirinin yazılı emriyle hangi yerde arama yapılamaz?",
+   "options": [
+    "Araçta",
+    "Kişinin üstünde",
+    "Kamuya açık yerde",
+    "Özel kâğıtları dışında eşyada",
+    "Konutta"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.119/1: konut, işyeri ve kamuya açık olmayan kapalı alanlar hariç."
+  },
+  {
+   "id": "mega-1-133",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Savcı hazır bulunmadan konutta arama yapılırken kimler hazır bulundurulur?",
+   "options": [
+    "Şüphelinin aynı konutta oturan iki yakın akrabası",
+    "İhtiyar heyetinden veya komşulardan iki kişi",
+    "Aramayı yapan kolluktan iki personel",
+    "Bir avukat ve bir noter",
+    "Belediyeden iki zabıta memuru"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.119/4."
+  },
+  {
+   "id": "mega-1-134",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Konutta gece arama yapılabilecek hal hangisidir?",
+   "options": [
+    "Konuttakilerin uyuyor olmasının kolaylık sağlaması",
+    "Aramanın uzun sürecek olması",
+    "Şikâyetçinin gece aramayı ısrarla talep etmesi",
+    "Kaçan tutuklunun yeniden yakalanması",
+    "Kolluğun o gece müsait olması"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.118: suçüstü, gecikmesinde sakınca, kaçan tutuklu/hükümlünün yakalanması."
+  },
+  {
+   "id": "mega-1-135",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Savcı veya kolluk amirince yapılan elkoyma işleminin onay süreleri hangisidir?",
+   "options": [
+    "48 saatte hâkime sunulur, hâkim 24 saatte karar verir",
+    "24 saatte hâkime sunulur, hâkim 48 saatte karar verir",
+    "12 saatte savcıya sunulur, savcı 24 saatte karar verir",
+    "3 gün içinde hâkime sunulur, süre sınırı yoktur",
+    "Onaya sunulmaz, doğrudan kesinleşir"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.127/3; aksi halde elkoyma kendiliğinden kalkar."
+  },
+  {
+   "id": "mega-1-136",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Kollukta müdafi hazır bulunmadan alınan ifade ne zaman hükme esas alınabilir?",
+   "options": [
+    "Şüpheli imzalamışsa her zaman",
+    "Kolluk amiri onaylamışsa",
+    "Savcı kolluğa talimat vermişse",
+    "Hâkim veya mahkeme huzurunda doğrulanırsa",
+    "İfade kamera ile kaydedilmişse her durumda"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.148/4."
+  },
+  {
+   "id": "mega-1-137",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Zorunlu müdafi atanmasını gerektiren durum hangisidir?",
+   "options": [
+    "Alt sınırı 5 yıldan fazla hapis gerektiren suç",
+    "Şüphelinin 25 yaşında ve ilk kez gözaltına alınmış olması",
+    "Suçun şikâyete bağlı olması",
+    "Şüphelinin yabancı dil bilmesi",
+    "Suçun adli para cezası gerektirmesi"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.150: çocuk, kendini savunamayacak malul, sağır-dilsiz, alt sınırı 5 yılı aşan suçlar."
+  },
+  {
+   "id": "mega-1-138",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Kovuşturmaya yer olmadığı kararına itiraz nereye ve hangi sürede yapılır?",
+   "options": [
+    "Tebliğden itibaren 7 gün içinde ağır ceza mahkemesine dilekçeyle",
+    "Tebliğden itibaren 15 gün içinde sulh ceza hâkimliğine",
+    "Tebliğden itibaren 30 gün içinde Yargıtaya",
+    "Tebliğden itibaren 2 hafta içinde idare mahkemesine",
+    "Tebliğden itibaren 1 ay içinde başsavcılığa"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.173/1."
+  },
+  {
+   "id": "mega-1-139",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Cinsel organ ve anüs bölgesinde iç beden muayenesi için hangisi gerekir?",
+   "options": [
+    "Hâkim kararı",
+    "Kolluk amirinin yazılı emri",
+    "Cumhuriyet savcısının sözlü emri",
+    "Hekimin kendi takdiri",
+    "Valilik izni"
+   ],
+   "answerIndex": 0,
+   "explanation": "CMK m.75: bu bölgelerde gecikmesinde sakınca olsa dahi yalnızca hâkim kararı."
+  },
+  {
+   "id": "mega-1-140",
+   "subject": "Mevzuat",
+   "topic": "5271 CMK",
+   "text": "Uzlaşma teklif edilen kişi kaç gün içinde kararını bildirmezse teklifi reddetmiş sayılır?",
+   "options": [
+    "7",
+    "15",
+    "5",
+    "3",
+    "10"
+   ],
+   "answerIndex": 3,
+   "explanation": "m.253."
+  },
+  {
+   "id": "mega-1-141",
+   "subject": "Mevzuat",
+   "topic": "Yakalama Gözaltı İfade Yön.",
+   "text": "Gözaltına alınan kişiyle ilgili hangisi doğrudur?",
+   "options": [
+    "Yalnızca gözaltından bırakılırken, talep edilmesi hâlinde sağlık raporu alınır",
+    "Sağlık raporu yalnızca talep ederse alınır",
+    "Rapor gözaltı süresi uzarsa alınır",
+    "Sağlık kontrolü kolluk personelince yapılır",
+    "Gözaltına alınırken ve bırakılırken sağlık raporu alınır"
+   ],
+   "answerIndex": 4,
+   "explanation": "Yönetmelik: hekim raporu giriş ve çıkışta."
+  },
+  {
+   "id": "mega-1-142",
+   "subject": "Mevzuat",
+   "topic": "Yakalama Gözaltı İfade Yön.",
+   "text": "Gözaltı yerleriyle ilgili hangisi doğrudur?",
+   "options": [
+    "Tüm şüpheliler, cinsiyet ve yaş ayrımı yapılmadan aynı odada tutulabilir",
+    "Çocuklar yetişkin şüphelilerle tutulur",
+    "Kadın ve erkekler birlikte tutulabilir",
+    "Gözaltı yerinin standardı yoktur",
+    "Kadınlar, erkekler ve çocuklar ayrı yerlerde tutulur"
+   ],
+   "answerIndex": 4,
+   "explanation": "Yönetmelik."
+  },
+  {
+   "id": "mega-1-143",
+   "subject": "Mevzuat",
+   "topic": "Yakalama Gözaltı İfade Yön.",
+   "text": "Yakalanan kişiye ilişkin hangisi zorunludur?",
+   "options": [
+    "Yakınlarına gecikmeksizin haber verilmesi",
+    "Basına bilgi verilmesi",
+    "Kelepçe takılması",
+    "Fotoğrafının yayımlanması",
+    "Ailesinin kolluğa çağrılıp ifade alınması"
+   ],
+   "answerIndex": 0,
+   "explanation": "CMK m.95 ve Yönetmelik; kanuni haklar derhal bildirilir."
+  },
+  {
+   "id": "mega-1-144",
+   "subject": "Mevzuat",
+   "topic": "Adli Kolluk Yön.",
+   "text": "Adli kolluk görevlileri adli görevlerinde kimin emir ve talimatlarını yerine getirir?",
+   "options": [
+    "Valinin",
+    "Kaymakamın",
+    "Belediye başkanının",
+    "Cumhuriyet savcısının",
+    "Bölge idare mahkemesinin"
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.164 ve Adli Kolluk Yönetmeliği."
+  },
+  {
+   "id": "mega-1-145",
+   "subject": "Mevzuat",
+   "topic": "Adli Kolluk Yön.",
+   "text": "Suçu öğrenen adli kolluk görevlisi ilk olarak ne yapar?",
+   "options": [
+    "Derhal Cumhuriyet savcısına bildirir",
+    "Olay yerini temizletip normale döndürür",
+    "Önce basına açıklama yapar",
+    "Şikâyet gelmesini bekler",
+    "Dosyayı doğrudan mahkemeye gönderir"
+   ],
+   "answerIndex": 0,
+   "explanation": "Olay yerini korur, delilleri muhafaza eder, savcıya bildirir."
+  },
+  {
+   "id": "mega-1-146",
+   "subject": "Mevzuat",
+   "topic": "1774",
+   "text": "Otel, motel, pansiyon gibi konaklama yerlerinde kalanların kimlik bilgilerini bildirme yükümlülüğü kime aittir?",
+   "options": [
+    "Tesisi işletenlere",
+    "Konaklayan kişinin kendisine",
+    "Belediyeye",
+    "Nüfus müdürlüğüne",
+    "Mahalle muhtarına"
+   ],
+   "answerIndex": 0,
+   "explanation": "1774: bildirim kolluğa yapılır."
+  },
+  {
+   "id": "mega-1-147",
+   "subject": "Mevzuat",
+   "topic": "2911",
+   "text": "Toplantı ve gösteri yürüyüşü için bildirim en az ne zaman önce yapılmalıdır?",
+   "options": [
+    "24 saat",
+    "48 saat",
+    "72 saat",
+    "7 gün",
+    "15 gün"
+   ],
+   "answerIndex": 1,
+   "explanation": "Mesai saatleri içinde valilik/kaymakamlığa."
+  },
+  {
+   "id": "mega-1-148",
+   "subject": "Mevzuat",
+   "topic": "2911",
+   "text": "Toplantı ve gösteri yürüyüşü düzenleme kurulu en az kaç kişiden oluşur?",
+   "options": [
+    "3",
+    "5",
+    "7",
+    "9",
+    "11"
+   ],
+   "answerIndex": 2,
+   "explanation": "18 yaşını doldurmuş, fiil ehliyetine sahip en az yedi kişi."
+  },
+  {
+   "id": "mega-1-149",
+   "subject": "Mevzuat",
+   "topic": "2911",
+   "text": "Açık yerlerde yapılan toplantılar ne zamana kadar sürebilir?",
+   "options": [
+    "Gece saat 23.00'e kadar kesintisiz devam edebilir",
+    "Güneş batmadan önce dağılacak şekilde",
+    "Gece yarısına kadar",
+    "Saat 20.00'ye kadar",
+    "Süre sınırı yoktur"
+   ],
+   "answerIndex": 1,
+   "explanation": "Kapalı yerlerde 23.00'e kadar."
+  },
+  {
+   "id": "mega-1-150",
+   "subject": "Mevzuat",
+   "topic": "4915",
+   "text": "4915'e göre av hayvanlarının hangi yöntemle avlanması yasaktır?",
+   "options": [
+    "Zehir veya patlayıcı madde kullanarak",
+    "Ruhsatlı av tüfeğiyle ve av tezkeresi bulundurarak",
+    "Av tezkeresi alarak",
+    "Av sezonu içinde",
+    "Belirlenen avlak alanında"
+   ],
+   "answerIndex": 0,
+   "explanation": "Kitlesel öldürmeye yol açan araçlar yasaktır."
+  },
+  {
+   "id": "mega-1-151",
+   "subject": "Mevzuat",
+   "topic": "1380",
+   "text": "1380'e göre su ürünleri avcılığında hangisi yasaktır?",
+   "options": [
+    "Ruhsatlı olta takımı kullanmak",
+    "Ruhsatlı ağ kullanmak",
+    "Sezon içinde avlanmak",
+    "Patlayıcı madde kullanmak",
+    "Kıyıdan avlanmak"
+   ],
+   "answerIndex": 3,
+   "explanation": "Zehirli ve patlayıcı maddeler, elektrik akımı yasaktır."
+  },
+  {
+   "id": "mega-1-152",
+   "subject": "Mevzuat",
+   "topic": "6458",
+   "text": "Avrupa dışında meydana gelen olaylar nedeniyle zulüm korkusuyla gelen yabancıya verilen statü hangisidir?",
+   "options": [
+    "Şartlı mülteci",
+    "Mülteci",
+    "İkincil koruma",
+    "Geçici koruma",
+    "Vatansız"
+   ],
+   "answerIndex": 0,
+   "explanation": "m.61 mülteci (Avrupa'daki olaylar), m.62 şartlı mülteci, m.63 ikincil koruma."
+  },
+  {
+   "id": "mega-1-153",
+   "subject": "Mevzuat",
+   "topic": "6458",
+   "text": "İdari gözetim süresi ile ilgili hangisi doğrudur?",
+   "options": [
+    "3 ayı geçemez ve hiçbir koşulda uzatılamaz, yabancı serbest bırakılır",
+    "1 yılı geçemez, 1 yıl daha uzatılabilir",
+    "Süre sınırı yoktur",
+    "15 günü geçemez, bir kez uzatılabilir",
+    "6 ayı geçemez, en fazla 6 ay daha uzatılabilir"
+   ],
+   "answerIndex": 4,
+   "explanation": "6458 m.57."
+  },
+  {
+   "id": "mega-1-154",
+   "subject": "Mevzuat",
+   "topic": "6458",
+   "text": "Uzun dönem ikamet izni için Türkiye'de kesintisiz en az kaç yıl ikamet izniyle kalmış olmak gerekir?",
+   "options": [
+    "5",
+    "3",
+    "8",
+    "10",
+    "6"
+   ],
+   "answerIndex": 2,
+   "explanation": "m.42."
+  },
+  {
+   "id": "mega-1-155",
+   "subject": "Mevzuat",
+   "topic": "6458",
+   "text": "Geri gönderme yasağına göre yabancı hangi yere gönderilemez?",
+   "options": [
+    "Vatandaşı olduğu ve güvenli kabul edilen herhangi bir ülkeye",
+    "Vize aldığı üçüncü ülkeye",
+    "Ailesinin yaşadığı güvenli ülkeye",
+    "Daha önce ikamet ettiği güvenli ülkeye",
+    "İşkence veya insanlık dışı muamele göreceği yere"
+   ],
+   "answerIndex": 4,
+   "explanation": "m.4."
+  },
+  {
+   "id": "mega-1-156",
+   "subject": "Mevzuat",
+   "topic": "6831",
+   "text": "Devlet ormanlarında izinsiz ev, bina veya ağıl yapılmasıyla ilgili hangisi doğrudur?",
+   "options": [
+    "Köylüler için serbesttir",
+    "Muhtar izniyle yapılabilir",
+    "Kış aylarında serbesttir",
+    "Yasaktır",
+    "Belediye izniyle yapılabilir"
+   ],
+   "answerIndex": 3,
+   "explanation": "6831 m.17."
+  },
+  {
+   "id": "mega-1-157",
+   "subject": "Mevzuat",
+   "topic": "4342",
+   "text": "4342'ye göre mera, yaylak ve kışlaklar için hangisi doğrudur?",
+   "options": [
+    "20 yıl boyunca kesintisiz kullanılırsa kullanan kişinin mülkü olur",
+    "Belediye kararıyla satılabilir",
+    "Sınırları muhtarca daraltılabilir",
+    "Özel mülkiyete geçirilemez ve zamanaşımı işlemez",
+    "Amaç dışında serbestçe kullanılabilir"
+   ],
+   "answerIndex": 3,
+   "explanation": "4342 m.19."
+  },
+  {
+   "id": "mega-1-158",
+   "subject": "Mevzuat",
+   "topic": "2918",
+   "text": "Hususi otomobil sürücüleri için yasal alkol sınırı kaç promildir?",
+   "options": [
+    "0,20",
+    "1,00",
+    "0,50",
+    "0,00",
+    "0,30"
+   ],
+   "answerIndex": 2,
+   "explanation": "Diğer sürücüler için 0,20 promil."
+  },
+  {
+   "id": "mega-1-159",
+   "subject": "Mevzuat",
+   "topic": "2918",
+   "text": "Alkollü araç kullanma nedeniyle ilk kez işlem yapılan sürücünün belgesi ne kadar süreyle geri alınır?",
+   "options": [
+    "2 yıl",
+    "5 yıl",
+    "1 ay",
+    "6 ay",
+    "3 ay"
+   ],
+   "answerIndex": 3,
+   "explanation": "2918 m.48: ikincisinde 2 yıl, üçüncüsünde 5 yıl."
+  },
+  {
+   "id": "mega-1-160",
+   "subject": "Mevzuat",
+   "topic": "2918",
+   "text": "100 ceza puanını ilk kez dolduran sürücünün belgesi ne kadar süreyle geri alınır?",
+   "options": [
+    "4 ay",
+    "6 ay",
+    "1 yıl",
+    "15 gün",
+    "2 ay"
+   ],
+   "answerIndex": 4,
+   "explanation": "İkincisinde 4 ay + psikoteknik; üçüncüsünde iptal."
+  },
+  {
+   "id": "mega-1-161",
+   "subject": "Mevzuat",
+   "topic": "2918",
+   "text": "Hangisi motorlu araçlar için zorunlu sigortadır?",
+   "options": [
+    "Kasko sigortası (araç sahibinin kendi aracındaki hasarlar için)",
+    "Zorunlu karayolu taşımacılık mali sorumluluk (trafik) sigortası",
+    "Ferdi kaza sigortası",
+    "Araç hukuksal koruma sigortası",
+    "Mini onarım sigortası"
+   ],
+   "answerIndex": 1,
+   "explanation": "2918 m.91."
+  },
+  {
+   "id": "mega-1-162",
+   "subject": "Mevzuat",
+   "topic": "2918",
+   "text": "Kavşakta trafik görevlisi, trafik ışığı ve trafik işareti farklı yön gösteriyorsa hangisine uyulur?",
+   "options": [
+    "Trafik ışığının gösterdiği renge",
+    "Trafik işaretine",
+    "Yol çizgilerine",
+    "Sağdan gelenin önceliğine",
+    "Trafik görevlisinin işaretine"
+   ],
+   "answerIndex": 4,
+   "explanation": "Öncelik trafik görevlisinin işaret ve talimatlarıdır."
+  },
+  {
+   "id": "mega-1-163",
+   "subject": "Mevzuat",
+   "topic": "Karayolları Trafik Yön.",
+   "text": "Yerleşim yeri içinde otomobiller için azami hız kaç km/saattir?",
+   "options": [
+    "30",
+    "70",
+    "60",
+    "50",
+    "40"
+   ],
+   "answerIndex": 3,
+   "explanation": "Yönetmelik m.100: iki yönlü yol 90, bölünmüş yol 110, otoyol 120."
+  },
+  {
+   "id": "mega-1-164",
+   "subject": "Mevzuat",
+   "topic": "5188",
+   "text": "Özel güvenlik izni hangi makamca verilir?",
+   "options": [
+    "İçişleri Bakanlığınca, il valiliğinin görüşü alınmadan doğrudan",
+    "Belediye encümeni kararıyla",
+    "Valilikçe, il özel güvenlik komisyonu kararıyla",
+    "İl jandarma komutanlığınca",
+    "Özel güvenlik şirketinin kendisince"
+   ],
+   "answerIndex": 2,
+   "explanation": "5188 m.3."
+  },
+  {
+   "id": "mega-1-165",
+   "subject": "Mevzuat",
+   "topic": "5188",
+   "text": "Özel güvenlik görevlisi kimlik kartının geçerlilik süresi kaç yıldır?",
+   "options": [
+    "5",
+    "1",
+    "3",
+    "10",
+    "2"
+   ],
+   "answerIndex": 0,
+   "explanation": "5188 m.11."
+  },
+  {
+   "id": "mega-1-166",
+   "subject": "Mevzuat",
+   "topic": "5395",
+   "text": "15 yaşını doldurmamış çocuk hakkında hangi suçlarda tutuklama kararı verilemez?",
+   "options": [
+    "Hiçbir suçta tutuklama yapılamaz, yalnızca koruyucu tedbir uygulanır",
+    "Sadece ağır ceza gerektiren suçlarda",
+    "Üst sınırı 10 yılı aşan suçlarda",
+    "Üst sınırı 5 yılı aşmayan hapis gerektiren suçlarda",
+    "Şikâyete bağlı olmayan tüm suçlarda"
+   ],
+   "answerIndex": 3,
+   "explanation": "5395 m.21."
+  },
+  {
+   "id": "mega-1-167",
+   "subject": "Mevzuat",
+   "topic": "5395",
+   "text": "Çocuk Koruma Kanunu'na göre “çocuk” kimdir?",
+   "options": [
+    "15 yaşını doldurmamış kişi",
+    "12 yaşını doldurmamış kişi",
+    "21 yaşını doldurmamış kişi",
+    "18 yaşını doldurmamış kişi",
+    "Evlenmemiş her kişi"
+   ],
+   "answerIndex": 3,
+   "explanation": "Daha erken ergin olsa bile 18 yaşını doldurmamış kişi."
+  },
+  {
+   "id": "mega-1-168",
+   "subject": "Mevzuat",
+   "topic": "2860",
+   "text": "Bir il sınırları içinde yapılacak yardım toplama faaliyetine kim izin verir?",
+   "options": [
+    "Mülki idare amiri",
+    "İçişleri Bakanlığı",
+    "Belediye başkanı",
+    "İl jandarma komutanı",
+    "Cumhuriyet başsavcısı"
+   ],
+   "answerIndex": 0,
+   "explanation": "Birden fazla il veya yurt genelinde İçişleri Bakanlığı."
+  },
+  {
+   "id": "mega-1-169",
+   "subject": "Mevzuat",
+   "topic": "5199",
+   "text": "5199'a göre hangisi yasaktır?",
+   "options": [
+    "Sahipsiz hayvanları barınağa götürmek",
+    "Hayvanları dövüştürmek",
+    "Hayvanları veterinere götürmek",
+    "Hayvanlara uygun barınak sağlamak",
+    "Evcil hayvanı mikroçiple kaydettirmek"
+   ],
+   "answerIndex": 1,
+   "explanation": "m.14."
+  },
+  {
+   "id": "mega-1-170",
+   "subject": "Mevzuat",
+   "topic": "2872",
+   "text": "Çevre Kanunu'na göre kirliliğe sebep olanın sorumluluğu hangi esasa dayanır?",
+   "options": [
+    "Yalnızca kast hâlinde ve zarar kanıtlandığında doğan sorumluluk",
+    "Sadece ağır ihmal halinde sorumluluk",
+    "Kusur aranmaksızın sorumluluk (kirleten öder)",
+    "Devletin tek başına sorumluluğu",
+    "Belediyenin kusursuz sorumluluğu"
+   ],
+   "answerIndex": 2,
+   "explanation": "2872 m.3 ve m.28."
+  },
+  {
+   "id": "mega-1-171",
+   "subject": "Mevzuat",
+   "topic": "2559",
+   "text": "PVSK m.5'e göre kişi ve araçların durdurulabilmesi için hangisi gerekir?",
+   "options": [
+    "Tecrübe ve izlenime dayanan makul sebep",
+    "Sulh ceza hâkimliğinden alınmış yazılı karar",
+    "Savcının yazılı talimatı",
+    "Valinin yazılı emri",
+    "Kişinin sabıka kaydının bulunması"
+   ],
+   "answerIndex": 0,
+   "explanation": "Durdurma süresi amacın gerektirdiğinden uzun olamaz; sebep bildirilir."
+  },
+  {
+   "id": "mega-1-172",
+   "subject": "Mevzuat",
+   "topic": "2559",
+   "text": "PVSK'ya göre direnmeyi etkisiz kılmak için zor kullanmanın kademeli sırası hangisidir?",
+   "options": [
+    "Silah, maddi güç, bedenî kuvvet",
+    "Bedenî kuvvet, maddi güç, silah",
+    "Maddi güç, silah, bedenî kuvvet",
+    "Uyarı ateşi, bedenî kuvvet, gaz",
+    "Kelepçe, silah, bedenî kuvvet"
+   ],
+   "answerIndex": 1,
+   "explanation": "PVSK m.16."
+  },
+  {
+   "id": "mega-1-173",
+   "subject": "Mevzuat",
+   "topic": "5607",
+   "text": "Hangisi 5607'ye göre kaçakçılık suçudur?",
+   "options": [
+    "Gümrük beyannamesini kanuni süresi içinde eksiksiz olarak vermek",
+    "Eşyayı gümrük kapısından beyan ederek sokmak",
+    "Eşyayı gümrük kapıları dışından Türkiye'ye sokmak",
+    "Serbest bölgeye usulüne uygun eşya göndermek",
+    "Vergisi ödenmiş eşyayı yurt içinde satmak"
+   ],
+   "answerIndex": 2,
+   "explanation": "5607 m.3."
+  },
+  {
+   "id": "mega-1-174",
+   "subject": "Mevzuat",
+   "topic": "3298",
+   "text": "3298'e göre kenevir ekimi hakkında hangisi doğrudur?",
+   "options": [
+    "Her yerde serbesttir",
+    "Sadece evlerde serbesttir",
+    "Muhtar izniyle yapılır",
+    "İzin alınmadan yapılamaz",
+    "Yasak değildir, bildirimle yapılır"
+   ],
+   "answerIndex": 3,
+   "explanation": "İzinsiz ekim yaptırıma tabidir."
+  },
+  {
+   "id": "mega-1-175",
+   "subject": "Mevzuat",
+   "topic": "6222",
+   "text": "6222'ye göre sporda şiddet suçlarından mahkûm olanlar hakkında uygulanan tedbir hangisidir?",
+   "options": [
+    "Spor karşılaşmalarını seyirden yasaklanma",
+    "Sürücü belgesinin süresiz olarak iptal edilmesi",
+    "Pasaport iptali",
+    "Kamu görevinden çıkarma",
+    "Seçme hakkının kaldırılması"
+   ],
+   "answerIndex": 0,
+   "explanation": "6222 m.18."
+  },
+  {
+   "id": "mega-1-176",
+   "subject": "Mevzuat",
+   "topic": "6415",
+   "text": "Terör eylemlerinde kullanılacağını bilerek fon sağlamak veya toplamak hangi kanunda suç olarak düzenlenmiştir?",
+   "options": [
+    "5607",
+    "6415",
+    "3298",
+    "2860",
+    "5549"
+   ],
+   "answerIndex": 1,
+   "explanation": "Terörizmin Finansmanının Önlenmesi Hakkında Kanun m.4."
+  },
+  {
+   "id": "mega-1-177",
+   "subject": "Mevzuat",
+   "topic": "2863",
+   "text": "Kültür varlığı bulan kişi en geç kaç gün içinde bildirim yapmalıdır?",
+   "options": [
+    "3",
+    "7",
+    "15",
+    "1",
+    "30"
+   ],
+   "answerIndex": 0,
+   "explanation": "En yakın müze müdürlüğüne; köyde muhtara, diğer yerlerde mülki amire."
+  },
+  {
+   "id": "mega-1-178",
+   "subject": "Mevzuat",
+   "topic": "2863",
+   "text": "Hangi döneme kadar yapılmış taşınmazlar korunması gerekli kültür varlığı sayılır?",
+   "options": [
+    "18. yüzyıl sonuna kadar",
+    "Cumhuriyetin ilanına kadar",
+    "20. yüzyıl ortasına kadar",
+    "19. yüzyıl sonuna kadar",
+    "Osmanlı'nın kuruluşuna kadar"
+   ],
+   "answerIndex": 3,
+   "explanation": "2863 m.6."
+  },
+  {
+   "id": "mega-1-179",
+   "subject": "Mevzuat",
+   "topic": "3091",
+   "text": "3091'e göre taşınmaz zilyedi mülki amire hangi sürede başvurmalıdır?",
+   "options": [
+    "Öğrenmeden itibaren 15 gün, her halde 6 ay",
+    "Öğrenmeden itibaren 30 gün, her halde 2 yıl",
+    "Öğrenmeden itibaren 1 yıl, her halde 5 yıl",
+    "Öğrenmeden itibaren 60 gün, her halde 1 yıl",
+    "Süre sınırı yoktur"
+   ],
+   "answerIndex": 3,
+   "explanation": "3091 m.3."
+  },
+  {
+   "id": "mega-1-180",
+   "subject": "Mevzuat",
+   "topic": "3091",
+   "text": "3091'e göre taşınmaz zilyetliğine tecavüzün önlenmesi için başvuru kime yapılır?",
+   "options": [
+    "Sulh hukuk mahkemesine",
+    "Tapu müdürlüğüne",
+    "Belediye başkanına",
+    "Cumhuriyet savcılığına",
+    "Vali veya kaymakama"
+   ],
+   "answerIndex": 4,
+   "explanation": "Mülki amir tecavüzü önler, kolluk uygular."
+  },
+  {
+   "id": "mega-1-181",
+   "subject": "Mevzuat",
+   "topic": "4207",
+   "text": "4207'ye göre tütün ürünleri kimlere satılamaz?",
+   "options": [
+    "21 yaşını doldurmamış kişilere",
+    "16 yaşını doldurmamış kişilere",
+    "18 yaşını doldurmamış kişilere",
+    "Öğrenci kimliği olmayanlara",
+    "Kamu görevlilerine"
+   ],
+   "answerIndex": 2,
+   "explanation": "4207 m.3."
+  },
+  {
+   "id": "mega-1-182",
+   "subject": "Mevzuat",
+   "topic": "Tütün-Alkol Satış Yön.",
+   "text": "Alkollü içkilerin perakende satışının yasak olduğu saat aralığı hangisidir?",
+   "options": [
+    "00.00–08.00",
+    "22.00–06.00",
+    "20.00–08.00",
+    "23.00–07.00",
+    "21.00–05.00"
+   ],
+   "answerIndex": 1,
+   "explanation": "18 yaşından küçüklere satış da yasaktır."
+  },
+  {
+   "id": "mega-1-183",
+   "subject": "Mevzuat",
+   "topic": "Vatandaşlık Yön.",
+   "text": "Türk vatandaşıyla evli yabancı, en az kaç yıl evlilik sonrası vatandaşlık başvurusu yapabilir?",
+   "options": [
+    "2",
+    "5",
+    "1",
+    "7",
+    "3"
+   ],
+   "answerIndex": 4,
+   "explanation": "Aile birliği içinde yaşama şartıyla; evlilik doğrudan vatandaşlık kazandırmaz."
+  },
+  {
+   "id": "mega-1-184",
+   "subject": "Mevzuat",
+   "topic": "Vatandaşlık Yön.",
+   "text": "Genel yolla vatandaşlık kazanmak için başvuru tarihinden geriye doğru kesintisiz kaç yıl ikamet gerekir?",
+   "options": [
+    "3",
+    "8",
+    "5",
+    "10",
+    "2"
+   ],
+   "answerIndex": 2,
+   "explanation": "5901 m.11."
+  }
+ ]
+}

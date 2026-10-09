@@ -1,141 +1,346 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
-import { useCallback, useEffect, useMemo, useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { Button, Card, EmptyState, Screen, Tag, text } from '../../components/ui';
-import { useProgress } from '../../context/ProgressContext';
+import { useProgress, type ExamMode, type SubjectScore } from '../../context/ProgressContext';
+import type { Question } from '../../data/types';
 import { content } from '../../services/content';
 import { colors, font, radius, spacing } from '../../theme';
 
+const LETTERS = ['A', 'B', 'C', 'D', 'E'];
+
+const MODE_TITLE: Record<ExamMode, string> = {
+  sinav: 'Sınav modu',
+  calisma: 'Çalışma modu',
+  yanlis: 'Yanlışlarım',
+};
+
 export default function DenemeRunner() {
   const { id, mod } = useLocalSearchParams<{ id: string; mod?: string }>();
-  // "yanlis" modunda yalnızca daha önce yanlış/boş bırakılan sorular, süresiz çözülür.
-  const review = mod === 'yanlis';
+  // sinav: süreli, cevaplar sonda açılır · calisma: süresiz, her cevaptan sonra açıklama
+  // yanlis: yalnızca daha önce yanlış/boş bırakılan sorular, çalışma modunda
+  const mode: ExamMode = mod === 'calisma' || mod === 'yanlis' ? mod : 'sinav';
+  const instant = mode !== 'sinav';
+  const keepDraft = mode !== 'yanlis';
   const exam = content.examById(id);
-  const [answers, setAnswers] = useState<Record<string, number>>({});
-  const [finished, setFinished] = useState(false);
-  const durationSec = review ? 0 : (exam?.durationMinutes ?? 0) * 60;
-  const [remaining, setRemaining] = useState(durationSec);
-  const { addExamResult, updateWrongQuestions, examResults, wrongQuestions, loaded } = useProgress();
-  const previous = examResults[id] ?? [];
+  const { loaded, wrongQuestions, drafts, saveDraft, addExamResult, updateWrongQuestions } = useProgress();
+  const draftKey = `${id}:${mode}`;
 
-  // Tekrar modunda soru listesi başlangıçta sabitlenir; çözerken liste değişmesin.
-  const [reviewIds, setReviewIds] = useState<string[] | null>(null);
+  const [ready, setReady] = useState(false);
+  const [questionIds, setQuestionIds] = useState<string[]>([]);
+  const [answers, setAnswers] = useState<Record<string, number>>({});
+  const [index, setIndex] = useState(0);
+  const [remaining, setRemaining] = useState(0);
+  const [finished, setFinished] = useState(false);
+  const [reviewing, setReviewing] = useState(false);
+  const [showGrid, setShowGrid] = useState(false);
+  // Yanlışlıkla bitirmemek için "Bitir" iki dokunuş ister.
+  const [confirming, setConfirming] = useState(false);
+  const [lastResult, setLastResult] = useState<{ bySubject: Record<string, SubjectScore> } | null>(null);
+  const finishedRef = useRef(false);
+  const remainingRef = useRef(0);
+  remainingRef.current = remaining;
+
+  // Kayıtlı veri okunduktan sonra soru listesi sabitlenir ve varsa yarım kalan deneme geri yüklenir.
   useEffect(() => {
-    if (review && loaded && reviewIds === null) setReviewIds(wrongQuestions[id] ?? []);
-  }, [review, loaded, reviewIds, wrongQuestions, id]);
+    if (!exam || !loaded || ready) return;
+    const wrong = new Set(wrongQuestions[exam.id] ?? []);
+    const ids = exam.questions.map((q) => q.id).filter((qid) => mode !== 'yanlis' || wrong.has(qid));
+    const draft = keepDraft ? drafts[draftKey] : undefined;
+    setQuestionIds(ids);
+    setAnswers(draft?.answers ?? {});
+    setIndex(Math.min(draft?.index ?? 0, Math.max(ids.length - 1, 0)));
+    setRemaining(draft?.remaining ?? exam.durationMinutes * 60);
+    finishedRef.current = false;
+    setFinished(false);
+    setReviewing(false);
+    setReady(true);
+  }, [exam, loaded, ready, wrongQuestions, drafts, draftKey, mode, keepDraft]);
 
   const questions = useMemo(() => {
-    if (!exam) return [];
-    if (!review) return exam.questions;
-    return exam.questions.filter((q) => reviewIds?.includes(q.id));
-  }, [exam, review, reviewIds]);
+    const byId = new Map(exam?.questions.map((q) => [q.id, q]));
+    return questionIds.map((qid) => byId.get(qid)).filter((q): q is Question => !!q);
+  }, [exam, questionIds]);
+
+  // Her cevapta kaldığı yer kaydedilir; uygulama kapansa da devam edilebilir.
+  useEffect(() => {
+    if (!ready || finished || !keepDraft) return;
+    if (Object.keys(answers).length === 0 && index === 0) return;
+    saveDraft(draftKey, { answers, index, remaining: mode === 'sinav' ? remainingRef.current : undefined });
+  }, [answers, index, ready, finished, keepDraft, draftKey, mode, saveDraft]);
 
   const finish = useCallback(() => {
-    if (!exam) return;
-    setFinished(true);
-    const right = questions.filter((q) => answers[q.id] === q.answerIndex).map((q) => q.id);
-    const wrong = questions.filter((q) => answers[q.id] !== q.answerIndex).map((q) => q.id);
-    updateWrongQuestions(exam.id, wrong, right);
-    if (!review) {
-      addExamResult(exam.id, { correct: right.length, total: questions.length, date: new Date().toISOString() });
+    if (!exam || finishedRef.current) return;
+    finishedRef.current = true;
+    // Sınavda boşlar yanlış sayılır; çalışma modunda yalnızca cevaplananlar değerlendirilir.
+    const counted = mode === 'sinav' ? questions : questions.filter((q) => answers[q.id] !== undefined);
+    const right = counted.filter((q) => answers[q.id] === q.answerIndex);
+    const wrong = counted.filter((q) => answers[q.id] !== q.answerIndex);
+    const bySubject: Record<string, SubjectScore> = {};
+    for (const q of counted) {
+      const cur = bySubject[q.subject] ?? { correct: 0, total: 0 };
+      bySubject[q.subject] = {
+        correct: cur.correct + (answers[q.id] === q.answerIndex ? 1 : 0),
+        total: cur.total + 1,
+      };
     }
-  }, [exam, questions, answers, review, addExamResult, updateWrongQuestions]);
+    updateWrongQuestions(
+      exam.id,
+      wrong.map((q) => q.id),
+      right.map((q) => q.id),
+    );
+    if (mode !== 'yanlis' && counted.length > 0) {
+      addExamResult(exam.id, {
+        correct: right.length,
+        total: counted.length,
+        date: new Date().toISOString(),
+        bySubject,
+      });
+    }
+    if (keepDraft) saveDraft(draftKey, null);
+    setLastResult({ bySubject });
+    setShowGrid(false);
+    setFinished(true);
+  }, [exam, mode, questions, answers, keepDraft, draftKey, addExamResult, updateWrongQuestions, saveDraft]);
 
   useEffect(() => {
-    if (finished || !durationSec) return;
+    if (mode !== 'sinav' || !ready || finished) return;
     const t = setInterval(() => setRemaining((r) => Math.max(0, r - 1)), 1000);
     return () => clearInterval(t);
-  }, [finished, durationSec]);
+  }, [mode, ready, finished]);
 
   useEffect(() => {
-    if (durationSec && remaining === 0 && !finished) finish();
-  }, [remaining, finished, durationSec, finish]);
+    if (mode === 'sinav' && ready && !finished && remaining === 0) finish();
+  }, [mode, ready, finished, remaining, finish]);
+
+  const restart = () => {
+    if (keepDraft) saveDraft(draftKey, null);
+    setReady(false);
+  };
 
   if (!exam) return <EmptyState icon="alert-circle-outline" text="Deneme bulunamadı." />;
-  if (review && reviewIds?.length === 0) {
-    return <EmptyState icon="checkmark-circle-outline" text="Bu denemede tekrar edilecek yanlış soru yok." />;
+  if (!ready) {
+    return (
+      <View style={styles.center}>
+        <ActivityIndicator color={colors.primary} />
+      </View>
+    );
+  }
+  if (questions.length === 0) {
+    return (
+      <Screen>
+        <Stack.Screen options={{ title: MODE_TITLE[mode] }} />
+        <EmptyState icon="checkmark-circle-outline" text="Bu denemede tekrar edilecek yanlış soru kalmadı." />
+        <Button title="Geri Dön" variant="outline" onPress={() => router.back()} />
+      </Screen>
+    );
   }
 
-  const answered = Object.keys(answers).length;
-  const correct = questions.filter((q) => answers[q.id] === q.answerIndex).length;
+  const answeredCount = questions.filter((q) => answers[q.id] !== undefined).length;
+  const correctCount = questions.filter((q) => answers[q.id] === q.answerIndex).length;
+
+  if (finished && !reviewing) {
+    const blank = questions.length - answeredCount;
+    const wrongCount = answeredCount - correctCount;
+    const base = mode === 'sinav' ? questions.length : answeredCount;
+    const pct = base ? Math.round((correctCount / base) * 100) : 0;
+    return (
+      <Screen>
+        <Stack.Screen options={{ title: exam.title, headerRight: undefined }} />
+        <Card style={{ alignItems: 'center' }}>
+          <Text style={text.muted}>{MODE_TITLE[mode]}</Text>
+          <Text style={styles.score}>%{pct}</Text>
+          <Text style={text.body}>
+            {correctCount} doğru · {wrongCount} yanlış · {blank} boş
+          </Text>
+        </Card>
+        {lastResult && Object.keys(lastResult.bySubject).length > 0 && (
+          <Card>
+            <Text style={text.heading}>Konulara göre</Text>
+            {Object.entries(lastResult.bySubject).map(([subject, s]) => (
+              <View key={subject} style={styles.subjectRow}>
+                <Text style={text.body}>{subject}</Text>
+                <Text style={text.muted}>
+                  {s.correct}/{s.total}
+                </Text>
+              </View>
+            ))}
+          </Card>
+        )}
+        <View style={{ gap: spacing.sm }}>
+          <Button
+            title="Soruları ve açıklamaları incele"
+            onPress={() => {
+              setIndex(0);
+              setReviewing(true);
+            }}
+          />
+          {mode !== 'yanlis' && wrongCount + (mode === 'sinav' ? blank : 0) > 0 && (
+            <Button
+              title="Yanlışlarımı çöz"
+              variant="outline"
+              onPress={() => router.replace({ pathname: '/deneme/[id]', params: { id: exam.id, mod: 'yanlis' } })}
+            />
+          )}
+          <Button title="Baştan çöz" variant="outline" onPress={restart} />
+          <Button title="Denemelere dön" variant="outline" onPress={() => router.back()} />
+        </View>
+      </Screen>
+    );
+  }
+
+  const q = questions[index];
+  const picked = answers[q.id];
+  const revealed = finished || (instant && picked !== undefined);
+
+  const choose = (oi: number) => {
+    if (finished || (instant && picked !== undefined)) return;
+    setAnswers((a) => ({ ...a, [q.id]: oi }));
+  };
+
+  const confirmFinish = () => {
+    if (confirming) return finish();
+    setConfirming(true);
+    setTimeout(() => setConfirming(false), 3000);
+  };
+
+  const go = (i: number) => {
+    setIndex(Math.max(0, Math.min(questions.length - 1, i)));
+    setShowGrid(false);
+  };
 
   return (
-    <Screen>
-      <Stack.Screen options={{ title: review ? 'Yanlışlarım' : exam.title }} />
+    <View style={styles.page}>
+      <Stack.Screen
+        options={{
+          title: exam.title,
+          headerRight: finished
+            ? () => (
+                <Pressable onPress={() => setReviewing(false)} hitSlop={10}>
+                  <Text style={styles.headerAction}>Sonuç</Text>
+                </Pressable>
+              )
+            : () => (
+                <Pressable onPress={confirmFinish} hitSlop={10} accessibilityRole="button">
+                  <Text style={styles.headerAction}>{confirming ? 'Emin misiniz?' : 'Bitir'}</Text>
+                </Pressable>
+              ),
+        }}
+      />
 
-      {!finished && durationSec > 0 && (
-        <View style={styles.timerRow}>
-          <Tag label={`Kalan süre ${formatTime(remaining)}`} tone={remaining < 60 ? 'danger' : 'accent'} />
-          {previous.length > 0 && (
-            <Text style={text.muted}>
-              Son sonuç: {previous[previous.length - 1].correct}/{previous[previous.length - 1].total}
-            </Text>
-          )}
-        </View>
-      )}
-
-      {finished && (
-        <Card style={{ backgroundColor: colors.primarySoft }}>
-          <Text style={text.title}>
-            {correct} / {questions.length} doğru
-          </Text>
-          <Text style={text.muted}>Boş: {questions.length - answered}</Text>
-        </Card>
-      )}
-
-      {questions.map((q, qi) => (
-        <Card key={q.id}>
-          <Text style={text.heading}>
-            {qi + 1}. {q.text}
-          </Text>
-          {q.options.map((opt, oi) => {
-            const picked = answers[q.id] === oi;
-            const isAnswer = oi === q.answerIndex;
-            const tone = finished
-              ? isAnswer
-                ? styles.correct
-                : picked
-                  ? styles.wrong
-                  : null
-              : picked
-                ? styles.picked
-                : null;
-            return (
-              <Pressable
-                key={oi}
-                disabled={finished}
-                onPress={() => setAnswers((a) => ({ ...a, [q.id]: oi }))}
-                style={[styles.option, tone]}
-              >
-                <Text style={styles.optionLetter}>{String.fromCharCode(65 + oi)})</Text>
-                <Text style={[text.body, { flex: 1 }]}>{opt}</Text>
-              </Pressable>
-            );
-          })}
-          {finished && q.explanation && <Text style={text.muted}>Açıklama: {q.explanation}</Text>}
-        </Card>
-      ))}
-
-      <View style={{ gap: spacing.sm }}>
-        {finished ? (
-          <>
-            <Button
-              title="Tekrar Çöz"
-              onPress={() => {
-                setAnswers({});
-                setRemaining(durationSec);
-                setReviewIds(null);
-                setFinished(false);
-              }}
-            />
-            <Button title="Geri Dön" variant="outline" onPress={() => router.back()} />
-          </>
+      <View style={styles.topBar}>
+        <Text style={styles.counter}>
+          {index + 1}/{questions.length}
+        </Text>
+        <Tag label={q.topic ? `${q.subject} · ${q.topic}` : q.subject} />
+        <View style={{ flex: 1 }} />
+        {mode === 'sinav' && !finished ? (
+          <Tag label={formatTime(remaining)} tone={remaining < 300 ? 'danger' : 'accent'} />
         ) : (
-          <Button title={`Denemeyi Bitir (${answered}/${questions.length})`} onPress={finish} />
+          <Tag label={MODE_TITLE[mode]} tone="accent" />
         )}
       </View>
-    </Screen>
+      <View style={styles.progressTrack}>
+        <View style={[styles.progressFill, { width: `${(answeredCount / questions.length) * 100}%` }]} />
+      </View>
+
+      <ScrollView contentContainerStyle={styles.body}>
+        {showGrid && (
+          <View style={styles.grid}>
+            {questions.map((gq, gi) => {
+              const a = answers[gq.id];
+              const show = finished || (instant && a !== undefined);
+              const tone =
+                show && a !== undefined
+                  ? a === gq.answerIndex
+                    ? styles.cellRight
+                    : styles.cellWrong
+                  : a !== undefined
+                    ? styles.cellDone
+                    : null;
+              return (
+                <Pressable key={gq.id} onPress={() => go(gi)} style={[styles.cell, tone, gi === index && styles.cellCurrent]}>
+                  <Text style={[styles.cellText, tone && tone !== styles.cellDone && { color: '#fff' }]}>{gi + 1}</Text>
+                </Pressable>
+              );
+            })}
+          </View>
+        )}
+
+        {q.passage && (
+          <View style={styles.passage}>
+            <Text style={styles.passageText}>{q.passage}</Text>
+          </View>
+        )}
+        <Text style={styles.question}>{q.text}</Text>
+
+        {q.options.map((opt, oi) => {
+          const isAnswer = oi === q.answerIndex;
+          const tone = revealed
+            ? isAnswer
+              ? styles.right
+              : picked === oi
+                ? styles.wrong
+                : null
+            : picked === oi
+              ? styles.picked
+              : null;
+          return (
+            <Pressable key={oi} onPress={() => choose(oi)} disabled={revealed} style={[styles.option, tone]}>
+              <View style={[styles.bubble, tone && styles.bubbleFilled, tone === styles.right && { backgroundColor: colors.success }, tone === styles.wrong && { backgroundColor: colors.danger }]}>
+                <Text style={[styles.bubbleText, tone && { color: '#fff' }]}>{LETTERS[oi]}</Text>
+              </View>
+              <Text style={[text.body, { flex: 1 }]}>{opt}</Text>
+            </Pressable>
+          );
+        })}
+
+        {revealed && (
+          <View style={[styles.feedback, picked === q.answerIndex ? styles.feedbackOk : styles.feedbackBad]}>
+            <Text style={[styles.feedbackTitle, { color: picked === q.answerIndex ? colors.success : colors.danger }]}>
+              {picked === undefined
+                ? `Boş bıraktınız · Doğru cevap ${LETTERS[q.answerIndex]}`
+                : picked === q.answerIndex
+                  ? 'Doğru'
+                  : `Yanlış · Doğru cevap ${LETTERS[q.answerIndex]}`}
+            </Text>
+            {picked !== undefined && picked !== q.answerIndex && q.optionNotes?.[picked] ? (
+              <Text style={text.body}>
+                {LETTERS[picked]} şıkkı: {q.optionNotes[picked]}
+              </Text>
+            ) : null}
+            {q.explanation && <Text style={text.body}>{q.explanation}</Text>}
+            {q.source && <Text style={text.muted}>Kaynak: {q.source}</Text>}
+          </View>
+        )}
+      </ScrollView>
+
+      <View style={styles.bottomBar}>
+        <Pressable onPress={() => go(index - 1)} disabled={index === 0} style={[styles.navBtn, index === 0 && { opacity: 0.4 }]}>
+          <Ionicons name="chevron-back" size={20} color={colors.primary} />
+          <Text style={styles.navText}>Önceki</Text>
+        </Pressable>
+        <Pressable onPress={() => setShowGrid((g) => !g)} style={styles.navBtn} accessibilityLabel="Soru listesi">
+          <Ionicons name={showGrid ? 'close' : 'grid-outline'} size={20} color={colors.primary} />
+        </Pressable>
+        {index < questions.length - 1 ? (
+          <Pressable onPress={() => go(index + 1)} style={[styles.navBtn, styles.navPrimary]}>
+            <Text style={[styles.navText, { color: '#fff' }]}>Sonraki</Text>
+            <Ionicons name="chevron-forward" size={20} color="#fff" />
+          </Pressable>
+        ) : finished ? (
+          <Pressable onPress={() => setReviewing(false)} style={[styles.navBtn, styles.navPrimary]}>
+            <Text style={[styles.navText, { color: '#fff' }]}>Sonuç</Text>
+          </Pressable>
+        ) : (
+          <Pressable onPress={finish} style={[styles.navBtn, styles.navPrimary]}>
+            <Text style={[styles.navText, { color: '#fff' }]}>Bitir</Text>
+          </Pressable>
+        )}
+      </View>
+    </View>
   );
 }
 
@@ -146,17 +351,95 @@ function formatTime(sec: number) {
 }
 
 const styles = StyleSheet.create({
-  timerRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  page: { flex: 1, backgroundColor: colors.background },
+  center: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.background },
+  headerAction: { color: '#fff', fontWeight: '700', fontSize: font.body, paddingHorizontal: spacing.md },
+  topBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    paddingHorizontal: spacing.lg,
+    paddingTop: spacing.md,
+    paddingBottom: spacing.sm,
+    flexWrap: 'wrap',
+  },
+  counter: { fontSize: font.body, fontWeight: '700', color: colors.text },
+  progressTrack: { height: 4, backgroundColor: colors.border },
+  progressFill: { height: '100%', backgroundColor: colors.accent },
+  body: { padding: spacing.lg, gap: spacing.sm, paddingBottom: spacing.xxl },
+  passage: {
+    backgroundColor: colors.primarySoft,
+    borderLeftWidth: 3,
+    borderLeftColor: colors.primary,
+    borderRadius: radius.sm,
+    padding: spacing.md,
+  },
+  passageText: { fontSize: font.body, lineHeight: 23, color: colors.text },
+  question: { fontSize: 17, lineHeight: 25, fontWeight: '600', color: colors.text, marginVertical: spacing.sm },
   option: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: spacing.md,
+    padding: spacing.md,
+    borderRadius: radius.md,
+    borderWidth: 1.5,
+    borderColor: colors.border,
+    backgroundColor: colors.surface,
+  },
+  picked: { borderColor: colors.primary, backgroundColor: colors.primarySoft },
+  right: { borderColor: colors.success, backgroundColor: '#E3F3E9' },
+  wrong: { borderColor: colors.danger, backgroundColor: colors.dangerSoft },
+  bubble: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    borderWidth: 1.5,
+    borderColor: colors.primary,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  bubbleFilled: { backgroundColor: colors.primary, borderColor: 'transparent' },
+  bubbleText: { fontWeight: '700', color: colors.primary, fontSize: font.small },
+  feedback: { borderRadius: radius.md, padding: spacing.md, gap: spacing.sm, borderLeftWidth: 4, marginTop: spacing.sm },
+  feedbackOk: { backgroundColor: '#E3F3E9', borderLeftColor: colors.success },
+  feedbackBad: { backgroundColor: colors.dangerSoft, borderLeftColor: colors.danger },
+  feedbackTitle: { fontSize: font.body, fontWeight: '700' },
+  bottomBar: {
     flexDirection: 'row',
     gap: spacing.sm,
     padding: spacing.md,
+    borderTopWidth: 1,
+    borderColor: colors.border,
+    backgroundColor: colors.surface,
+  },
+  navBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: spacing.xs,
+    paddingVertical: spacing.md,
+    paddingHorizontal: spacing.lg,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: colors.primary,
+  },
+  navPrimary: { flex: 1, backgroundColor: colors.primary },
+  navText: { fontWeight: '600', color: colors.primary, fontSize: font.body },
+  grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 6, marginBottom: spacing.md },
+  cell: {
+    width: 40,
+    paddingVertical: 6,
     borderRadius: radius.sm,
     borderWidth: 1,
     borderColor: colors.border,
+    backgroundColor: colors.surface,
+    alignItems: 'center',
   },
-  optionLetter: { fontSize: font.body, fontWeight: '700', color: colors.textMuted },
-  picked: { borderColor: colors.primary, backgroundColor: colors.primarySoft },
-  correct: { borderColor: colors.success, backgroundColor: '#E3F3E9' },
-  wrong: { borderColor: colors.danger, backgroundColor: colors.dangerSoft },
+  cellDone: { backgroundColor: colors.primarySoft, borderColor: colors.primary },
+  cellRight: { backgroundColor: colors.success, borderColor: colors.success },
+  cellWrong: { backgroundColor: colors.danger, borderColor: colors.danger },
+  cellCurrent: { borderWidth: 2, borderColor: colors.accent },
+  cellText: { fontSize: font.small, color: colors.text, fontWeight: '600' },
+  score: { fontSize: 48, fontWeight: '800', color: colors.primary },
+  subjectRow: { flexDirection: 'row', justifyContent: 'space-between' },
 });

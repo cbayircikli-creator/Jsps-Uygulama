@@ -1,0 +1,2218 @@
+{
+ "id": "deneme-12",
+ "title": "Deneme 12",
+ "durationMinutes": 120,
+ "ranks": [
+  "uzman-erbas"
+ ],
+ "questions": [
+  {
+   "id": "deneme-12-1",
+   "subject": "Türkçe",
+   "text": "Aşağıdaki cümlelerin hangisinde ünsüz yumuşaması vardır?",
+   "options": [
+    "Kitabı masada unutmuş.",
+    "Yolda eski bir arkadaşa rastladım.",
+    "Sokakta kimse kalmamıştı.",
+    "Toplantı saat üçte başladı.",
+    "Dersten sonra eve döndük."
+   ],
+   "answerIndex": 0,
+   "explanation": "“kitap + ı → kitabı”: Sert ünsüzle (p) biten sözcüğe ünlüyle başlayan ek gelince p, b'ye dönüşmüştür. Bu ünsüz yumuşamasıdır.",
+   "optionNotes": [
+    "",
+    "“yol + da” ve “arkadaş + a” sözcüklerinde yumuşama yoktur.",
+    "“sokak + ta” ünsüz benzeşmesidir (sertleşme), yumuşama değildir.",
+    "“üç + te” sertleşmedir; yumuşama yoktur.",
+    "“ders + ten” sertleşmedir; yumuşama yoktur."
+   ],
+   "source": "Ses bilgisi"
+  },
+  {
+   "id": "deneme-12-2",
+   "subject": "Türkçe",
+   "text": "Aşağıdaki cümlelerin hangisinde anlamca çelişen sözcüklerin bir arada kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+   "options": [
+    "Belki akşam nöbete ben kalırım.",
+    "Komutan kesinlikle yarın gelebilir.",
+    "Toplantı büyük olasılıkla ertelenecek.",
+    "Yarın hava muhtemelen yağmurlu olacak.",
+    "Bu raporu mutlaka bugün bitirmeliyiz."
+   ],
+   "answerIndex": 1,
+   "explanation": "“kesinlikle” kesinlik, “gelebilir” olasılık bildirir. Kesinlik ve olasılık aynı yargıda bir arada kullanılamaz; cümle “Komutan kesinlikle yarın gelecek.” olmalıdır.",
+   "optionNotes": [
+    "“belki” ile geniş zaman uyumludur.",
+    "",
+    "“büyük olasılıkla” ile “ertelenecek” uyumludur.",
+    "“muhtemelen” ile “olacak” uyumludur; olasılık bildiren zarf gelecek zamanla kullanılabilir.",
+    "“mutlaka” ile gereklilik kipi uyumludur."
+   ],
+   "source": "Anlatım bozukluğu"
+  },
+  {
+   "id": "deneme-12-3",
+   "subject": "Türkçe",
+   "text": "“Yıllardır beklediği tayini çıkınca ağzı kulaklarına vardı.” cümlesindeki deyimin anlamı aşağıdakilerden hangisidir?",
+   "options": [
+    "Çok konuşmak",
+    "Çok şaşırmak",
+    "Söylediğine pişman olmak",
+    "Çok korkmak",
+    "Çok sevinmek"
+   ],
+   "answerIndex": 4,
+   "explanation": "“Ağzı kulaklarına varmak” deyimi çok sevinmek, sevincini gizleyemeyecek kadar mutlu olmak anlamındadır.",
+   "optionNotes": [
+    "Çok konuşmak için “çenesi düşük” kullanılır.",
+    "Şaşırma için “ağzı açık kalmak” kullanılır.",
+    "Pişmanlık için “dilini ısırmak” kullanılır.",
+    "Korku için “ödü kopmak” gibi deyimler kullanılır.",
+    ""
+   ],
+   "source": "Deyimler"
+  },
+  {
+   "id": "deneme-12-4",
+   "subject": "Türkçe",
+   "text": "Aşağıdaki cümlelerin hangisinde virgül yanlış kullanılmıştır?",
+   "options": [
+    "Evet, raporu zamanında teslim ettim.",
+    "Nöbetçi, kapıyı açtı ve içeri girdi.",
+    "Sabah erkenden kalktı, hazırlandı, yola çıktı.",
+    "Yorgundu, ama nöbeti bırakmadı.",
+    "Ankara'dan, İzmir'den ve Sivas'tan katılımcılar geldi."
+   ],
+   "answerIndex": 3,
+   "explanation": "Karşıtlık bildiren “ama, fakat, ancak” gibi bağlaçlardan önce virgül konmaz: “Yorgundu ama nöbeti bırakmadı.” olmalıdır.",
+   "optionNotes": [
+    "“Evet” gibi cevap sözcüklerinden sonra virgül konur; doğrudur.",
+    "Özneden sonra, yüklemden uzak düştüğünde virgül konabilir; doğrudur.",
+    "Sıralı cümleleri ayırmak için virgül konur; doğrudur.",
+    "",
+    "Eş görevli sözcükleri ayırmak için virgül kullanılır; doğrudur."
+   ],
+   "source": "Noktalama"
+  },
+  {
+   "id": "deneme-12-5",
+   "subject": "Türkçe",
+   "passage": "Düzenli kitap okuyan kişinin dikkat süresi uzar, kelime dağarcığı genişler. Bu kişi düşüncelerini daha açık ve rahat ifade eder. Daha da önemlisi, farklı hayatları okuyarak başkalarının duygularını anlamayı öğrenir.",
+   "text": "Bu parçadan aşağıdakilerin hangisi çıkarılamaz?",
+   "options": [
+    "Kitap okumak dikkati geliştirir.",
+    "Kitap okuyan herkes başarılı bir yazar olur.",
+    "Kitap okumak insanı başkalarını anlamaya yöneltir.",
+    "Okuyan kişi kendini daha rahat ifade eder.",
+    "Okuma alışkanlığı kelime dağarcığını zenginleştirir."
+   ],
+   "answerIndex": 1,
+   "explanation": "Parça okumanın dikkat, kelime dağarcığı, ifade gücü ve empati üzerindeki etkisinden söz eder; okuyan herkesin yazar olacağına dair bir yargı yoktur.",
+   "optionNotes": [
+    "Parçada okumanın dikkati artırdığı söylenmiştir.",
+    "",
+    "Başkalarının duygularını anlama vurgulanmıştır.",
+    "Kendini ifade etmenin kolaylaştığı söylenmiştir.",
+    "Kelime dağarcığının zenginleştiği söylenmiştir."
+   ],
+   "source": "Paragraf"
+  },
+  {
+   "id": "deneme-12-6",
+   "subject": "Tarih",
+   "text": "Mondros Ateşkes Antlaşması'nın İtilaf Devletlerine “güvenliklerini tehdit edecek bir durum ortaya çıkarsa herhangi bir stratejik noktayı işgal etme” hakkı veren maddesi hangisidir?",
+   "options": [
+    "5. madde",
+    "7. madde",
+    "10. madde",
+    "16. madde",
+    "24. madde"
+   ],
+   "answerIndex": 1,
+   "explanation": "Mondros'un 7. maddesi, İtilaf Devletlerine güvenliklerini tehdit eden bir durumda herhangi bir stratejik noktayı işgal etme hakkı vermiştir. Bu madde işgallerin hukuki gerekçesi yapılmıştır.",
+   "optionNotes": [
+    "5. madde Osmanlı ordusunun terhisiyle ilgilidir.",
+    "",
+    "10. madde Toros tünellerinin işgaliyle ilgilidir.",
+    "16. madde Hicaz, Yemen, Suriye ve Irak'taki garnizonların teslimiyle ilgilidir.",
+    "24. madde altı vilayette karışıklık çıkması hâlinde işgal hakkıyla ilgilidir; genel işgal hakkı 7. maddededir."
+   ],
+   "source": "Mondros"
+  },
+  {
+   "id": "deneme-12-7",
+   "subject": "Tarih",
+   "text": "Aşağıdakilerden hangisi Kuvâ-yi Milliye'nin olumsuz yönlerinden biridir?",
+   "options": [
+    "Merkezî otoriteye bağlı olmaması ve disiplinsizlik",
+    "Yerel direnişi örgütlemesi",
+    "Halkın desteğini alması",
+    "Millî bilinci uyandırması",
+    "Düzenli ordu kuruluncaya kadar düşmanı oyalayarak zaman kazandırması"
+   ],
+   "answerIndex": 0,
+   "explanation": "Kuvâ-yi Milliye düzensiz birliklerden oluştuğu için merkezî bir komutaya bağlı değildi; bazı birliklerde disiplinsizlik ve keyfî davranışlar görüldü. Bu nedenle TBMM düzenli orduya geçti.",
+   "optionNotes": [
+    "",
+    "Yerel direnişi örgütlemesi olumlu yöndür.",
+    "Halk desteği olumlu yöndür.",
+    "Millî bilinci uyandırması olumlu yöndür.",
+    "Zaman kazandırması olumlu yöndür."
+   ],
+   "source": "Kurtuluş Savaşı"
+  },
+  {
+   "id": "deneme-12-8",
+   "subject": "Tarih",
+   "text": "Sivas Kongresi ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "options": [
+    "Temsil Heyeti bütün yurdu temsil eder hâle gelmiştir.",
+    "Bütün cemiyetler Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti adı altında birleştirilmiştir.",
+    "Bütün yurdu temsil eden ulusal bir kongredir.",
+    "Manda ve himaye fikri ilk kez bu kongrede reddedilmiştir.",
+    "İrade-i Milliye gazetesinin çıkarılması kararlaştırılmıştır."
+   ],
+   "answerIndex": 3,
+   "explanation": "Manda ve himaye fikri ilk kez Erzurum Kongresi'nde reddedilmiştir; Sivas Kongresi bu kararı kesin olarak teyit etmiştir. Bu nedenle E yanlıştır.",
+   "optionNotes": [
+    "Doğrudur: Temsil Heyeti tüm yurdu temsil eder olmuştur.",
+    "Doğrudur: cemiyetler tek çatı altında birleşmiştir.",
+    "Doğrudur: Sivas ulusal bir kongredir.",
+    "",
+    "Doğrudur: İrade-i Milliye gazetesi çıkarılmıştır."
+   ],
+   "source": "Sivas Kongresi"
+  },
+  {
+   "id": "deneme-12-9",
+   "subject": "Tarih",
+   "text": "Sakarya Meydan Muharebesi'nin kazanılmasından sonra TBMM tarafından Mustafa Kemal'e hangi unvan ve rütbe verilmiştir?",
+   "options": [
+    "Gazi unvanı ve Mareşallik",
+    "Millî Şef ve Ebedi Şef unvanları",
+    "Başkomutanlık yetkisi ve unvanı",
+    "Atatürk soyadı",
+    "Paşa unvanı"
+   ],
+   "answerIndex": 0,
+   "explanation": "Sakarya zaferinin ardından 19 Eylül 1921'de TBMM, Mustafa Kemal'e Gazi unvanı ve Mareşal rütbesi vermiştir.",
+   "optionNotes": [
+    "",
+    "Bu unvan Mustafa Kemal'e verilmemiştir.",
+    "Başkomutanlık yetkisi Sakarya'dan önce, 5 Ağustos 1921'de verilmiştir.",
+    "Atatürk soyadı 1934'te verilmiştir.",
+    "Paşa unvanı daha önceden vardı."
+   ],
+   "source": "Kurtuluş Savaşı"
+  },
+  {
+   "id": "deneme-12-10",
+   "subject": "Tarih",
+   "text": "3 Mart 1924'te hilafetin kaldırılmasıyla aynı gün kabul edilen ve eğitim birliğini sağlayan kanun hangisidir?",
+   "options": [
+    "Harf Devrimi",
+    "Tevhid-i Tedrisat",
+    "Soyadı Kanunu",
+    "Şapka Kanunu",
+    "Türk Medeni Kanunu"
+   ],
+   "answerIndex": 1,
+   "explanation": "3 Mart 1924'te hilafet kaldırılmış, Şer'iye ve Evkaf Vekâleti kaldırılmış ve Tevhid-i Tedrisat Kanunu ile bütün eğitim kurumları Maarif Vekâletine bağlanmıştır.",
+   "optionNotes": [
+    "Harf Devrimi 1928'dedir.",
+    "",
+    "Soyadı Kanunu 1934'tedir.",
+    "Şapka Kanunu 1925'tedir.",
+    "Medeni Kanun 1926'dadır."
+   ],
+   "source": "İnkılaplar"
+  },
+  {
+   "id": "deneme-12-11",
+   "subject": "Tarih",
+   "text": "29 Ekim 1923'te Cumhuriyetin ilan edilmesiyle aşağıdaki sorunlardan hangisi çözümlenmiştir?",
+   "options": [
+    "Türk-Yunan nüfus mübadelesi sorunu",
+    "Hatay sorunu",
+    "Musul sorunu",
+    "Boğazlar sorunu",
+    "Devlet başkanlığı sorunu"
+   ],
+   "answerIndex": 4,
+   "explanation": "Saltanatın kaldırılmasından sonra devlet başkanlığı belirsizdi; Ekim 1923'teki hükümet bunalımı da Cumhuriyetin ilanıyla çözülmüş ve Mustafa Kemal ilk Cumhurbaşkanı seçilmiştir.",
+   "optionNotes": [
+    "Nüfus mübadelesi Lozan'da ayrı bir sözleşmeyle düzenlenmiştir.",
+    "Hatay 1939'da katılmıştır.",
+    "Musul 1926'da İngiltere lehine sonuçlanmıştır.",
+    "Boğazlar 1936 Montrö ile çözülmüştür.",
+    ""
+   ],
+   "source": "Cumhuriyet"
+  },
+  {
+   "id": "deneme-12-12",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre kanun teklif etmeye kimler yetkilidir?",
+   "options": [
+    "Yargıtay",
+    "Bakanlar",
+    "Anayasa Mahkemesi",
+    "Cumhurbaşkanı",
+    "Milletvekilleri"
+   ],
+   "answerIndex": 4,
+   "explanation": "Anayasa m.88/1 (2017 değişikliği): Kanun teklif etmeye milletvekilleri yetkilidir. Cumhurbaşkanlığı hükümet sisteminde bakanların ve Cumhurbaşkanının kanun teklif yetkisi yoktur.",
+   "optionNotes": [
+    "Yargıtay'ın böyle bir yetkisi yoktur.",
+    "Bakanlar 2017'den sonra kanun teklif edemez.",
+    "AYM'nin böyle bir yetkisi yoktur.",
+    "Cumhurbaşkanı kanun teklif edemez; yalnızca bütçe kanun teklifini sunar.",
+    ""
+   ],
+   "source": "Anayasa m.88"
+  },
+  {
+   "id": "deneme-12-13",
+   "subject": "Anayasa",
+   "text": "Anayasa'ya göre “Herkes, kamu giderlerini karşılamak üzere, ………… göre, vergi ödemekle yükümlüdür.” cümlesinde boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+   "options": [
+    "mesleğine",
+    "mali gücüne",
+    "eğitim durumuna",
+    "yaşına",
+    "ikamet ettiği yere"
+   ],
+   "answerIndex": 1,
+   "explanation": "Anayasa m.73/1: Herkes, kamu giderlerini karşılamak üzere, mali gücüne göre vergi ödemekle yükümlüdür. Vergi yükünün adaletli ve dengeli dağılımı maliye politikasının sosyal amacıdır.",
+   "optionNotes": [
+    "Meslek ölçüt değildir.",
+    "",
+    "Eğitim durumu ölçüt değildir.",
+    "Vergi yükümlülüğü yaşa bağlanmamıştır.",
+    "İkamet yeri ölçüt değildir."
+   ],
+   "source": "Anayasa m.73"
+  },
+  {
+   "id": "deneme-12-14",
+   "subject": "Anayasa",
+   "text": "Anayasa'ya göre Devlet Denetleme Kurulu kime bağlı olarak kurulmuştur?",
+   "options": [
+    "TBMM Başkanlığına",
+    "İçişleri Bakanlığına",
+    "Cumhurbaşkanlığına",
+    "Sayıştaya",
+    "Anayasa Mahkemesine"
+   ],
+   "answerIndex": 2,
+   "explanation": "Anayasa m.108: İdarenin hukuka uygunluğunun, düzenli ve verimli şekilde işleyişinin sağlanması amacıyla Cumhurbaşkanlığına bağlı Devlet Denetleme Kurulu kurulmuştur. Silahlı Kuvvetler ve yargı organları kurulun görev alanı dışındadır.",
+   "optionNotes": [
+    "TBMM'ye bağlı değildir.",
+    "Bakanlığa bağlı değildir.",
+    "",
+    "Sayıştay ayrı bir anayasal kuruluştur.",
+    "AYM'ye bağlı değildir."
+   ],
+   "source": "Anayasa m.108"
+  },
+  {
+   "id": "deneme-12-15",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'nın kanun önünde eşitliği düzenleyen 10. maddesiyle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "options": [
+    "Kadınlar ve erkekler eşit haklara sahiptir; Devlet bu eşitliğin yaşama geçmesini sağlamakla yükümlüdür.",
+    "Çocuklar, yaşlılar, engelliler, harp ve vazife şehitlerinin dul ve yetimleri için alınacak tedbirler eşitlik ilkesine aykırı sayılmaz.",
+    "Devlet organları ve idare makamları, olağanüstü hâllerde kanun önünde eşitlik ilkesinden ayrılabilir.",
+    "Herkes dil, ırk, renk, cinsiyet, din ve mezhep ayrımı gözetilmeksizin kanun önünde eşittir.",
+    "Hiçbir kişiye, aileye, zümreye veya sınıfa imtiyaz tanınamaz."
+   ],
+   "answerIndex": 2,
+   "explanation": "Anayasa m.10/5: Devlet organları ve idare makamları bütün işlemlerinde kanun önünde eşitlik ilkesine uygun olarak hareket etmek zorundadır. Olağanüstü hâl istisnası öngörülmemiştir.",
+   "optionNotes": [
+    "Doğrudur: m.10/2.",
+    "Doğrudur: m.10/3.",
+    "",
+    "Doğrudur: m.10/1.",
+    "Doğrudur: m.10/4."
+   ],
+   "source": "Anayasa m.10"
+  },
+  {
+   "id": "deneme-12-16",
+   "subject": "Anayasa",
+   "text": "Anayasa'ya göre vatan hizmeti ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Her Türkün hakkı ve ödevidir.",
+    "Yalnızca bir haktır.",
+    "İsteğe bağlı bir kamu hizmetidir.",
+    "Yalnızca savaş hâlinde ödevdir.",
+    "Yalnızca erkekler için bir ödevdir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Anayasa m.72: Vatan hizmeti her Türkün hakkı ve ödevidir. Bu hizmetin Silahlı Kuvvetlerde veya kamu kesiminde ne şekilde yerine getirileceği kanunla düzenlenir.",
+   "optionNotes": [
+    "",
+    "Anayasa onu hem hak hem ödev sayar.",
+    "Anayasa'da isteğe bağlı olduğu yazmaz.",
+    "Savaş hâliyle sınırlanmamıştır.",
+    "Anayasa cinsiyet ayrımı yapmaz; “her Türk” ifadesini kullanır."
+   ],
+   "source": "Anayasa m.72"
+  },
+  {
+   "id": "deneme-12-17",
+   "subject": "Güncel",
+   "text": "Filenin Sultanları, Eylül 2026'da düzenlenen Avrupa Kadınlar Voleybol Şampiyonası finalinde hangi ülkeyi yenerek şampiyon olmuştur?",
+   "options": [
+    "Polonya",
+    "Hollanda",
+    "Sırbistan",
+    "İtalya",
+    "Brezilya"
+   ],
+   "answerIndex": 3,
+   "explanation": "A Milli Kadın Voleybol Takımı, 7 Eylül 2026'daki finalde İtalya'yı 3-2 yenerek üst üste ikinci kez Avrupa şampiyonu olmuştur.",
+   "optionNotes": [
+    "Final rakibi Polonya değildir.",
+    "Final rakibi Hollanda değildir.",
+    "Final rakibi Sırbistan değildir.",
+    "",
+    "Brezilya bir Avrupa takımı değildir."
+   ],
+   "source": "Güncel – 2026"
+  },
+  {
+   "id": "deneme-12-18",
+   "subject": "Güncel",
+   "text": "2026 yılında Kara Kuvvetleri Komutanlığına ilk teslimatı yapılan, TUSAŞ tarafından geliştirilen “GÖKBEY” nedir?",
+   "options": [
+    "Silahlı insansız hava aracı (SİHA)",
+    "Genel maksat helikopteri",
+    "Zırhlı kara aracı",
+    "Hava savunma füzesi",
+    "Savaş uçağı"
+   ],
+   "answerIndex": 1,
+   "explanation": "GÖKBEY, TUSAŞ tarafından geliştirilen yerli genel maksat helikopteridir; 2026'da Kara Kuvvetleri Komutanlığına ilk teslimatı yapılmıştır.",
+   "optionNotes": [
+    "İnsansız hava araçlarının örnekleri Anka, Aksungur, Bayraktar'dır.",
+    "",
+    "Zırhlı kara araçlarının örneği Altay tankıdır.",
+    "Hava savunma sistemleri Siper, Hisar gibi isimler taşır.",
+    "Yerli savaş uçağı KAAN'dır."
+   ],
+   "source": "Güncel – 2026"
+  },
+  {
+   "id": "deneme-12-19",
+   "subject": "Muhakeme",
+   "passage": "Beş katlı bir binanın her katında bir kişi oturmaktadır.\n• Cem 1. katta oturmaktadır.\n• Deniz en üst katta oturmaktadır.\n• Ercan, Ali'nin hemen üst katında oturmaktadır.\n• Bora, Ercan'ın hemen üst katında oturmaktadır.",
+   "text": "Buna göre hangi katta Ercan oturmaktadır?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answerIndex": 2,
+   "explanation": "Ercan Ali'nin, Bora da Ercan'ın hemen üstünde olduğuna göre Ali – Ercan – Bora art arda üç katta oturur. 1. kat Cem'e, 5. kat Deniz'e ait olduğundan bu üçlü ancak 2, 3 ve 4. katlara yerleşebilir: Ali 2, Ercan 3, Bora 4. Ercan 3. kattadır.",
+   "optionNotes": [
+    "1. katta Cem oturur.",
+    "2. katta Ali oturur.",
+    "",
+    "4. katta Bora oturur.",
+    "5. katta Deniz oturur."
+   ],
+   "source": "Sözel mantık"
+  },
+  {
+   "id": "deneme-12-20",
+   "subject": "Muhakeme",
+   "passage": "• Karakoldaki bütün devriye görevlileri telsiz eğitimi almıştır.\n• Murat karakolda devriye görevlisidir.",
+   "text": "Buna göre aşağıdakilerden hangisi kesinlikle doğrudur?",
+   "options": [
+    "Murat devriye görevlisi değildir.",
+    "Telsiz eğitimi almayan kimse yoktur.",
+    "Murat telsiz eğitimi almıştır.",
+    "Bazı devriye görevlileri telsiz eğitimi almamıştır.",
+    "Telsiz eğitimi alan herkes devriye görevlisidir."
+   ],
+   "answerIndex": 2,
+   "explanation": "Bütün devriye görevlileri telsiz eğitimi almıştır. Murat devriye görevlisi olduğuna göre Murat telsiz eğitimi almıştır. Diğer seçenekler öncüllerden çıkarılamaz veya öncüllerle çelişir.",
+   "optionNotes": [
+    "Murat devriye görevlisidir; çelişir.",
+    "Devriye görevlisi olmayanlar hakkında bilgi yoktur.",
+    "",
+    "Öncül bütün devriye görevlilerinin eğitim aldığını söyler; çelişir.",
+    "Öncül tersine çevrilemez."
+   ],
+   "source": "Sözel mantık"
+  },
+  {
+   "id": "deneme-12-21",
+   "subject": "Mevzuat",
+   "text": "5442 sayılı Kanun'a göre valinin bulunmadığı zamanlarda vekilliğini kim yapar?",
+   "options": [
+    "Vali yardımcısı",
+    "Merkez ilçe kaymakamı",
+    "Cumhuriyet başsavcısı",
+    "Belediye başkanı",
+    "İl jandarma komutanı"
+   ],
+   "answerIndex": 0,
+   "explanation": "5442 sayılı Kanun'a göre illerde, valilerin tayin ve tespit ettiği işlerde yardımcılığını ve valinin bulunmadığı zamanlarda vekilliğini yapmak üzere vali muavinleri (vali yardımcıları) bulunur.",
+   "optionNotes": [
+    "",
+    "Kanun vekâleti vali muavinine vermiştir.",
+    "Başsavcı vali vekili olamaz.",
+    "Belediye başkanı mülki idare amiri değildir.",
+    "Jandarma komutanı vali vekili değildir."
+   ],
+   "source": "5442"
+  },
+  {
+   "id": "deneme-12-22",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma, sorumluluk alanında mülki ve adli görevlerini yerine getirirken hangi yetki ve sorumluluklara sahiptir?",
+   "options": [
+    "Yalnızca özel güvenlik görevlilerinin sahip olduğu yetkilere",
+    "Polisin sahip olduğu yetki ve sorumluluklara",
+    "Yalnızca askerî yetkilere",
+    "Belediye zabıtasının yetkilerine",
+    "Yalnızca mülki amirin verdiği yetkilere"
+   ],
+   "answerIndex": 1,
+   "explanation": "Yönetmeliğe göre jandarma sorumluluk alanında mülki ve adli görevlerinin ifası sırasında 2803, 2559 (PVSK) ve 5271 (CMK) ile diğer mevzuata göre hareket eder ve polisin sahip olduğu yetki ve sorumluluklara sahiptir.",
+   "optionNotes": [
+    "Özel güvenlik yetkileri daha sınırlıdır.",
+    "",
+    "Askerî yetkiler askerî görevlerle ilgilidir.",
+    "Zabıta yetkileri belediye hizmetleriyle sınırlıdır.",
+    "Yetkiler kanundan doğar; mülki amirin vermesine bağlı değildir."
+   ],
+   "source": "JTGY"
+  },
+  {
+   "id": "deneme-12-23",
+   "subject": "Mevzuat",
+   "text": "7068 sayılı Kanun'a göre “disiplin amiri” aşağıdakilerden hangisidir?",
+   "options": [
+    "Kanunla disiplin cezası vermeye yetkili ilk amir",
+    "Kadro ve kuruluş yönünden bağlı olunan herkes",
+    "Yalnızca Jandarma Genel Komutanı",
+    "Disiplin kurulunun başkanı",
+    "Personelin görev yaptığı yerin bağlı olduğu mülki idare amiri"
+   ],
+   "answerIndex": 0,
+   "explanation": "7068 m.3/1-d: Disiplin amiri, bu Kanun ile disiplin cezası vermeye yetkili kılınmış ilk amirdir. “Amir” ise kadro ve kuruluş yönünden bağlı olunan kimse ile amir olarak yetkilendirilmiş diğer kişilerdir.",
+   "optionNotes": [
+    "",
+    "Bu tanım “amir” kavramına aittir.",
+    "JGK Komutanı üst disiplin amiridir.",
+    "Kurul başkanı bu tanımın karşılığı değildir.",
+    "Mülki amir her zaman disiplin amiri değildir."
+   ],
+   "source": "7068 m.3"
+  },
+  {
+   "id": "deneme-12-24",
+   "subject": "Mevzuat",
+   "text": "5326 sayılı Kabahatler Kanunu'na göre kabahat karşılığı olan idari yaptırımlar aşağıdakilerin hangisinde doğru verilmiştir?",
+   "options": [
+    "Belirli hakları kullanmaktan yoksun bırakılma",
+    "Güvenlik tedbirleri",
+    "Hapis ve adli para cezası",
+    "Uyarma ve kınama",
+    "İdari para cezası ve idari tedbir"
+   ],
+   "answerIndex": 4,
+   "explanation": "5326 m.16: Kabahat karşılığı olan idari yaptırımlar idari para cezası ve idari tedbirlerdir. İdari tedbirler mülkiyetin kamuya geçirilmesi ve kanunlarda öngörülen diğer tedbirlerdir.",
+   "optionNotes": [
+    "Hak yoksunlukları TCK'daki güvenlik tedbirleridir.",
+    "Güvenlik tedbirleri TCK'da düzenlenir.",
+    "Bunlar ceza hukuku yaptırımlarıdır.",
+    "Bunlar disiplin cezalarıdır.",
+    ""
+   ],
+   "source": "5326 m.16"
+  },
+  {
+   "id": "deneme-12-25",
+   "subject": "Mevzuat",
+   "text": "Türk Bayrağı mevzuatına göre eskimiş, solmuş, yırtılmış ve kullanılamayacak duruma gelmiş bayraklar illerde nereye teslim edilir?",
+   "options": [
+    "Valiliğe",
+    "Muhtarlığa",
+    "Müftülüğe",
+    "Belediyeye",
+    "İl jandarma komutanlığına"
+   ],
+   "answerIndex": 0,
+   "explanation": "Kullanılamayacak duruma gelmiş bayraklar ilçelerde kaymakamlığa, illerde valiliğe, yurt dışında büyükelçilik veya başkonsolosluklara teslim edilir. Kaymakamlıklarca toplanan bayraklar valiliğe teslim edilir.",
+   "optionNotes": [
+    "",
+    "Muhtarlık teslim yeri değildir.",
+    "Müftülük teslim yeri değildir.",
+    "Belediye teslim yeri değildir.",
+    "Jandarma teslim yeri değildir."
+   ],
+   "source": "Bayrak Yön."
+  },
+  {
+   "id": "deneme-12-26",
+   "subject": "Mevzuat",
+   "text": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik'e göre süreli yazılarda kullanılan ibareler aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "options": [
+    "“ASLI GİBİDİR” ve “SURETİ”",
+    "“GİZLİ” ve “KİŞİYE ÖZEL”",
+    "“EK” ve “İLGİ”",
+    "“GEREĞİ” ve “BİLGİ”",
+    "“İVEDİ” ve “GÜNLÜDÜR”"
+   ],
+   "answerIndex": 4,
+   "explanation": "Yönetmeliğe göre süreli yazılarda, yazının önem ve aciliyetine göre “İVEDİ” veya belirli bir tarihe kadar cevap istenmesi hâlinde “GÜNLÜDÜR” ibaresi kullanılır.",
+   "optionNotes": [
+    "Bunlar suret işlemleriyle ilgilidir.",
+    "Bunlar gizlilik dereceleridir.",
+    "Bunlar ek ve ilgi bölümleridir.",
+    "Bunlar dağıtım başlıklarıdır.",
+    ""
+   ],
+   "source": "Resmî Yazışma Yön."
+  },
+  {
+   "id": "deneme-12-27",
+   "subject": "Mevzuat",
+   "text": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik'e göre belgenin dağıtım bölümünde gönderilen yerler hangi başlıklar altında gösterilir?",
+   "options": [
+    "Acil – Normal",
+    "Birinci – İkinci",
+    "Gizli – Açık",
+    "Gereği – Bilgi",
+    "Asıl – Suret"
+   ],
+   "answerIndex": 3,
+   "explanation": "Yönetmeliğe göre belge birden fazla yere gönderiliyorsa dağıtım bölümünde işlemi yapacak yerler “Gereği”, bilgi verilecek yerler “Bilgi” başlığı altında gösterilir.",
+   "optionNotes": [
+    "İvedilik ayrı bir işarettir; dağıtım başlığı değildir.",
+    "Yönetmelikte bu başlıklar kullanılmaz.",
+    "Gizlilik dereceleri dağıtım başlığı değildir.",
+    "",
+    "Yönetmelikte bu başlıklar kullanılmaz."
+   ],
+   "source": "Resmî Yazışma Yön."
+  },
+  {
+   "id": "deneme-12-28",
+   "subject": "Mevzuat",
+   "passage": "I. Kanunun uygulanmasına ilişkin yönetmelik Cumhurbaşkanınca yürürlüğe konulur.\nII. Jandarma Genel Komutanlığı Millî Savunma Bakanlığına bağlıdır.\nIII. Yabancı ülkelerin emsal kurumlarında hizmet yapacak personele dört yıla kadar aylıklı izin verilebilir.\nIV. Uluslararası kuruluşlarda görev alacak personele on yıla kadar aylıksız izin verilebilir.",
+   "text": "2803 sayılı Kanun ile ilgili yukarıdakilerden hangileri doğrudur?",
+   "options": [
+    "I ve II",
+    "I ve III",
+    "II ve IV",
+    "III ve IV",
+    "I, III ve IV"
+   ],
+   "answerIndex": 1,
+   "explanation": "Kanunun uygulanmasına ilişkin hususlar Cumhurbaşkanınca yürürlüğe konulan yönetmelikle düzenlenir (I doğru). JGK İçişleri Bakanlığına bağlıdır (II yanlış). Yabancı ülkelerin emsal kurumlarında hizmet için İçişleri Bakanlığınca dört yıla kadar aylıklı izin verilebilir (III doğru). Uluslararası kuruluşlarda görev alacaklara verilebilecek aylıksız izin beş yıla kadardır (IV yanlış).",
+   "optionNotes": [
+    "II yanlıştır: JGK İçişleri Bakanlığına bağlıdır.",
+    "",
+    "II ve IV yanlıştır.",
+    "IV yanlıştır: süre on değil beş yıldır.",
+    "IV yanlış olduğundan bu seçenek doğru olamaz."
+   ],
+   "source": "2803"
+  },
+  {
+   "id": "deneme-12-29",
+   "subject": "Mevzuat",
+   "text": "7068 sayılı Kanun'a göre maiyetinden birinin disiplinsizliğini öğrenen disiplin amiri, soruşturmayı nasıl yürütür?",
+   "options": [
+    "Yalnızca Cumhuriyet savcısına bildirerek",
+    "Bizzat ya da yazılı görevlendirdiği soruşturmacıyla",
+    "Yalnızca Bakanlık müfettişi aracılığıyla",
+    "Personelin kendi beyanıyla yetinerek",
+    "Soruşturma yapmadan dosyayı doğrudan disiplin kuruluna sevk ederek"
+   ],
+   "answerIndex": 1,
+   "explanation": "7068 m.14/1: Disiplinsizliği öğrenen disiplin amirleri, olayın araştırılmasının gerektiğine kanaat getirirse bizzat ya da yazılı olarak görevlendireceği soruşturmacılar vasıtasıyla disiplin soruşturması yapar.",
+   "optionNotes": [
+    "Disiplin soruşturması savcılık işi değildir.",
+    "",
+    "Müfettiş şartı yoktur.",
+    "Soruşturma yapılmadan karar verilmez.",
+    "Önce soruşturma yapılır."
+   ],
+   "source": "7068 m.14"
+  },
+  {
+   "id": "deneme-12-30",
+   "subject": "Mevzuat",
+   "text": "5326 sayılı Kabahatler Kanunu'na göre hangi fiillerin kabahat oluşturduğu hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Mülki amirin takdirine bırakılmıştır.",
+    "Mahkemelerce belirlenir.",
+    "Yalnızca kanunla belirlenebilir; idarenin genel ve düzenleyici işlemleri bu konuda hiçbir rol oynayamaz.",
+    "Yalnızca yönetmelikle belirlenir.",
+    "Kanunda tanımlanabilir; kanunun çizdiği çerçeve idarenin düzenleyici işlemleriyle de doldurulabilir."
+   ],
+   "answerIndex": 4,
+   "explanation": "5326 m.4/1: Hangi fiillerin kabahat oluşturduğu kanunda açıkça tanımlanabileceği gibi, kanunun kapsam ve koşullarını belirlediği çerçeve hükmün içeriği idarenin genel ve düzenleyici işlemleriyle de doldurulabilir. İdari yaptırımların türü, süresi ve miktarı ancak kanunla belirlenebilir.",
+   "optionNotes": [
+    "Mülki amirin keyfî takdiri söz konusu değildir.",
+    "Mahkemeler kabahat tanımlamaz.",
+    "Kanun çerçeve hükmün idarenin düzenleyici işlemleriyle doldurulmasına izin verir.",
+    "Yönetmelik ancak kanunun çizdiği çerçevede rol oynar.",
+    ""
+   ],
+   "source": "5326 m.4"
+  },
+  {
+   "id": "deneme-12-31",
+   "subject": "Mevzuat",
+   "text": "2803 sayılı Kanun'a göre aşağıdakilerden hangisi jandarmanın mülki görevleri arasında yer almaz?",
+   "options": [
+    "Ceza infaz kurumlarının dış korumasını sağlamak",
+    "Suç işlenmesini önlemek için gerekli tedbirleri almak",
+    "Kanun ve nizamlarla verilen askerî görevleri yapmak",
+    "Emniyet ve asayiş ile kamu düzenini sağlamak",
+    "Kaçakçılığı men, izleme ve tahkikat"
+   ],
+   "answerIndex": 2,
+   "explanation": "2803 m.7: Jandarmanın görevleri mülki, adli, askerî ve diğer görevler olarak ayrılır. Emniyet ve asayiş, kaçakçılık ve ceza infaz kurumlarının dış korunması mülki görevlerdendir. Askerî kanun ve nizamlarla verilen görevler ise askerî görevlerdir.",
+   "optionNotes": [
+    "Mülki görevdir.",
+    "Önleyici kolluk görevi mülki görev kapsamındadır.",
+    "",
+    "Mülki görevdir.",
+    "Mülki görevdir."
+   ],
+   "source": "2803 m.7"
+  },
+  {
+   "id": "deneme-12-32",
+   "subject": "Mevzuat",
+   "text": "6698 sayılı Kanun'a göre kişisel verilerin, başka verilerle eşleştirilerek dahi hiçbir surette kimliği belirli veya belirlenebilir bir gerçek kişiyle ilişkilendirilemeyecek hâle getirilmesi hangi kavramla ifade edilir?",
+   "options": [
+    "Maskeleme",
+    "Anonimleştirme",
+    "Kalıcı silme",
+    "Açık rıza",
+    "Kalıcı yok etme"
+   ],
+   "answerIndex": 1,
+   "explanation": "6698 m.3/b: Bu tanım anonim hâle getirmeye aittir. Silme ve yok etme verinin erişilemez veya kullanılamaz hâle getirilmesidir.",
+   "optionNotes": [
+    "Maskeleme Kanunda tanımlanmış bir kavram değildir.",
+    "",
+    "Silme, verinin ilgili kullanıcılar için erişilemez ve tekrar kullanılamaz hâle getirilmesidir.",
+    "Açık rıza, belirli bir konuya ilişkin bilgilendirilmeye dayanan özgür iradeyle açıklanan rızadır.",
+    "Yok etme, verinin hiç kimse tarafından erişilemez ve kullanılamaz hâle getirilmesidir."
+   ],
+   "source": "6698 m.3"
+  },
+  {
+   "id": "deneme-12-33",
+   "subject": "Mevzuat",
+   "text": "2803 sayılı Kanun'a göre jandarma bölge komutanı kime karşı sorumlu olarak görev yapar?",
+   "options": [
+    "Kolordu komutanına",
+    "Konuşlu bulunduğu ilin valisine",
+    "İçişleri Bakanına",
+    "Bölgedeki bütün illerin valilerine ayrı ayrı",
+    "Cumhuriyet başsavcısına"
+   ],
+   "answerIndex": 1,
+   "explanation": "2803 sayılı Kanun'a göre bölge komutanı, bölge teşkilatının konuşlu bulunduğu ilin valisine karşı sorumlu olarak görev yapar.",
+   "optionNotes": [
+    "Kanun bu şekilde düzenlememiştir.",
+    "",
+    "Doğrudan Bakana karşı sorumlu değildir.",
+    "Sorumluluk konuşlu olunan ilin valisine karşıdır.",
+    "Başsavcı adli görevler bakımından yetkilidir; sorumluluk ilişkisi valiyle kurulmuştur."
+   ],
+   "source": "2803"
+  },
+  {
+   "id": "deneme-12-34",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre kolluk birimleri arasında sorumluluk alanlarının sınırlarının belirlenmesinde çıkan anlaşmazlıkları kim kesin olarak çözer?",
+   "options": [
+    "Cumhuriyet başsavcısı",
+    "Emniyet müdürü",
+    "Mülki amir",
+    "İl jandarma komutanı",
+    "İçişleri Bakanı"
+   ],
+   "answerIndex": 2,
+   "explanation": "Yönetmeliğe göre sorumluluk alanlarının sınırlarının belirlenmesinde kolluk birimleri arasındaki anlaşmazlıklar mülki amir tarafından kesin olarak çözümlenir.",
+   "optionNotes": [
+    "Bu idari bir konudur; savcının yetkisinde değildir.",
+    "Emniyet müdürü de taraftır.",
+    "",
+    "Taraflardan biri olan komutan anlaşmazlığı çözemez.",
+    "Yönetmelik bu yetkiyi mülki amire vermiştir."
+   ],
+   "source": "JTGY"
+  },
+  {
+   "id": "deneme-12-35",
+   "subject": "Mevzuat",
+   "text": "5442 sayılı Kanun'a göre il idare şube başkanlıkları valinin emri altındadır. Aşağıdakilerden hangisi bu hükümden müstesnadır?",
+   "options": [
+    "İl defterdarlığı",
+    "İl tarım ve orman müdürlüğü ile şube müdürlükleri",
+    "İl sağlık müdürlüğü",
+    "İl milli eğitim müdürlüğü",
+    "Askerî birlikler ile yargı mensupları"
+   ],
+   "answerIndex": 4,
+   "explanation": "5442 sayılı Kanun'a göre il idare teşkilatı valinin emri altındadır. Ancak yargıç, Cumhuriyet savcısı ve adalet memurları, askerî birlikler, askerî fabrika ve müesseseler, askerlik daire ve şubeleri bu hükümden müstesnadır.",
+   "optionNotes": [
+    "Defterdarlık valinin emri altındadır.",
+    "Tarım ve orman müdürlüğü valinin emri altındadır.",
+    "Sağlık müdürlüğü valinin emri altındadır.",
+    "Milli eğitim müdürlüğü valinin emri altındadır.",
+    ""
+   ],
+   "source": "5442"
+  },
+  {
+   "id": "deneme-12-36",
+   "subject": "Mevzuat",
+   "text": "6136 sayılı Kanun'a göre 6284 sayılı Kanun kapsamında hakkında tedbir kararı verilen kişinin silahıyla ilgili hangisi doğrudur?",
+   "options": [
+    "Silahı derhâl müsadere edilir.",
+    "Tedbir süresince de silah taşıyabilir.",
+    "Yalnızca silah taşıma ruhsatı bir ay süreyle askıya alınır ve silah sahibinde kalır.",
+    "İzin verilmez; silahı genel kolluk tarafından muhafaza altına alınır.",
+    "Silahını bir akrabasına devretmek zorundadır."
+   ],
+   "answerIndex": 3,
+   "explanation": "6136 m.7 son fıkrasına göre 6284 sayılı Kanun kapsamında tedbir kararı verilenlere tedbir süresince silah bulundurma ve taşıma izni verilmez; mevcut silahları genel kolluk tarafından muhafaza altına alınır.",
+   "optionNotes": [
+    "Doğrudan müsadere öngörülmemiştir.",
+    "Tedbir süresince silah taşınamaz.",
+    "Askıya alma süresi tedbir süresidir.",
+    "",
+    "Devretme zorunluluğu öngörülmemiştir."
+   ],
+   "source": "6136 m.7"
+  },
+  {
+   "id": "deneme-12-37",
+   "subject": "Mevzuat",
+   "passage": "I. Türk Bayrağı yas alameti olarak 10 Kasım'da yarıya çekilir.\nII. Bayrağın yarıya çekileceği diğer hâller TBMM Başkanlığınca ilan edilir.\nIII. Kamu kurum ve kuruluşlarında bayrak yalnızca bayram ve genel tatillerde çekilir.\nIV. Eskimiş bayraklar sahiplerince serbestçe yakılarak yok edilir.",
+   "text": "2893 sayılı Türk Bayrağı Kanunu ile ilgili yukarıdakilerden hangileri doğrudur?",
+   "options": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve IV",
+    "I, III ve IV"
+   ],
+   "answerIndex": 0,
+   "explanation": "2893 m.4: Bayrak yas alameti olarak 10 Kasım'da yarıya çekilir (I doğru); diğer hâller ve zamanı Cumhurbaşkanlığınca ilan edilir (II yanlış). m.3: Kamu kurum ve kuruluşlarında bayrak sürekli çekili kalır (III yanlış). Eskimiş bayraklar kaymakamlık veya valiliğe teslim edilir ve usulüne göre yok edilir (IV yanlış).",
+   "optionNotes": [
+    "",
+    "II yanlıştır: ilan yetkisi Cumhurbaşkanlığındadır.",
+    "III yanlıştır: kamu kurumlarında bayrak sürekli çekili kalır.",
+    "II ve IV yanlıştır.",
+    "III ve IV yanlıştır."
+   ],
+   "source": "2893 m.3–4"
+  },
+  {
+   "id": "deneme-12-38",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre “suçun kanuni tanımındaki unsurların bilerek ve istenerek gerçekleştirilmesi” hangi kavramla ifade edilir?",
+   "options": [
+    "Taksir",
+    "Hata",
+    "Olası kast",
+    "Bilinçli taksir",
+    "Kast"
+   ],
+   "answerIndex": 4,
+   "explanation": "TCK m.21/1: Suçun oluşması kastın varlığına bağlıdır. Kast, suçun kanuni tanımındaki unsurların bilerek ve istenerek gerçekleştirilmesidir.",
+   "optionNotes": [
+    "Taksirde netice öngörülmeden dikkat ve özen yükümlülüğüne aykırılık vardır.",
+    "Hata, unsurlar hakkında yanılgıdır.",
+    "Olası kastta netice öngörülür ve kabullenilir.",
+    "Bilinçli taksirde netice öngörülür ama istenmez.",
+    ""
+   ],
+   "source": "TCK m.21"
+  },
+  {
+   "id": "deneme-12-39",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma seferberlik ve savaş hâlinde hangi kanunla verilen görevleri yapar?",
+   "options": [
+    "2559 sayılı Polis Vazife ve Salahiyet Kanunu",
+    "2941 sayılı Seferberlik ve Savaş Hali Kanunu",
+    "2935 sayılı Olağanüstü Hal Kanunu",
+    "5442 sayılı İl İdaresi Kanunu",
+    "3713 sayılı Terörle Mücadele Kanunu"
+   ],
+   "answerIndex": 1,
+   "explanation": "Yönetmeliğe göre jandarma, seferberlik ve savaş hâlinde 2941 sayılı Seferberlik ve Savaş Hali Kanunu ile verilen görevleri yapar.",
+   "optionNotes": [
+    "2559 polisin görev ve yetkilerini düzenler.",
+    "",
+    "2935 olağanüstü hâlle ilgilidir.",
+    "5442 mülki idareyi düzenler.",
+    "3713 terörle mücadeleyi düzenler."
+   ],
+   "source": "JTGY"
+  },
+  {
+   "id": "deneme-12-40",
+   "subject": "Mevzuat",
+   "text": "Anayasa ve 2935 sayılı Kanun'a göre aşağıdakilerden hangisi olağanüstü hal ilan sebepleri arasında yer almaz?",
+   "options": [
+    "Genel seçimlerin yenilenmesine karar verilmesi",
+    "Tehlikeli salgın hastalık",
+    "Ağır ekonomik bunalım",
+    "Yaygın şiddet olayları nedeniyle kamu düzeninin ciddi şekilde bozulması",
+    "Tabii afet"
+   ],
+   "answerIndex": 0,
+   "explanation": "Anayasa m.119 ve 2935 m.3: Olağanüstü hal; tabii afet, tehlikeli salgın hastalıklar, ağır ekonomik bunalım ile şiddet olaylarının yaygınlaşması sonucu kamu düzeninin ciddi şekilde bozulması hâllerinde ilan edilebilir. Seçimlerin yenilenmesi OHAL sebebi değildir.",
+   "optionNotes": [
+    "",
+    "Salgın OHAL sebebidir.",
+    "Ağır ekonomik bunalım OHAL sebebidir.",
+    "Şiddet olayları OHAL sebebidir.",
+    "Tabii afet OHAL sebebidir."
+   ],
+   "source": "2935 / Anayasa m.119"
+  },
+  {
+   "id": "deneme-12-41",
+   "subject": "Mevzuat",
+   "text": "7201 sayılı Tebligat Kanunu'na göre tebligat kural olarak nerede yapılır?",
+   "options": [
+    "Muhatabın doğduğu yerde",
+    "Muhtarlıkta",
+    "Karakolda",
+    "Muhatabın nüfusa kayıtlı olduğu yerde",
+    "Muhatabın bilinen en son adresinde"
+   ],
+   "answerIndex": 4,
+   "explanation": "7201 m.10/1: Tebligat, tebliğ yapılacak şahsa bilinen en son adresinde yapılır. Bilinen en son adreste yapılamazsa adres kayıt sistemindeki adres esas alınır.",
+   "optionNotes": [
+    "Doğum yeri esas alınmaz.",
+    "Muhtarlık yalnızca bazı hâllerde evrakın bırakıldığı yerdir.",
+    "Karakol tebligat yeri değildir.",
+    "Nüfus kaydı esas alınmaz.",
+    ""
+   ],
+   "source": "7201 m.10"
+  },
+  {
+   "id": "deneme-12-42",
+   "subject": "Mevzuat",
+   "text": "7068 sayılı Genel Kolluk Disiplin Hükümleri Hakkında Kanun'a göre aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Savunma yalnızca meslekten çıkarma cezalarında alınır.",
+    "Savunma sözlü olarak alınamaz, yalnızca noter aracılığıyla verilir.",
+    "Disiplin amirleri acil durumlarda savunma almadan da her türlü ceza verebilir.",
+    "Uyarma cezası için savunma alınması gerekmez.",
+    "Savunma alınmadan disiplin cezası verilemez."
+   ],
+   "answerIndex": 4,
+   "explanation": "7068 m.31/1: Disiplin amirleri veya disiplin kurulları tarafından savunma alınmadan disiplin cezası verilemez. Bu kural bütün cezalar için geçerlidir.",
+   "optionNotes": [
+    "Savunma bütün cezalar için alınır.",
+    "Noter şartı yoktur.",
+    "Savunma hakkının acil durum istisnası yoktur.",
+    "Uyarma cezası da savunma alınmadan verilemez.",
+    ""
+   ],
+   "source": "7068 m.31"
+  },
+  {
+   "id": "deneme-12-43",
+   "subject": "Mevzuat",
+   "text": "2935 sayılı Kanun'a göre şiddet olayları nedeniyle ilan edilen olağanüstü halde alınabilecek tedbirlerden biri aşağıdakilerden hangisidir?",
+   "options": [
+    "Sokağa çıkma yasağı",
+    "Mahkemelerin kapatılması",
+    "TBMM'nin feshedilmesi",
+    "Anayasa'nın bütünüyle askıya alınması",
+    "Seçimlerin süresiz ertelenmesi"
+   ],
+   "answerIndex": 0,
+   "explanation": "2935 m.11'e göre şiddet olayları nedeniyle ilan edilen OHAL'de sokağa çıkmanın sınırlandırılması veya yasaklanması, belirli yerlere giriş-çıkışın sınırlandırılması gibi tedbirler alınabilir.",
+   "optionNotes": [
+    "",
+    "Mahkemelerin kapatılması öngörülmemiştir.",
+    "OHAL TBMM'yi feshetme yetkisi vermez.",
+    "Anayasa askıya alınamaz.",
+    "Seçimlerin süresiz ertelenmesi öngörülmemiştir."
+   ],
+   "source": "2935 m.11"
+  },
+  {
+   "id": "deneme-12-44",
+   "subject": "Mevzuat",
+   "text": "6136 sayılı Kanun'a göre silah taşıma ve bulundurma ruhsatları kaç yıl süreyle geçerlidir?",
+   "options": [
+    "Bir",
+    "Üç",
+    "Beş",
+    "On",
+    "Süresiz"
+   ],
+   "answerIndex": 2,
+   "explanation": "6136 m.6: Taşıma ve bulundurma ruhsatları beş yıl süreyle geçerlidir. Süresi dolduğu hâlde altı ay içinde yenilenmeyen ruhsatlar iptal edilir.",
+   "optionNotes": [
+    "Ruhsat bir yıl değil beş yıl geçerlidir.",
+    "Üç yıl Kanundaki süre değildir.",
+    "",
+    "On yıl Kanundaki süre değildir.",
+    "Özel ruhsatlar dışında ruhsatlar süresiz değildir."
+   ],
+   "source": "6136 m.6"
+  },
+  {
+   "id": "deneme-12-45",
+   "subject": "Mevzuat",
+   "text": "2803 sayılı Kanun'a göre “Jandarma, kendisine verilen görevlerin ifası sırasında hizmet özelliğine uygun ve görevin gereği olarak ………… öngörülen silah kullanma yetkisine sahiptir.” cümlesinde boşluğa ne gelmelidir?",
+   "options": [
+    "genelgelerde",
+    "komutanın talimatlarında",
+    "yönetmeliklerde",
+    "kanunlarda",
+    "mülki amirin emirlerinde"
+   ],
+   "answerIndex": 3,
+   "explanation": "2803 sayılı Kanun'a göre jandarma, görevlerin ifası sırasında hizmet özelliğine uygun ve görevin gereği olarak kanunlarda öngörülen silah kullanma yetkisine sahiptir. Silah kullanma yetkisi ancak kanunla düzenlenebilir.",
+   "optionNotes": [
+    "Genelge yetki kaynağı olamaz.",
+    "Komutan talimatı yetki kaynağı değildir; ölçüt kanundur.",
+    "Silah kullanma yetkisi yönetmelikle verilemez.",
+    "",
+    "Mülki amir emri silah kullanma yetkisinin kaynağı değildir."
+   ],
+   "source": "2803"
+  },
+  {
+   "id": "deneme-12-46",
+   "subject": "Mevzuat",
+   "text": "6698 sayılı Kanun'a göre “kişisel verilerin işleme amaçlarını ve vasıtalarını belirleyen, veri kayıt sisteminin kurulmasından ve yönetilmesinden sorumlu olan gerçek veya tüzel kişi” hangisidir?",
+   "options": [
+    "Alıcı grubu",
+    "İlgili kişi",
+    "Veri sorumlusu",
+    "Veri işleyen",
+    "Kişisel Verileri Koruma Kurulu"
+   ],
+   "answerIndex": 2,
+   "explanation": "6698 m.3/ı: Bu tanım veri sorumlusuna aittir. Veri işleyen ise veri sorumlusunun verdiği yetkiye dayanarak onun adına kişisel verileri işleyen kişidir.",
+   "optionNotes": [
+    "Alıcı grubu, verilerin aktarıldığı kişi kategorisidir.",
+    "İlgili kişi, verisi işlenen gerçek kişidir.",
+    "",
+    "Veri işleyen, veri sorumlusu adına veriyi işler; amaç ve vasıtaları belirlemez.",
+    "Kurul, Kişisel Verileri Koruma Kuruludur."
+   ],
+   "source": "6698 m.3"
+  },
+  {
+   "id": "deneme-12-47",
+   "subject": "Mevzuat",
+   "text": "2803 sayılı Kanun'a göre jandarma personelinin mülki görevlerinden doğan suçları hakkında hangi usule göre işlem yapılır?",
+   "options": [
+    "Askerî yargı usulüne göre",
+    "4483 sayılı Kanun'a göre (izin usulü)",
+    "Yalnızca disiplin kurulu kararıyla",
+    "Genel hükümlere göre",
+    "Doğrudan Cumhuriyet savcısınca, hiçbir izin aranmaksızın"
+   ],
+   "answerIndex": 1,
+   "explanation": "2803 m.15: Jandarma personelinin mülki görevlerinden doğan suçlarında 4483 sayılı Kanun'a (izin usulü) göre, adli görevlerinden doğan suçlarında CMK m.161/5'e göre işlem yapılır. Kişisel suçlarda genel hükümler uygulanır.",
+   "optionNotes": [
+    "Askerî yargı, askerî görevden doğan suçlarla ilgilidir.",
+    "",
+    "Disiplin süreci ceza soruşturmasının yerine geçmez.",
+    "Genel hükümler kişisel suçlarda uygulanır.",
+    "İzin aranmaksızın savcı soruşturması adli görevden doğan suçlar içindir."
+   ],
+   "source": "2803 m.15"
+  },
+  {
+   "id": "deneme-12-48",
+   "subject": "Mevzuat",
+   "text": "7068 sayılı Kanun'a göre “personele, görevinde ve davranışlarında kusurlu sayıldığının yazılı olarak bildirilmesi” hangi disiplin cezasıdır?",
+   "options": [
+    "Kınama",
+    "Kısa süreli durdurma",
+    "Aylıktan kesme",
+    "Meslekten çıkarma",
+    "Uyarma"
+   ],
+   "answerIndex": 0,
+   "explanation": "7068 m.7: Kınama, personele görevinde ve davranışlarında kusurlu sayıldığının yazılı olarak bildirilmesidir. Uyarma ise “daha dikkatli olması gerektiğinin” yazılı olarak bildirilmesidir.",
+   "optionNotes": [
+    "",
+    "Durdurma kademe ilerlemesinin durdurulmasıdır.",
+    "Aylıktan kesme brüt aylıktan kesinti yapılmasıdır.",
+    "Meslekten çıkarma, bir daha kolluk teşkilatında görev yapmamak üzere meslekten çıkarılmadır.",
+    "Uyarma “dikkatli olması gerektiğinin” bildirilmesidir."
+   ],
+   "source": "7068 m.7"
+  },
+  {
+   "id": "deneme-12-49",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre yabancı ülkede Türkiye'nin zararına suç işleyen yabancı hakkında Türkiye'de kovuşturma yapılması hangi makamın talebine bağlıdır?",
+   "options": [
+    "İçişleri Bakanının",
+    "Yargıtay Cumhuriyet Başsavcısının",
+    "Adalet Bakanının",
+    "Dışişleri Bakanının",
+    "Cumhurbaşkanının"
+   ],
+   "answerIndex": 2,
+   "explanation": "TCK m.12/1: Yabancı, Türkiye'nin zararına olarak yabancı ülkede alt sınırı en az bir yıl hapis cezasını gerektiren bir suç işlediği ve kendisi Türkiye'de bulunduğu takdirde Türk kanunlarına göre cezalandırılır. Kovuşturma Adalet Bakanının talebine bağlıdır.",
+   "optionNotes": [
+    "İçişleri Bakanının böyle bir yetkisi yoktur.",
+    "Kanun bu makamı saymaz.",
+    "",
+    "Dışişleri Bakanının böyle bir yetkisi yoktur.",
+    "Kanun Cumhurbaşkanının talebini aramaz."
+   ],
+   "source": "TCK m.12"
+  },
+  {
+   "id": "deneme-12-50",
+   "subject": "Mevzuat",
+   "text": "6284 sayılı Kanun'a göre “kişiyi ekonomik değerlerden ve kaynaklardan yoksun bırakma veya bunlardan yararlanmasını engelleme” hangi şiddet türüdür?",
+   "options": [
+    "Psikolojik şiddet",
+    "Israrlı takip",
+    "Fiziksel şiddet",
+    "Cinsel şiddet",
+    "Ekonomik şiddet"
+   ],
+   "answerIndex": 4,
+   "explanation": "6284 m.2: Ekonomik şiddet, kişiyi ekonomik değerlerden ve kaynaklardan yoksun bırakma veya bunlardan yararlanmasını engelleme gibi fiillerle ortaya çıkan şiddettir.",
+   "optionNotes": [
+    "Psikolojik şiddet aşağılama, korkutma gibi ruhsal zarar veren davranışlardır.",
+    "Israrlı takip kişiyi sürekli izleme ve rahatsız etmedir.",
+    "Fiziksel şiddet bedene yönelik eylemlerdir.",
+    "Cinsel şiddet cinsel dokunulmazlığa yöneliktir.",
+    ""
+   ],
+   "source": "6284 m.2"
+  },
+  {
+   "id": "deneme-12-51",
+   "subject": "Mevzuat",
+   "text": "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik'e göre belgede tarih nasıl yazılır?",
+   "options": [
+    "Gün.ay.yıl biçiminde rakamla",
+    "Yalnızca ay ve yıl yazılarak",
+    "Gün ve ay yazıyla, yıl rakamla",
+    "Yıl, ay ve gün sırasıyla, aralarına eğik çizgi konularak",
+    "Hicri ve miladi takvim birlikte"
+   ],
+   "answerIndex": 0,
+   "explanation": "Yönetmeliğe göre tarih; gün, ay ve yıl rakamla, aralarına nokta konularak yazılır (ör. 30.09.2026).",
+   "optionNotes": [
+    "",
+    "Gün de yazılır.",
+    "Ay yazıyla yazılmaz.",
+    "Sıra gün.ay.yıl'dır; ayraç noktadır.",
+    "Yalnızca miladi takvim kullanılır."
+   ],
+   "source": "Resmî Yazışma Yön."
+  },
+  {
+   "id": "deneme-12-52",
+   "subject": "Mevzuat",
+   "text": "5442 sayılı İl İdaresi Kanunu'na göre vali ilde kimin temsilcisidir?",
+   "options": [
+    "Yalnızca İçişleri Bakanının",
+    "Yalnızca il genel meclisinin",
+    "TBMM'nin",
+    "Yargının",
+    "Devletin ve Cumhurbaşkanının"
+   ],
+   "answerIndex": 4,
+   "explanation": "5442 m.9: Vali, ilde Devletin ve Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır. Ayrıca bakanlıkların ilde temsilcisidir ve bakanlıkların emirlerini yerine getirir.",
+   "optionNotes": [
+    "Vali yalnızca İçişleri Bakanının temsilcisi değildir.",
+    "Vali il özel idaresinin yürütme organıdır; il genel meclisinin temsilcisi değildir.",
+    "Vali yasama organını temsil etmez.",
+    "Vali yargıyı temsil etmez.",
+    ""
+   ],
+   "source": "5442 m.9"
+  },
+  {
+   "id": "deneme-12-53",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre ceza sorumluluğu ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Veli, çocuğunun işlediği suçtan hapis cezası alır.",
+    "Aile bireyleri birbirlerinin fiillerinden sorumludur.",
+    "Amir, astının görev sırasında işlediği bütün suçlardan sorumludur.",
+    "Ceza sorumluluğu şahsidir.",
+    "İşveren, işçisinin işlediği her suçtan cezalandırılır."
+   ],
+   "answerIndex": 3,
+   "explanation": "TCK m.20/1: Ceza sorumluluğu şahsidir. Kimse başkasının fiilinden dolayı sorumlu tutulamaz.",
+   "optionNotes": [
+    "Veliye çocuğunun fiilinden ceza verilmez.",
+    "Ceza sorumluluğu şahsidir; aile bireylerine geçmez.",
+    "Amir ancak kendi fiilinden sorumludur.",
+    "",
+    "İşverene başkasının fiilinden ceza verilmez."
+   ],
+   "source": "TCK m.20"
+  },
+  {
+   "id": "deneme-12-54",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre suça sürüklenen çocuğun ifadesi kural olarak kim tarafından alınır?",
+   "options": [
+    "Okul müdürü",
+    "Çocuğun velisi",
+    "Sosyal çalışma görevlisi",
+    "Cumhuriyet savcısı",
+    "Karakol komutanı"
+   ],
+   "answerIndex": 3,
+   "explanation": "Çocuk mevzuatına göre suça sürüklenen çocuğun ifadesi Cumhuriyet savcısı tarafından alınır; ifade sırasında müdafi hazır bulunur, sosyal çalışma görevlisi de bulundurulabilir.",
+   "optionNotes": [
+    "Okul müdürünün yetkisi yoktur.",
+    "Veli ifade alamaz.",
+    "Sosyal çalışma görevlisi ifade sırasında bulunabilir; ifadeyi almaz.",
+    "",
+    "Kolluk suça sürüklenen çocuğun ifadesini kural olarak alamaz."
+   ],
+   "source": "5395 / ÇKK Yön."
+  },
+  {
+   "id": "deneme-12-55",
+   "subject": "Mevzuat",
+   "text": "Karayolları trafik mevzuatına göre bir kavşakta trafik polisi veya jandarma trafik görevlisi araçları yönlendirirken aynı anda trafik ışıkları da çalışıyorsa sürücü hangisine uyar?",
+   "options": [
+    "Trafik görevlisinin işaretlerine",
+    "Trafik ışıklarına",
+    "Kavşaktaki diğer sürücülerin el ve ışık işaretlerine",
+    "Yol çizgilerine",
+    "Trafik işaret levhalarına"
+   ],
+   "answerIndex": 0,
+   "explanation": "Trafik mevzuatına göre trafik görevlilerinin uyarı ve işaretleri, trafik ışıklarından ve işaret levhalarından önce gelir. Sürücü görevlinin işaretine uyar.",
+   "optionNotes": [
+    "",
+    "Işıklar görevlinin işaretinden sonra gelir.",
+    "Diğer sürücülerin işaretleri bağlayıcı değildir.",
+    "Yol çizgileri en son sırada gelir.",
+    "Levhalar ışıklardan ve görevliden sonra gelir."
+   ],
+   "source": "2918 / KTY"
+  },
+  {
+   "id": "deneme-12-56",
+   "subject": "Mevzuat",
+   "text": "2911 sayılı Toplantı ve Gösteri Yürüyüşleri Kanunu'na göre vali veya kaymakam, belirli bir toplantıyı kamu düzeni gerekçesiyle en fazla ne kadar süre erteleyebilir?",
+   "options": [
+    "Yedi gün",
+    "On gün",
+    "On beş gün",
+    "Yirmi gün",
+    "Bir ay"
+   ],
+   "answerIndex": 4,
+   "explanation": "2911 m.17: Bölge valisi, vali veya kaymakam; millî güvenlik, kamu düzeni, suç işlenmesinin önlenmesi, genel sağlık, genel ahlak veya başkalarının hak ve özgürlüklerinin korunması sebepleriyle belli bir toplantıyı bir ayı geçmemek üzere erteleyebilir veya yasaklayabilir.",
+   "optionNotes": [
+    "Yedi gün Kanundaki süre değildir.",
+    "On gün Kanundaki süre değildir.",
+    "On beş gün Kanundaki süre değildir.",
+    "Yirmi gün Kanundaki süre değildir.",
+    ""
+   ],
+   "source": "2911 m.17"
+  },
+  {
+   "id": "deneme-12-57",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre aşağıdakilerden hangisi el koymanın konusu değildir?",
+   "options": [
+    "İspat aracı olarak yararlı görülen eşya ve belgeler",
+    "Suçtan elde edilen para",
+    "Müsadereye tabi eşya",
+    "Suçla ilgisiz kişisel hatıra fotoğrafı",
+    "Suçta kullanılan silah"
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.123/1: İspat aracı olarak yararlı görülen veya eşya ya da kazanç müsaderesine tabi olan malvarlığı değerleri muhafaza altına alınır. Suçla ilgisi olmayan eşyaya el konulamaz.",
+   "optionNotes": [
+    "İspat aracı olarak el konulabilir.",
+    "Suçtan elde edilen kazanç müsadereye tabidir.",
+    "Müsadereye tabi eşyaya el konulabilir.",
+    "",
+    "Suçta kullanılan silah müsadereye tabidir."
+   ],
+   "source": "CMK m.123"
+  },
+  {
+   "id": "deneme-12-58",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre zorunlu müdafi atanmasını gerektiren durumlardan biri aşağıdakilerden hangisidir?",
+   "options": [
+    "Alt sınırı beş yıldan fazla hapisli suçlar",
+    "Suçun trafik kazasıyla ilgili olması",
+    "Suçun gece işlenmiş olması",
+    "Şüphelinin Türkçe bilmemesi ve yabancı dilde ifade vermek istemesi",
+    "Şüphelinin yüksek öğrenim görmüş olması"
+   ],
+   "answerIndex": 0,
+   "explanation": "CMK m.150/3: Alt sınırı beş yıldan fazla hapis cezasını gerektiren suçlardan dolayı yapılan soruşturma ve kovuşturmalarda istem aranmaksızın müdafi görevlendirilir. Ayrıca şüpheli çocuk, kendisini savunamayacak derecede malul veya sağır ya da dilsiz ise zorunlu müdafi atanır.",
+   "optionNotes": [
+    "",
+    "Trafik kazası tek başına sebep değildir.",
+    "Suçun zamanı ölçüt değildir.",
+    "Dil bilmemek tercüman görevlendirilmesini gerektirir.",
+    "Eğitim durumu ölçüt değildir."
+   ],
+   "source": "CMK m.150"
+  },
+  {
+   "id": "deneme-12-59",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre hırsızlık suçunun ağır ve acil bir ihtiyacı karşılamak amacıyla işlenmesi hâlinde ne olur?",
+   "options": [
+    "Fail hırsızlık yerine yağma suçundan cezalandırılır.",
+    "Ceza indirilebilir veya hiç verilmeyebilir.",
+    "Ceza sadece ertelenir.",
+    "Suç nitelikli hırsızlık sayılır.",
+    "Ceza iki katına çıkarılır."
+   ],
+   "answerIndex": 1,
+   "explanation": "TCK m.147: Hırsızlık suçunun ağır ve acil bir ihtiyacı karşılamak için işlenmesi hâlinde, durumun özelliğine göre verilecek ceza indirilebileceği gibi ceza verilmeyebilir de.",
+   "optionNotes": [
+    "Yağma cebir veya tehdit gerektirir.",
+    "",
+    "Kanun erteleme değil indirim veya cezasızlık öngörür.",
+    "Nitelikli hâl sayılmaz.",
+    "Ceza artırılmaz."
+   ],
+   "source": "TCK m.147"
+  },
+  {
+   "id": "deneme-12-60",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre hükmedilen kaç yıl veya daha az süreli hapis cezası kısa süreli hapis cezasıdır?",
+   "options": [
+    "Bir yıl",
+    "İki yıl",
+    "Üç yıl",
+    "Dört yıl",
+    "Beş yıl"
+   ],
+   "answerIndex": 0,
+   "explanation": "TCK m.49/2: Hükmedilen bir yıl veya daha az süreli hapis cezası kısa süreli hapis cezasıdır. Kısa süreli hapis cezası m.50'deki seçenek yaptırımlara çevrilebilir.",
+   "optionNotes": [
+    "",
+    "İki yıl, erteleme ve HAGB sınırıdır.",
+    "Üç yıl Kanundaki sınır değildir.",
+    "Dört yıl Kanunda öngörülmemiştir.",
+    "Beş yıl Kanundaki sınır değildir."
+   ],
+   "source": "TCK m.49"
+  },
+  {
+   "id": "deneme-12-61",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre soruşturma sırasında yapılan işlemler nasıl belgelenir?",
+   "options": [
+    "Tanık beyanıyla",
+    "Kolluk defterine not düşülerek",
+    "Sözlü rapor ile",
+    "Tutanakla",
+    "Yalnızca ses kaydıyla"
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.169/1: Soruşturma sırasında yapılan işlemler tutanakla belgelenir. Tutanağı düzenleyenler ile hazır bulunanlar tutanağı imzalar.",
+   "optionNotes": [
+    "Tanık beyanı belgeleme yöntemi değildir.",
+    "Kolluk defteri tutanağın yerine geçmez.",
+    "Sözlü rapor yeterli değildir.",
+    "",
+    "Ses kaydı tek başına yeterli değildir."
+   ],
+   "source": "CMK m.169"
+  },
+  {
+   "id": "deneme-12-62",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre hırsızlık suçunun, malın geçici bir süre kullanılıp zilyedine iade edilmek üzere işlenmesi hâlinde ne olur?",
+   "options": [
+    "Ceza iki katına çıkarılır.",
+    "Fiil suç oluşturmaz.",
+    "Şikâyet üzerine ceza yarıya kadar indirilir.",
+    "Suç yağma sayılır.",
+    "Faile hapis cezası yerine yalnızca idari para cezası verilir."
+   ],
+   "answerIndex": 2,
+   "explanation": "TCK m.146/1 (kullanma hırsızlığı): Hırsızlık suçunun malın geçici bir süre kullanılıp zilyedine iade edilmek üzere işlenmesi hâlinde, şikâyet üzerine, verilecek ceza yarı oranına kadar indirilir.",
+   "optionNotes": [
+    "Ceza artırılmaz.",
+    "Fiil suç olmaya devam eder.",
+    "",
+    "Yağma cebir veya tehdit gerektirir.",
+    "Kanun idari para cezası öngörmez."
+   ],
+   "source": "TCK m.146"
+  },
+  {
+   "id": "deneme-12-63",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre kolluk dışındaki herhangi bir kişi, hangi hâlde bir kimseyi geçici olarak yakalayabilir?",
+   "options": [
+    "Kişi hakkında şikâyet dilekçesi verildiğinde",
+    "Kişi suçüstü hâlinde ise",
+    "Kişi borcunu ödemediğinde",
+    "Kişi kimliğini söylemediğinde her zaman",
+    "Kişi toplantıya katıldığında"
+   ],
+   "answerIndex": 1,
+   "explanation": "CMK m.90/1: Kişi suçüstü hâlinde ise veya suçüstü bir fiil nedeniyle izlenmekte iken kaçma olasılığı bulunur ya da hemen kimliğini belirleme olanağı bulunmazsa herkes tarafından geçici olarak yakalanabilir.",
+   "optionNotes": [
+    "Dilekçe verilmesi tek başına yakalama sebebi değildir.",
+    "",
+    "Borç ödememek yakalama sebebi değildir.",
+    "Kimlik tespiti ancak suçüstü bağlamında sebep olur.",
+    "Toplantıya katılmak yakalama sebebi değildir."
+   ],
+   "source": "CMK m.90"
+  },
+  {
+   "id": "deneme-12-64",
+   "subject": "Mevzuat",
+   "passage": "I. Şüpheliye doğruyu söyleyeceğine dair yemin verdirilir.\nII. Şüpheliye yüklenen suç anlatılır.\nIII. Şüpheliye müdafi seçme hakkı olduğu bildirilir.\nIV. Şüpheliye susma hakkı olduğu söylenir.",
+   "text": "CMK'ya göre şüphelinin ifadesinin alınmasında yapılacaklarla ilgili yukarıdakilerden hangileri doğrudur?",
+   "options": [
+    "I ve II",
+    "I ve IV",
+    "II ve III",
+    "II, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.147: İfade alınırken şüpheliye yüklenen suç anlatılır (II), müdafi seçme hakkı ve müdafiin ifade alma sırasında hazır bulunabileceği bildirilir (III), yüklenen suç hakkında açıklamada bulunmamanın kanuni hakkı olduğu söylenir (IV). Şüpheliye yemin verdirilmez (I yanlış).",
+   "optionNotes": [
+    "I yanlıştır: şüpheliye yemin verdirilmez.",
+    "I yanlıştır.",
+    "IV de doğrudur; eksik cevaptır.",
+    "",
+    "I yanlış olduğundan bu seçenek doğru olamaz."
+   ],
+   "source": "CMK m.147"
+  },
+  {
+   "id": "deneme-12-65",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre paydaş veya elbirliği ile malik olunan mal üzerinde işlenen hırsızlık suçu hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Ceza değil, yalnızca hukuk mahkemesinde tazminat davası olarak görülür.",
+    "Suç oluşmaz.",
+    "Şikâyete bağlıdır; daha az ceza verilir.",
+    "Nitelikli hırsızlık sayılır.",
+    "Re'sen soruşturulur ve ceza artırılır."
+   ],
+   "answerIndex": 2,
+   "explanation": "TCK m.144/1: Hırsızlık suçunun paydaş veya elbirliği ile malik olunan ya da ortaklaşa yararlanılan mal üzerinde işlenmesi hâlinde şikâyet üzerine daha az ceza verilir (hırsızlığın daha az cezayı gerektiren hâlleri).",
+   "optionNotes": [
+    "Ceza mahkemesinde görülür.",
+    "Fiil suç oluşturur.",
+    "",
+    "Nitelikli hâl değil, daha az cezayı gerektiren hâldir.",
+    "Re'sen soruşturulmaz; ceza artırılmaz."
+   ],
+   "source": "TCK m.144"
+  },
+  {
+   "id": "deneme-12-66",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre taksirle işlenen fiiller hangi hâlde cezalandırılır?",
+   "options": [
+    "Her durumda",
+    "Hiçbir hâlde",
+    "Yalnızca mağdurun şikâyeti hâlinde",
+    "Yalnızca neticenin ağır olması hâlinde",
+    "Kanunun açıkça belirttiği hâllerde"
+   ],
+   "answerIndex": 4,
+   "explanation": "TCK m.22/1: Taksirle işlenen fiiller, kanunun açıkça belirttiği hâllerde cezalandırılır. Kural kasıtlı suçların cezalandırılmasıdır.",
+   "optionNotes": [
+    "Taksirli fiiller her durumda cezalandırılmaz.",
+    "Kanun belirttiğinde taksirli fiiller cezalandırılır.",
+    "Şikâyet ölçüt değildir.",
+    "Neticenin ağırlığı ölçüt değildir.",
+    ""
+   ],
+   "source": "TCK m.22"
+  },
+  {
+   "id": "deneme-12-67",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre işlediği suçtan dolayı kaç yıl veya daha az süreyle hapis cezasına mahkûm edilen kişinin cezası ertelenebilir?",
+   "options": [
+    "Bir yıl",
+    "İki yıl",
+    "Üç yıl",
+    "Dört yıl",
+    "Beş yıl"
+   ],
+   "answerIndex": 1,
+   "explanation": "TCK m.51/1: İşlediği suçtan dolayı iki yıl veya daha az süreyle hapis cezasına mahkûm edilen kişinin cezası ertelenebilir. Bu sürenin üst sınırı, fiili işlediği sırada on sekiz yaşını doldurmamış veya altmış beş yaşını bitirmiş kişiler bakımından üç yıldır.",
+   "optionNotes": [
+    "Bir yıl kısa süreli hapis sınırıdır.",
+    "",
+    "Üç yıl, 18 yaş altı ve 65 yaş üstü için sınırdır.",
+    "Dört yıl Kanunda öngörülmemiştir.",
+    "Beş yıl Kanundaki sınır değildir."
+   ],
+   "source": "TCK m.51"
+  },
+  {
+   "id": "deneme-12-68",
+   "subject": "Mevzuat",
+   "text": "2918 sayılı Karayolları Trafik Kanunu'na göre B sınıfı sürücü belgesi alabilmek için en az kaç yaşını bitirmiş olmak gerekir?",
+   "options": [
+    "16",
+    "17",
+    "18",
+    "19",
+    "21"
+   ],
+   "answerIndex": 2,
+   "explanation": "2918 m.41: B sınıfı sürücü belgesi alabilmek için on sekiz yaşını bitirmiş olmak gerekir. Diğer sınıflar için farklı yaş sınırları öngörülmüştür.",
+   "optionNotes": [
+    "16 yaş, A1/M sınıfı gibi küçük araçlar için söz konusudur.",
+    "17 yaş B sınıfı için yeterli değildir.",
+    "",
+    "19 yaş Kanunda B sınıfı için öngörülmemiştir.",
+    "21 yaş C sınıfı gibi ağır araçlar için aranır."
+   ],
+   "source": "2918 m.41"
+  },
+  {
+   "id": "deneme-12-69",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre hükmün açıklanmasının geri bırakılmasına (HAGB) karar verilebilmesi için hükmolunan ceza en fazla ne kadar olmalıdır?",
+   "options": [
+    "Altı ay",
+    "Bir yıl",
+    "İki yıl",
+    "Üç yıl",
+    "Beş yıl"
+   ],
+   "answerIndex": 2,
+   "explanation": "CMK m.231/5: Sanığa yüklenen suçtan dolayı yapılan yargılama sonunda hükmolunan ceza, iki yıl veya daha az süreli hapis veya adli para cezası ise mahkemece hükmün açıklanmasının geri bırakılmasına karar verilebilir.",
+   "optionNotes": [
+    "Altı ay Kanundaki sınır değildir.",
+    "Bir yıl, kısa süreli hapis cezası sınırıyla karıştırılmamalıdır.",
+    "",
+    "Üç yıl Kanundaki sınır değildir.",
+    "Beş yıl HAGB'deki denetim süresidir."
+   ],
+   "source": "CMK m.231"
+  },
+  {
+   "id": "deneme-12-70",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre Cumhuriyet savcısı soruşturma evresinde delilleri toplarken nasıl hareket eder?",
+   "options": [
+    "Yalnızca şüphelinin aleyhine olan delilleri toplar, lehe delilleri mahkemeye bırakır.",
+    "Yalnızca mağdurun gösterdiği delilleri toplar.",
+    "Yalnızca şüphelinin lehine olan delilleri toplar.",
+    "Lehe ve aleyhe delilleri toplar.",
+    "Delil toplama işini tamamen kolluğa bırakır."
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.160/2: Cumhuriyet savcısı, maddi gerçeğin araştırılması ve adil bir yargılamanın yapılabilmesi için emrindeki adli kolluk görevlileri marifetiyle şüphelinin lehine ve aleyhine olan delilleri toplayarak muhafaza altına alır ve şüphelinin haklarını korur.",
+   "optionNotes": [
+    "Savcı yalnızca aleyhe delil toplamaz.",
+    "Delil araştırması mağdurun gösterdikleriyle sınırlı değildir.",
+    "Yalnızca lehe delil toplamak da tarafsızlıkla bağdaşmaz.",
+    "",
+    "Savcı soruşturmayı yönetir; kolluk onun emriyle çalışır."
+   ],
+   "source": "CMK m.160"
+  },
+  {
+   "id": "deneme-12-71",
+   "subject": "Mevzuat",
+   "text": "6458 sayılı Kanun'a göre aşağıdakilerden hangisi hakkında sınır dışı etme kararı alınması gerekenlerden biri değildir?",
+   "options": [
+    "Geçerli çalışma ve ikamet izniyle kalan yabancı",
+    "Sahte belge kullananlar",
+    "Vize veya ikamet izni süresini on günden fazla ihlal edenler",
+    "Terör örgütü yöneticisi, üyesi veya destekçisi olduğu anlaşılan yabancılar",
+    "Kamu düzeni veya kamu güvenliği açısından tehdit oluşturanlar"
+   ],
+   "answerIndex": 0,
+   "explanation": "6458 m.54/1: Terör örgütü yöneticisi, üyesi veya destekçileri, sahte belge kullananlar, kamu düzeni ve güvenliği için tehdit oluşturanlar, vize veya ikamet izni süresini on günden fazla ihlal edenler gibi kişiler hakkında sınır dışı etme kararı alınır. Geçerli izinlerle kalan yabancı bu kapsamda değildir.",
+   "optionNotes": [
+    "",
+    "Sınır dışı etme kararı alınır.",
+    "Sınır dışı etme kararı alınır.",
+    "Sınır dışı etme kararı alınır.",
+    "Sınır dışı etme kararı alınır."
+   ],
+   "source": "6458 m.54"
+  },
+  {
+   "id": "deneme-12-72",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre soruşturma evresinde şüphelinin tutuklanmasına kim karar verir?",
+   "options": [
+    "Cumhuriyet savcısı",
+    "Kolluk amiri",
+    "Mülki amir",
+    "Savcının istemiyle sulh ceza hâkimi",
+    "Suçun işlendiği yerdeki asliye ceza mahkemesi"
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.101/1: Soruşturma evresinde Cumhuriyet savcısının istemi üzerine sulh ceza hâkimi, kovuşturma evresinde ise istem üzerine veya re'sen mahkeme tarafından tutuklama kararı verilir.",
+   "optionNotes": [
+    "Savcı tutuklama isteminde bulunur; karar vermez.",
+    "Kolluğun tutuklama yetkisi yoktur.",
+    "Mülki amirin tutuklama yetkisi yoktur.",
+    "",
+    "Mahkeme kovuşturma evresinde karar verir."
+   ],
+   "source": "CMK m.101"
+  },
+  {
+   "id": "deneme-12-73",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre kolluk görevlileri yakalanan kişiye hangi bilgiyi hemen bildirmek zorundadır?",
+   "options": [
+    "Mal varlığının durumunu",
+    "Hakkındaki tanık beyanlarının tamamını",
+    "Kanuni haklarını",
+    "Mahkûmiyet ihtimalini",
+    "Önceki sabıka kayıtlarını"
+   ],
+   "answerIndex": 2,
+   "explanation": "CMK m.90/4: Kolluk görevlileri yakalanan kişiye hemen kanuni haklarını bildirir. Yakalanan kişi ve durum derhâl Cumhuriyet savcısına bildirilir.",
+   "optionNotes": [
+    "Mal varlığı bildirim konusu değildir.",
+    "Tanık beyanlarının bildirilmesi zorunlu değildir.",
+    "",
+    "Kolluk böyle bir değerlendirme yapmaz.",
+    "Sabıka bilgisi bildirilmez."
+   ],
+   "source": "CMK m.90"
+  },
+  {
+   "id": "deneme-12-74",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre aşağıdakilerden hangisi suçüstü sayılmaz?",
+   "options": [
+    "Suçun pek az önce işlendiğini gösteren eşya veya delille yakalanan kişinin işlediği suç",
+    "Suçun işlenmesinden hemen sonra kolluk tarafından takip edilerek yakalanan kişinin işlediği suç",
+    "İşlenmekte olan suç",
+    "Bir ay önce işlenen ve sonradan ihbar edilen suç",
+    "Henüz işlenmiş olan suç"
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.2/1-j: Suçüstü; işlenmekte olan suç, henüz işlenmiş olan suç, suçun işlenmesinden hemen sonra kovalanarak yakalanan kişinin işlediği suç ve suçun pek az önce işlendiğini gösteren eşya veya delille yakalanan kişinin işlediği suçtur. Bir ay önce işlenmiş suç suçüstü değildir.",
+   "optionNotes": [
+    "Suçüstü hâlidir.",
+    "Suçüstü hâlidir.",
+    "Suçüstü hâlidir.",
+    "",
+    "Suçüstü hâlidir."
+   ],
+   "source": "CMK m.2"
+  },
+  {
+   "id": "deneme-12-75",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre hükmün açıklanmasının geri bırakılması kararı verilen sanık kaç yıl denetim süresine tabi tutulur?",
+   "options": [
+    "Bir",
+    "İki",
+    "Üç",
+    "Beş",
+    "On"
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.231/8: HAGB kararı verilmesi hâlinde sanık beş yıl süreyle denetim süresine tabi tutulur. Bu süre içinde kasıtlı bir suç işlenmez ve yükümlülüklere uyulursa açıklanması geri bırakılan hüküm ortadan kaldırılarak düşme kararı verilir.",
+   "optionNotes": [
+    "Bir yıl Kanundaki süre değildir.",
+    "İki yıl, HAGB için ceza üst sınırıdır.",
+    "Üç yıl Kanundaki süre değildir.",
+    "",
+    "On yıl Kanunda öngörülmemiştir."
+   ],
+   "source": "CMK m.231"
+  },
+  {
+   "id": "deneme-12-76",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısına ulaşılamazsa veya olay geniş kapsamlı ise bütün soruşturma işlemlerini kim yapabilir?",
+   "options": [
+    "Sulh ceza hâkimi",
+    "Vali",
+    "Asliye ceza mahkemesi",
+    "Kolluk amiri",
+    "Bölge adliye mahkemesi"
+   ],
+   "answerIndex": 0,
+   "explanation": "CMK m.163/1: Gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısına ulaşılamaz veya olay geniş kapsamlı ise sulh ceza hâkimi de bütün soruşturma işlemlerini yapabilir.",
+   "optionNotes": [
+    "",
+    "Vali adli soruşturma yapamaz.",
+    "Asliye ceza kovuşturma evresinde görev yapar.",
+    "Kolluk amiri soruşturma işlemlerini yapmaz.",
+    "BAM istinaf merciidir."
+   ],
+   "source": "CMK m.163"
+  },
+  {
+   "id": "deneme-12-77",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre “kişinin üzerinde mutlak surette tasarruf edebileceği bir hakkına ilişkin olmak üzere, açıkladığı ………… çerçevesinde işlenen fiilden dolayı kimseye ceza verilmez.” cümlesinde boşluğa ne gelmelidir?",
+   "options": [
+    "beyanı",
+    "şikâyeti",
+    "vekâleti",
+    "rızası",
+    "talebi"
+   ],
+   "answerIndex": 3,
+   "explanation": "TCK m.26/2: Kişinin üzerinde mutlak surette tasarruf edebileceği bir hakkına ilişkin olmak üzere, açıkladığı rızası çerçevesinde işlenen fiilden dolayı kimseye ceza verilmez (ilgilinin rızası).",
+   "optionNotes": [
+    "Kanundaki ifade “rızası”dır.",
+    "Şikâyet bir kovuşturma şartıdır; hukuka uygunluk sebebi değildir.",
+    "Vekâlet bu hükmün konusu değildir.",
+    "",
+    "Kanundaki ifade “rızası”dır."
+   ],
+   "source": "TCK m.26"
+  },
+  {
+   "id": "deneme-12-78",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre suç işlemek amacıyla kurulmuş örgüte üye olan kişi, örgüt faaliyeti çerçevesinde bir suç işlenmeden önce örgütten gönüllü olarak ayrılırsa ne olur?",
+   "options": [
+    "Cezası iki katına çıkarılır.",
+    "Ceza ertelenir.",
+    "Cezası yarı oranında indirilir.",
+    "Hakkında ceza yerine sadece güvenlik tedbiri uygulanır.",
+    "Üyelik suçundan cezalandırılmaz."
+   ],
+   "answerIndex": 4,
+   "explanation": "TCK m.221/2 (etkin pişmanlık): Örgüte üye olan kişi, örgütün faaliyeti çerçevesinde bir suç işlenmeden önce örgütten gönüllü olarak ayrılırsa örgüt üyeliği suçundan dolayı cezalandırılmaz.",
+   "optionNotes": [
+    "Ceza artırılmaz.",
+    "Kanun erteleme değil cezasızlık öngörür.",
+    "Kanun indirim değil cezasızlık öngörür.",
+    "Güvenlik tedbiri öngörülmemiştir.",
+    ""
+   ],
+   "source": "TCK m.221"
+  },
+  {
+   "id": "deneme-12-79",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre soruşturma sonunda kamu davasının açılması için yeterli şüphe oluşturacak delil elde edilemezse Cumhuriyet savcısı ne karar verir?",
+   "options": [
+    "Mahkûmiyet kararı",
+    "Hükmün açıklanmasının geri bırakılması",
+    "Beraat kararı",
+    "Düşme kararı",
+    "Kovuşturmaya yer olmadığına dair karar"
+   ],
+   "answerIndex": 4,
+   "explanation": "CMK m.172/1: Soruşturma evresi sonunda kamu davasının açılması için yeterli şüphe oluşturacak delil elde edilememesi veya kovuşturma olanağının bulunmaması hâllerinde Cumhuriyet savcısı kovuşturmaya yer olmadığına dair karar verir.",
+   "optionNotes": [
+    "Mahkûmiyet mahkemece verilir.",
+    "HAGB mahkemenin verdiği bir karardır.",
+    "Beraat mahkemenin verdiği hükümdür.",
+    "Düşme kararı ayrı sebeplere bağlıdır.",
+    ""
+   ],
+   "source": "CMK m.172"
+  },
+  {
+   "id": "deneme-12-80",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre soruşturma veya kovuşturma bakımından artık gerek kalmayan ve müsadereye tabi olmayan eşya hakkında ne yapılır?",
+   "options": [
+    "İmha edilir.",
+    "Hazineye devredilir.",
+    "Beş yıl süreyle emanet bürosunda tutulur.",
+    "Derhâl geri verilir.",
+    "İhaleyle satılır."
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.131/1: Soruşturma veya kovuşturma bakımından artık gerek kalmayan veya müsadereye tabi olmayan eşya re'sen veya istem üzerine derhâl geri verilir.",
+   "optionNotes": [
+    "İmha öngörülmemiştir.",
+    "Hazineye devir müsadere hâlinde söz konusudur.",
+    "Böyle bir süre öngörülmemiştir.",
+    "",
+    "Satış ancak özel hâllerde mümkündür."
+   ],
+   "source": "CMK m.131"
+  },
+  {
+   "id": "deneme-12-81",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre hırsızlık suçunun konusunu oluşturan malın değerinin az olması hâlinde hâkim ne yapabilir?",
+   "options": [
+    "Görevsizlik kararı vererek davayı sulh ceza hâkimliğine gönderir.",
+    "Mutlaka erteleme kararı verir.",
+    "İndirim yapabilir veya ceza vermeyebilir.",
+    "Yalnızca hapis cezası verir.",
+    "Cezayı iki katına çıkarır."
+   ],
+   "answerIndex": 2,
+   "explanation": "TCK m.145: Hırsızlık suçunun konusunu oluşturan malın değerinin azlığı nedeniyle verilecek cezada indirim yapılabileceği gibi ceza vermekten de vazgeçilebilir.",
+   "optionNotes": [
+    "Görevli mahkeme değişmez.",
+    "Erteleme zorunlu değildir.",
+    "",
+    "Kanun cezasızlığa da imkân tanır.",
+    "Değerin azlığı cezayı artırmaz."
+   ],
+   "source": "TCK m.145"
+  },
+  {
+   "id": "deneme-12-82",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre adli görevleri yapan kolluk bu görevlerini nasıl yerine getirir?",
+   "options": [
+    "Mahkeme başkanının emriyle",
+    "Cumhuriyet savcısının emri ve talimatı ile",
+    "Kendi amirlerinin talimatıyla, savcıdan bağımsız olarak",
+    "Belediye başkanının talebiyle",
+    "Mülki amirin onayıyla"
+   ],
+   "answerIndex": 1,
+   "explanation": "CMK m.164/2: Adli görevleri yapan kolluk, Cumhuriyet savcısının emri ve talimatı ile bu görevleri yerine getirir.",
+   "optionNotes": [
+    "Soruşturma evresinde emir makamı savcıdır.",
+    "",
+    "Adli görevlerde kolluk savcıya bağlıdır.",
+    "Belediye başkanının yetkisi yoktur.",
+    "Mülki amirin adli görevlerde emir yetkisi yoktur."
+   ],
+   "source": "CMK m.164"
+  },
+  {
+   "id": "deneme-12-83",
+   "subject": "Mevzuat",
+   "passage": "I. Kasten yaralamanın basit hâli\nII. Yağma\nIII. Nitelikli hırsızlık\nIV. Mala zarar vermenin basit hâli",
+   "text": "TCK'ya göre aşağıdaki suçlardan hangilerinin soruşturulması ve kovuşturulması (basit hâlleriyle) şikâyete bağlıdır?",
+   "options": [
+    "I ve II",
+    "I ve IV",
+    "II ve III",
+    "III ve IV",
+    "I, III ve IV"
+   ],
+   "answerIndex": 1,
+   "explanation": "Kasten yaralamanın basit hâli (TCK m.86/2) ve mala zarar vermenin basit hâli (TCK m.151) şikâyete bağlıdır. Yağma ve nitelikli hırsızlık re'sen soruşturulur.",
+   "optionNotes": [
+    "II yanlıştır: yağma re'sen soruşturulur.",
+    "",
+    "II ve III re'sen soruşturulur.",
+    "III re'sen soruşturulur.",
+    "III re'sen soruşturulur."
+   ],
+   "source": "TCK m.86, 151"
+  },
+  {
+   "id": "deneme-12-84",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre adli görevlerini yaparken Cumhuriyet savcısının emirlerini yerine getirmekte kötüye kullanma veya ihmali görülen kolluk görevlisi hakkında soruşturma nasıl yapılır?",
+   "options": [
+    "Bakanlık müfettişlerince",
+    "Askerî savcılıkça",
+    "Doğrudan Cumhuriyet savcısı tarafından",
+    "Yalnızca disiplin amirince",
+    "4483 sayılı Kanun'a göre validen izin alınarak"
+   ],
+   "answerIndex": 2,
+   "explanation": "CMK m.161/5: Kolluk amirleri ve memurlarının adli görevlerinden dolayı işledikleri suçlar hakkında doğrudan Cumhuriyet savcısı tarafından soruşturma yapılır; izin alınmaz.",
+   "optionNotes": [
+    "Müfettiş soruşturması öngörülmemiştir.",
+    "Askerî yargı söz konusu değildir.",
+    "",
+    "Disiplin işlemi ceza soruşturmasının yerine geçmez.",
+    "İzin usulü mülki görevden doğan suçlar içindir."
+   ],
+   "source": "CMK m.161"
+  },
+  {
+   "id": "deneme-12-85",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre uyuşturucu veya uyarıcı madde imal ve ticareti suçuna iştirak edenlerden birinin, resmî makamlarca haber alınmadan önce suçu ve diğer failleri merciine haber vermesi hâlinde ne olur?",
+   "options": [
+    "Cezası iki kat verilir.",
+    "Cezası üçte bir artırılır.",
+    "Hakkında cezaya hükmolunmaz.",
+    "Yalnızca adli para cezası verilir.",
+    "Cezası ertelenir."
+   ],
+   "answerIndex": 2,
+   "explanation": "TCK m.192/1 (etkin pişmanlık): Uyuşturucu veya uyarıcı madde imal ve ticareti suçuna iştirak edenlerden biri, resmî makamlarca haber alınmadan önce suçu ve diğer failleri merciine haber verirse ve suçun işlendiği yere ilişkin bilgi verirse hakkında cezaya hükmolunmaz.",
+   "optionNotes": [
+    "Ceza artırılmaz.",
+    "Ceza artırılmaz.",
+    "",
+    "Kanun böyle bir çevirme öngörmez.",
+    "Kanun cezasızlık öngörür."
+   ],
+   "source": "TCK m.192"
+  },
+  {
+   "id": "deneme-12-86",
+   "subject": "Mevzuat",
+   "text": "3091 sayılı Kanun'a göre taşınmaz mal zilyetliğine yapılan tecavüzün önlenmesi için, tecavüzün öğrenildiği tarihten itibaren kaç gün ve her hâlde tecavüz tarihinden itibaren kaç yıl içinde başvurulmalıdır?",
+   "options": [
+    "15 gün – 1 yıl",
+    "30 gün – 6 ay",
+    "90 gün – 2 yıl",
+    "6 ay – 5 yıl",
+    "60 gün – 1 yıl"
+   ],
+   "answerIndex": 4,
+   "explanation": "3091 m.3: Tecavüz veya müdahalenin öğrenildiği tarihten başlayarak altmış gün ve her hâlde tecavüz veya müdahale tarihinden başlayarak bir yıl içinde başvurulmazsa bu Kanun hükümlerinden yararlanılamaz.",
+   "optionNotes": [
+    "Kanundaki süreler 60 gün ve 1 yıldır.",
+    "Kanundaki süreler 60 gün ve 1 yıldır.",
+    "Kanundaki süreler 60 gün ve 1 yıldır.",
+    "Kanundaki süreler 60 gün ve 1 yıldır.",
+    ""
+   ],
+   "source": "3091 m.3"
+  },
+  {
+   "id": "deneme-12-87",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre kolluk görevlileri, tutuklama kararı veya yakalama emri düzenlenmesini gerektiren hâllerde hangi koşulla yakalama yapabilir?",
+   "options": [
+    "Yalnızca mağdurun talebiyle",
+    "Her zaman, hiçbir koşul aranmaksızın",
+    "Yalnızca gündüz saatlerinde",
+    "Yalnızca olay yerindeki mülki amirin önceden verdiği yazılı bir emir bulunduğunda",
+    "Gecikmede sakınca varsa ve savcıya veya amirine hemen ulaşılamıyorsa"
+   ],
+   "answerIndex": 4,
+   "explanation": "CMK m.90/2: Tutuklama kararı veya yakalama emri düzenlenmesini gerektiren ve gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısına veya kolluk amirlerine derhâl başvurma olanağı bulunmadığında kolluk görevlileri yakalama yetkisine sahiptir.",
+   "optionNotes": [
+    "Mağdurun talebi şart değildir.",
+    "Yakalama koşullara bağlıdır.",
+    "Saat sınırlaması yoktur.",
+    "Mülki amirin emri şart değildir.",
+    ""
+   ],
+   "source": "CMK m.90"
+  },
+  {
+   "id": "deneme-12-88",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre iletişimin tespiti, dinlenmesi ve kayda alınması kararı en çok ne kadar süre için verilebilir?",
+   "options": [
+    "Bir ay",
+    "İki ay",
+    "Üç ay",
+    "Altı ay",
+    "Bir yıl"
+   ],
+   "answerIndex": 1,
+   "explanation": "CMK m.135/3: Karar en çok iki ay için verilebilir; bu süre bir ay daha uzatılabilir. Örgüt faaliyeti çerçevesindeki suçlarda mahkeme, her defasında bir aydan fazla olmamak ve toplam üç ayı geçmemek üzere ayrıca uzatabilir.",
+   "optionNotes": [
+    "Bir ay, uzatma süresidir.",
+    "",
+    "Üç ay, uzatmayla ulaşılan süredir.",
+    "Altı ay Kanundaki temel süre değildir.",
+    "Bir yıl Kanunda öngörülmemiştir."
+   ],
+   "source": "CMK m.135"
+  },
+  {
+   "id": "deneme-12-89",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre hırsızlık suçunda, soruşturma başlamadan önce failin bizzat pişmanlık göstererek mağdurun uğradığı zararı aynen geri verme veya tazmin suretiyle tamamen gidermesi hâlinde ne olur?",
+   "options": [
+    "Ceza üçte ikiye kadar indirilir.",
+    "Cezası iki katına çıkarılır.",
+    "Dava düşer ve kayıt silinir.",
+    "Yalnızca adli para cezası verilir.",
+    "Faile hiç ceza verilmez."
+   ],
+   "answerIndex": 0,
+   "explanation": "TCK m.168/1 (etkin pişmanlık): Hırsızlık, mala zarar verme, güveni kötüye kullanma gibi suçlarda soruşturma başlamadan önce zararın tamamen giderilmesi hâlinde verilecek ceza üçte ikisine kadar indirilir. Kovuşturma başladıktan sonra hüküm verilinceye kadar giderilirse yarısına kadar indirilir.",
+   "optionNotes": [
+    "",
+    "Ceza artırılmaz; indirilir.",
+    "Kanun indirim öngörür; düşme değil.",
+    "Kanunda böyle bir çevirme öngörülmemiştir.",
+    "Kanun cezasızlık değil indirim öngörür."
+   ],
+   "source": "TCK m.168"
+  },
+  {
+   "id": "deneme-12-90",
+   "subject": "Mevzuat",
+   "text": "2559 sayılı Polis Vazife ve Salahiyet Kanunu'na göre durdurma işleminin süresiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Durdurma yirmi dört saate kadar sürebilir.",
+    "Durdurulan kişi karakola götürülmek zorundadır.",
+    "İşlem için zorunlu süreden fazla olamaz.",
+    "Durdurma süresi tamamen kolluk amirinin takdirine bağlıdır.",
+    "Durdurma en az bir saat sürer."
+   ],
+   "answerIndex": 2,
+   "explanation": "2559 m.4/A: Durdurma süresi, durdurma sebebine esas teşkil eden işlemin gerçekleştirilmesi için zorunlu olan süreden fazla olamaz. Durdurma makul sebebin varlığına dayanır; keyfî olamaz.",
+   "optionNotes": [
+    "24 saat gözaltı süresidir.",
+    "Durdurma karakola götürme değildir.",
+    "",
+    "Süre zorunluluk ölçüsüyle sınırlıdır; sınırsız takdir yoktur.",
+    "Asgari süre öngörülmemiştir."
+   ],
+   "source": "2559 m.4/A"
+  },
+  {
+   "id": "deneme-12-91",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre şüpheli veya sanık olmayan kişilerde arama yapılabilmesi için aşağıdakilerden hangisi aranır?",
+   "options": [
+    "Orada bulunduğunu gösteren belirli olaylar",
+    "Kişinin sabıkalı olması",
+    "Mülki amirin sözlü onayı",
+    "Yalnızca kolluğun şüphelenmesi",
+    "Kişinin arama yapılmasına itiraz etmemesi ve bunu yazılı olarak kabul etmesi"
+   ],
+   "answerIndex": 0,
+   "explanation": "CMK m.117: Şüpheli veya sanık olmayan kişilerde arama, ancak aranılan kişinin veya suç delilinin orada bulunduğunu gösteren belirli olayların varlığı hâlinde yapılabilir. Şüpheli ve sanıkta ise makul şüphe yeterlidir (m.116).",
+   "optionNotes": [
+    "",
+    "Sabıka ölçüt değildir.",
+    "Mülki amirin sözlü onayı adli arama için yetki kaynağı değildir.",
+    "Soyut şüphe yeterli değildir.",
+    "Rıza kararın yerine geçmez."
+   ],
+   "source": "CMK m.117"
+  },
+  {
+   "id": "deneme-12-92",
+   "subject": "Mevzuat",
+   "text": "2863 sayılı Kanun'a göre Devlete, kamu kurum ve kuruluşlarına veya gerçek ve tüzel kişilere ait taşınmazlarda bulunan korunması gerekli kültür varlıklarının hukuki niteliği nedir?",
+   "options": [
+    "Taşınmaz sahibinin malıdır.",
+    "Devlet malı niteliğindedir.",
+    "Bulan kişinin malıdır.",
+    "Belediyenin malıdır.",
+    "Müze derneklerinin malıdır."
+   ],
+   "answerIndex": 1,
+   "explanation": "2863 m.5: Devlete, kamu kurum ve kuruluşlarına ait taşınmazlarla gerçek ve tüzel kişilerin mülkiyetindeki taşınmazların üstünde, altında veya su altında bulunan korunması gerekli kültür ve tabiat varlıkları Devlet malı niteliğindedir.",
+   "optionNotes": [
+    "Taşınmaz sahibi kültür varlığının maliki olmaz.",
+    "",
+    "Bulan kişiye ikramiye verilebilir; mülkiyet Devlete aittir.",
+    "Belediyeye ait değildir.",
+    "Derneklere ait değildir."
+   ],
+   "source": "2863 m.5"
+  },
+  {
+   "id": "deneme-12-93",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre soruşturma ve kovuşturma evrelerinde şüpheli veya sanığın serbest bırakılma istemi hakkında hâkim veya mahkeme kaç gün içinde karar verir?",
+   "options": [
+    "Bir",
+    "İki",
+    "Üç",
+    "Beş",
+    "Yedi"
+   ],
+   "answerIndex": 2,
+   "explanation": "CMK m.104/2: Hâkim veya mahkeme, tutukluluğun devamına veya şüpheli ya da sanığın serbest bırakılmasına üç gün içinde karar verir. Bu karara itiraz edilebilir.",
+   "optionNotes": [
+    "Bir gün Kanundaki süre değildir.",
+    "İki gün Kanundaki süre değildir.",
+    "",
+    "Beş gün Kanundaki süre değildir.",
+    "Yedi gün Kanundaki süre değildir."
+   ],
+   "source": "CMK m.104"
+  },
+  {
+   "id": "deneme-12-94",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre gözaltına alma işlemlerini kim denetler?",
+   "options": [
+    "Baro başkanının görevlendirdiği avukat",
+    "Mülki amir",
+    "Sulh ceza hâkimi",
+    "Cumhuriyet başsavcısı veya savcı",
+    "Kolluk amiri"
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.92/1: Kolluk birimlerindeki gözaltına alma işlemleri Cumhuriyet başsavcısı veya görevlendireceği bir Cumhuriyet savcısı tarafından denetlenir.",
+   "optionNotes": [
+    "Baronun denetim yetkisi yoktur.",
+    "Mülki amire bu yetki verilmemiştir.",
+    "Kanun bu görevi savcılığa vermiştir.",
+    "",
+    "Kolluk amiri denetlenen tarafın içindedir."
+   ],
+   "source": "CMK m.92"
+  },
+  {
+   "id": "deneme-12-95",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre aşağıdaki suçlardan hangisinde zincirleme suç hükümleri uygulanmaz?",
+   "options": [
+    "Dolandırıcılık",
+    "Mala zarar verme",
+    "Hırsızlık",
+    "Kasten öldürme",
+    "Güveni kötüye kullanma"
+   ],
+   "answerIndex": 3,
+   "explanation": "TCK m.43/3: Kasten öldürme, kasten yaralama, işkence ve yağma suçlarında zincirleme suç hükümleri uygulanmaz.",
+   "optionNotes": [
+    "Dolandırıcılıkta uygulanabilir.",
+    "Mala zarar vermede uygulanabilir.",
+    "Hırsızlıkta zincirleme suç hükümleri uygulanabilir.",
+    "",
+    "Güveni kötüye kullanmada uygulanabilir."
+   ],
+   "source": "TCK m.43"
+  },
+  {
+   "id": "deneme-12-96",
+   "subject": "Mevzuat",
+   "passage": "I. Suçun cezasının hafif olması\nII. Şüphelinin kaçma şüphesini uyandıran somut olguların bulunması\nIII. Şüphelinin delilleri karartma girişiminde bulunacağına dair kuvvetli şüphe\nIV. Şüphelinin işsiz olması",
+   "text": "CMK'ya göre kuvvetli suç şüphesinin varlığını gösteren olgularla birlikte aşağıdakilerden hangileri tutuklama nedeni sayılır?",
+   "options": [
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "III ve IV",
+    "II, III ve IV"
+   ],
+   "answerIndex": 2,
+   "explanation": "CMK m.100/2: Şüpheli veya sanığın kaçması, saklanması veya kaçacağı şüphesini uyandıran somut olguların bulunması (II) ile delilleri yok etme, gizleme veya değiştirme ya da tanık, mağdur veya başkaları üzerinde baskı yapılması girişiminde bulunma hususlarında kuvvetli şüphe oluşturan davranışlar (III) tutuklama nedenidir. Suçun hafif olması ve işsizlik tutuklama nedeni değildir.",
+   "optionNotes": [
+    "I tutuklama nedeni değildir; hafif cezalı suçlarda tutuklama tersine sınırlanır.",
+    "I tutuklama nedeni değildir.",
+    "",
+    "IV tutuklama nedeni değildir.",
+    "IV tutuklama nedeni değildir."
+   ],
+   "source": "CMK m.100"
+  },
+  {
+   "id": "deneme-12-97",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre kamu davasını açma görevi kime aittir?",
+   "options": [
+    "Mağdura",
+    "Valiliğe",
+    "Sulh ceza hâkimine",
+    "Savcılığa",
+    "Kolluğa"
+   ],
+   "answerIndex": 3,
+   "explanation": "CMK m.170/1: Kamu davasını açma görevi Cumhuriyet savcılığına aittir. Soruşturma evresi sonunda yeterli şüphe oluşturacak delil varsa savcı iddianame düzenler.",
+   "optionNotes": [
+    "Mağdur şikâyetçi veya katılan olabilir; kamu davasını açmaz.",
+    "Valinin dava açma yetkisi yoktur.",
+    "Sulh ceza hâkimi dava açmaz.",
+    "",
+    "Kolluk dava açamaz."
+   ],
+   "source": "CMK m.170"
+  },
+  {
+   "id": "deneme-12-98",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre müdafiin soruşturma evresinde dosya içeriğini incelemesi hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Müdafi dosyayı inceleyip harçsız örnek alabilir.",
+    "Dosyayı yalnızca mağdurun rızasıyla inceleyebilir.",
+    "Müdafi soruşturma evresinde hiçbir şekilde dosyayı inceleyemez.",
+    "Dosyayı yalnızca savcının sözlü izniyle inceleyebilir.",
+    "Dosyayı yalnızca iddianame düzenlenip mahkemece kabul edildikten sonra inceleyebilir."
+   ],
+   "answerIndex": 0,
+   "explanation": "CMK m.153/1: Müdafi soruşturma evresinde dosya içeriğini inceleyebilir ve istediği belgelerin bir örneğini harçsız olarak alabilir. Soruşturmanın amacı tehlikeye düşecekse savcının istemi üzerine hâkim kararıyla bu yetki kısıtlanabilir.",
+   "optionNotes": [
+    "",
+    "Mağdurun rızası aranmaz.",
+    "Kural inceleme yetkisidir; kısıtlama istisnadır.",
+    "Kısıtlama hâkim kararıyla olur.",
+    "Soruşturma evresinde de inceleme mümkündür."
+   ],
+   "source": "CMK m.153"
+  },
+  {
+   "id": "deneme-12-99",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre “yakalama” aşağıdakilerden hangisidir?",
+   "options": [
+    "Kişinin tutuklanması",
+    "Kişinin mahkûmiyet hükmüyle ceza infaz kurumuna konulması",
+    "Kişiye kimlik sorulması",
+    "Kişinin rızasıyla karakola davet edilmesi",
+    "Kanuni hâllerde özgürlüğün geçici kısıtlanması"
+   ],
+   "answerIndex": 4,
+   "explanation": "Yönetmeliğin tanımına göre yakalama, kanunda belirtilen hâllerde kişinin özgürlüğünün geçici olarak kısıtlanmasıdır. Gözaltı, yakalanan kişinin işlemleri tamamlanıncaya kadar alıkonulmasıdır.",
+   "optionNotes": [
+    "Tutuklama hâkim kararıyla yapılır; yakalama değildir.",
+    "Bu, hapis cezasının infazıdır.",
+    "Kimlik sorma durdurma işlemidir.",
+    "Davet yakalama değildir.",
+    ""
+   ],
+   "source": "Yakalama Yön."
+  },
+  {
+   "id": "deneme-12-100",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre bireysel suçlarda gözaltı süresi, yakalama yerine en yakın hâkime gönderilmesi için zorunlu süre hariç, yakalama anından itibaren kaç saati geçemez?",
+   "options": [
+    "6",
+    "12",
+    "18",
+    "20",
+    "24"
+   ],
+   "answerIndex": 4,
+   "explanation": "CMK m.91/1: Gözaltı süresi, yakalama yerine en yakın hâkim veya mahkemeye gönderilme için zorunlu süre hariç, yakalama anından itibaren yirmi dört saati geçemez. Yol süresi on iki saati geçemez.",
+   "optionNotes": [
+    "6 saat Kanunda öngörülmemiştir.",
+    "12 saat, en yakın hâkime gönderilme için yol süresinin üst sınırıdır.",
+    "18 saat Kanunda öngörülmemiştir.",
+    "20 saat Kanunda öngörülmemiştir.",
+    ""
+   ],
+   "source": "CMK m.91"
+  }
+ ]
+}

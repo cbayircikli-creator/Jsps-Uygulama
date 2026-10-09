@@ -1,0 +1,2210 @@
+{
+ "id": "ue-5",
+ "title": "Uzman Erbaş Denemesi 5",
+ "durationMinutes": 120,
+ "ranks": [
+  "uzman-erbas"
+ ],
+ "questions": [
+  {
+   "id": "ue-5-1",
+   "subject": "Türkçe",
+   "text": "Bir karakolun gücü, yalnızca duvarlarının kalınlığıyla ölçülmez. Asıl güç, orada görev yapanların birbirine duyduğu güvende saklıdır. Zor bir gecede nöbetteki arkadaşının uyanık olduğunu bilmek, en sağlam tahkimattan daha fazla huzur verir.\n\nBu parçaya en uygun başlık aşağıdakilerden hangisidir?",
+   "options": [
+    "Karakol Binalarının Mimarisi",
+    "Gece Nöbetinin Zorlukları",
+    "Sağlam Tahkimatın Önemi",
+    "Asıl Güç: Birbirine Güven",
+    "Uykusuzlukla Baş Etme Yolları"
+   ],
+   "answerIndex": 3,
+   "explanation": "Başlık parçanın ana düşüncesini yansıtmalıdır. Parçanın ana fikri ikinci cümlede verilmiştir: Asıl güç, görev yapanların birbirine duyduğu güvendedir. Duvarlar ve tahkimat bu düşünceyi vurgulamak için yapılan karşılaştırmalardır.",
+   "optionNotes": [
+    "Parça binaların yapısını anlatmıyor; duvarlar yalnızca karşılaştırma için anılmış.",
+    "Gece nöbeti örnek olarak geçer; ana konu güvendir.",
+    "Parça tahkimatın tek başına yeterli olmadığını söyler.",
+    "",
+    "Parçada böyle bir konu işlenmez."
+   ],
+   "source": "Paragrafta başlık"
+  },
+  {
+   "id": "ue-5-2",
+   "subject": "Türkçe",
+   "text": "Aşağıdaki cümlelerin hangisinde sayıların yazımıyla ilgili bir yanlışlık yapılmıştır?",
+   "options": [
+    "1990'lı yıllarda bu birlik kuruldu.",
+    "Eğitime onbeş kişi katıldı.",
+    "Depoda yüz yirmi beş battaniye var.",
+    "Toplantı saat 08.30'da başladı.",
+    "Lojman binanın 3'üncü katında."
+   ],
+   "answerIndex": 1,
+   "explanation": "TDK kuralına göre birden fazla kelimeden oluşan sayılar ayrı yazılır: “on beş, yüz yirmi beş, bin dokuz yüz”. Bu nedenle “onbeş” yazımı yanlıştır.",
+   "optionNotes": [
+    "Rakamla yazılan yıla gelen ek kesmeyle ayrılır; doğru.",
+    "",
+    "Birden fazla kelimeden oluşan sayılar ayrı yazılır; doğru.",
+    "Saat ve dakika arasına nokta konur; doğru.",
+    "Rakamla yazılan sıra sayısına ek kesmeyle getirilir; doğru."
+   ],
+   "source": "Yazım kuralları (TDK)"
+  },
+  {
+   "id": "ue-5-3",
+   "subject": "Türkçe",
+   "text": "Aşağıdaki cümlelerin hangisinde “mi” soru ekinin yazımıyla ilgili bir yanlışlık yapılmıştır?",
+   "options": [
+    "Raporu bitirdin mi?",
+    "Toplantı saat onda mıydı?",
+    "Siz de bizimle gelecek misiniz?",
+    "Yarınki eğitime gelecekmisin?",
+    "Nöbet çizelgesi hazır mı?"
+   ],
+   "answerIndex": 3,
+   "explanation": "Soru eki “mı, mi, mu, mü” kendinden önceki sözcükten her zaman ayrı yazılır; sonraki ekler ise soru ekine bitişik yazılır: “gelecek misin, hazır mıydı”.",
+   "optionNotes": [
+    "Soru eki ayrı yazılmış; doğru.",
+    "Soru eki ayrı, ek-fiil ona bitişik yazılmış; doğru.",
+    "Soru eki ve kişi eki ayrı yazılmış; doğru.",
+    "",
+    "Soru eki ayrı yazılmış; doğru."
+   ],
+   "source": "Yazım kuralları (TDK)"
+  },
+  {
+   "id": "ue-5-4",
+   "subject": "Türkçe",
+   "text": "Aşağıdaki cümlelerin hangisinde abartma (mübalağa) vardır?",
+   "options": [
+    "Bu konuyu sana bin kere anlattım.",
+    "Depoda elli koli malzeme var.",
+    "Toplantı bir saat sürdü.",
+    "Konuyu sana dün iki kez anlattım.",
+    "Yol uzun olduğu için geç kaldık."
+   ],
+   "answerIndex": 0,
+   "explanation": "Abartma, bir durumu olduğundan çok büyük veya küçük gösterme sanatıdır. “Bin kere anlattım” ifadesi gerçek bir sayı değil, çok sık anlatıldığını vurgulamak için kullanılan bir abartmadır.",
+   "optionNotes": [
+    "",
+    "Gerçek bir miktar bildirilmiştir.",
+    "Gerçek bir süre bildirilmiştir.",
+    "Gerçek bir sayı verilmiştir; abartma yoktur.",
+    "Neden-sonuç bildirir; abartma yoktur."
+   ],
+   "source": "Söz sanatları"
+  },
+  {
+   "id": "ue-5-5",
+   "subject": "Tarih",
+   "text": "Mondros Ateşkes Antlaşması'nın hangi maddesi İtilaf Devletlerine Anadolu'da istedikleri yeri işgal etme imkânı vermiştir?",
+   "options": [
+    "10. madde",
+    "24. madde",
+    "7. madde",
+    "5. madde",
+    "1. madde"
+   ],
+   "answerIndex": 2,
+   "explanation": "Mondros'un 7. maddesine göre İtilaf Devletleri, güvenliklerini tehdit eden bir durum ortaya çıkarsa herhangi bir stratejik noktayı işgal edebilecekti. Bu madde Anadolu'nun işgaline hukuki zemin hazırladı.",
+   "optionNotes": [
+    "Toros tünellerinin işgaliyle ilgilidir.",
+    "Doğudaki altı vilayette karışıklık çıkarsa işgal hakkı tanır; genel işgal hakkı 7. maddededir.",
+    "",
+    "Osmanlı ordusunun terhisiyle ilgilidir.",
+    "Boğazların açılmasıyla ilgilidir."
+   ],
+   "source": "Kurtuluş Savaşı öncesi"
+  },
+  {
+   "id": "ue-5-6",
+   "subject": "Tarih",
+   "text": "Ankara hangi tarihte yeni Türk devletinin başkenti ilan edilmiştir?",
+   "options": [
+    "1 Kasım 1922",
+    "23 Nisan 1920",
+    "29 Ekim 1923",
+    "3 Mart 1924",
+    "13 Ekim 1923"
+   ],
+   "answerIndex": 4,
+   "explanation": "Ankara, 13 Ekim 1923'te kabul edilen kanunla başkent ilan edildi; yani Cumhuriyetin ilanından iki hafta önce. Seçimde Ankara'nın güvenli konumu ve Kurtuluş Savaşı'nın merkezi olması etkili oldu.",
+   "optionNotes": [
+    "Saltanatın kaldırıldığı tarihtir.",
+    "TBMM'nin açılış tarihidir.",
+    "Cumhuriyetin ilan tarihidir.",
+    "Halifeliğin kaldırıldığı tarihtir.",
+    ""
+   ],
+   "source": "Cumhuriyet dönemi"
+  },
+  {
+   "id": "ue-5-7",
+   "subject": "Tarih",
+   "text": "Şeyh Said İsyanı üzerine çıkarılan ve hükümete olağanüstü yetkiler veren kanun hangisidir?",
+   "options": [
+    "Hıyanet-i Vataniye Kanunu",
+    "Firari Asker Kanunu",
+    "Teşkilât-ı Esasiye Kanunu",
+    "Tevhid-i Tedrisat Kanunu",
+    "Takrir-i Sükûn Kanunu"
+   ],
+   "answerIndex": 4,
+   "explanation": "Şeyh Said İsyanı (1925) üzerine Takrir-i Sükûn Kanunu çıkarıldı ve İstiklal Mahkemeleri yeniden kuruldu. Terakkiperver Cumhuriyet Fırkası da bu süreçte kapatıldı.",
+   "optionNotes": [
+    "1920'de çıkarılmış, vatana ihanet suçlarını düzenlemiştir.",
+    "Kurtuluş Savaşı sırasında asker kaçaklarıyla ilgilidir.",
+    "1921 ve 1924'te kabul edilen anayasalardır.",
+    "Eğitimin birleştirilmesiyle ilgilidir (1924).",
+    ""
+   ],
+   "source": "Atatürk dönemi iç politika"
+  },
+  {
+   "id": "ue-5-8",
+   "subject": "Tarih",
+   "text": "Laiklik ilkesi hangi yıl Anayasa'ya girmiştir?",
+   "options": [
+    "1924",
+    "1928",
+    "1934",
+    "1937",
+    "1946"
+   ],
+   "answerIndex": 3,
+   "explanation": "1928'de Anayasa'dan “Devletin dini İslam'dır” ifadesi çıkarıldı. Laiklik ilkesi ise diğer Atatürk ilkeleriyle birlikte 1937'de Anayasa'ya girdi.",
+   "optionNotes": [
+    "Laiklik 1937'de Anayasa'ya girmiştir.",
+    "Laiklik 1937'de Anayasa'ya girmiştir.",
+    "Laiklik 1937'de Anayasa'ya girmiştir.",
+    "Laiklik 1937'de Anayasa'ya girmiştir.",
+    "Laiklik 1937'de Anayasa'ya girmiştir."
+   ],
+   "source": "Atatürk ilkeleri"
+  },
+  {
+   "id": "ue-5-9",
+   "subject": "Tarih",
+   "text": "Aşağıdakilerden hangisi Atatürk'ün vefatından (10 Kasım 1938) sonra gerçekleşmiştir?",
+   "options": [
+    "Milletler Cemiyetine üye olunması",
+    "Sadabat Paktı",
+    "Montrö Boğazlar Sözleşmesi",
+    "Hatay'ın anavatana katılması",
+    "Balkan Antantı"
+   ],
+   "answerIndex": 3,
+   "explanation": "Hatay, 1938'de bağımsız bir devlet olarak kuruldu ve 29 Haziran 1939'da Hatay Meclisi kararıyla Türkiye'ye katıldı. Atatürk bu meseleyi “şahsi meselem” olarak görmüş, ancak katılımı göremeden vefat etmiştir.",
+   "optionNotes": [
+    "Türkiye 1932'de Milletler Cemiyetine girmiştir.",
+    "1937'de imzalanmıştır.",
+    "1936'da imzalanmıştır.",
+    "",
+    "1934'te imzalanmıştır."
+   ],
+   "source": "Atatürk dönemi dış politika"
+  },
+  {
+   "id": "ue-5-10",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre aşağıdakilerden hangisi Cumhurbaşkanının yetkilerindendir?",
+   "options": [
+    "Anayasa Mahkemesi üyelerinin tamamını seçmek",
+    "Kanun teklif etmek",
+    "Bir milletvekilinin yasama dokunulmazlığını kaldırmak",
+    "Kesin hesap kanununu kabul etmek",
+    "Gerekli gördüğünde TBMM'yi toplantıya çağırmak"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 104: Cumhurbaşkanı gerekli gördüğü hâllerde TBMM'yi toplantıya çağırır. 2017 değişikliğiyle kanun teklif etme yetkisi yalnızca milletvekillerine verilmiştir.",
+   "optionNotes": [
+    "Cumhurbaşkanı 12 üyeyi seçer; 3 üyeyi TBMM seçer.",
+    "Kanun teklif etme yetkisi milletvekillerine aittir.",
+    "TBMM'nin yetkisidir.",
+    "TBMM'nin yetkisidir.",
+    ""
+   ],
+   "source": "1982 Anayasası md. 88, 104"
+  },
+  {
+   "id": "ue-5-11",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre aşağıdakilerden hangisi milletvekili seçilmeye engel bir durumdur?",
+   "options": [
+    "Lise mezunu olmamak",
+    "Askerlik hizmetini yapmamış olmak",
+    "Evli olmamak",
+    "Kırk yaşını doldurmamış olmak",
+    "Daha önce kamu görevinden istifa etmiş olmak"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 76: 18 yaşını dolduran her Türk milletvekili seçilebilir. İlköğretimi bitirmemiş olanlar, kısıtlılar, askerlikle ilişiği olanlar, kamu hizmetinden yasaklılar ve Anayasa'da sayılan suçlardan hüküm giyenler seçilemez.",
+   "optionNotes": [
+    "Anayasa ilköğretimi bitirmiş olmayı yeterli görür.",
+    "",
+    "Medeni durum seçilmeye engel değildir.",
+    "Milletvekili seçilme yaşı 18'dir.",
+    "İstifa etmiş olmak engel değildir."
+   ],
+   "source": "1982 Anayasası md. 76"
+  },
+  {
+   "id": "ue-5-12",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre aşağıdakilerden hangisi TBMM'nin bilgi edinme ve denetim yollarından biri değildir?",
+   "options": [
+    "Gensoru",
+    "Yazılı soru",
+    "Genel görüşme",
+    "Meclis soruşturması",
+    "Meclis araştırması"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 98: TBMM; meclis araştırması, genel görüşme, meclis soruşturması ve yazılı soru yollarıyla bilgi edinir ve denetler. Gensoru, 2017 Anayasa değişikliğiyle kaldırılmıştır.",
+   "optionNotes": [
+    "",
+    "Anayasa'da sayılan denetim yoludur.",
+    "Anayasa'da sayılan denetim yoludur.",
+    "Anayasa'da sayılan denetim yoludur.",
+    "Anayasa'da sayılan denetim yoludur."
+   ],
+   "source": "1982 Anayasası md. 98"
+  },
+  {
+   "id": "ue-5-13",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre aşağıdakilerden hangisi “Devletin hüküm ve tasarrufu altındadır” hükmüne tabidir?",
+   "options": [
+    "Şahısların tapulu arsaları",
+    "Kooperatif konutları",
+    "Özel şirketlerin fabrikaları",
+    "Vakıflara ait binalar",
+    "Kıyılar"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 43: Kıyılar, Devletin hüküm ve tasarrufu altındadır. Kıyılardan yararlanmada öncelikle kamu yararı gözetilir. Anayasa ayrıca tabii servetler ve kaynakların da Devletin hüküm ve tasarrufu altında olduğunu belirtir (md. 168).",
+   "optionNotes": [
+    "Özel mülkiyete konu olabilir.",
+    "Özel mülkiyete konu olabilir.",
+    "Özel mülkiyete konu olabilir.",
+    "Vakıf mülkiyetindedir.",
+    ""
+   ],
+   "source": "1982 Anayasası md. 43"
+  },
+  {
+   "id": "ue-5-14",
+   "subject": "Anayasa",
+   "text": "1982 Anayasası'na göre Başkomutanlık hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Cumhurbaşkanınca temsil edilir.",
+    "Millî Savunma Bakanına aittir.",
+    "Yalnızca savaş zamanında ortaya çıkar.",
+    "TBMM Başkanınca temsil edilir.",
+    "Genelkurmay Başkanınca temsil edilir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 117: Başkomutanlık, TBMM'nin manevi varlığından ayrılamaz ve Cumhurbaşkanı tarafından temsil olunur. Genelkurmay Başkanı Silahlı Kuvvetlerin komutanıdır; savaşta Başkomutanlık görevlerini Cumhurbaşkanı adına yerine getirir.",
+   "optionNotes": [
+    "",
+    "Başkomutanlık Bakana ait değildir.",
+    "Anayasa böyle bir sınırlama yapmaz.",
+    "Temsil yetkisi Cumhurbaşkanına aittir.",
+    "Genelkurmay Başkanı Silahlı Kuvvetlerin komutanıdır; Başkomutanlığı Cumhurbaşkanı temsil eder."
+   ],
+   "source": "1982 Anayasası md. 117"
+  },
+  {
+   "id": "ue-5-15",
+   "subject": "Güncel",
+   "text": "Ocak 2025'te Amerika Birleşik Devletleri'nin 47. başkanı olarak göreve başlayan kişi kimdir?",
+   "options": [
+    "Barack Obama",
+    "Donald Trump",
+    "Mike Pence",
+    "Kamala Harris",
+    "Joe Biden"
+   ],
+   "answerIndex": 1,
+   "explanation": "Donald Trump, Kasım 2024 seçimini kazanarak 20 Ocak 2025'te ABD'nin 47. başkanı olarak göreve başladı. Daha önce 2017–2021 döneminde 45. başkan olarak görev yapmıştı.",
+   "optionNotes": [
+    "2009–2017 döneminde görev yaptı.",
+    "",
+    "2017–2021 döneminde başkan yardımcısıydı.",
+    "2024 seçiminde Demokrat Parti adayıydı; seçilemedi.",
+    "2021–2025 döneminde 46. başkan olarak görev yaptı."
+   ],
+   "source": "Güncel uluslararası ilişkiler"
+  },
+  {
+   "id": "ue-5-16",
+   "subject": "Güncel",
+   "text": "Mayıs 2025'te Almanya Federal Şansölyesi olarak göreve başlayan kişi kimdir?",
+   "options": [
+    "Olaf Scholz",
+    "Friedrich Merz",
+    "Angela Merkel",
+    "Ursula von der Leyen",
+    "Frank-Walter Steinmeier"
+   ],
+   "answerIndex": 1,
+   "explanation": "Şubat 2025 erken seçimlerinin ardından CDU lideri Friedrich Merz, Mayıs 2025'te Almanya Federal Şansölyesi oldu.",
+   "optionNotes": [
+    "2021–2025 döneminde şansölyeydi.",
+    "",
+    "2005–2021 döneminde şansölyeydi.",
+    "Avrupa Komisyonu Başkanıdır.",
+    "Almanya Cumhurbaşkanıdır."
+   ],
+   "source": "Güncel uluslararası ilişkiler"
+  },
+  {
+   "id": "ue-5-17",
+   "subject": "Güncel",
+   "text": "2028 Yaz Olimpiyat Oyunları hangi şehirde düzenlenecektir?",
+   "options": [
+    "Los Angeles",
+    "Paris",
+    "İstanbul",
+    "Brisbane",
+    "Salt Lake City"
+   ],
+   "answerIndex": 0,
+   "explanation": "2028 Yaz Olimpiyat Oyunları ABD'nin Los Angeles şehrinde düzenlenecek. Los Angeles daha önce 1932 ve 1984 Olimpiyatlarına da ev sahipliği yapmıştı.",
+   "optionNotes": [
+    "",
+    "2024 Yaz Olimpiyatlarına ev sahipliği yaptı.",
+    "2028 Yaz Olimpiyatlarının ev sahibi değildir.",
+    "2032 Yaz Olimpiyatlarına ev sahipliği yapacak.",
+    "2002 ve 2034 Kış Olimpiyatlarının ev sahibidir."
+   ],
+   "source": "Güncel spor"
+  },
+  {
+   "id": "ue-5-18",
+   "subject": "Muhakeme",
+   "text": "2, 3, 5, 9, 17, ?\n\nYukarıdaki sayı dizisinde soru işareti yerine aşağıdakilerden hangisi gelmelidir?",
+   "options": [
+    "25",
+    "31",
+    "33",
+    "34",
+    "35"
+   ],
+   "answerIndex": 2,
+   "explanation": "Her terim bir öncekinin 2 katının 1 eksiğidir: 2×2−1=3, 3×2−1=5, 5×2−1=9, 9×2−1=17, 17×2−1=33. Farklar da 1, 2, 4, 8, 16 şeklinde ikiye katlanır.",
+   "optionNotes": [
+    "Kural ×2−1'dir; cevap 33'tür.",
+    "Kural ×2−1'dir; cevap 33'tür.",
+    "Kural ×2−1'dir; cevap 33'tür.",
+    "Kural ×2−1'dir; cevap 33'tür.",
+    "Kural ×2−1'dir; cevap 33'tür."
+   ],
+   "source": "Sayısal muhakeme"
+  },
+  {
+   "id": "ue-5-19",
+   "subject": "Muhakeme",
+   "text": "Bir araç saatte 60 km hızla bir yeri 2 saat 30 dakikada gitmektedir. Aynı yolu dönüşte saatte 75 km hızla kaç saatte döner?",
+   "options": [
+    "1,5",
+    "2",
+    "2,5",
+    "3",
+    "3,5"
+   ],
+   "answerIndex": 1,
+   "explanation": "Yol = hız × zaman = 60 × 2,5 = 150 km. Dönüş süresi = 150 ÷ 75 = 2 saat.",
+   "optionNotes": [
+    "150 km ÷ 75 km/s = 2 saat.",
+    "150 km ÷ 75 km/s = 2 saat.",
+    "150 km ÷ 75 km/s = 2 saat.",
+    "150 km ÷ 75 km/s = 2 saat.",
+    "150 km ÷ 75 km/s = 2 saat."
+   ],
+   "source": "Hız-zaman problemi"
+  },
+  {
+   "id": "ue-5-20",
+   "subject": "Muhakeme",
+   "text": "“Hiçbir nöbetçi görev sırasında uyumaz. Bazı askerler nöbetçidir.”\n\nBu iki önermeye göre aşağıdakilerden hangisi kesinlikle doğrudur?",
+   "options": [
+    "Hiçbir asker uyumaz.",
+    "Bütün askerler nöbetçidir.",
+    "Nöbetçi olmayan askerler uyur.",
+    "Bazı nöbetçiler asker değildir.",
+    "Bazı askerler görevde uyumaz."
+   ],
+   "answerIndex": 4,
+   "explanation": "Nöbetçi olan askerler görev sırasında uyumaz; bazı askerler nöbetçi olduğuna göre bazı askerler görev sırasında uyumaz. Nöbetçi olmayan askerler hakkında kesin bir şey söylenemez.",
+   "optionNotes": [
+    "Yalnızca nöbetçi olan askerler için kesin bilgi vardır.",
+    "Önerme yalnızca bazı askerlerin nöbetçi olduğunu söyler.",
+    "Nöbetçi olmayanlar hakkında bilgi verilmemiştir.",
+    "Bu sonuç önermelerden çıkarılamaz.",
+    ""
+   ],
+   "source": "Sözel mantık"
+  },
+  {
+   "id": "ue-5-21",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre aşağıdaki hâllerin hangisinde yetkili amirin verdiği sözlü emir derhâl yerine getirilir ve yazılı verilmesi istenemez?",
+   "options": [
+    "Kolluktan kaçan kişilerin yakalanması",
+    "Karakolun malzeme sayımının yapılması",
+    "Nöbet çizelgesinin hazırlanması",
+    "Personelin yıllık izin planının hazırlanması",
+    "Eğitim programının düzenlenmesi"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 42/2: Can, ırz ve mal emniyetini korumak, kaçanları yakalamak, işlenmekte olan suçu önlemek, kanunsuz toplantıları dağıtmak, afetlerde tedbir almak gibi hâllerde yetkili amirin sözlü emri derhâl yerine getirilir; yazılı verilmesi istenemez. Sorumluluk emri verene aittir.",
+   "optionNotes": [
+    "",
+    "Acele ve zorunlu bir kolluk hâli değildir.",
+    "Acele ve zorunlu bir kolluk hâli değildir.",
+    "Acele ve zorunlu bir kolluk hâli değildir.",
+    "Acele ve zorunlu bir kolluk hâli değildir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 42"
+  },
+  {
+   "id": "ue-5-22",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre uzman erbaşlar hangi kanuna göre sözleşmeli olarak temin edilir?",
+   "options": [
+    "3269 sayılı Uzman Erbaş Kanunu",
+    "657 sayılı Devlet Memurları Kanunu",
+    "7179 sayılı Askeralma Kanunu",
+    "6191 sayılı Sözleşmeli Erbaş ve Er Kanunu",
+    "3466 sayılı Uzman Jandarma Kanunu"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 4: Uzman erbaş; 3269 sayılı Uzman Erbaş Kanunu'na göre Jandarma ve Sahil Güvenlik'in devamlılık arz eden, teknik ve kritik uzmanlık görev yerlerinde istihdam edilmek üzere sözleşmeli olarak temin edilen, uzman onbaşı ve uzman çavuş rütbelerini haiz kişidir.",
+   "optionNotes": [
+    "",
+    "Devlet memurlarının tabi olduğu kanundur.",
+    "Askerlik yükümlülerinin tabi olduğu kanundur.",
+    "Sözleşmeli erbaş ve erlerin tabi olduğu kanundur.",
+    "Uzman jandarmaların tabi olduğu kanundur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 4"
+  },
+  {
+   "id": "ue-5-23",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre belediye kurulması, kaldırılması veya sınırlarının değişmesi hâlinde jandarma ve polis sorumluluk alanları değişikliğin yürürlüğe girdiği tarihten itibaren en geç ne kadar süre içinde yeniden düzenlenir?",
+   "options": [
+    "1 ay",
+    "2 ay",
+    "3 ay",
+    "6 ay",
+    "1 yıl"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 10/2: Büyükşehir, il veya ilçe belediyesi kurulması, kaldırılması ya da sınırlarda değişiklik olması hâlinde sorumluluk alanları en geç üç ay içinde yeniden düzenlenir. Devir-teslim işlemleri de en geç üç ay içinde tamamlanır.",
+   "optionNotes": [
+    "Yönetmelikteki süre 3 aydır.",
+    "Yönetmelikteki süre 3 aydır.",
+    "Yönetmelikteki süre 3 aydır.",
+    "Yönetmelikteki süre 3 aydır.",
+    "Yönetmelikteki süre 3 aydır."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 10"
+  },
+  {
+   "id": "ue-5-24",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre subay, astsubay ve uzman jandarmaların haftalık çalışma süresi genel olarak kaç saattir?",
+   "options": [
+    "35",
+    "40",
+    "45",
+    "48",
+    "50"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 24/1: Subay, sözleşmeli subay, astsubay, sözleşmeli astsubay ve uzman jandarmaların haftalık çalışma süresi genel olarak 40 saattir. Bu, görev gerektirdiğinde personelin görev yerine çağrılmasına veya görev yerinden ayrılmamasına engel değildir.",
+   "optionNotes": [
+    "Haftalık çalışma süresi genel olarak 40 saattir.",
+    "Haftalık çalışma süresi genel olarak 40 saattir.",
+    "Haftalık çalışma süresi genel olarak 40 saattir.",
+    "Haftalık çalışma süresi genel olarak 40 saattir.",
+    "Haftalık çalışma süresi genel olarak 40 saattir."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 24"
+  },
+  {
+   "id": "ue-5-25",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre suç karşılığında uygulanan yaptırım olan cezalar aşağıdakilerden hangileridir?",
+   "options": [
+    "Hapis cezası ve güvenlik tedbirleri",
+    "Hapis ve idari para cezaları",
+    "Ölüm, hapis ve sürgün cezaları",
+    "Hapis ve adli para cezaları",
+    "Yalnızca hapis cezası"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 45: Suç karşılığında uygulanan yaptırım olan cezalar, hapis ve adli para cezalarıdır. İdari para cezası ise 5326 sayılı Kabahatler Kanunu'na göre kabahatlerin yaptırımıdır.",
+   "optionNotes": [
+    "Güvenlik tedbirleri ceza değil, tedbirdir.",
+    "İdari para cezası kabahatlerin yaptırımıdır.",
+    "Bu cezalar Türk hukukunda yoktur.",
+    "",
+    "Adli para cezası da bir cezadır."
+   ],
+   "source": "5237 sayılı Kanun md. 45"
+  },
+  {
+   "id": "ue-5-26",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre ifade alma sırasında müdafiin rolüyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Soruya onun yerine doğrudan cevap veremez.",
+    "Kolluğun şüpheliye soru sormasını yasaklayabilir.",
+    "Müdahaleleri tutanağa geçirilmez.",
+    "Şüpheli adına ifade verebilir.",
+    "İfade sırasında hiç konuşamaz."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 23/d: Müdafi yalnızca hukuki yardımda bulunabilir; şüpheliye sorulan soruya doğrudan cevap veremez ve onun yerini aldığı izlenimini veren müdahalede bulunamaz. Şüpheliye kanuni haklarını hatırlatabilir; müdahaleleri tutanağa geçirilir.",
+   "optionNotes": [
+    "",
+    "Böyle bir yetkisi yoktur.",
+    "Müdafiin her türlü müdahalesi tutanağa geçirilir.",
+    "Müdafi şüphelinin yerini alamaz.",
+    "Hukuki yardımda bulunabilir ve hakları hatırlatabilir."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 23"
+  },
+  {
+   "id": "ue-5-27",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre şartlar emri yapılamayacak hâle getirmişse ve âmirden yeni emir almaya zaman yoksa ast ne yapabilir?",
+   "options": [
+    "Mülki amirden izin almalıdır.",
+    "Emri yeni duruma göre değiştirerek yapabilir.",
+    "Görevi yarıda bırakıp derhâl birliğine geri dönmelidir.",
+    "Hiçbir şey yapmadan beklemek zorundadır.",
+    "Emri olduğu gibi uygulamak zorundadır."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 10/13: Durum ve şartlar emri yapılamaz hâle getirmişse, bilinmeyen hususlar ortaya çıkmışsa veya emrin yapılması büyük tehlikeye ya da ağır zarara yol açacaksa ve yeni emir alınamıyorsa ast sorumluluğu üzerine alarak emri yeni duruma uygun şekilde değiştirerek yapabilir; ilk fırsatta âmirine bilgi verir.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir şart yoktur.",
+    "",
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "Yönetmelik bu durumda inisiyatif kullanılmasına izin verir.",
+    "Büyük tehlike veya zarar varsa değiştirebilir."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 10"
+  },
+  {
+   "id": "ue-5-28",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre bir il veya ilçenin tamamı polis ya da jandarma görev ve sorumluluk alanı olarak hangi makamın kararıyla belirlenebilir?",
+   "options": [
+    "Valinin",
+    "İçişleri Bakanının",
+    "Jandarma Genel Komutanının",
+    "Belediye meclisinin",
+    "Kaymakamın"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 7: Jandarmanın görev alanı kural olarak il ve ilçe belediye sınırları dışı ile polis ve sahil güvenlik teşkilatı bulunmayan yerlerdir. Bakanın kararıyla bir il veya ilçenin tamamı polis ya da jandarma görev alanı olarak belirlenebilir.",
+   "optionNotes": [
+    "Bir il veya ilçenin tamamı için yetki Bakandadır.",
+    "",
+    "Yönetmelik bu yetkiyi Bakana verir.",
+    "Belediye meclisinin böyle bir yetkisi yoktur.",
+    "Kaymakamın böyle bir yetkisi yoktur."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 7"
+  },
+  {
+   "id": "ue-5-29",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre gözaltına alınan kişinin tıbbi muayenesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İfadeyi alan görevli kişiyi muayeneye de götürmek zorundadır.",
+    "Kadın şüpheli hiçbir durumda kadın hekime muayene ettirilemez.",
+    "İfadeyi alan ile muayeneye götüren farklı olmalıdır.",
+    "Muayene sırasında kolluk görevlisinin bulunması zorunludur.",
+    "Muayeneyi kolluk birimindeki herhangi bir personel yapabilir."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 9: Gözaltına alınan kişinin ifadesini alan veya soruşturmayı yürüten görevli ile tıbbi muayeneye götüren görevlinin farklı olması zorunludur. Muayenede hekim ile kişinin yalnız kalması esastır; hekim güvenlik endişesiyle görevli bulunmasını isteyebilir. Kadının muayenesi talebi hâlinde ve imkân varsa kadın hekimce yapılır.",
+   "optionNotes": [
+    "Yönetmelik farklı görevliyi zorunlu tutar.",
+    "Talebi hâlinde ve imkân varsa kadın hekim muayene eder.",
+    "",
+    "Kural hekim-hasta baş başadır; hekim isterse görevli bulunur.",
+    "Muayene adli tıp veya resmî sağlık kuruluşlarınca yapılır."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 9"
+  },
+  {
+   "id": "ue-5-30",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre birden çok ili içine alan jandarma bölge komutanlığının komutanı kime karşı sorumlu olarak görev yapar?",
+   "options": [
+    "Bölgedeki en kıdemli il jandarma komutanına",
+    "Bölgedeki tüm illerin valilerine ayrı ayrı",
+    "Doğrudan İçişleri Bakanına",
+    "Genelkurmay Başkanına",
+    "Konuşlu olduğu ilin valisine"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 6/2: Sevk ve idare ihtiyaçları için geçici olarak birden çok ili içine alan jandarma bölge komutanlığı kurulabilir. Bölge komutanı, bölge teşkilatının konuşlu olduğu ilin valisine karşı sorumlu olarak görev yapar.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "Sorumluluk konuşlu olunan ilin valisine karşıdır.",
+    "Yönetmelik konuşlu olunan ilin valisini gösterir.",
+    "Bölge komutanı Genelkurmay Başkanına karşı sorumlu değildir.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 6"
+  },
+  {
+   "id": "ue-5-31",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre suç işlemek amacıyla örgüt kuran veya yöneten kişi, örgüt henüz bir suç işlemeden örgütü dağıtırsa ne olur?",
+   "options": [
+    "Yalnızca örgüt üyeliğinden cezalandırılır.",
+    "Cezalandırılmaz.",
+    "Cezası yarı oranında indirilir.",
+    "Ancak şikâyet varsa cezalandırılır.",
+    "Cezası iki katına çıkarılır."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 221/1 (etkin pişmanlık): Suç işlemek amacıyla örgüt kuranlar veya yönetenler, örgütün bir suç işlemesinden önce örgütü dağıtırlarsa veya örgütü dağıtmaya yönelik kararlarına uygun olarak örgüt dağılırsa cezalandırılmazlar.",
+   "optionNotes": [
+    "Kanun bu kişi için cezasızlık öngörür.",
+    "",
+    "Kanun bu durumda cezasızlık öngörür.",
+    "Suç şikâyete bağlı değildir.",
+    "Kanun bu durumda etkin pişmanlık nedeniyle cezasızlık öngörür."
+   ],
+   "source": "5237 sayılı Kanun md. 221"
+  },
+  {
+   "id": "ue-5-32",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre rütbeli personel aşağıdaki durumların hangisinde resmî kıyafet giyebilir?",
+   "options": [
+    "Hükümlü iken",
+    "Adli yargı merciine tanık olarak çağrıldığında",
+    "Görevden uzaklaştırıldığı süre içinde",
+    "Tutuklu iken",
+    "Şüpheli olarak adli yargı merciine çağrıldığında"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 15/8: Rütbeli personel ve erler; tanıklık veya bilirkişilik dışında adli yargı makam ve mercilerine çağrıldığında, tutuklu veya hükümlü iken ya da görevden uzaklaştırıldıkları süre içinde resmî kıyafet giyemez.",
+   "optionNotes": [
+    "Resmî kıyafet giyemez.",
+    "",
+    "Resmî kıyafet giyemez.",
+    "Resmî kıyafet giyemez.",
+    "Tanıklık ve bilirkişilik dışındaki çağrılarda giyemez."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 15"
+  },
+  {
+   "id": "ue-5-33",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre gözaltı süresinin dolması üzerine serbest bırakılan kişi aynı fiil nedeniyle hangi durumda yeniden yakalanabilir?",
+   "options": [
+    "Hiçbir şekilde yeniden yakalanamaz",
+    "Serbest bırakıldıktan 24 saat sonra her durumda",
+    "Kolluk amiri gerekli görürse her zaman",
+    "Mağdurun yeniden şikâyeti yeterlidir",
+    "Yeni delil ve savcı kararı varsa"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 18 (yeniden yakalama yasağı): Gözaltı süresinin dolması veya sulh ceza hâkiminin kararıyla serbest bırakılan kişi hakkında, fiille ilgili yeni ve yeterli delil elde edilmedikçe ve Cumhuriyet savcısı karar vermedikçe aynı nedenle yeniden yakalama yapılamaz.",
+   "optionNotes": [
+    "Şartlar oluşursa yeniden yakalanabilir.",
+    "Yönetmelikte böyle bir süre kuralı yoktur.",
+    "Yönetmelik yeni delil ve savcı kararını şart koşar.",
+    "Yeni ve yeterli delil ile savcı kararı gerekir.",
+    ""
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 18"
+  },
+  {
+   "id": "ue-5-34",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre Devlet memurları ile rütbeli personel arasındaki ilişki hangisidir?",
+   "options": [
+    "Devlet memurları yalnızca subayların astıdır.",
+    "Rütbeli personel Devlet memurlarının her zaman üstüdür.",
+    "Aralarında hiçbir hiyerarşik ilişki yoktur.",
+    "Astlık-üstlük yoktur; âmir-maiyet ilişkisi vardır.",
+    "Devlet memurları rütbeli personelin her zaman üstüdür."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 6/6: Devlet memurları ile rütbeli personel arasında astlık-üstlük ilişkisi bulunmamakla birlikte, âmir-maiyet ilişkisi vardır. Devlet memurları esas duruşa geçmez ve selamlamadan muaftır, ancak âmirlerine karşı saygılı duruşu korur.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir ayrım yapılmamıştır.",
+    "Aralarında astlık-üstlük ilişkisi yoktur.",
+    "Âmir-maiyet ilişkisi vardır.",
+    "",
+    "Aralarında astlık-üstlük ilişkisi yoktur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 6, 17, 18"
+  },
+  {
+   "id": "ue-5-35",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma; yangın, sel, deprem gibi olaylarla ilgili düzenlediği tutanağın örneklerini kime verir?",
+   "options": [
+    "Yalnızca AFAD il müdürlüğüne",
+    "Olaydan zarar gören kişilere",
+    "Yalnızca jandarma genel komutanlığına",
+    "Yalnızca belediye başkanlığına",
+    "Mülki amire ve Cumhuriyet savcılığına"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 14: Jandarma bu olaylarda olay yerine gider, önlemleri alır, kurtarılan eşyanın yağmalanmasını önler ve zararları saptar. Düzenlenen tutanağın bir örneği mülki amire, bir diğer örneği Cumhuriyet savcılığına verilir.",
+   "optionNotes": [
+    "Yönetmelikte bu makam sayılmamıştır.",
+    "Yönetmelikte bu kişiler sayılmamıştır.",
+    "Yönetmelikte bu makam sayılmamıştır.",
+    "Yönetmelikte iki ayrı makam sayılmıştır.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 14"
+  },
+  {
+   "id": "ue-5-36",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre biri diğerinin unsurunu veya ağırlaştırıcı nedenini oluşturması nedeniyle tek fiil sayılan suça ne ad verilir?",
+   "options": [
+    "Teşebbüs",
+    "Zincirleme suç",
+    "Fikri içtima",
+    "Bileşik suç",
+    "Neticesi sebebiyle ağırlaşmış suç"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 42: Biri diğerinin unsurunu veya ağırlaştırıcı nedenini oluşturması dolayısıyla tek fiil sayılan suça bileşik suç denir; bu suçta içtima hükümleri uygulanmaz. Örneğin yağma; hırsızlık ile tehdit veya cebrin birleşiminden oluşur.",
+   "optionNotes": [
+    "Suçun icra hareketlerine başlanıp tamamlanamamasıdır.",
+    "Aynı suçun bir kararla farklı zamanlarda birden fazla işlenmesidir.",
+    "Bir fiille birden fazla farklı suçun işlenmesidir.",
+    "",
+    "Kastedilenden daha ağır neticenin meydana gelmesidir."
+   ],
+   "source": "5237 sayılı Kanun md. 42"
+  },
+  {
+   "id": "ue-5-37",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre usulüne göre çağrıldığı hâlde mazeretsiz olarak gelmeyen tanık hakkında ne yapılır?",
+   "options": [
+    "Hakkında doğrudan tutuklama kararı verilir.",
+    "Zorla getirilir.",
+    "Tanıklığı tamamen düşer.",
+    "Hiçbir işlem yapılmaz.",
+    "Davanın sonucuna kadar beklenir."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 44: Usulüne göre çağrıldığı hâlde gelmeyen tanık zorla getirilir ve gelmemesinin neden olduğu giderler kendisine yükletilir.",
+   "optionNotes": [
+    "Kanun zorla getirmeyi öngörür.",
+    "",
+    "Tanıklık yükümlülüğü devam eder.",
+    "Kanun zorla getirme ve masrafları yükleme gibi sonuçlar öngörür.",
+    "Kanun zorla getirmeyi öngörür."
+   ],
+   "source": "5271 sayılı Kanun md. 44"
+  },
+  {
+   "id": "ue-5-38",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre ceza infaz kurumlarının dış korumasında görevli jandarma ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Hükümlü ve tutuklularla serbestçe görüşebilir.",
+    "İnfaz koruma memurluğu görevlerinde kullanılabilir.",
+    "Kurumun iç güvenliğinden doğrudan sorumludur.",
+    "Kurum içindeki iş ve işlemlere karışması yasaktır.",
+    "Kurum içine kendi kararıyla her zaman girebilir."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 24: Jandarma ceza infaz kurumlarının dış korumasından sorumludur. Hükümlü ve tutuklularla görüşmesi ve içerideki işlere karışması yasaktır. İçeride görevlilerce bastırılamayan genel bir kargaşada kurum müdürü, vekili veya infaz koruma memurlarının başvurusu üzerine müdahale eder.",
+   "optionNotes": [
+    "Jandarmanın hükümlü ve tutuklularla görüşmesi yasaktır.",
+    "Jandarma hiçbir şekilde iç işlerde kullanılamaz.",
+    "Jandarma dış korumadan sorumludur.",
+    "",
+    "İçeride bastırılamayan kargaşada müdürün başvurusu üzerine müdahale eder."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 24"
+  },
+  {
+   "id": "ue-5-39",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre rütbeli personel görev dışında sivil elbiseyle tabancasını nasıl taşıyabilir?",
+   "options": [
+    "Yalnızca çanta içinde ve şarjörsüz",
+    "Belinde açıkta görünecek şekilde",
+    "Göze görünmeyecek şekilde",
+    "Yalnızca komutanının yazılı izniyle",
+    "Hiçbir şekilde taşıyamaz"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 15/9-j: Rütbeli personel görev dışında da sivil elbise ile tabancasını göze görünmeyecek şekilde taşıyabilir.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir şart yoktur.",
+    "Yönetmelik görünmeyecek şekilde taşınmasını öngörür.",
+    "",
+    "Yönetmelikte böyle bir şart yoktur.",
+    "Görev dışında da taşıyabilir."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 15"
+  },
+  {
+   "id": "ue-5-40",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre kimliğini bir belgeyle veya güvenilir kişilerin tanıklığıyla ispat edemeyen kişi en fazla ne kadar süreyle yakalanıp muhafaza altına alınabilir?",
+   "options": [
+    "Dört günü geçmemek üzere",
+    "Kırk sekiz saati geçmemek üzere",
+    "En fazla altı saat",
+    "Yirmi dört saati geçmemek üzere",
+    "Kimliği belirlenene kadar süresiz"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 5: Kimliğini ispat edemeyenler ile gösterdiği belgelerin doğruluğundan şüphe edilenler, aranan kişilerden olup olmadıkları veya gerçek kimlikleri ortaya çıkıncaya kadar yirmi dört saati geçmemek üzere yakalanıp muhafaza altına alınabilir. Bu kişilere kimliklerini ispat için kolaylık gösterilir.",
+   "optionNotes": [
+    "Bu, toplu suçlarda gözaltının toplam süresidir.",
+    "Yönetmelikteki süre daha kısadır.",
+    "Yönetmelikteki süre daha uzundur.",
+    "",
+    "Yönetmelik azami süre öngörür."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 5"
+  },
+  {
+   "id": "ue-5-41",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre “mevzuat hükümlerine ve âmirlere mutlak bir itaat ile astının ve üstünün hukukuna riayet” aşağıdakilerden hangisidir?",
+   "options": [
+    "Maiyet",
+    "Disiplin",
+    "Görev bilinci",
+    "Emir",
+    "Kıdem"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 4: Disiplin, mevzuat hükümlerine ve âmirlere mutlak bir itaat ile astının ve üstünün hukukuna riayettir. Md. 7'ye göre disiplin Jandarma ve Sahil Güvenlik teşkilatlarının temelidir ve hiçbir suretle taviz verilemez.",
+   "optionNotes": [
+    "Âmirin emir ve komutası altındaki personeldir.",
+    "",
+    "Mevzuat gereği yapılması veya yapılmaması öngörülen hususlar ile amir emirleridir.",
+    "Göreve ilişkin bir fiilin yapılmasının veya yapılmamasının asta bildirilmesidir.",
+    "Rütbede görev süresi veya aynı nasıplılar arasındaki üstünlük sırasıdır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 4, 7"
+  },
+  {
+   "id": "ue-5-42",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre kadın ve erkek tutuklu veya hükümlülerin sevki hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Kural olarak birlikte sevk edilemezler.",
+    "Kadın hükümlü sevkinde görevli verilmez.",
+    "Her durumda birlikte sevk edilebilirler.",
+    "Yalnızca gece birlikte sevk edilebilirler.",
+    "Kadınlar yalnızca uçakla sevk edilebilir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 29: İştirak hâlinde suç işleyenler ile kanunen önemli ilişki sayılacak yakınlığı olanlar dışında kadın ve erkek tutuklu veya hükümlüler birlikte sevk edilemez. Sevk edilen kadınsa kadın ceza infaz koruma görevlisi verilir.",
+   "optionNotes": [
+    "",
+    "Kadın ceza infaz koruma görevlisi verilir.",
+    "Kural ayrı sevktir.",
+    "Yönetmelikte böyle bir istisna yoktur.",
+    "Yönetmelikte böyle bir hüküm yoktur."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 29"
+  },
+  {
+   "id": "ue-5-43",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre statüler arası hiyerarşide uzman erbaşların konumu hangisidir?",
+   "options": [
+    "Uzman jandarmaların astı, sözleşmeli erbaşların üstü",
+    "Uzman jandarmaların üstü, astsubayların astı",
+    "Emsal rütbedeki sözleşmeli erbaşların ve yükümlü erbaşların astı",
+    "Astsubaylarla eşit, subayların astı",
+    "Tüm rütbeli personelle eşit statüde"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 6: Sıralama subay → astsubay → uzman jandarma → uzman erbaş → sözleşmeli erbaş → yükümlü erbaş şeklindedir. Uzman erbaşlar subay, astsubay ve uzman jandarmaların astı; emsal rütbedeki sözleşmeli ve yükümlü erbaşların üstüdür.",
+   "optionNotes": [
+    "",
+    "Uzman jandarmalar uzman erbaşların üstüdür.",
+    "Uzman erbaşlar emsal rütbedeki sözleşmeli erbaşların üstüdür.",
+    "Uzman erbaşlar astsubayların astıdır.",
+    "Yönetmelik açık bir hiyerarşi kurar."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 6"
+  },
+  {
+   "id": "ue-5-44",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre hâkim kararını neye göre verir?",
+   "options": [
+    "Yalnızca kolluk tutanaklarına",
+    "Kolluk tarafından hazırlanan soruşturma dosyasının yalnızca özetine",
+    "Kamuoyunun beklentisine",
+    "Huzurunda tartışılan delillerle oluşan vicdani kanaatine",
+    "Yalnızca sanığın ikrarına"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 217/1: Hâkim kararını ancak duruşmaya getirilmiş ve huzurunda tartışılmış delillere dayandırabilir. Bu deliller hâkimin vicdani kanaatiyle serbestçe takdir edilir.",
+   "optionNotes": [
+    "Hâkim duruşmada tartışılan delilleri değerlendirir.",
+    "Hâkim duruşmada tartışılan delilleri esas alır.",
+    "Kamuoyu beklentisi delil değildir.",
+    "",
+    "İkrar da diğer delillerle birlikte değerlendirilir."
+   ],
+   "source": "5271 sayılı Kanun md. 217"
+  },
+  {
+   "id": "ue-5-45",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre il ve ilçelerdeki jandarma ve polis sorumluluk alanlarının sınırları konusunda kolluk birimleri arasında çıkan anlaşmazlık kim tarafından kesin olarak çözümlenir?",
+   "options": [
+    "Jandarma Genel Komutanı",
+    "İçişleri Bakanı",
+    "Mülki amir",
+    "İl emniyet müdürü",
+    "İdare mahkemesi"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 10: Sorumluluk alanı sınırlarını ilçede kaymakam, ilde vali veya görevlendireceği vali yardımcısı başkanlığındaki komisyon belirler; karar mülki amirin onayıyla yürürlüğe girer. Kolluk birimleri arasındaki anlaşmazlıklar mülki amir tarafından kesin olarak çözümlenir.",
+   "optionNotes": [
+    "Taraflardan birinin üst makamı olarak karar veremez.",
+    "Yönetmelik anlaşmazlığın çözümünü mülki amire bırakır.",
+    "",
+    "Taraflardan biridir; karar veremez.",
+    "Anlaşmazlık idari olarak mülki amirce çözülür."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 10"
+  },
+  {
+   "id": "ue-5-46",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre personelin kimlik kartıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Birlikte emanete bırakılır.",
+    "Yalnızca görev sırasında taşınır.",
+    "Yetkili makam istese de gösterilmesi zorunlu değildir.",
+    "Her zaman üzerinde bulundurulur.",
+    "Yalnızca resmî kıyafetle taşınır."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 15/10: Kimlik kartı, kişinin jandarma veya sahil güvenlik personeli olduğunu gösteren resmî belgedir. Güvenlik ve istihbarata karşı koyma gibi istisnalar dışında resmî ve sivil olarak her zaman üzerinde bulundurulur; yetkili makamlar isterse gösterilir.",
+   "optionNotes": [
+    "Personel kartı üzerinde taşımakla yükümlüdür.",
+    "Kimlik kartı her zaman üzerinde bulundurulur.",
+    "Talep hâlinde gösterilmesi zorunludur.",
+    "",
+    "Sivil kıyafette de taşınır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 15"
+  },
+  {
+   "id": "ue-5-47",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre fiili işlediği zaman on iki yaşını doldurmamış çocuk hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Suç nedeniyle yakalanamaz, yalnız kimliği tespit edilir.",
+    "Kimlik tespitinden sonra 24 saat nezarethanede tutulur.",
+    "Yetişkinler gibi gözaltına alınabilir.",
+    "Ancak ailesinin yazılı izniyle şüpheli sıfatıyla ifadesi alınır.",
+    "Suç tespitinde tanık olarak kullanılabilir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 19: On iki yaşını doldurmamış olanlar ile on beş yaşını doldurmamış sağır ve dilsizler suç nedeniyle yakalanamaz ve suç tespitinde kullanılamaz. Yalnızca kimlik ve suç tespiti amacıyla yakalanıp kimlik tespitinden hemen sonra serbest bırakılırlar; durum savcılığa bildirilir.",
+   "optionNotes": [
+    "",
+    "Kimlik tespitinden hemen sonra serbest bırakılır.",
+    "Bu yaştaki çocuk suç nedeniyle yakalanamaz.",
+    "Bu yaştaki çocuktan şüpheli ifadesi alınmaz.",
+    "Hiçbir surette suç tespitinde kullanılamaz."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 19"
+  },
+  {
+   "id": "ue-5-48",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre özel kolluk, jandarmanın görevine giren bir olayla karşılaştığında ne yapar?",
+   "options": [
+    "Olayı valilik onayı gelene kadar bekletir.",
+    "Yalnızca belediyeye bilgi verir.",
+    "El koyar, jandarmaya haber verir.",
+    "Olaya hiç müdahale etmeden yalnızca seyreder.",
+    "Olayı tamamen kendisi sonuçlandırır."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 23/1: Özel kolluk, jandarmanın görevine giren bir olayla karşılaştığında olaya el koyar, jandarmaya haber verir, kaybolabilecek delilleri toplar, olay yerini korur ve eylemcileri yakalar.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir usul yoktur.",
+    "Yönetmelik jandarmaya haber verilmesini öngörür.",
+    "",
+    "Yönetmelik özel kolluğa ilk müdahale görevi verir.",
+    "Olay jandarmanın görevine girdiği için jandarmaya haber verir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 23"
+  },
+  {
+   "id": "ue-5-49",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'nın bağlılık kuralına göre suça iştirak için aşağıdakilerden hangisi yeterlidir?",
+   "options": [
+    "Suçun tamamlanmış olması",
+    "Suç ortaklarının akraba olması",
+    "Kasıtlı ve hukuka aykırı bir fiilin varlığı",
+    "Failin mahkûm edilmiş olması",
+    "Bütün suç ortaklarının aynı derecede kusurlu olması"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 40/1: Suça iştirak için kasıtlı ve hukuka aykırı bir fiilin varlığı yeterlidir. Suçun işlenişine iştirak eden her kişi, diğerinin cezalandırılmasını önleyen kişisel nedenler göz önünde bulundurulmaksızın kendi kusurlu fiiline göre cezalandırılır.",
+   "optionNotes": [
+    "Teşebbüs aşamasında da iştirak mümkündür.",
+    "Böyle bir şart yoktur.",
+    "",
+    "Mahkûmiyet şartı aranmaz.",
+    "Her ortak kendi kusuruna göre cezalandırılır."
+   ],
+   "source": "5237 sayılı Kanun md. 40"
+  },
+  {
+   "id": "ue-5-50",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarmadan hangi görev istenemez?",
+   "options": [
+    "Arama kurtarma görevlerini yapmak",
+    "Hassas tesislerin korunmasına ilişkin önlemleri almak",
+    "Ceza infaz kurumlarının dış korumasını sağlamak",
+    "Mevzuatta öngörülmeyen görevler",
+    "Trafik hizmetlerini yürütmek"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 8/2: Kanunlar ve diğer mevzuat hükümleri ile bunlara dayalı olarak yetkili makamlarca verilen emir ve kararlarda öngörülmeyen hiçbir görev jandarmadan istenemez.",
+   "optionNotes": [
+    "Mülki görevler arasında sayılır.",
+    "Mülki görevler arasında sayılır.",
+    "Mülki görevler arasında sayılır.",
+    "",
+    "Mülki görevler arasında sayılır."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 8"
+  },
+  {
+   "id": "ue-5-51",
+   "subject": "Mevzuat",
+   "text": "5237 sayılı TCK'ya göre fail, suçun icra hareketlerinden gönüllü olarak vazgeçerse ne olur?",
+   "options": [
+    "Teşebbüsten dolayı cezalandırılmaz.",
+    "Ceza artırılır.",
+    "Tamamlanmış suçun cezasıyla cezalandırılır.",
+    "Teşebbüs cezası yarıya indirilerek verilir.",
+    "Yalnızca adli para cezası verilir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 36: Fail, suçun icra hareketlerinden gönüllü olarak vazgeçer veya kendi çabalarıyla suçun tamamlanmasını önlerse teşebbüsten dolayı cezalandırılmaz. Ancak o ana kadar yaptığı hareketler ayrı bir suç oluşturuyorsa yalnızca o suçun cezası verilir.",
+   "optionNotes": [
+    "",
+    "Gönüllü vazgeçme cezayı artırmaz.",
+    "Gönüllü vazgeçmede tamamlanmış suç cezası verilmez.",
+    "Teşebbüsten hiç ceza verilmez.",
+    "Kanunda böyle bir hüküm yoktur."
+   ],
+   "source": "5237 sayılı Kanun md. 36"
+  },
+  {
+   "id": "ue-5-52",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre kimliğini ispatlayan belgesi bulunmayan veya gerçeğe aykırı beyanda bulunduğu için kimliği belirlenemeyen kişi hakkında ne yapılır?",
+   "options": [
+    "Derhâl serbest bırakılır.",
+    "Doğrudan tutuklanır.",
+    "Sınır dışı edilir.",
+    "Yalnızca idari para cezası verilip serbest bırakılır.",
+    "Tutulur ve savcıya derhâl bildirilir."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 46/9: Kimliğini ispatlayan belgesi olmayan, açıklamada bulunmaktan kaçınan veya gerçeğe aykırı beyanda bulunan kişi tutularak durumdan derhâl Cumhuriyet savcısı haberdar edilir. Kişiye kimliğini ispatlaması için kolaylık gösterilir.",
+   "optionNotes": [
+    "Yönetmelik kişinin tutulmasını öngörür.",
+    "Tutuklama hâkim kararıyla olur.",
+    "Sınır dışı etme ayrı bir işlemdir.",
+    "Yönetmelik savcının haberdar edilmesini öngörür.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 46"
+  },
+  {
+   "id": "ue-5-53",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre soruşturma evresinde gözaltındaki kişiyle ilgili aşağıdakilerden hangisi yasaktır?",
+   "options": [
+    "Basın önüne çıkarılıp teşhir edilmesi",
+    "Kişinin yakınına haber verilmesi",
+    "Kişinin müdafiiyle görüşmesi",
+    "Kişinin hekim kontrolünden geçirilmesi",
+    "Kişinin haklarının yazılı bildirilmesi"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 27: Masumiyet karinesi ve soruşturmanın gizliliği gereği gözaltındaki kişi “suçlu” olarak kamuoyuna duyurulamaz, basın önüne çıkarılamaz, basınla görüştürülemez, görüntüsü alınamaz ve teşhir edilemez; soruşturma evrakı yayımlanamaz.",
+   "optionNotes": [
+    "",
+    "Yönetmeliğin öngördüğü bir işlemdir.",
+    "Kişinin hakkıdır.",
+    "Yönetmeliğin öngördüğü bir işlemdir.",
+    "Yönetmeliğin öngördüğü bir işlemdir."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 27"
+  },
+  {
+   "id": "ue-5-54",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre personelin basınla ilişkileri hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Görev hakkında dilediği basın kuruluşuna bilgi verebilir.",
+    "Bir gazetenin mesul müdürü olabilir.",
+    "Kamu görevleri hakkında basına demeç veremez.",
+    "Bilimsel konularda kitap yazamaz.",
+    "Sosyal medyada hükümet politikalarını eleştirebilir."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 22: Personel kamu görevleri hakkında basına bilgi ve demeç veremez; bu bilgi illerde valiler ve Bakanın yetkili kıldığı görevlilerce verilir. Personel hiçbir yayın organının mesul müdürü, yazarı veya haber vericisi olamaz. Siyaset dışında bilimsel, tarihî, iktisadi, edebî konularda kitap ve makale yazmakta serbesttir.",
+   "optionNotes": [
+    "Bilgi ancak yetkili kılınanlarca verilebilir.",
+    "Yönetmelik bunu açıkça yasaklar.",
+    "",
+    "Siyaset dışında bilimsel, tarihî, edebî eserler yazmak serbesttir.",
+    "Siyaset hakkında yazı ve hükümet aleyhine eleştiri yasaktır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 22"
+  },
+  {
+   "id": "ue-5-55",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre şüphelinin aynı olayla ilgili olarak yeniden ifadesinin alınması gerekirse bu işlemi kim yapabilir?",
+   "options": [
+    "Olayı soruşturan kolluk görevlisi",
+    "Mülki amir",
+    "Yalnızca Cumhuriyet savcısı",
+    "Şüphelinin müdafii",
+    "Kolluk amiri"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 24: Şüphelinin aynı olayla ilgili olarak yeniden ifadesinin alınması ihtiyacı ortaya çıkarsa bu işlem ancak Cumhuriyet savcısı tarafından yapılabilir. Yasak usullerle alınan ifadeler rızayla verilse bile delil olarak değerlendirilemez.",
+   "optionNotes": [
+    "Yeniden ifade alma yetkisi savcıya aittir.",
+    "Mülki amirin ifade alma yetkisi yoktur.",
+    "",
+    "Müdafi ifade almaz.",
+    "Yeniden ifade alma yetkisi savcıya aittir."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 24"
+  },
+  {
+   "id": "ue-5-56",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre durdurulan aracın dışarıdan bakıldığında içi görünmeyen bölümlerinin aranmasına ilişkin kolluk amirinin kararı en geç ne zaman hâkimin onayına sunulur?",
+   "options": [
+    "Bir hafta içinde",
+    "Yirmi dört saat içinde",
+    "Hâkim onayı gerekmez",
+    "Arama bittikten sonra bir ay içinde",
+    "Kırk sekiz saat içinde"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 46/6: El ile dıştan kontrol hariç, kişinin üstü ve eşyası ile aracın içi görünmeyen bölümlerinin araması mülki amirin görevlendireceği kolluk amirinin yazılı (acele hâlde sözlü) emriyle yapılır. Karar 24 saat içinde görevli hâkimin onayına sunulur ve kişiye gerekçeli bir belge verilir.",
+   "optionNotes": [
+    "Yönetmelikteki süre daha kısadır.",
+    "",
+    "Karar hâkimin onayına sunulur.",
+    "Yönetmelikteki süre daha kısadır.",
+    "Yönetmelikteki süre daha kısadır."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 46"
+  },
+  {
+   "id": "ue-5-57",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre bir birlikte birden fazla personel bir üst veya âmire hep birlikte itaatsizlik ederse ne yapılır?",
+   "options": [
+    "Gören her üst komutayı üzerine almakla yükümlüdür.",
+    "Yalnızca birlik komutanı müdahale edebilir.",
+    "Personel kendi arasında anlaşana kadar beklenir.",
+    "Durum yalnızca yazılı olarak üst makama bildirilir.",
+    "Olay yalnızca savcılığa bildirilir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 7/5: Bir karargâh, birlik veya kurumda birden fazla personel bir üst veya âmire hep birlikte itaatsizlik veya mukavemet eder ya da bunun için ittifak ederse, düzeni sağlamak için bu hâli gören her üst emir ve komuta işini üzerine almakla yükümlüdür.",
+   "optionNotes": [
+    "",
+    "Gören her üst yükümlüdür.",
+    "Disiplinden taviz verilemez.",
+    "Yönetmelik derhâl komutanın üstlenilmesini öngörür.",
+    "Yönetmelik öncelikle düzenin sağlanmasını öngörür."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 7"
+  },
+  {
+   "id": "ue-5-58",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre aşağıdakilerden hangisi “kamu düzeni” kavramını oluşturan unsurlardan biri değildir?",
+   "options": [
+    "Ekonomik refah",
+    "Genel sağlık",
+    "Huzur ve sükûn",
+    "Emniyet ve asayiş",
+    "Genel ahlak"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 3: Kamu düzeni; emniyet ve asayiş, huzur ve sükûn, genel sağlık ve genel ahlak unsurlarından oluşan, hak ve hürriyetlerin tam olarak kullanımına elverişli ortamdır.",
+   "optionNotes": [
+    "",
+    "Yönetmelikte sayılan unsurdur.",
+    "Yönetmelikte sayılan unsurdur.",
+    "Yönetmelikte sayılan unsurdur.",
+    "Yönetmelikte sayılan unsurdur."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 3"
+  },
+  {
+   "id": "ue-5-59",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre selamlamayla ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Sivil kıyafetli olmak selam vermeye engeldir.",
+    "Selamlama sol elle yapılabilir.",
+    "Araç süren personel selamlama yapmaz.",
+    "Üstler astlardan önce selam verir.",
+    "Selamlama gecikirse hiç yapılmaz."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 18: Astlar üstlerden önce selam verir; sivil kıyafet selama engel değildir; selamlama gecikmiş olsa bile yapılır ve görmemek mazeret değildir. Elle selam sağ elle verilir. Araç süren rütbeli personel selamlama yapmaz, araçtaki diğer personel selamlar.",
+   "optionNotes": [
+    "Sivil kıyafet selam verilmesine mani değildir.",
+    "Elle selamlama sağ elle yapılır.",
+    "",
+    "Astlar üstlerden önce selam verir.",
+    "Gecikmiş bile olsa yapılır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 18"
+  },
+  {
+   "id": "ue-5-60",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarmanın güvenliğini sağladığı bina ve tesislere girmek isteyenler hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Üst kontrolü yalnızca hâkim kararıyla yapılır.",
+    "Kimliklerini sorulmaksızın ibraz etmek zorundadırlar.",
+    "Eşyalarının kontrolü için mülki amir emri gerekir.",
+    "Kontrol yalnızca el ile yapılabilir; cihaz kullanılamaz.",
+    "Yalnızca jandarma isterse kimlik gösterirler."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 47/7: Jandarma, güvenliğini sağladığı bina ve tesislere gelenlerin herhangi bir emir veya karara bakılmaksızın üstünü, aracını ve eşyasını teknik cihazlarla, gerektiğinde el ile kontrol etmeye yetkilidir. Bu yerlere girmek isteyenler kimliklerini sorulmaksızın ibraz etmek zorundadır.",
+   "optionNotes": [
+    "Herhangi bir emir veya karar aranmaz.",
+    "",
+    "Bu yerlerde emir veya karar aranmaz.",
+    "Teknik cihazlarla kontrol esastır.",
+    "Kimlik sorulmaksızın ibraz edilir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 47"
+  },
+  {
+   "id": "ue-5-61",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre resmî kıyafet ile hangi takı kullanılabilir?",
+   "options": [
+    "Gümüş künye bilezik ve zincir kolye",
+    "Her türlü yüzük",
+    "Kolye",
+    "Deri veya metal bileklik",
+    "Nişan, evlilik veya devre yüzüğü"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 15/9-ç: Resmî kıyafet ile nişan, evlilik ve devre yüzüğü dışında yüzük, bileklik ve kolye kullanılmaz.",
+   "optionNotes": [
+    "Resmî kıyafetle kullanılmaz.",
+    "Yalnızca nişan, evlilik ve devre yüzüğü kullanılabilir.",
+    "Resmî kıyafetle kullanılmaz.",
+    "Resmî kıyafetle kullanılmaz.",
+    ""
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 15"
+  },
+  {
+   "id": "ue-5-62",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre hükümlü ve tutuklular Cumhuriyet savcısı, hâkim veya mahkeme önüne götürüldüğünde takılı inzibat aletleri hakkında ne yapılır?",
+   "options": [
+    "Daha sıkı inzibat aletleri takılır.",
+    "Takılı kalır; yalnızca hâkim isterse çıkarılır.",
+    "Çıkarılır; bağlı olmadan girmeleri sağlanır.",
+    "Hükümlü huzura hiç çıkarılmaz.",
+    "Yalnızca kadın hükümlülerin aletleri çıkarılır."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 25/3: Hükümlü ve tutuklular Cumhuriyet savcısı, hâkim veya mahkeme önüne götürüldüğünde inzibat aletleri takılmışsa çıkarılır ve bağlı olmadan girmeleri sağlanır. Çıkışta mevzuat kapsamında yeniden takılabilir.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "Yönetmelik çıkarılmasını öngörür.",
+    "",
+    "Hükümlü huzura çıkarılır.",
+    "Kural herkes için geçerlidir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 25"
+  },
+  {
+   "id": "ue-5-63",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre yalnızca mesleki makamı nedeniyle bildiği resmî kaynak ve belgelerden yararlanarak eser yayımlamak isteyen personel ne yapmalıdır?",
+   "options": [
+    "Yazmadan önce komutanlıktan izin almalıdır.",
+    "Eser yayımlandıktan sonra komutanlığa bilgi vermelidir.",
+    "Yalnızca yayınevinden onay almalıdır.",
+    "Herhangi bir izin almasına gerek yoktur.",
+    "Eseri takma adla yayımlarsa izin gerekmez."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 22/5-b: Yalnızca mesleki makam ve mevkii itibarıyla bildiği resmî kaynak ve belgelerden yararlanarak eser yayımlamak isteyen personel, eserini yazmadan önce ilgisine göre Jandarma Genel Komutanlığı veya Sahil Güvenlik Komutanlığından izin almalıdır. Personel, adı bulunsun bulunmasın yayımladığı eserden tamamen sorumludur.",
+   "optionNotes": [
+    "",
+    "İzin eser yazılmadan önce alınır.",
+    "Yönetmelik ilgili komutanlıktan izin alınmasını öngörür.",
+    "Resmî kaynaklı eserler için izin zorunludur.",
+    "Personel adı bulunsun veya bulunmasın eserinden sorumludur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 22"
+  },
+  {
+   "id": "ue-5-64",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre aşağıdakilerden hangisi umuma açık istirahat ve eğlence yeri sayılmaz?",
+   "options": [
+    "Otel ve pansiyon",
+    "İnternet salonu",
+    "İçkili lokanta",
+    "Düğün salonu",
+    "Kahvehane ve kıraathane"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 19/1: Otel, motel, pansiyon, içkili yerler, sinema, kahvehane, kıraathane, elektronik oyun yerleri ve internet salonları umuma açık istirahat ve eğlence yeridir. Yönetmelik, düğün salonlarının dışındaki eğlenme amaçlı ticari yerleri bu kapsama alır.",
+   "optionNotes": [
+    "Yönetmelikte açıkça sayılır.",
+    "Yönetmelikte açıkça sayılır.",
+    "Yönetmelikte açıkça sayılır.",
+    "",
+    "Yönetmelikte açıkça sayılır."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 19"
+  },
+  {
+   "id": "ue-5-65",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre aşağıdakilerden hangisine cephe selamı verilmez?",
+   "options": [
+    "Cenazeye",
+    "Yabancı devlet başkanına",
+    "Sancağa",
+    "Cumhurbaşkanına",
+    "Kurum müdürüne"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 18/10: Cumhurbaşkanına, sancağa, yabancı devlet başkanları ile sancaklarına ve cenazeye karşı cephe selamı verilir. Bayrak çekilir ve indirilirken de cephe alınarak selamlanır.",
+   "optionNotes": [
+    "Cephe selamı verilir.",
+    "Cephe selamı verilir.",
+    "Cephe selamı verilir.",
+    "Cephe selamı verilir.",
+    ""
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 18"
+  },
+  {
+   "id": "ue-5-66",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre aşağıdakilerden hangisi jandarma taşra teşkilatı birimlerinden biridir?",
+   "options": [
+    "Jandarma Komando Özel Asayiş ve Kurtarma Tugay Komutanlığı",
+    "Teftiş Kurulu Başkanlığı",
+    "Kriminal Daire Başkanlığı",
+    "Personel Başkanlığı",
+    "İlçe jandarma komutanlıkları"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 5: Taşra teşkilatı; jandarma bölge, il ve ilçe jandarma komutanlıkları ile komando ve asayiş komando birlikleridir. Kriminal, Personel ve Teftiş Kurulu başkanlıkları merkez teşkilatındadır; JÖAK ise doğrudan merkeze bağlıdır.",
+   "optionNotes": [
+    "Doğrudan merkeze bağlı birimdir.",
+    "Merkez teşkilatı birimidir.",
+    "Merkez teşkilatı birimidir.",
+    "Merkez teşkilatı birimidir.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 5"
+  },
+  {
+   "id": "ue-5-67",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre soruşturma evresinde ifade alma sırasında en çok kaç müdafi hazır bulunabilir?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 20 ve 21: Şüpheli soruşturma ve kovuşturmanın her aşamasında bir veya birden fazla müdafiden yararlanabilir. Ancak soruşturma evresinde ifade almada en çok üç müdafi hazır bulunabilir.",
+   "optionNotes": [
+    "İfade almada en çok 3 müdafi bulunabilir.",
+    "İfade almada en çok 3 müdafi bulunabilir.",
+    "İfade almada en çok 3 müdafi bulunabilir.",
+    "İfade almada en çok 3 müdafi bulunabilir.",
+    "İfade almada en çok 3 müdafi bulunabilir."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 20, 21"
+  },
+  {
+   "id": "ue-5-68",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre ihtiyaç üzerine emniyet, asayiş ve kamu düzeninin korunması amacıyla geçici olarak teşkil edilen jandarma birimi nasıl kurulur?",
+   "options": [
+    "İl genel meclisi kararıyla",
+    "Jandarma Genel Komutanının emriyle",
+    "İçişleri Bakanının onayıyla",
+    "Cumhuriyet başsavcısının talimatıyla",
+    "Mülki amirin onayıyla"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 3: Jandarma hizmet merkezi, ihtiyaç üzerine mülki amirin onayıyla geçici olarak teşkil edilen jandarma birimidir. Md. 6'ya göre geçici asayiş karakolları ile hizmet merkezleri il jandarma komutanının önerisi üzerine valinin onayıyla teşkil edilir.",
+   "optionNotes": [
+    "Meclisin böyle bir yetkisi yoktur.",
+    "Yönetmelik bu birim için mülki amir onayını öngörür.",
+    "Bu birim için Bakan onayı aranmaz.",
+    "Savcının böyle bir yetkisi yoktur.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 3, 6"
+  },
+  {
+   "id": "ue-5-69",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre tanık, hangi nitelikteki sorulara cevap vermekten çekinebilir?",
+   "options": [
+    "Yalnızca adres bilgisine ilişkin sorulara",
+    "Tüm sorulara, hiçbir sebep göstermeden",
+    "Olayın oluş saatine ve olay yerindeki kişilere ilişkin sorulara",
+    "Kendisini veya yakınlarını suçlayabilecek sorulara",
+    "Olay yerinin tarifine ilişkin sorulara"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 48: Tanık, kendisini veya 45. maddede belirtilen yakınlarını ceza kovuşturmasına uğratabilecek nitelikteki sorulara cevap vermekten çekinebilir. Bu hak tanığa bildirilir.",
+   "optionNotes": [
+    "Kimlik soruları cevaplanmak zorundadır.",
+    "Çekinme yalnızca kanunda belirtilen sorular içindir.",
+    "Bu tür sorulardan çekinme hakkı yoktur.",
+    "",
+    "Bu tür sorulardan çekinme hakkı yoktur."
+   ],
+   "source": "5271 sayılı Kanun md. 48"
+  },
+  {
+   "id": "ue-5-70",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre emirlerin silsileye uyulmadan verilmesi hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Hiçbir durumda silsile atlanamaz.",
+    "Acele hâllerde; atlanan kademeye bilgi verilir.",
+    "Silsile atlandığında emir geçersiz olur.",
+    "Emri alan ast, kendi âmirine bilgi vermez.",
+    "Silsileyi atlayan âmire disiplin cezası verilir."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 10/7: Emirler kural olarak birbirine bağlı âmirlerce silsile ile verilir. Acele ve zorunlu hâllerde bu sıraya uyulmadan emir verilebilir; emri veren âmir atlanan kademelere en kısa zamanda bilgi verir, emri alan maiyet de âmirini haberdar eder.",
+   "optionNotes": [
+    "Acele ve zorunlu hâllerde silsile atlanabilir.",
+    "",
+    "Emir geçerlidir; atlanan kademelere bilgi verilir.",
+    "Emri alan maiyet de âmirini haberdar eder.",
+    "Yönetmelikte böyle bir hüküm yoktur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 10"
+  },
+  {
+   "id": "ue-5-71",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre gözaltına alınan kişinin yakalama yerine en yakın hâkim veya mahkemeye gönderilmesi için gerekli zorunlu süre en fazla ne kadar olabilir?",
+   "options": [
+    "Kırk sekiz saat",
+    "Altı saat",
+    "Süre sınırı yoktur",
+    "Yirmi dört saat",
+    "On iki saat"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 13: Gözaltı süresi, en yakın hâkime gönderme için zorunlu süre hariç, yakalama anından itibaren 24 saati geçemez. En yakın hâkim veya mahkemeye gönderilme için zorunlu süre de on iki saatten fazla olamaz.",
+   "optionNotes": [
+    "Yönetmelikteki süre daha kısadır.",
+    "Yönetmelikteki süre daha uzundur.",
+    "Yönetmelik azami süre öngörür.",
+    "Bu, gözaltının temel süresidir; yol için zorunlu süre ayrıca hesaplanır.",
+    ""
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 13"
+  },
+  {
+   "id": "ue-5-72",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre kişisel koruma ve kollama görevi hangi durumda yerine getirilir?",
+   "options": [
+    "Yalnızca Cumhuriyet savcısının talimatıyla",
+    "Kişinin ücret ödemesi şartıyla",
+    "Özel hüküm veya mülki amir emri varsa",
+    "Kişinin dilekçe vermesi hâlinde her zaman",
+    "Hiçbir durumda yerine getirilmez"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 13: Halkın can, ırz ve malının korunmasında genel ve koruyucu önlemler alınması esastır. Kişisel koruma ve kollama ancak mevzuatta özel hüküm bulunması veya özel nitelik taşıyan durumlarda yetkili mülki amirin emriyle yerine getirilir.",
+   "optionNotes": [
+    "Yönetmelik mülki amirin emrini arar.",
+    "Kolluk hizmeti ücret karşılığı verilmez.",
+    "",
+    "Kişisel koruma talebe bağlı olarak verilmez.",
+    "Yönetmelik belirli şartlarla kişisel korumaya izin verir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 13"
+  },
+  {
+   "id": "ue-5-73",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre izinlerle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İzin yılı personelin göreve başlama tarihinden başlar.",
+    "Âmir, personeli izinden feragat etmeye yönlendirebilir.",
+    "İzin yılı her yıl Haziran ayında başlar.",
+    "İzne giden personelin adres bildirmesi gerekmez.",
+    "İzin yılı her senenin ilk ayından başlar."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 14: İzin yılı her senenin ilk ayından itibaren başlar. İzinler önceden planlanır; âmir personeli izin hakkından feragat etmeye yönlendirecek tavırda bulunamaz. İzne giden personel adresini ve iletişim bilgilerini âmirine bildirir.",
+   "optionNotes": [
+    "İzin yılı her yılın ilk ayından başlar.",
+    "Yönetmelik bunu açıkça yasaklar.",
+    "İzin yılı her yılın ilk ayından başlar.",
+    "Adres ve iletişim bilgisi bildirilir.",
+    ""
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 14"
+  },
+  {
+   "id": "ue-5-74",
+   "subject": "Mevzuat",
+   "text": "5271 sayılı CMK'ya göre duruşmada ortaya konulan delil kanuna aykırı olarak elde edilmişse ne yapılır?",
+   "options": [
+    "Delil hâkimin takdirine göre kullanılır.",
+    "Delil yalnızca sanık lehineyse kabul edilir.",
+    "Delil bilirkişi incelemesinden sonra kullanılır.",
+    "Delil reddolunur.",
+    "Delil hükme esas alınır."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 206/2-a: Ortaya konulan delil kanuna aykırı olarak elde edilmişse reddolunur. Md. 217/2'ye göre yüklenen suç ancak hukuka uygun şekilde elde edilmiş her türlü delille ispat edilebilir.",
+   "optionNotes": [
+    "Kanun açıkça reddi öngörür.",
+    "Kanun bu ayrımı yapmaz.",
+    "Kanuna aykırılık bilirkişiyle giderilemez.",
+    "",
+    "Kanuna aykırı delil hükme esas alınamaz."
+   ],
+   "source": "5271 sayılı Kanun md. 206, 217"
+  },
+  {
+   "id": "ue-5-75",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre suç sebebiyle yakalanan çocuklarla ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İşlemler mutlaka resmî kıyafetli görevlilerce yapılır.",
+    "Müdafi ancak çocuk açıkça isterse ve velisi onaylarsa görevlendirilir.",
+    "Kaçma riski olmasa da her durumda kelepçe takılır.",
+    "Çocuğun kimliği basına açıklanabilir.",
+    "Kelepçe takılamaz; işlemler mümkünse sivil kıyafetle yapılır."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 19: Çocuklara kelepçe ve benzeri aletler takılamaz; zorunlu hâllerde kaçmayı veya tehlikeyi önlemek için gerekli tedbirler alınır. İşlemler mümkün olduğunca sivil kıyafetli görevlilerce yapılır, çocuğun kimliği gizli tutulur ve çocuk talebi olmasa da müdafiden yararlandırılır.",
+   "optionNotes": [
+    "Mümkün olduğunca sivil kıyafetli görevlilerce yapılır.",
+    "Çocuk talebi olmasa da müdafiden yararlandırılır.",
+    "Çocuklara kelepçe ve benzeri aletler takılamaz.",
+    "Çocukların kimlikleri ve eylemleri gizli tutulur.",
+    ""
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 19"
+  },
+  {
+   "id": "ue-5-76",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre afet bölgelerinde veya civarında bulunan birlik komutanları, vali veya kaymakamlarca istenen yardımları nasıl yerine getirir?",
+   "options": [
+    "Yalnızca Bakan onayından sonra",
+    "Üstlerinden emir beklemeksizin ve gecikmeksizin",
+    "Yalnızca kendi personeli etkilenmişse",
+    "Ancak Jandarma Genel Komutanlığının yazılı emriyle",
+    "Ancak afet resmen ilan edildikten bir gün sonra"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 32: Birlik komutanları afet ve acil durumları mahallin en büyük mülki amirine haber vermekten sorumludur. Afet bölgesindeki komutanlar vali veya kaymakamın istediği yardımları üstlerinden emir beklemeksizin ve gecikmeksizin yerine getirir, sonra sıralı amirlerine bildirir.",
+   "optionNotes": [
+    "Yönetmelik emir beklenmemesini öngörür.",
+    "",
+    "Yönetmelikte böyle bir sınırlama yoktur.",
+    "Yönetmelik emir beklenmemesini öngörür.",
+    "Yardım gecikmeksizin yapılır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 32"
+  },
+  {
+   "id": "ue-5-77",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre önleme araması aşağıdaki yerlerin hangisinde yapılamaz?",
+   "options": [
+    "Toplantı ve gösteri yürüyüşü yerinin yakın çevresinde",
+    "Toplu taşıma araçlarında",
+    "Halkın topluca bulunduğu yerlerde",
+    "Umumi veya umuma açık yerlerde",
+    "Konutta"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 47/5: Konutta, yerleşim yerinde ve kamuya açık olmayan iş yerlerinde ve eklentilerinde önleme araması yapılamaz. Spor karşılaşması, miting, konser ve festival gibi hâllerde ise gecikmesinde sakınca bulunan hâl var sayılır.",
+   "optionNotes": [
+    "Önleme araması yapılabilir.",
+    "Önleme araması yapılabilir.",
+    "Önleme araması yapılabilir.",
+    "Önleme araması yapılabilir.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 47"
+  },
+  {
+   "id": "ue-5-78",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre astın aldığı emirle ilgili tutumu hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Emri uygun bulmadığını hareketleriyle belli edebilir.",
+    "Emri değiştirerek uygulayabilir.",
+    "Emre mütalaa etmez, mırıldanmaz.",
+    "Emri beğenmezse uygulamayı erteleyebilir.",
+    "Emri ancak sivil kıyafetli âmirden almışsa uygular."
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 8: Ast, âmirlerinin usulüne uygun emirlerini tam, zamanında, değiştirmeden ve eksiksiz yerine getirir. Aldığı bir emirden dolayı âmirine mütalaada bulunmaz, emri alırken veya aldıktan sonra mırıldanmaz, doğru bulmadığını sezdirecek hâl ve harekette bulunmaz.",
+   "optionNotes": [
+    "Yönetmelik bunu açıkça yasaklar.",
+    "Emirler değiştirilmeden yerine getirilir.",
+    "",
+    "Usulüne uygun emir tam ve zamanında yerine getirilir.",
+    "Emir resmî veya sivil kıyafetli olarak verilebilir."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 8"
+  },
+  {
+   "id": "ue-5-79",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre nezarethane işlemlerinde aşağıdakilerden hangisi bir arada bulundurulabilir?",
+   "options": [
+    "Kadın ve erkek şüpheliler",
+    "Birbirine hasım olan kişiler",
+    "Çocuk ve yetişkin şüpheliler",
+    "Farklı olaylardan iki yetişkin erkek",
+    "Aynı suçla ilgisi olan yetişkin şüpheliler"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 11: Aynı suçla ilgisi olanlar delilleri karartmamaları için, birbirine hasım olanlar güvenlik için, kadın ve erkekler mahremiyet için bir araya konulmaz; çocuklar yetişkinlerden ayrı tutulur.",
+   "optionNotes": [
+    "Bir araya konulmaz.",
+    "Bir araya konulmaz.",
+    "Çocuklar yetişkinlerden ayrı tutulur.",
+    "",
+    "Bir araya konulmaz."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 11"
+  },
+  {
+   "id": "ue-5-80",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre ast, Anayasa ve mevzuata aykırı gördüğü emri yerine getirmez ve bunu emri verene bildirir. Âmir emrinde ısrar edip emri yazılı olarak yinelerse ne olur?",
+   "options": [
+    "Emir yalnızca savcının onayıyla yerine getirilir.",
+    "Ast derhâl istifa etmek zorundadır.",
+    "Emir yine de yerine getirilmez.",
+    "Emir yerine getirilir; sorumluluk verene aittir.",
+    "Ast emri yerine getirir ve sorumluluk asta ait olur."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 10/3-4: Âmir ısrar eder ve emri yazıyla yinelerse emir yerine getirilir; sorumluluk emri verene aittir ve durum emri veren âmirin bir üst âmirine bildirilir. Ancak konusu suç teşkil eden emir hiçbir surette yerine getirilmez; yerine getiren sorumluluktan kurtulamaz.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir şart yoktur.",
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "Yazılı tekrar hâlinde emir yerine getirilir (konusu suç değilse).",
+    "",
+    "Sorumluluk emri veren âmire aittir."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 10"
+  },
+  {
+   "id": "ue-5-81",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre düğün, nişan, konser, panayır ve festival gibi toplanmalarda ilgililer kamu düzeni tedbirleri için ne yapmak zorundadır?",
+   "options": [
+    "15 gün önce valilikten izin belgesi almak",
+    "48 saat önce mülki amire bildirimde bulunmak",
+    "24 saat önce jandarma karakoluna dilekçe vermek",
+    "Herhangi bir bildirimde bulunmamak",
+    "Bir hafta önce belediyeden izin almak"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 21/2: Düğün, nişan, konser, panayır, festival ve benzeri toplanmalarda kamu düzeninin korunmasına yönelik tedbirlerin alınabilmesi için ilgililer kırk sekiz saat önce mülki amire bildirimde bulunmak zorundadır.",
+   "optionNotes": [
+    "Yönetmelik izin değil bildirim öngörür.",
+    "",
+    "Bildirim mülki amire 48 saat önce yapılır.",
+    "Yönetmelik bildirim yükümlülüğü getirir.",
+    "Yönetmelikte öngörülen yükümlülük bu değildir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 21"
+  },
+  {
+   "id": "ue-5-82",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre bir âmirin verdiği emir yapılırken daha büyük bir âmirden önceki emre aykırı ikinci bir emir alınırsa ne yapılır?",
+   "options": [
+    "Ast iki emirden hangisini uygun görürse onu yapar.",
+    "Önceki emir bildirilir; ısrarda ikincisi yapılır.",
+    "Durum çözülene kadar personel görevden çekilir.",
+    "Her zaman ilk emir yapılır.",
+    "İki emir de yapılmaz."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 10/8: İkinci emri veren büyük âmire önceki emir bildirilir. Bu âmir emrinde ısrar ederse onun emri yapılır ve ilk emri veren âmire en kısa zamanda bilgi verilir.",
+   "optionNotes": [
+    "Yönetmelik açık bir usul öngörür.",
+    "",
+    "Yönetmelikte böyle bir hüküm yoktur.",
+    "Büyük âmir ısrar ederse onun emri yapılır.",
+    "Yönetmelikte böyle bir sonuç yoktur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 10"
+  },
+  {
+   "id": "ue-5-83",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma, mesken içinde ve dışında saat kaçtan sonra civar halkının rahat ve huzurunu bozacak şekilde gürültü yapanları men eder?",
+   "options": [
+    "22.00",
+    "21.00",
+    "24.00",
+    "23.00",
+    "20.00"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 21/1: Mesken içinde ve dışında saat yirmi dörtten sonra civar halkının rahat ve huzurunu bozacak şekilde gürültü yapanlar jandarma tarafından men olunur; dinlemeyenler hakkında 5326 ve 5237 sayılı Kanun hükümleri uygulanır.",
+   "optionNotes": [
+    "Yönetmelikte belirtilen saat 24.00'tür.",
+    "Yönetmelikte belirtilen saat daha geçtir.",
+    "",
+    "Yönetmelikte belirtilen saat 24.00'tür.",
+    "Yönetmelikte belirtilen saat daha geçtir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 21"
+  },
+  {
+   "id": "ue-5-84",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre nezarethanede zaruri hâller dışında aynı anda en fazla kaç kişi bir arada bulundurulabilir?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 11: Nezarethanede zaruri hâller dışında beşten fazla kişi bir arada bulundurulmaz. Ayrıca aynı suçla ilgisi olanlar, birbirine hasım olanlar, kadın ve erkekler bir araya konulmaz; çocuklar yetişkinlerden ayrı tutulur.",
+   "optionNotes": [
+    "Yönetmelikteki sınır 5 kişidir.",
+    "Yönetmelikteki sınır 5 kişidir.",
+    "Yönetmelikteki sınır 5 kişidir.",
+    "Yönetmelikteki sınır 5 kişidir.",
+    "Yönetmelikteki sınır 5 kişidir."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 11"
+  },
+  {
+   "id": "ue-5-85",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre emrin yazılı, sözlü veya başka usullerle verilmesinin takdiri kime aittir?",
+   "options": [
+    "Âmire",
+    "Asta",
+    "Her zaman yazılı olmak zorundadır",
+    "Mülki amire",
+    "Birlik personel şubesine"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 10/5-6: Emrin yazılı, sözlü veya sair usullerle verilme takdiri âmire aittir. Emir resmî veya sivil kıyafetli olarak verilebilir; âmir gerekirse kendini kurum kimliğiyle tanıtır.",
+   "optionNotes": [
+    "",
+    "Emir verme şeklini ast belirleyemez.",
+    "Emir sözlü veya başka usullerle de verilebilir.",
+    "Yönetmelik takdiri emri veren âmire bırakır.",
+    "Yönetmelik takdiri âmire bırakır."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 10"
+  },
+  {
+   "id": "ue-5-86",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma, aşağıdaki hâllerin hangisinde konut ve iş yerlerine girebilir?",
+   "options": [
+    "Rutin kontrol amacıyla her zaman",
+    "Seçim propagandasını denetlemek için",
+    "Komşuların sözlü şikâyeti üzerine, her durumda ve her saatte",
+    "Ev sahibinin borcunu tahsil etmek için",
+    "İmdat veya yangın gibi tehlikelerde kurtarma için"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 48: Jandarma; imdat istenmesi veya yangın, su baskını, boğulma gibi büyük tehlikelerden kişileri kurtarmak amacıyla ya da bir suçun işlenmesine veya devamına engel olmak için konutlara, iş yerlerine ve eklentilerine girebilir.",
+   "optionNotes": [
+    "Konut dokunulmazlığına aykırıdır.",
+    "Yönetmelikte böyle bir yetki yoktur.",
+    "Yalnızca yönetmelikte sayılan acele hâllerde girilebilir.",
+    "Yönetmelikte böyle bir yetki yoktur.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 48"
+  },
+  {
+   "id": "ue-5-87",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre birden fazla birliğin aynı kışla içinde bulunduğu yerlerde kışla komutanı kimdir?",
+   "options": [
+    "En kıdemli birlik komutanı veya âmir",
+    "Mülki amirin belirlediği herhangi bir subay",
+    "En genç birlik komutanı",
+    "Kışladaki en kıdemli astsubay",
+    "Her birlik komutanı sırayla birer ay"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 23/1: Birden fazla birliğin aynı kışlada bulunduğu yerlerde en kıdemli birlik komutanı, karargâh veya kurum âmiri kışla komutanıdır. Kışla komutanı emniyet, intizam ve disiplin tedbirlerini alır ve giriş-çıkışları kontrol ettirir.",
+   "optionNotes": [
+    "",
+    "Yönetmelik en kıdemliyi gösterir.",
+    "Yönetmelik kıdemi esas alır.",
+    "Yönetmelik birlik komutanı veya âmiri gösterir.",
+    "Yönetmelikte böyle bir usul yoktur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 23"
+  },
+  {
+   "id": "ue-5-88",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre sevk sırasında firara teşebbüs eden tutuklu veya hükümlüye karşı silah kullanılabilmesi için ne gerekir?",
+   "options": [
+    "Bölge komutanının yazılı emri",
+    "Hükümlünün silahlı olması",
+    "Cumhuriyet savcısından telefonla izin alınması",
+    "Önce ihtar ve başka çare kalmaması",
+    "Herhangi bir ihtar yapılmadan derhâl ateş edilmesi"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 32: Firar hazırlığından kuşkulanılırsa devriye komutanı böyle bir harekette silah kullanılacağını ihtar eder. İhtara uymayıp firara teşebbüs edilirse ve firar başka şekilde önlenemiyorsa silah kullanılır; sonuç Cumhuriyet savcılığına bildirilir.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir şart yoktur.",
+    "Yönetmelik bu şartı aramaz; ihtar ve başka çare bulunmaması aranır.",
+    "Yönetmelikte böyle bir şart yoktur.",
+    "",
+    "Önce silah kullanılacağı ihtar edilir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 32"
+  },
+  {
+   "id": "ue-5-89",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre personelin müracaat ve şikâyet hakkı ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Aynı konu ve şahısla ilgili toplu müracaat yasaktır.",
+    "Personel yalnızca toplu olarak şikâyette bulunabilir.",
+    "Personelin dava açma hakkı yoktur.",
+    "Âmiri yüzüne karşı şikâyet etmek serbesttir.",
+    "Şikâyetler yalnızca sözlü yapılabilir."
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 11: Personel müracaat, şikâyet ve dava açma hakkına sahiptir. Aynı konu ve şahısla ilgili toplu olarak söz veya yazıyla müracaat yasaktır; her biri ayrı ayrı şikâyet hakkını kullanabilir. Âmiri yüzüne karşı şikâyet etmek veya şikâyet edeceğini söyleyerek dedikodu yapmak cezayı gerektirir.",
+   "optionNotes": [
+    "",
+    "Toplu müracaat yasaktır; her biri ayrı ayrı başvurur.",
+    "Personelin şikâyet ve dava açma hakkı vardır.",
+    "Yönetmeliğe göre bu davranış cezayı gerektirir.",
+    "Yönetmelikte böyle bir sınırlama yoktur."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 11"
+  },
+  {
+   "id": "ue-5-90",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre “Devlet ve yetkili diğer kamu tüzel kişilerince özel kanunlar çerçevesinde kurulan, kendi görev alanında güvenliği sağlama amacı taşıyan ve jandarma, sahil güvenlik ve polis dışındaki kolluk birimleri” aşağıdakilerden hangisidir?",
+   "options": [
+    "Genel kolluk",
+    "Özel güvenlik",
+    "Jandarma hizmet merkezi",
+    "Özel kolluk",
+    "Adli kolluk"
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 3: Özel kolluk, özel kanunlarla kurulan ve kendi görev alanında güvenliği sağlayan, jandarma, sahil güvenlik ve polis dışındaki kolluk birimleridir (örneğin gümrük muhafaza). Genel kolluk ise jandarma, sahil güvenlik ve polistir.",
+   "optionNotes": [
+    "Jandarma, sahil güvenlik ve polisi ifade eder.",
+    "5188 sayılı Kanun'a göre kurulan, kolluk niteliği taşımayan güvenlik birimidir.",
+    "Mülki amir onayıyla geçici olarak kurulan jandarma birimidir.",
+    "",
+    "Soruşturma işlemlerini yapan kolluk görevlilerini ifade eder."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 3"
+  },
+  {
+   "id": "ue-5-91",
+   "subject": "Mevzuat",
+   "text": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği'ne göre gözaltı birimine getirilen kişi nezarethaneye konulmadan önce hangi eşyalardan arındırılır?",
+   "options": [
+    "Yalnızca cep telefonu ve kimlik kartından",
+    "Kemer, kravat, ip ve kesici aletlerden",
+    "Yalnızca kimlik kartından",
+    "Giydiği tüm kıyafetlerden",
+    "Hiçbir eşyası alınmaz"
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 10: Gözaltı birimine getirilen kişi nezarethaneye konulmadan önce usulünce aranır; kendisine zarar verebilecek kemer, kravat, ip, kesici ve delici aletlerden arındırılır. Üzerinden çıkan eşya ve para tutanakla muhafaza altına alınır ve tutanağın bir sureti kişiye verilir.",
+   "optionNotes": [
+    "Yönetmelik kendisine zarar verebilecek eşyaları sayar.",
+    "",
+    "Yönetmelik kendisine zarar verebilecek eşyaları sayar.",
+    "Kişi giysilerinden arındırılmaz; zarar verebilecek eşyalar alınır.",
+    "Yönetmelik güvenlik araması öngörür."
+   ],
+   "source": "Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği md. 10"
+  },
+  {
+   "id": "ue-5-92",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre ödüllendirmeyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Ödül mümkün olduğunca gizli verilmelidir.",
+    "Ödüllendirilen sayısı arttıkça ödülün değeri artar.",
+    "Görevini yapan herkese ödül verilmelidir.",
+    "Ödül, disiplin cezalarına göre belirlenir.",
+    "Sadece görevi yaptığı için ödül vermek aşırılıktır."
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 12: Personel görevini tam ve vaktinde yapmakla yükümlüdür; bu nedenle “görevini yapmıştır” gerekçesiyle ödül dağıtmak aşırıya kaçmaktır. Ödüller mümkün olduğunca arkadaşların huzurunda verilir ve sistem disiplin cezalarından bağımsız işler.",
+   "optionNotes": [
+    "Mümkün olduğunca mesai arkadaşlarının huzurunda verilir.",
+    "Aşırı sayıda ödül, ödülün değerini düşürür.",
+    "Görevini yapmak zaten yükümlülüktür.",
+    "Ödül sistemi disiplin cezalarından bağımsızdır.",
+    ""
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 12"
+  },
+  {
+   "id": "ue-5-93",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma karakollarının sorumluluk bölgeleri ve konuş yerleri nasıl belirlenir?",
+   "options": [
+    "Bölge vali onayıyla, konuş yeri Bakan onayıyla",
+    "Her ikisi de il jandarma komutanının onayıyla",
+    "Sorumluluk bölgesi belediye, konuş yeri il özel idaresince",
+    "Sorumluluk bölgesi kaymakam, konuş yeri vali onayıyla",
+    "Her ikisi de Jandarma Genel Komutanının onayıyla"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 6/7: Karakolların sorumluluk bölgeleri il jandarma komutanının önerisi üzerine valinin onayıyla, konuş yerleri ise Bakan onayıyla belirlenir.",
+   "optionNotes": [
+    "",
+    "Komutan yalnızca öneride bulunur.",
+    "Yerel yönetimlerin böyle bir yetkisi yoktur.",
+    "Yönetmelikte bu makamlar gösterilmemiştir.",
+    "Yönetmelikte bu makam gösterilmemiştir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 6"
+  },
+  {
+   "id": "ue-5-94",
+   "subject": "Mevzuat",
+   "text": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik'e göre “kadro ve kuruluş yönünden bağlı olunan kimse ile âmir olarak yetkilendirilmiş olan diğer personel” aşağıdakilerden hangisidir?",
+   "options": [
+    "Maiyet",
+    "Makam",
+    "Âmir",
+    "Üst",
+    "Ast"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 4: Âmir, kadro ve kuruluş yönünden bağlı olunan kişidir. Üst ise yalnızca rütbe veya kıdemce büyük olan kişidir. Her âmir üsttür; ama her üst âmir değildir.",
+   "optionNotes": [
+    "Âmirin emir ve komutası altındaki personeldir.",
+    "Her âmirin temsil ettiği mevkidir.",
+    "",
+    "Rütbe veya kıdemce büyük olan kimsedir; bağlı olunan kişi olması gerekmez.",
+    "Rütbe veya kıdemce küçük olan personeldir."
+   ],
+   "source": "Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik md. 4"
+  },
+  {
+   "id": "ue-5-95",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma, sorumluluk alanı içinde bir suçla karşılaştığında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yalnızca şikâyet varsa el koyabilir.",
+    "Yalnızca görev saatleri içinde el koyabilir.",
+    "Yalnızca asayiş branşındaki personel el koyabilir.",
+    "Branş, yer ve zaman ayrımı olmadan el koyar.",
+    "Önce komutandan yazılı emir beklemelidir."
+   ],
+   "answerIndex": 3,
+   "explanation": "Md. 50/1: Jandarma, sorumluluk alanı içinde hizmet branşı, yeri ve zamanına bakılmaksızın bir suçla karşılaştığında olaya el koymak, suçu önlemek, şüpheli ve suç delillerini tespit ve muhafaza edip yetkili kolluğa teslim etmekle görevli ve yetkilidir.",
+   "optionNotes": [
+    "Suçla karşılaşılması yeterlidir.",
+    "Yönetmelik zaman ayrımı yapmaz.",
+    "Yönetmelik branş ayrımı yapmaz.",
+    "",
+    "Yönetmelik doğrudan el koyma görevi verir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 50"
+  },
+  {
+   "id": "ue-5-96",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma, bar, pavyon, meyhane, kıraathane ve internet salonu gibi yerlere hangi kişilerin girmesini engeller?",
+   "options": [
+    "Yabancı uyruklu kişilerin",
+    "65 yaşından büyüklerin",
+    "Veli yanında olsa bile 18 yaşından küçüklerin",
+    "Yalnızca 15 yaşından küçüklerin",
+    "Yalnızca yanlarında velisi olmayan 18 yaşından küçüklerin"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 45/3: Jandarma; bar, pavyon, gazino, meyhane gibi içkili yerler ile kıraathane, internet salonu ve benzeri yerlere yanlarında veli ve vasileri olsa bile on sekiz yaşını doldurmamış küçüklerin girmesini engeller. Belgeli turizm işletmelerine ilişkin hükümler saklıdır.",
+   "optionNotes": [
+    "Yönetmelikte böyle bir sınırlama yoktur.",
+    "Yönetmelikte böyle bir sınırlama yoktur.",
+    "",
+    "Yönetmelikteki sınır 18 yaştır.",
+    "Yönetmelik veli yanında olsa bile engeller."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 45"
+  },
+  {
+   "id": "ue-5-97",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ndeki tanıma göre aşağıdakilerden hangisi “kapalı yer” sayılmaz?",
+   "options": [
+    "Herkese açık bir şehir parkı",
+    "Deniz aracında şahsi kullanılan kamara",
+    "İş yeri ve eklentileri",
+    "Konut ve eklentileri",
+    "Etrafı duvarla çevrili bir depo"
+   ],
+   "answerIndex": 0,
+   "explanation": "Md. 3: Kapalı yerler; konut, iş yerleri ve eklentileri ile zilyedinin rızası olmadan girilmemesi gerektiğini belirten şekilde çit, duvar, parmaklık gibi engellerle çevrili yerlerdir (depo, ardiye, kamara gibi). Herkese açık park bu kapsamda değildir.",
+   "optionNotes": [
+    "",
+    "Tanımda açıkça sayılır.",
+    "Tanımda açıkça sayılır.",
+    "Tanımda açıkça sayılır.",
+    "Tanımda açıkça sayılır."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 3"
+  },
+  {
+   "id": "ue-5-98",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre tutuklu ve hükümlülerin sevk ve nakillerinde hangi araçlar kullanılmaz?",
+   "options": [
+    "Kamuya ait kitle ulaşım araçları",
+    "Toplu taşıma araçları",
+    "İhtiyaç hâlinde uçak",
+    "Ceza infaz kurumu araçları",
+    "Jandarmaya ait hizmet araçları"
+   ],
+   "answerIndex": 4,
+   "explanation": "Md. 27: Sevklerin ceza infaz kurumu araçlarıyla yapılması esastır. Bunlar yoksa kamuya ait kitle ulaşım veya toplu taşıma araçlarından yararlanılır; ihtiyaç hâlinde uçak kullanılabilir. Jandarmaya ait hizmet araçları sevklerde kullanılmaz.",
+   "optionNotes": [
+    "Kurum aracı yoksa öncelikle kullanılır.",
+    "Kurum aracı yoksa kullanılabilir.",
+    "Yönetmelik ihtiyaç hâlinde uçakla sevke izin verir.",
+    "Sevkin bu araçlarla yapılması esastır.",
+    ""
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 27"
+  },
+  {
+   "id": "ue-5-99",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre sevk edilecek tutuklu ve hükümlülerin üzerinden alınan para ve kıymetli eşya için ne yapılır?",
+   "options": [
+    "Hiçbir kayıt tutulmadan alınır.",
+    "Alındı belgesi kendilerine verilir.",
+    "Kişinin kendi üzerinde bırakılır.",
+    "Derhâl ailelerine teslim edilir.",
+    "Jandarma birliğinde süresiz saklanır."
+   ],
+   "answerIndex": 1,
+   "explanation": "Md. 28: Teslim alma sırasında üst araması yapılır; silah, kaçmaya yardım edecek alet, para ve kıymetli eşya alınır. Cins ve miktarını gösteren alındı belgesi tutuklu ve hükümlüye verilir. Sevk yerinde eşya tutanakla ilgili kurum yetkililerine teslim edilir.",
+   "optionNotes": [
+    "Alınan eşya için belge verilmesi zorunludur.",
+    "",
+    "Güvenlik için alınır.",
+    "Eşya sevk edilen yerde ilgili kurum yetkililerine teslim edilir.",
+    "Sevk yerinde tutanakla teslim edilir."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 28"
+  },
+  {
+   "id": "ue-5-100",
+   "subject": "Mevzuat",
+   "text": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği'ne göre jandarma sorumluluk alanındaki umuma açık istirahat ve eğlence yerlerinin ruhsatı için jandarma, genel güvenlik ve asayiş açısından görüşünü kaç gün içinde verir?",
+   "options": [
+    "3",
+    "5",
+    "7",
+    "10",
+    "15"
+   ],
+   "answerIndex": 2,
+   "explanation": "Md. 19/3: Ruhsat, jandarmanın görüşü alındıktan sonra belediye ve mücavir alan içinde belediyelerce, dışında il özel idarelerince verilir. Jandarma görüşünü yedi gün içinde verir; izinsiz açılan yerler kapatılır.",
+   "optionNotes": [
+    "Görüş süresi 7 gündür.",
+    "Görüş süresi 7 gündür.",
+    "Görüş süresi 7 gündür.",
+    "Görüş süresi 7 gündür.",
+    "Görüş süresi 7 gündür."
+   ],
+   "source": "Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği md. 19"
+  }
+ ]
+}

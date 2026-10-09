@@ -40,18 +40,30 @@ export type Announcement = {
   important?: boolean;
 };
 
+export type Subject = 'Türkçe' | 'Tarih' | 'Anayasa' | 'Güncel' | 'Muhakeme' | 'Mevzuat';
+
+/** JSPS soruları her zaman 5 şıklıdır (A–E). */
+export type Options = [string, string, string, string, string];
+
 export type Question = {
   id: string;
+  subject: Subject;
+  topic?: string;
+  /** Birden fazla soruya ait ortak okuma parçası */
+  passage?: string;
   text: string;
-  options: string[];
+  options: Options;
   answerIndex: number;
   explanation?: string;
+  /** Her şık için neden yanlış/doğru olduğuna dair kısa not */
+  optionNotes?: string[];
+  /** Kaynak madde, ör. "5271 sayılı Kanun md. 91" */
+  source?: string;
 };
 
 export type PracticeExam = RankScoped & {
   id: string;
   title: string;
-  subject: string;
   durationMinutes: number;
   questions: Question[];
 };
