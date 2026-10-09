@@ -18,13 +18,17 @@ const notWord = `(?:^|[^${W}])`;
 const endWord = `(?![${W}])`;
 
 const matchers = legislation.map((law) => {
-  const names = [law.number, ...(law.aliases ?? [])].map(escape).join('|');
-  // Metinde yalnızca "NNNN sayılı" ve büyük harfli kısaltmalar (CMK, TCK…) aranır.
-  const caps = (law.aliases ?? []).filter((a) => /^[A-ZÇĞİÖŞÜ]{3,}$/.test(a)).map(escape);
+  const names = [law.number, ...(law.aliases ?? [])].filter((n): n is string => !!n).map(escape);
+  // Kanunlarda metinde yalnızca "NNNN sayılı" ve büyük harfli kısaltmalar (CMK, TCK…) aranır;
+  // yönetmelik adları zaten ayırt edicidir, hepsi aranır.
+  const textNames =
+    law.category === 'Yönetmelik'
+      ? (law.aliases ?? []).map(escape)
+      : [`${law.number} sayılı`, ...(law.aliases ?? []).filter((a) => /^[A-ZÇĞİÖŞÜ]{3,}$/.test(a)).map(escape)];
   return {
     law,
-    source: new RegExp(`${notWord}(?:${names})${endWord}`),
-    text: new RegExp(`${notWord}(?:${law.number} sayılı${caps.length ? `|${caps.join('|')}` : ''})${endWord}`),
+    source: new RegExp(`${notWord}(?:${names.join('|')})${endWord}`),
+    text: new RegExp(`${notWord}(?:${textNames.join('|')})${endWord}`),
   };
 });
 
@@ -36,7 +40,10 @@ function locate(q: Question): { law: Legislation; article?: string } | undefined
     let best: { law: Legislation; index: number; end: number } | undefined;
     for (const m of matchers) {
       const r = m[kind].exec(s);
-      if (r && (!best || r.index < best.index)) best = { law: m.law, index: r.index, end: r.index + r[0].length };
+      if (!r) continue;
+      const end = r.index + r[0].length;
+      // En önce geçen kazanır; aynı yerde başlıyorsa uzun olan ("6284 Uyg. Yön." > "6284").
+      if (!best || r.index < best.index || (r.index === best.index && end > best.end)) best = { law: m.law, index: r.index, end };
     }
     return best && { law: best.law, article: articleAfter(s.slice(best.end)) };
   };
@@ -98,7 +105,8 @@ export function lawExam(id: string): PracticeExam | undefined {
   const questions = article ? lq.byArticle.find((a) => a.article === article)?.questions : lq.questions;
   if (!questions?.length) return undefined;
   const name =
-    law.id === 'anayasa' ? 'Anayasa' : (law.aliases?.find((a) => /^[A-ZÇĞİÖŞÜ]{3,}$/.test(a)) ?? `${law.number} sayılı Kanun`);
+    law.short ??
+    (law.id === 'anayasa' ? 'Anayasa' : (law.aliases?.find((a) => /^[A-ZÇĞİÖŞÜ]{3,}$/.test(a)) ?? `${law.number} sayılı Kanun`));
   return {
     id,
     title: article ? `${name} md. ${article}` : `${name} soruları`,

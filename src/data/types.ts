@@ -16,8 +16,11 @@ type RankScoped = { ranks?: RankGroupId[] };
 export type Legislation = RankScoped & {
   id: string;
   title: string;
-  number: string;
-  category: 'Kanun' | 'Yönetmelik' | 'Yönerge' | 'Genelge' | 'Diğer';
+  /** Kanun numarası; yönetmeliklerde yok */
+  number?: string;
+  category: 'Kanun' | 'Yönetmelik';
+  /** Deneme başlıklarında kullanılan kısa ad, ör. "Aramalar Yön." */
+  short?: string;
   /** Soru kaynaklarında geçen kısaltmalar, ör. "CMK" */
   aliases?: string[];
 };

@@ -11,6 +11,10 @@ const law = (number: string, title: string, extra: Partial<Legislation> = {}): L
   ...extra,
 });
 
+function reg(id: string, title: string, short: string, aliases: string[] = []): Legislation {
+  return { id, title, short, category: 'Yönetmelik', aliases: [title, ...aliases] };
+}
+
 export const legislation: Legislation[] = [
   law('2709', 'Türkiye Cumhuriyeti Anayasası', { id: 'anayasa', aliases: ['1982 Anayasası', 'Anayasa', 'Any.'] }),
   law('2803', 'Jandarma Teşkilat, Görev ve Yetkileri Kanunu', { id: 'jandarma-teskilat' }),
@@ -58,8 +62,67 @@ export const legislation: Legislation[] = [
   law('5901', 'Türk Vatandaşlığı Kanunu'),
   law('7179', 'Askeralma Kanunu'),
   law('926', 'Türk Silahlı Kuvvetleri Personel Kanunu', { id: 'tsk-personel', ranks: ['astsubay', 'subay'] }),
+
+  // Yönetmelikler: `aliases` hem tam adı hem kaynaklardaki kısaltmaları içerir.
+  reg('jtgy', 'Jandarma Teşkilat, Görev ve Yetkileri Yönetmeliği', 'JTGY', ['JTGY']),
+  reg('aramalar', 'Adli ve Önleme Aramaları Yönetmeliği', 'Aramalar Yön.', [
+    'Adli ve Önleme Aramaları Yön.',
+    'Aramalar Yön.',
+    'Aramalar Yönetmeliği',
+  ]),
+  reg('yakalama', 'Yakalama, Gözaltına Alma ve İfade Alma Yönetmeliği', 'Yakalama Yön.', [
+    'Yakalama Yön.',
+    'Yakalama Yönetmeliği',
+  ]),
+  reg('trafik-yonetmeligi', 'Karayolları Trafik Yönetmeliği', 'Trafik Yön.'),
+  reg('adli-kolluk', 'Adli Kolluk Yönetmeliği', 'Adli Kolluk Yön.', ['Adli Kolluk Yön.']),
+  reg('personel-yonetmeligi', 'Jandarma Genel Komutanlığı ve Sahil Güvenlik Komutanlığı Personel Yönetmeliği', 'Personel Yön.', [
+    'Personel Yön.',
+    'Personel Yönetmeliği',
+  ]),
+  reg('atesli-silahlar-yonetmeligi', 'Ateşli Silahlar ve Bıçaklar ile Diğer Aletler Hakkında Yönetmelik', 'Ateşli Silahlar Yön.', [
+    'Ateşli Silahlar Yön.',
+    'Ateşli Silahlar Yönetmeliği',
+  ]),
+  reg('suc-esyasi', 'Suç Eşyası Yönetmeliği', 'Suç Eşyası Yön.', ['Suç Eşyası Yön.']),
+  reg('izin', 'Jandarma Genel Komutanlığı İzin Yönetmeliği', 'İzin Yön.', ['JGK İzin Yön.']),
+  reg(
+    'beden-muayenesi',
+    'Ceza Muhakemesinde Beden Muayenesi, Genetik İncelemeler ve Fizik Kimliğin Tespiti Hakkında Yönetmelik',
+    'Beden Muayenesi Yön.',
+    ['Beden Muayenesi Yön.', 'Beden Muayenesi Yönetmeliği'],
+  ),
+  reg('ses-gaz', 'Ses ve Gaz Fişeği Atabilen Silahlar Hakkında Yönetmelik', 'Ses ve Gaz Yön.', ['Ses ve Gaz Yön.']),
+  reg('resmi-yazisma', 'Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik', 'Resmî Yazışma Yön.', [
+    'Resmî Yazışma Yön.',
+    'Resmî Yazışma Yönetmeliği',
+  ]),
+  reg('hizmet-esaslari', 'Jandarma ve Sahil Güvenlik Personelinin Hizmet Esasları Hakkında Yönetmelik', 'Hizmet Esasları Yön.', [
+    'Hizmet Esasları Yön.',
+    'Hizmet Esasları Yönetmeliği',
+  ]),
+  reg('isyeri-acma', 'İşyeri Açma ve Çalışma Ruhsatlarına İlişkin Yönetmelik', 'İşyeri Açma Yön.', ['İşyeri Açma Yön.']),
+  reg('6284-uygulama', '6284 Sayılı Kanuna İlişkin Uygulama Yönetmeliği', '6284 Uyg. Yön.', [
+    '6284 Uyg. Yön.',
+    '6284 sayılı Kanuna İlişkin Uygulama Yönetmeliği',
+  ]),
+  reg(
+    'veri-silme',
+    'Kişisel Verilerin Silinmesi, Yok Edilmesi veya Anonim Hale Getirilmesi Hakkında Yönetmelik',
+    'Silme Yön.',
+    ['Silme Yön.', 'Silme Yönetmeliği'],
+  ),
+  reg('kum-cakil', 'Kum, Çakıl ve Benzeri Maddelerin Alınması, İşletilmesi ve Kontrolü Yönetmeliği', 'Kum-Çakıl Yön.', [
+    'Kum-Çakıl Yön.',
+    'Çakıl Yön.',
+  ]),
 ];
 
-/** Resmî metnin mevzuat.gov.tr adresi */
+/**
+ * Resmî metnin adresi. Kanunlar numarasıyla doğrudan açılır; yönetmeliklerin
+ * sistemdeki numarasını bilmediğimiz için mevzuat.gov.tr içinde adıyla aranır.
+ */
 export const officialUrl = (l: Legislation) =>
-  `https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=${l.number}&MevzuatTur=1&MevzuatTertip=5`;
+  l.number
+    ? `https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=${l.number}&MevzuatTur=1&MevzuatTertip=5`
+    : `https://www.google.com/search?q=${encodeURIComponent(`site:mevzuat.gov.tr "${l.title}"`)}`;

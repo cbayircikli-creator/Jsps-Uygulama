@@ -53,10 +53,12 @@ npm run lint
 - Denemeler üç modda çözülür: **Sınav** (süreli, sonunda puan), **Çalışma** (her soruda anında
   doğru cevap ve açıklama) ve **Yanlışlarım**. Yarım kalan deneme kaldığı yerden devam eder.
 - **Bilgi kartları** `src/data/flashcards.ts` içinde; "Sayılar ve Süreler" notundan 7 deste.
-- **Mevzuat** sekmesinde denemelerde geçen 46 kanun var. Her kanunun sayfasında o kanundan çıkan
-  sorular (toplam ~1200) ve madde madde dağılımı gösterilir; bir maddeye dokununca yalnızca onun soruları
-  çözülür. Eşleştirme `src/services/lawIndex.ts` içinde, sorunun "Kaynak" alanından yapılır.
-  Madde metinleri uygulamaya kopyalanmadı; "mevzuat.gov.tr'de aç" düğmesi güncel resmî metni açar.
+- **Mevzuat** sekmesinde denemelerde geçen 46 kanun ve 17 yönetmelik var. Her birinin sayfasında
+  ondan çıkan sorular (toplam ~1550) ve madde madde dağılımı gösterilir; bir maddeye dokununca yalnızca
+  onun soruları çözülür. Eşleştirme `src/services/lawIndex.ts` içinde, sorunun "Kaynak" alanından yapılır.
+  Madde metinleri uygulamaya kopyalanmadı; düğme güncel resmî metni mevzuat.gov.tr'de açar.
+- **Web önizleme:** `npx expo export --platform web && python3 scripts/build-preview.py dist onizleme.html`
+  uygulamayı tek bir HTML dosyasına gömer; bu dosya Claude artifact'ı olarak paylaşılabilir.
 - Emsal kararlar yalnızca tasarım için örnektir ve gerçek değildir; resmî kaynaktan doğrulanarak eklenmeli.
 - İçerik ileride bir sunucuya taşınacaksa yalnızca `src/services/content.ts` değişir.
 - Yapay zekâ: API anahtarı uygulamaya gömülmemeli. Kendi sunucumuzda bir uç nokta kurulup

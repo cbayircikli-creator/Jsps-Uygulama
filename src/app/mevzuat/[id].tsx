@@ -25,30 +25,34 @@ export default function MevzuatDetail() {
     <Screen>
       <Stack.Screen
         options={{
-          title: `${item.number} Sayılı`,
+          title: item.number ? `${item.number} Sayılı` : item.category,
           headerRight: () => <FavoriteButton favKey={`mevzuat:${item.id}`} />,
         }}
       />
       <View style={{ flexDirection: 'row', gap: spacing.sm }}>
         <Tag label={item.category} />
-        <Tag label={`No: ${item.number}`} tone="accent" />
+        {item.number && <Tag label={`No: ${item.number}`} tone="accent" />}
       </View>
       <Text style={text.title}>{item.title}</Text>
 
       <Card>
         <Text style={text.heading}>Resmî metin</Text>
         <Text style={text.muted}>
-          {"Kanunun güncel ve resmî metni Mevzuat Bilgi Sistemi'nde yer alır. Değişiklikler en hızlı orada görünür."}
+          {`${item.category === 'Kanun' ? 'Kanunun' : 'Yönetmeliğin'} güncel ve resmî metni Mevzuat Bilgi Sistemi'nde yer alır. Değişiklikler en hızlı orada görünür.`}
         </Text>
-        <Button title="mevzuat.gov.tr'de aç" variant="outline" onPress={() => Linking.openURL(officialUrl(item))} />
+        <Button
+          title={item.number ? "mevzuat.gov.tr'de aç" : "mevzuat.gov.tr'de ara"}
+          variant="outline"
+          onPress={() => Linking.openURL(officialUrl(item))}
+        />
       </Card>
 
-      <SectionTitle>Bu kanundan sorular</SectionTitle>
+      <SectionTitle>Sorular</SectionTitle>
       {questions.length === 0 ? (
-        <EmptyState icon="document-text-outline" text="Denemelerde bu kanundan henüz soru yok." />
+        <EmptyState icon="document-text-outline" text="Denemelerde bundan henüz soru yok." />
       ) : (
         <Card>
-          <Text style={text.body}>Denemelerde bu kanundan {questions.length} soru var.</Text>
+          <Text style={text.body}>Denemelerde bundan {questions.length} soru var.</Text>
           <View style={styles.actions}>
             <View style={{ flex: 1 }}>
               <Button title="Çalışma modu" onPress={() => open(examId, 'calisma')} />
