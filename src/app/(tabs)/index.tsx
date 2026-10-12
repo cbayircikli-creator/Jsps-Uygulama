@@ -13,14 +13,14 @@ import { colors, font, fonts, gradients, radius, shadow, spacing } from '../../t
 
 type Tint = keyof typeof colors.tint;
 
-const modules: { title: string; icon: IconName; href: Href; tint: Tint }[] = [
+const modules: { title: string; icon: IconName; href: Href; tint: Tint; soon?: boolean }[] = [
   { title: 'Mevzuat', icon: 'book', href: '/mevzuat', tint: 'green' },
   { title: 'Denemeler', icon: 'document-text', href: '/calis', tint: 'brass' },
   { title: 'Konu Özetleri', icon: 'reader', href: '/ozetler', tint: 'plum' },
   { title: 'Bilgi Kartları', icon: 'albums', href: '/calis', tint: 'clay' },
   { title: 'Soru Ara', icon: 'search', href: '/ara', tint: 'sky' },
   { title: 'İstatistikler', icon: 'stats-chart', href: '/istatistik', tint: 'slate' },
-  { title: 'Emsal Kararlar', icon: 'hammer', href: '/kararlar', tint: 'olive' },
+  { title: 'Emsal Kararlar', icon: 'hammer', href: '/kararlar', tint: 'olive', soon: true },
   { title: 'Duyurular', icon: 'megaphone', href: '/duyurular', tint: 'rose' },
   { title: 'Yapay Zekâ', icon: 'sparkles', href: '/asistan', tint: 'teal' },
 ];
@@ -210,6 +210,11 @@ export default function Home() {
                 <Ionicons name={m.icon} size={22} color={colors.tintInk[m.tint]} />
               </View>
               <Text style={styles.tileText}>{m.title}</Text>
+              {m.soon && (
+                <View style={styles.soon}>
+                  <Text style={styles.soonText}>Yakında</Text>
+                </View>
+              )}
             </Pressable>
           ))}
         </View>
@@ -391,6 +396,8 @@ const styles = StyleSheet.create({
     ...shadow.card,
   },
   tileIcon: { width: 48, height: 48, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
+  soon: { position: 'absolute', top: 6, right: 6, backgroundColor: colors.accentSoft, borderRadius: radius.pill, paddingHorizontal: 6, paddingVertical: 1 },
+  soonText: { fontFamily: fonts.bold, fontSize: 9, color: colors.tintInk.brass },
   tileText: { fontSize: 12.5, fontFamily: fonts.bold, color: colors.text, textAlign: 'center' },
   link: { color: colors.primary, fontFamily: fonts.bold },
 });

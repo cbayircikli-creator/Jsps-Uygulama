@@ -6,7 +6,9 @@ import { Manrope_600SemiBold } from '@expo-google-fonts/manrope/600SemiBold';
 import { Manrope_700Bold } from '@expo-google-fonts/manrope/700Bold';
 import { Manrope_800ExtraBold } from '@expo-google-fonts/manrope/800ExtraBold';
 import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { Stack, type ErrorBoundaryProps } from 'expo-router';
+import { Pressable, Text, View } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
@@ -14,7 +16,27 @@ import { StatusBar } from 'expo-status-bar';
 import { HeaderBackground } from '../components/ui';
 import { ProfileProvider } from '../context/ProfileContext';
 import { ProgressProvider } from '../context/ProgressContext';
-import { colors, fonts } from '../theme';
+import { colors, fonts, radius, spacing } from '../theme';
+
+/** Beklenmedik bir hatada boş ekran yerine gösterilir (expo-router bu dışa aktarımı kullanır). */
+export function ErrorBoundary({ error, retry }: ErrorBoundaryProps) {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', padding: spacing.xl, gap: spacing.md, backgroundColor: colors.background }}>
+      <Ionicons name="warning" size={44} color={colors.accent} />
+      <Text style={{ fontSize: 22, fontWeight: '700', color: colors.text, textAlign: 'center' }}>Bir şeyler ters gitti</Text>
+      <Text style={{ fontSize: 15, color: colors.textMuted, textAlign: 'center' }}>
+        İlerlemen kayıtlı, kaybolmadı. Tekrar dene; sorun sürerse uygulamayı kapatıp aç.
+      </Text>
+      <Text style={{ fontSize: 12, color: colors.textMuted, textAlign: 'center' }}>{error.message}</Text>
+      <Pressable
+        onPress={retry}
+        style={{ backgroundColor: colors.primary, borderRadius: radius.md, paddingVertical: spacing.md, paddingHorizontal: spacing.xl }}
+      >
+        <Text style={{ color: '#fff', fontWeight: '700' }}>Tekrar dene</Text>
+      </Pressable>
+    </View>
+  );
+}
 
 // Yazı tipleri yüklenene kadar açılış ekranı açık kalır.
 SplashScreen.preventAutoHideAsync().catch(() => {});

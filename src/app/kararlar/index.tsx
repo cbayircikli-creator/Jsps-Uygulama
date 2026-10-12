@@ -2,7 +2,7 @@ import { router } from 'expo-router';
 import { useState } from 'react';
 import { Text, View } from 'react-native';
 
-import { Card, EmptyState, Screen, SearchBar, Tag, text } from '../../components/ui';
+import { Card, ComingSoon, EmptyState, Screen, SearchBar, Tag, text } from '../../components/ui';
 import { useProfile } from '../../context/ProfileContext';
 import { content } from '../../services/content';
 import { spacing } from '../../theme';
@@ -10,7 +10,21 @@ import { spacing } from '../../theme';
 export default function KararList() {
   const [query, setQuery] = useState('');
   const { rank } = useProfile();
+  const all = content.decisions('', rank?.group);
   const items = content.decisions(query, rank?.group);
+
+  if (all.length === 0) {
+    return (
+      <Screen>
+        <ComingSoon
+          icon="hammer"
+          title="Emsal kararlar hazırlanıyor"
+          text="Yargıtay, Danıştay ve Anayasa Mahkemesi kararları; künyesi resmî kaynağından doğrulanarak ve sınav konularına göre özetlenerek eklenecek."
+          action={{ title: 'Bu sırada kanunlara göre çalış', onPress: () => router.push('/mevzuat') }}
+        />
+      </Screen>
+    );
+  }
 
   return (
     <Screen>

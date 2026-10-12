@@ -2,13 +2,17 @@
 //
 // ÖNEMLİ: API anahtarı asla uygulamanın içine gömülmemeli. Gerçek entegrasyonda
 // uygulama kendi sunucumuza istek atar, sunucu yapay zekâ sağlayıcısını çağırır.
-// O zamana kadar `askAssistant` yer tutucu bir yanıt döndürür.
+// Sunucu bağlı değilken asistan, uygulamadaki içerikten cevap bulan yerel arama ile çalışır.
+import { answerLocally } from './localAssistant';
 
 export type ChatMessage = { id: string; role: 'user' | 'assistant'; text: string };
 
 export type AssistantContext = { rankName?: string };
 
 const AI_ENDPOINT: string | undefined = process.env.EXPO_PUBLIC_AI_ENDPOINT;
+
+/** Yapay zekâ sunucusu yapılandırıldı mı */
+export const isAiConnected = !!AI_ENDPOINT;
 
 export async function askAssistant(
   history: ChatMessage[],
@@ -28,9 +32,6 @@ export async function askAssistant(
     return data.reply;
   }
 
-  await new Promise((r) => setTimeout(r, 400));
-  return (
-    'Asistan henüz bağlanmadı. Sunucu tarafı hazır olduğunda mevzuat soruları, ' +
-    'konu özetleri ve deneme çözümlerinde burada yardımcı olacağım.'
-  );
+  const last = [...history].reverse().find((m) => m.role === 'user');
+  return answerLocally(last?.text ?? '').text;
 }

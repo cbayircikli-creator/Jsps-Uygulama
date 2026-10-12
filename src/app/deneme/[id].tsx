@@ -1,7 +1,8 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
+import * as Haptics from 'expo-haptics';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { ScoreRing } from '../../components/ScoreRing';
 import { Button, Card, EmptyState, Screen, SubjectTag, Tag, text } from '../../components/ui';
@@ -218,6 +219,15 @@ function Runner({ exam: examProp, mode, onRestart }: { exam: PracticeExam; mode:
     if (finished || (instant && picked !== undefined)) return;
     if (picked === undefined) recordAnswer();
     setAnswers((a) => ({ ...a, [q.id]: oi }));
+    // Dokunsal geri bildirim: anında açıklamalı modlarda doğru/yanlış, sınavda yalnızca seçim
+    if (Platform.OS !== 'web') {
+      const feedback = instant
+        ? Haptics.notificationAsync(
+            oi === q.answerIndex ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error,
+          )
+        : Haptics.selectionAsync();
+      feedback.catch(() => {});
+    }
   };
 
   const confirmFinish = () => {

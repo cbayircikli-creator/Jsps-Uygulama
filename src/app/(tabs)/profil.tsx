@@ -1,10 +1,11 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import Constants from 'expo-constants';
 import { router } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
 import { RankPicker } from '../../components/RankPicker';
-import { Button, Card, EmptyState, Screen, SectionTitle, Tag, text } from '../../components/ui';
+import { Button, Card, EmptyState, Screen, SectionTitle, Tag, text, type IconName } from '../../components/ui';
 import { useProfile } from '../../context/ProfileContext';
 import { useProgress, type FavoriteKey } from '../../context/ProgressContext';
 import { content } from '../../services/content';
@@ -20,6 +21,18 @@ function resolveFavorite(key: FavoriteKey) {
   }
   const d = content.decisionById(id);
   return d && { label: 'Emsal Karar', title: d.topic, href: `/kararlar/${id}` as const };
+}
+
+function AboutRow({ icon, title, text: body }: { icon: IconName; title: string; text: string }) {
+  return (
+    <View style={styles.aboutRow}>
+      <Ionicons name={icon} size={18} color={colors.primary} style={{ marginTop: 2 }} />
+      <View style={{ flex: 1, gap: 2 }}>
+        <Text style={styles.aboutTitle}>{title}</Text>
+        <Text style={text.muted}>{body}</Text>
+      </View>
+    </View>
+  );
 }
 
 export default function Profil() {
@@ -130,7 +143,16 @@ export default function Profil() {
         }}
       />
 
-      <Text style={[text.muted, { textAlign: 'center' }]}>Sürüm {Constants.expoConfig?.version}</Text>
+      <SectionTitle>Hakkında</SectionTitle>
+      <Card style={{ gap: spacing.md }}>
+        <AboutRow icon="lock-closed" title="Gizlilik" text="Hesap gerekmez. İlerlemen, işaretlerin ve ayarların yalnızca bu cihazda saklanır; hiçbir sunucuya gönderilmez." />
+        <AboutRow icon="library" title="Kaynaklar" text="Sorular ve özetler kaynak madde numaralarıyla verilir. Kanunların güncel resmî metni mevzuat.gov.tr'den açılır." />
+        <AboutRow icon="information-circle" title="Bilgilendirme" text="Bu uygulama sınava hazırlık amaçlıdır; resmî bir kurum uygulaması değildir. Sınav duyuruları için ilgili kurumun resmî kanallarını takip edin." />
+      </Card>
+
+      <Text style={[text.muted, { textAlign: 'center' }]}>
+        {Constants.expoConfig?.name} · Sürüm {Constants.expoConfig?.version}
+      </Text>
     </Screen>
   );
 }
@@ -148,6 +170,8 @@ const styles = StyleSheet.create({
   },
   goalActive: { backgroundColor: colors.primary, borderColor: colors.primary },
   goalText: { fontFamily: fonts.display, fontSize: font.heading + 3, color: colors.text },
+  aboutRow: { flexDirection: 'row', gap: spacing.md },
+  aboutTitle: { fontFamily: fonts.bold, fontSize: font.body, color: colors.text },
   dateRow: { flexDirection: 'row', gap: spacing.sm },
   dateInput: {
     flex: 1,

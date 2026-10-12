@@ -121,6 +121,37 @@ export function Button({
   );
 }
 
+/** Henüz içeriği hazırlanan bölümler için tanıtım ekranı */
+export function ComingSoon({
+  icon,
+  title,
+  text: body,
+  action,
+}: {
+  icon: IconName;
+  title: string;
+  text: string;
+  action?: { title: string; onPress: () => void };
+}) {
+  return (
+    <View style={styles.soon}>
+      <View style={styles.soonIcon}>
+        <Ionicons name={icon} size={40} color={colors.primary} />
+      </View>
+      <View style={styles.soonBadge}>
+        <Text style={styles.soonBadgeText}>HAZIRLANIYOR</Text>
+      </View>
+      <Text style={[text.title, { textAlign: 'center' }]}>{title}</Text>
+      <Text style={[text.body, { textAlign: 'center', color: colors.textMuted }]}>{body}</Text>
+      {action && (
+        <View style={{ alignSelf: 'stretch' }}>
+          <Button title={action.title} onPress={action.onPress} />
+        </View>
+      )}
+    </View>
+  );
+}
+
 export function EmptyState({ icon, text }: { icon: IconName; text: string }) {
   return (
     <View style={styles.empty}>
@@ -183,5 +214,16 @@ const styles = StyleSheet.create({
   buttonOutline: { backgroundColor: colors.surface, borderWidth: 1.5, borderColor: colors.primary },
   buttonText: { color: '#fff', fontSize: font.body, fontFamily: fonts.bold },
   empty: { alignItems: 'center', gap: spacing.sm, padding: spacing.xxl },
+  soon: { alignItems: 'center', gap: spacing.md, paddingVertical: spacing.xxl, paddingHorizontal: spacing.md },
+  soonIcon: {
+    width: 96,
+    height: 96,
+    borderRadius: 48,
+    backgroundColor: colors.primarySoft,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  soonBadge: { backgroundColor: colors.accentSoft, borderRadius: radius.pill, paddingHorizontal: spacing.md, paddingVertical: 4 },
+  soonBadgeText: { color: colors.tintInk.brass, fontFamily: fonts.bold, fontSize: font.tiny, letterSpacing: 1.5 },
   muted: { fontSize: font.small, fontFamily: fonts.medium, color: colors.textMuted, textAlign: 'center' },
 });

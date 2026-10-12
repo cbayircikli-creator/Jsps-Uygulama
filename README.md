@@ -1,37 +1,52 @@
-# JSPS Uygulaması
+# JSPS Hazırlık
 
-Belirli personel için hazırlanan, mevzuat ve sınav çalışma uygulaması.
-Expo (React Native + TypeScript) ile yazıldı; aynı kod iOS, Android ve web'de çalışır.
+Jandarma sınavlarına (Uzman Çavuş, Astsubay, Subay) hazırlanmak için ücretsiz, internetsiz çalışan
+mobil uygulama. Expo (React Native + TypeScript) ile yazıldı; aynı kod iOS, Android ve web'de çalışır.
 
-## Bölümler
+## Özellikler
 
-| Sekme / Ekran | İçerik |
+| Bölüm | İçerik |
 | --- | --- |
-| Ana Sayfa | Modül kısayolları ve güncel duyurular |
-| Mevzuat | Kanun, yönetmelik vb. listesi, arama ve madde detayı |
-| Çalış | Denemeler ve bilgi kartları (rütbeye göre filtrelenir) |
-| Asistan | Yapay zekâ sohbet ekranı |
-| Profil | Rütbe seçimi / değiştirme |
-| Emsal Kararlar | Ana sayfadan açılır; arama ve karar detayı |
-| Duyurular | Ana sayfadan açılır |
+| Ana Sayfa | Günlük hedef, gün serisi, son 7 gün, kaldığın yerden devam, karışık 20 soru, sınav geri sayımı |
+| Mevzuat | 46 kanun ve 17 yönetmelik; her birinden çıkan sorular ve madde madde çalışma; resmî metin mevzuat.gov.tr'de |
+| Çalış | Konu testleri (derslere göre 20'şerlik), 22 deneme, işaretli sorular, bilgi kartları, ders bazlı başarı |
+| Deneme ekranı | Sınav (süreli), Çalışma (anında açıklama) ve Yanlışlarım modları; soru işaretleme; başarı halkası |
+| Konu Özetleri | Sayı, süre, oran ve karıştırılan noktalar; her satırda kaynak madde |
+| Soru Ara | Tüm soru bankasında kelimeyle arama |
+| İstatistikler | Toplam soru, doğruluk, seri, son 30 gün grafiği, derslere göre doğruluk, öneri |
+| Asistan | Çevrimdışı: konu özetleri ve soru bankasından cevap bulur. Sunucu bağlanırsa yapay zekâ |
+| Profil | Rütbe, günlük hedef, sınav tarihi, kaydedilenler, gizlilik/hakkında |
+| Emsal Kararlar | Hazırlanıyor; doğrulanmış kararlar eklenince listelenir |
 
-**Rütbe akışı:** Uygulamaya ilk girişte hiçbir şey sorulmaz. Kullanıcı *Çalış* bölümüne
-girdiğinde rütbesi sorulur (`RankGate`), seçim cihazda saklanır ve içerikler rütbe grubuna
-(Uzman Erbaş / Astsubay / Subay) göre filtrelenir. Bir içeriğe `ranks: [...]` verilmezse
-herkese görünür.
+İlk açılışta 4 sayfalık tanıtım ve rütbe seçimi gösterilir. Tüm ilerleme yalnızca cihazda saklanır.
+
+## İçerik
+
+- **Denemeler** `src/data/exams/`: daha önce hazırlanan 21 deneme. `scripts/import-artifacts.mjs` ile
+  üretilir: denemelerin HTML hâllerini bir klasöre koyup `node scripts/import-artifacts.mjs <klasör>`.
+  Yeni deneme eklemek için betikteki `CATALOG` listesine başlığını yazın.
+- **Sayılar ve Süreler Testi** `src/data/factQuestions.ts`: 91 soru; her doğru cevap "Sayılar ve Süreler"
+  notundaki bilgidir.
+- **Konu özetleri** `src/data/summaries.ts`, **bilgi kartları** `src/data/flashcards.ts`: aynı nottan.
+- Toplam havuz tekrarlar ayıklanmış **2357 soru**, hepsi 5 şıklı ve açıklamalı.
+- **Kanun eşleştirmesi** `src/services/lawIndex.ts`: sorunun "Kaynak" alanından kanun/yönetmelik ve madde bulunur.
+  Madde metinleri uygulamaya kopyalanmaz; güncel resmî metin mevzuat.gov.tr'den açılır.
+- Doğrulanmamış bilgi eklenmez. Emsal kararlar künyesi resmî kaynağından doğrulanarak eklenmelidir.
 
 ## Klasör yapısı
 
 ```
 src/
-  app/            Ekranlar (Expo Router: her dosya bir sayfa)
-    (tabs)/       Alt sekmeler
-    mevzuat/ kararlar/ duyurular/ deneme/ kartlar/   Detay sayfaları
-  components/     Ortak arayüz parçaları, rütbe seçici
-  context/        Profil (rütbe) durumu
-  data/           Örnek içerik ve tipler
-  services/       content.ts (içerik erişimi), ai.ts (asistan)
-  theme.ts        Renkler ve ölçüler
+  app/          Ekranlar (Expo Router: her dosya bir sayfa)
+    (tabs)/     Alt sekmeler
+    karsilama, istatistik, ara, ozetler/, konu/, deneme/, kartlar/, mevzuat/, kararlar/, duyurular/
+  components/   Ortak arayüz parçaları, rütbe seçici, başarı halkası
+  context/      Profil (rütbe, karşılama) ve ilerleme (sonuçlar, hedef, seri, işaretler)
+  data/         İçerik ve tipler
+  services/     İçerik erişimi, soru havuzu, konu testleri, kanun dizini, asistan
+  theme.ts      Renkler, ders renkleri, yazı tipleri
+assets/         Uygulama ikonu, açılış ekranı
+scripts/        İçe aktarma ve web önizleme betikleri
 ```
 
 ## Çalıştırma
@@ -44,39 +59,33 @@ npm run typecheck
 npm run lint
 ```
 
-## Notlar / sonraki adımlar
+**Web önizleme:** `npx expo export --platform web && python3 scripts/build-preview.py dist onizleme.html`
+uygulamayı tek bir HTML dosyasına gömer; bu dosya Claude artifact'ı olarak paylaşılabilir.
 
-- **Denemeler** `src/data/exams/` altındadır: daha önce hazırlanan 21 deneme, toplam 2297 soru,
-  hepsi 5 şıklı (A–E) ve açıklamalı. Bu dosyalar `scripts/import-artifacts.mjs` ile üretilir;
-  denemelerin HTML hâllerini bir klasöre koyup `node scripts/import-artifacts.mjs <klasör>` çalıştırmak
-  yeterlidir. Yeni deneme eklemek için betikteki `CATALOG` listesine başlığını yazın.
-- Denemeler üç modda çözülür: **Sınav** (süreli, sonunda puan), **Çalışma** (her soruda anında
-  doğru cevap ve açıklama) ve **Yanlışlarım**. Yarım kalan deneme kaldığı yerden devam eder.
-- **Sayılar ve Süreler Testi** (`src/data/factQuestions.ts`): 91 soru; her doğru cevap "Sayılar ve Süreler"
-  notundaki bilgidir. Toplam havuz tekrarlar ayıklanmış 2357 sorudur.
-- **Konu testleri** (`src/services/topicTests.ts`): her dersin soruları 20'şerlik testlere bölünür.
-- **Karışık 20 soru**, **işaretlediğim sorular**, **günlük hedef / seri** ve **sınav geri sayımı** vardır.
-- **Bilgi kartları** `src/data/flashcards.ts` içinde; "Sayılar ve Süreler" notundan 7 deste.
-- **Mevzuat** sekmesinde denemelerde geçen 46 kanun ve 17 yönetmelik var. Her birinin sayfasında
-  ondan çıkan sorular (toplam ~1550) ve madde madde dağılımı gösterilir; bir maddeye dokununca yalnızca
-  onun soruları çözülür. Eşleştirme `src/services/lawIndex.ts` içinde, sorunun "Kaynak" alanından yapılır.
-  Madde metinleri uygulamaya kopyalanmadı; düğme güncel resmî metni mevzuat.gov.tr'de açar.
-- **Web önizleme:** `npx expo export --platform web && python3 scripts/build-preview.py dist onizleme.html`
-  uygulamayı tek bir HTML dosyasına gömer; bu dosya Claude artifact'ı olarak paylaşılabilir.
-- Emsal kararlar yalnızca tasarım için örnektir ve gerçek değildir; resmî kaynaktan doğrulanarak eklenmeli.
-- İçerik ileride bir sunucuya taşınacaksa yalnızca `src/services/content.ts` değişir.
-- Yapay zekâ: API anahtarı uygulamaya gömülmemeli. Kendi sunucumuzda bir uç nokta kurulup
-  `EXPO_PUBLIC_AI_ENDPOINT` ortam değişkeniyle bağlanır; o zamana kadar asistan yer tutucu yanıt verir.
-- Rütbeler `src/data/ranks.ts` içinde: Uzman Çavuş, Astsubay, Subay. Eski kayıtlı ayrıntılı rütbeler bu üç gruba taşınır.
+## Mağazaya çıkış
+
+`app.json` içinde paket kimliği `com.jspshazirlik.app`; gerekirse yayın öncesi değiştirin.
+`eas.json` profilleri: `development`, `preview` (Android APK) ve `production`.
+
+```bash
+npx eas-cli@latest build --profile preview --platform android   # test APK'sı
+npx eas-cli@latest build --profile production --platform all
+npx eas-cli@latest submit --platform all
+```
+
+## Notlar
+
+- Yapay zekâ: API anahtarı uygulamaya gömülmez. Kendi sunucumuzda bir uç nokta kurulup
+  `EXPO_PUBLIC_AI_ENDPOINT` ortam değişkeniyle bağlanır; o zamana kadar asistan çevrimdışı çalışır.
+- Ders renkleri `SUBJECT_ORDER` sırasıyla renk körlüğü denetiminden geçer; dersleri bu sırayla listeleyin.
+- Rütbeler `src/data/ranks.ts`: Uzman Çavuş, Astsubay, Subay. Eski ayrıntılı rütbe kayıtları bu gruplara taşınır.
 
 ## Yol haritası
 
-1. ✅ Uygulama iskeleti (sekmeler, ekranlar, rütbe sorusu)
-2. ✅ İlerleme takibi: deneme sonuçları ve süre, bilgi kartlarında "biliyorum / tekrar",
-   mevzuat ve kararları kaydetme, ana sayfada istatistik
-3. ✅ Yanlışlarım: yanlış yapılan soruları ayrıca tekrar çözme, konu bazlı başarı
-4. 🟡 Gerçek içerik: ✅ soru bankası (21 deneme, 2297 soru), bilgi kartları, kanun bazlı soru çalışma ·
-   ⬜ emsal kararlar
-5. ⬜ Yapay zekâ sunucusu ve asistan bağlantısı
-6. ⬜ Rütbeye özel içerik ve davranışlar
-7. ⬜ Duyuruların uzaktan güncellenmesi ve bildirimler
+1. ✅ İskelet, ilerleme takibi, yanlışlarım, konu bazlı başarı
+2. ✅ Soru bankası, konu testleri, bilgi kartları, konu özetleri, kanun bazlı çalışma
+3. ✅ Marka kimliği, karşılama, istatistikler, soru arama, çevrimdışı asistan
+4. ⬜ Emsal kararlar (doğrulanmış künyelerle)
+5. ⬜ Mülakat bölümü
+6. ⬜ Yapay zekâ sunucusu
+7. ⬜ Rütbeye özel içerik, duyuruların uzaktan güncellenmesi ve bildirimler
