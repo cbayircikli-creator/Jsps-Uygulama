@@ -28,6 +28,9 @@ export const colors = {
     clay: '#FFE0D6',
     sky: '#D3F1F6',
     plum: '#EEDFFB',
+    teal: '#D5F0EA',
+    rose: '#FCE1EA',
+    olive: '#ECEFD3',
   },
   tintInk: {
     green: '#0B7A4F',
@@ -36,6 +39,9 @@ export const colors = {
     clay: '#C2410C',
     sky: '#0E7C8C',
     plum: '#7A3CC7',
+    teal: '#0F7A66',
+    rose: '#B8325E',
+    olive: '#5D6B12',
   },
 };
 

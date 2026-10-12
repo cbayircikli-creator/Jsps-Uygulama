@@ -16,10 +16,13 @@ type Tint = keyof typeof colors.tint;
 const modules: { title: string; icon: IconName; href: Href; tint: Tint }[] = [
   { title: 'Mevzuat', icon: 'book', href: '/mevzuat', tint: 'green' },
   { title: 'Denemeler', icon: 'document-text', href: '/calis', tint: 'brass' },
-  { title: 'Emsal Kararlar', icon: 'hammer', href: '/kararlar', tint: 'slate' },
+  { title: 'Konu Özetleri', icon: 'reader', href: '/ozetler', tint: 'plum' },
   { title: 'Bilgi Kartları', icon: 'albums', href: '/calis', tint: 'clay' },
-  { title: 'Duyurular', icon: 'megaphone', href: '/duyurular', tint: 'sky' },
-  { title: 'Yapay Zekâ', icon: 'sparkles', href: '/asistan', tint: 'plum' },
+  { title: 'Soru Ara', icon: 'search', href: '/ara', tint: 'sky' },
+  { title: 'İstatistikler', icon: 'stats-chart', href: '/istatistik', tint: 'slate' },
+  { title: 'Emsal Kararlar', icon: 'hammer', href: '/kararlar', tint: 'olive' },
+  { title: 'Duyurular', icon: 'megaphone', href: '/duyurular', tint: 'rose' },
+  { title: 'Yapay Zekâ', icon: 'sparkles', href: '/asistan', tint: 'teal' },
 ];
 
 const DAY_LETTERS = ['Pz', 'Pt', 'Sa', 'Ça', 'Pe', 'Cu', 'Ct'];

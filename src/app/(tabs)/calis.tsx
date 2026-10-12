@@ -75,6 +75,20 @@ function StudyHome() {
         })}
       </View>
 
+      <Pressable
+        onPress={() => router.push('/ozetler')}
+        style={({ pressed }) => [styles.savedRow, styles.summaryRow, pressed && styles.pressed]}
+      >
+        <View style={styles.savedIcon}>
+          <Ionicons name="reader" size={18} color={colors.tintInk.plum} />
+        </View>
+        <View style={{ flex: 1 }}>
+          <Text style={text.heading}>Konu Özetleri</Text>
+          <Text style={text.muted}>Sayılar, süreler ve en çok karıştırılanlar</Text>
+        </View>
+        <Ionicons name="chevron-forward" size={20} color={colors.textMuted} />
+      </Pressable>
+
       {savedQuestions.length > 0 && (
         <Pressable
           onPress={() => open(SAVED_EXAM_ID, 'calisma')}
@@ -223,6 +237,7 @@ const styles = StyleSheet.create({
     borderRadius: radius.lg,
     padding: spacing.lg,
   },
+  summaryRow: { backgroundColor: colors.tint.plum },
   savedIcon: {
     width: 36,
     height: 36,
