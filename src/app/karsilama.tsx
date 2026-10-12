@@ -29,8 +29,8 @@ type Slide = { icon?: IconName; title: string; text: string };
 // Sayılar içerikten hesaplanır; içerik büyüdükçe metin de güncel kalır.
 const slides: Slide[] = [
   {
-    title: 'JSPS Hazırlık',
-    text: 'Jandarma sınavlarına hazırlanmanın en düzenli yolu. Tamamen ücretsiz, internetsiz de çalışır.',
+    title: 'Uzman Kolluk',
+    text: 'Jandarma sınavlarına hazırlık ve sahada işini kolaylaştıran araçlar tek uygulamada. Tamamen ücretsiz.',
   },
   {
     icon: 'document-text',
@@ -76,7 +76,7 @@ export default function Karsilama() {
   return (
     <LinearGradient colors={gradients.hero} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.page}>
       <View style={[styles.topBar, { paddingTop: insets.top + spacing.md }]}>
-        <Text style={styles.brand}>JSPS · SINAV HAZIRLIK</Text>
+        <Text style={styles.brand}>UZMAN KOLLUK</Text>
         {!last && (
           <Pressable onPress={() => goTo(total - 1)} hitSlop={10}>
             <Text style={styles.skip}>Atla</Text>

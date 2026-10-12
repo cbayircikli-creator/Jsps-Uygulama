@@ -10,7 +10,7 @@ const tabs: { name: string; title: string; icon: IconName; iconActive: IconName 
   { name: 'index', title: 'Ana Sayfa', icon: 'home-outline', iconActive: 'home' },
   { name: 'mevzuat', title: 'Mevzuat', icon: 'book-outline', iconActive: 'book' },
   { name: 'calis', title: 'Çalış', icon: 'school-outline', iconActive: 'school' },
-  { name: 'asistan', title: 'Asistan', icon: 'sparkles-outline', iconActive: 'sparkles' },
+  { name: 'araclar', title: 'Araçlar', icon: 'briefcase-outline', iconActive: 'briefcase' },
   { name: 'profil', title: 'Profil', icon: 'person-outline', iconActive: 'person' },
 ];
 
@@ -41,7 +41,7 @@ export default function TabsLayout() {
           key={t.name}
           name={t.name}
           options={{
-            title: t.name === 'index' ? 'JSPS' : t.title,
+            title: t.name === 'index' ? 'Uzman Kolluk' : t.title,
             tabBarLabel: t.title,
             // Ana sayfa kendi başlığını çizer.
             headerShown: t.name !== 'index',

@@ -12,9 +12,9 @@ import {
   View,
 } from 'react-native';
 
-import { useProfile } from '../../context/ProfileContext';
-import { askAssistant, isAiConnected, type ChatMessage } from '../../services/ai';
-import { colors, font, fonts, radius, shadow, spacing } from '../../theme';
+import { useProfile } from '../context/ProfileContext';
+import { askAssistant, isAiConnected, type ChatMessage } from '../services/ai';
+import { colors, font, fonts, radius, shadow, spacing } from '../theme';
 
 const SUGGESTIONS = [
   'Gözaltı süresi kaç saat?',

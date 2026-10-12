@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "JSPS Hazırlık",
-    "slug": "jsps-uygulama",
+    "name": "Uzman Kolluk",
+    "slug": "uzman-kolluk",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.jspshazirlik.app"
+      "bundleIdentifier": "com.uzmankolluk.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,12 +18,12 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.jspshazirlik.app"
+      "package": "com.uzmankolluk.app"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "output": "single",
-      "name": "JSPS Hazırlık",
+      "name": "Uzman Kolluk",
       "themeColor": "#0B6B47",
       "backgroundColor": "#EEF5F1"
     },
@@ -38,8 +38,14 @@
           "resizeMode": "contain",
           "backgroundColor": "#053A27"
         }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Uzman Kolluk, Pusula ve Konum ekranında koordinatını ve haritayı göstermek için konumuna erişir. Konumun hiçbir yere gönderilmez."
+        }
       ]
     ],
-    "scheme": "jsps"
+    "scheme": "uzmankolluk"
   }
 }

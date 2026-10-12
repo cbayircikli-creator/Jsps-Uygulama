@@ -75,7 +75,7 @@ export default function Home() {
         </View>
 
         <View style={styles.topRow}>
-          <Text style={styles.eyebrow}>JSPS · SINAV HAZIRLIK</Text>
+          <Text style={styles.eyebrow}>UZMAN KOLLUK</Text>
           {daysLeft !== null && daysLeft >= 0 && (
             <View style={styles.countdown}>
               <Ionicons name="calendar" size={12} color={colors.primaryDark} />

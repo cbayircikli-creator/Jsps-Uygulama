@@ -13,7 +13,7 @@ js = re.sub(r'"(/assets/[^"]+)"', inline, js)
 # (dizgelerde ve düzenli ifadelerde "\!" yalnızca "!" demektir).
 js = js.replace('<!--', '<\\!--')
 assert '</script' not in js.lower() and '<!--' not in js
-page = f'''<title>JSPS Hazırlık</title>
+page = f'''<title>Uzman Kolluk</title>
 <style>
 /* Uygulamanın kendi teması; sayfa yalnızca zemini ve tam ekran düzeni sağlar. */
 :root {{ --bg: #F4F6F5; --fg: #1B2420; }}

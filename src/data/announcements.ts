@@ -21,7 +21,7 @@ export const announcements: Announcement[] = [
   },
   {
     id: 'hos-geldiniz',
-    title: 'JSPS Hazırlık uygulamasına hoş geldiniz',
+    title: 'Uzman Kolluk uygulamasına hoş geldiniz',
     date: '2026-10-09',
     body:
       'Mevzuat, denemeler, bilgi kartları ve konu özetleri tek uygulamada. Tüm içerikler ücretsizdir ve ' +

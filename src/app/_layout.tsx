@@ -87,6 +87,10 @@ export default function RootLayout() {
           <Stack.Screen name="ozetler/index" options={{ title: 'Konu Özetleri' }} />
           <Stack.Screen name="ozetler/[id]" options={{ title: 'Özet' }} />
           <Stack.Screen name="ara" options={{ title: 'Soru Ara' }} />
+          <Stack.Screen name="asistan" options={{ title: 'Asistan' }} />
+          <Stack.Screen name="belgeler/[tur]" options={{ title: 'Belgeler' }} />
+          <Stack.Screen name="belge/[id]" options={{ title: 'Belge' }} />
+          <Stack.Screen name="konum" options={{ title: 'Pusula ve Konum' }} />
         </Stack>
       </ProgressProvider>
     </ProfileProvider>
