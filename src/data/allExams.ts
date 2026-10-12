@@ -1,5 +1,6 @@
-// Uygulamadaki tüm denemeler: içe aktarılanlar ve "Sayılar ve Süreler" testi.
+// Uygulamadaki tüm denemeler: Uzman Kolluk denemeleri, "Sayılar ve Süreler" testi ve içe aktarılanlar.
 import { importedExams } from './exams';
 import { factExam } from './factQuestions';
+import { newExams } from './newExams';
 
-export const allExams = [factExam, ...importedExams];
+export const allExams = [...newExams, factExam, ...importedExams];

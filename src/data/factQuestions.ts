@@ -4,7 +4,7 @@
 import type { Options, PracticeExam, Question, Subject } from './types';
 
 // [soru, şıklar, doğru şık, açıklama, kaynak, ders]
-type Row = [string, Options, number, string, string, Subject?];
+export type Row = [string, Options, number, string, string, Subject?];
 
 const rows: Row[] = [
   // Yaş sınırları
@@ -120,29 +120,31 @@ const rows: Row[] = [
 ];
 
 /**
- * Doğru şıkkın hep aynı harfte toplanmaması için cevap sırayla A–E arasına dağıtılır.
- * Doğru şık hedef konumdaki şıkla yer değiştirir.
+ * Satırları soruya çevirir. Doğru şıkkın hep aynı harfte toplanmaması için cevap sırayla A–E
+ * arasına dağıtılır: doğru şık hedef konumdaki şıkla yer değiştirir. `offset` her testte
+ * farklı bir başlangıç harfi verir.
  */
-function spread(row: Row, i: number): Question {
-  const [text, options, answer, explanation, source, subject] = row;
-  const target = i % 5;
-  const opts = [...options] as Options;
-  [opts[answer], opts[target]] = [opts[target], opts[answer]];
-  return {
-    id: `sayilar-${i + 1}`,
-    subject: subject ?? 'Mevzuat',
-    topic: 'Sayılar ve Süreler',
-    text,
-    options: opts,
-    answerIndex: target,
-    explanation,
-    source,
-  };
+export function buildQuestions(prefix: string, rows: Row[], topic?: string, offset = 0): Question[] {
+  return rows.map(([text, options, answer, explanation, source, subject], i) => {
+    const target = (i + offset) % 5;
+    const opts = [...options] as Options;
+    [opts[answer], opts[target]] = [opts[target], opts[answer]];
+    return {
+      id: `${prefix}-${i + 1}`,
+      subject: subject ?? 'Mevzuat',
+      topic,
+      text,
+      options: opts,
+      answerIndex: target,
+      explanation,
+      source,
+    };
+  });
 }
 
 export const factExam: PracticeExam = {
   id: 'sayilar-sureler',
   title: 'Sayılar ve Süreler Testi',
   durationMinutes: Math.round((rows.length * 1.2) / 5) * 5,
-  questions: rows.map(spread),
+  questions: buildQuestions('sayilar', rows, 'Sayılar ve Süreler'),
 };
