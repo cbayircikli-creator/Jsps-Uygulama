@@ -7,12 +7,17 @@ import { Manrope_700Bold } from '@expo-google-fonts/manrope/700Bold';
 import { Manrope_800ExtraBold } from '@expo-google-fonts/manrope/800ExtraBold';
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
+import { useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 
 import { HeaderBackground } from '../components/ui';
 import { ProfileProvider } from '../context/ProfileContext';
 import { ProgressProvider } from '../context/ProgressContext';
 import { colors, fonts } from '../theme';
+
+// Yazı tipleri yüklenene kadar açılış ekranı açık kalır.
+SplashScreen.preventAutoHideAsync().catch(() => {});
 
 export default function RootLayout() {
   const [fontsLoaded, fontError] = useFonts({
@@ -24,8 +29,12 @@ export default function RootLayout() {
     Manrope_700Bold,
     Manrope_800ExtraBold,
   });
+  const fontsReady = fontsLoaded || !!fontError;
+  useEffect(() => {
+    if (fontsReady) SplashScreen.hideAsync().catch(() => {});
+  }, [fontsReady]);
   // Yazı tipi yüklenemezse sistem yazı tipiyle devam edilir.
-  if (!fontsLoaded && !fontError) return null;
+  if (!fontsReady) return null;
 
   return (
     <ProfileProvider>
@@ -43,6 +52,7 @@ export default function RootLayout() {
           }}
         >
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="karsilama" options={{ headerShown: false, gestureEnabled: false, animation: 'fade' }} />
           <Stack.Screen name="mevzuat/[id]" options={{ title: 'Mevzuat' }} />
           <Stack.Screen name="kararlar/index" options={{ title: 'Emsal Kararlar' }} />
           <Stack.Screen name="kararlar/[id]" options={{ title: 'Karar' }} />

@@ -1,8 +1,9 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { Tabs } from 'expo-router';
+import { Redirect, Tabs } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { HeaderBackground, type IconName } from '../../components/ui';
+import { useProfile } from '../../context/ProfileContext';
 import { colors, fonts } from '../../theme';
 
 const tabs: { name: string; title: string; icon: IconName; iconActive: IconName }[] = [
@@ -15,6 +16,10 @@ const tabs: { name: string; title: string; icon: IconName; iconActive: IconName 
 
 export default function TabsLayout() {
   const insets = useSafeAreaInsets();
+  const { ready, onboarded } = useProfile();
+  // İlk açılışta önce karşılama ekranları gösterilir.
+  if (!ready) return null;
+  if (!onboarded) return <Redirect href="/karsilama" />;
   return (
     <Tabs
       screenOptions={{

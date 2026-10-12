@@ -1,30 +1,44 @@
 {
   "expo": {
-    "name": "JSPS",
+    "name": "JSPS Hazırlık",
     "slug": "jsps-uygulama",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jspshazirlik.app"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#1F4D3A",
+        "backgroundColor": "#0B6B47",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.jspshazirlik.app"
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "output": "single"
+      "output": "single",
+      "name": "JSPS Hazırlık",
+      "themeColor": "#0B6B47",
+      "backgroundColor": "#EEF5F1"
     },
     "plugins": [
       "expo-router",
-      "expo-font"
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#053A27"
+        }
+      ]
     ],
     "scheme": "jsps"
   }
