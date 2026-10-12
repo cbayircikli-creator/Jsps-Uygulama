@@ -7,8 +7,8 @@ export const SUBJECTS: { key: string; name: Subject }[] = [
   { key: 'mevzuat', name: 'Mevzuat' },
   { key: 'anayasa', name: 'Anayasa' },
   { key: 'tarih', name: 'Tarih' },
-  { key: 'turkce', name: 'Türkçe' },
   { key: 'muhakeme', name: 'Muhakeme' },
+  { key: 'turkce', name: 'Türkçe' },
   { key: 'guncel', name: 'Güncel' },
 ];
 

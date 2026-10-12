@@ -39,10 +39,16 @@ export const colors = {
   },
 };
 
-/** Her dersin rengi: etiketlerde, sonuç çubuklarında ve konu testlerinde kullanılır. */
+/**
+ * Her dersin rengi: etiketlerde, sonuç çubuklarında ve konu testlerinde kullanılır.
+ * SUBJECT_ORDER sırasıyla yan yana gösterildiğinde renk körlüğü denetiminden geçer
+ * (dataviz validate_palette, açık tema); dersler her yerde bu sırayla listelenir.
+ */
+export const SUBJECT_ORDER = ['Mevzuat', 'Anayasa', 'Tarih', 'Muhakeme', 'Türkçe', 'Güncel'] as const;
+
 export const subjectColors: Record<string, { main: string; soft: string; gradient: [string, string] }> = {
-  Türkçe: { main: '#E5533D', soft: '#FDE5DF', gradient: ['#F0714F', '#D9402E'] },
-  Tarih: { main: '#D98A00', soft: '#FFF0CF', gradient: ['#F5AE1E', '#D27D00'] },
+  Türkçe: { main: '#D9452F', soft: '#FDE5DF', gradient: ['#F0714F', '#D9402E'] },
+  Tarih: { main: '#B87300', soft: '#FFF0CF', gradient: ['#F5AE1E', '#C97700'] },
   Anayasa: { main: '#3F51D9', soft: '#E1E5FC', gradient: ['#5B6CF0', '#3341C2'] },
   Güncel: { main: '#0E95A6', soft: '#D6F2F5', gradient: ['#1DB3C4', '#0B7F8E'] },
   Muhakeme: { main: '#8B45E0', soft: '#EFE2FC', gradient: ['#A463F2', '#7634CC'] },

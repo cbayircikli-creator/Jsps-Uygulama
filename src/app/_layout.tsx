@@ -61,6 +61,7 @@ export default function RootLayout() {
           <Stack.Screen name="deneme/[id]" options={{ title: 'Deneme' }} />
           <Stack.Screen name="kartlar/[id]" options={{ title: 'Bilgi Kartları' }} />
           <Stack.Screen name="konu/[ders]" options={{ title: 'Konu Testleri' }} />
+          <Stack.Screen name="istatistik" options={{ title: 'İstatistikler' }} />
         </Stack>
       </ProgressProvider>
     </ProfileProvider>

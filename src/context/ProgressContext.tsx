@@ -207,8 +207,12 @@ export function useProgressStats() {
     today: activity[dayKey()] ?? 0,
     dailyGoal,
     streak: streakOf(activity),
+    bestStreak: bestStreakOf(activity),
+    totalAnswered: Object.values(activity).reduce((s, n) => s + n, 0),
+    activeDays: Object.values(activity).filter((n) => n > 0).length,
     /** Son 7 gün, eskiden yeniye */
     week: lastDays(7).map((d) => ({ day: d, count: activity[dayKey(d)] ?? 0 })),
+    month: lastDays(30).map((d) => ({ day: d, count: activity[dayKey(d)] ?? 0 })),
   };
 }
 
@@ -232,4 +236,22 @@ function streakOf(activity: Record<string, number>) {
     d.setDate(d.getDate() - 1);
   }
   return n;
+}
+
+/** Kayıtlardaki en uzun ardışık gün serisi */
+function bestStreakOf(activity: Record<string, number>) {
+  const days = Object.keys(activity)
+    .filter((k) => activity[k] > 0)
+    .sort();
+  let best = 0;
+  let run = 0;
+  let prev: Date | null = null;
+  for (const k of days) {
+    const [y, m, d] = k.split('-').map(Number);
+    const cur = new Date(y, m - 1, d);
+    run = prev && Math.round((cur.getTime() - prev.getTime()) / 86400000) === 1 ? run + 1 : 1;
+    best = Math.max(best, run);
+    prev = cur;
+  }
+  return best;
 }

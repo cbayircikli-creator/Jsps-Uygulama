@@ -180,6 +180,15 @@ export default function Home() {
           </Pressable>
         </View>
 
+        <SectionTitle
+          action={
+            <Pressable onPress={() => router.push('/istatistik')} hitSlop={8}>
+              <Text style={styles.link}>Tüm istatistikler</Text>
+            </Pressable>
+          }
+        >
+          Gelişimin
+        </SectionTitle>
         <View style={styles.statsRow}>
           <Stat value={String(stats.examsTaken)} label="Deneme" />
           <Stat value={stats.successRate === null ? '–' : `%${stats.successRate}`} label="Başarı" />
