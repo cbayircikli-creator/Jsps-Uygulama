@@ -68,6 +68,17 @@ npm run lint
 **Web önizleme:** `npx expo export --platform web && python3 scripts/build-preview.py dist onizleme.html`
 uygulamayı tek bir HTML dosyasına gömer; bu dosya Claude artifact'ı olarak paylaşılabilir.
 
+## PWA olarak yayınlama (Expo'suz, düz dosyalar)
+
+```bash
+npx expo export --platform web
+python3 scripts/build-pwa.py dist pwa
+```
+
+`pwa/` klasörü; index.html, ikonlar, manifest ve internetsiz çalışma için service worker içerir. Herhangi bir
+statik hostinge olduğu gibi yüklenir (ör. Netlify'da klasörü sürükle bırak). Dosya yolları `/` ile başladığından
+site alan adının köküne yüklenmelidir. Telefonda tarayıcı menüsünden "Ana ekrana ekle" ile uygulama gibi kurulur.
+
 ## Mağazaya çıkış
 
 `app.json` içinde paket kimliği `com.uzmankolluk.app`; mağazaya çıktıktan sonra değiştirilemez.
